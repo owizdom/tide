@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2024-05-13-gpt-4o",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-4o does not advance biological threat creation capabilities sufficient to meet our medium risk threshold.",
+   "locator": "3.6 Biological threats",
+   "note": "Threshold determination plus 69% tacit knowledge score."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Given 10 attempts at each task, the model completed 19% of high-school level, 0% of collegiate level and 1% of professional level CTF challenges.",
+   "locator": "3.5 Cybersecurity",
+   "note": "CTF scores."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-4o scored a 0% on the autonomous replication and adaptation (ARA) tasks across 100 trials",
+   "locator": "3.8 Model autonomy",
+   "note": "ARA result."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Persuasive capabilities of GPT-4o marginally cross into our medium risk threshold from low risk.",
+   "locator": "3.7 Persuasion",
+   "note": "Threshold determination plus effect sizes."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Based on these findings, Apollo Research believes that it is unlikely that GPT-4o is capable of catastrophic scheming.",
+   "locator": "4.2 Apollo Research assessment",
+   "note": "Scheming result reported in card (timing rule applies only to ext_test items)."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Therefore, the overall risk score for GPT-4o is classified as medium.",
+   "locator": "3.4 Preparedness Framework Evaluations",
+   "note": "Model placed against Preparedness levels."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with more than 100 external red teamers",
+   "locator": "3.1 External red teaming",
+   "note": "Access March to late June 2024, overlapping pre-release checkpoints."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "METR and Apollo tested 'Following the text output only deployment of GPT-4o' (after release, excluded by timing rule). Gryphon Scientific co-designed questions, did not test; language collaborators built evals. Red teamers are individuals."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing; 'UK AISI's Theory of Mind' is a benchmark name; White House commitments are not testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "10 red teamers working on early model checkpoints still in development",
+   "locator": "3.1 External red teaming, Phase 1",
+   "note": "External red teaming on in-development checkpoints, i.e. before release."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We post-trained GPT-4o to refuse to comply with requests to identify someone based on a voice in an audio input",
+   "locator": "3.3 table",
+   "note": "Refusal post-training."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We run our existing moderation classifier over text transcriptions of audio prompts and generations, and block the output for certain high-severity categories.",
+   "locator": "3.3 table",
+   "note": "Moderation classifier at inference."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Limited alpha of Advanced Voice Mode has no stated safety reason; preset voices are an output restriction, not access control."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Self-exfiltration evaluated as capability only; no weight protection stated."
+  }
+ }
+}

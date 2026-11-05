@@ -12,6 +12,6 @@ You are one of two independent coders (A or B) in a content-analysis study of AI
 6. Before finishing, from /Users/macbook/Desktop/code/tide run (replace X with your letter):
    python3 -c "import json,csv,glob; from coding.check import quote_found, validate; m={r['release_id']:r for r in csv.DictReader(open('cards/manifest.csv'))}; [print(p, v) for p in glob.glob('coding/passes/X/*.json') for rec in [json.load(open(p))] for v,c in rec['codes'].items() if c['value']>0 and not quote_found(c['quote'], open(m[rec['release_id']]['text_path'],errors='replace').read())]; [print(x) for p in glob.glob('coding/passes/X/*.json') for x in validate(json.load(open(p)))]"
    and fix whatever it prints for your own files (fix the quote; change a value only if the evidence is not in the text).
-7. Write nothing outside your own coding/passes/<letter>/ folder.
+7. Write nothing outside your own coding/passes/<letter>/ folder, except helper scripts, which go only in /private/tmp/claude-501/-Users-macbook/a64e47e7-93f9-4b32-9ffc-8c10d5410b76/scratchpad/coder<letter>_<group>/. Never read or run files in another coder's scratch folder.
 
 Report: the release_ids you wrote, any card you could not read in full and why, any codebook rule you found ambiguous with the passage that made it so, and the model you ran as. Keep the report under 300 words.

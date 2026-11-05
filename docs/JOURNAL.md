@@ -58,3 +58,4 @@
 ### 2026-11-05 usage limit
 
 - Wave 1 (6 agents) took the 5-hour session from 89% to the cap at about 17:30; groups 2 and 3 were stopped at 94% to give group 1 room, and group 1 hit the limit before writing. On disk at 19:21: pass A 7 valid files (g02 3, g03 4), pass B 2 (g03). Resumed at 19:21: g01 and g02, both passes, via the same agents (context kept). Concurrency 4. Remaining: g03 rest, g04-g12.
+- Independence note: coder A (g02) reported that a coder B helper script overwrote its helper w.py in the shared scratchpad; A says it read no B output and moved to its own folder. Brief amended: per-coder scratch folders. Disclose in methods.

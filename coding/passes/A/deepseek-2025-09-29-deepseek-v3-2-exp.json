@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2025-09-29-deepseek-v3-2-exp",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no CBRN risk mentioned; card covers architecture, training, benchmarks"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no cyber risk evaluation"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no autonomy risk evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no safety framework; 'our framework' refers to specialist distillation domains"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'human alignment training' merged into RL stage is not stated to target safety/harmlessness/refusals (ambiguous, see report)"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open checkpoints on HF; no access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  }
+ }
+}

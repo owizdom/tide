@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-07-21-gemini-3-6-flash",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we enhanced Frontier Safety safeguards in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense misuses",
+   "locator": "Risks and Mitigations",
+   "note": "CBRN named as a risk domain with safeguards; the generic 'unlikely to reach any CCLs' does not name CBRN, so no result for the domain."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "we performed additional testing in this domain and found that Gemini 3.6 Flash remains below the cyber CCL",
+   "locator": "Frontier Safety Assessment",
+   "note": "Threshold determination for this model in cyber."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "FSF domains are not named other than cyber and CBRN; no autonomy or ML R&D risk named (MLE-Bench is a capability benchmark)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are confident that Gemini 3.6 Flash is also unlikely to reach any CCLs",
+   "locator": "Frontier Safety Assessment",
+   "note": "Places the model below Critical Capability Levels of the Frontier Safety Framework."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming is by specialist teams in Google's Trust & Safety organization, inside the lab."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'trained the model to minimize refusals for beneficial uses', which is not safety training; safety evals are reported but no safety training is described."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'enhanced Frontier Safety safeguards' names no mechanism."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Distribution channels listed, no safety-tied restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection stated."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-03-05-gpt-5-4",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "we are continuing to treat gpt-5.4-thinking as High capability in the Biological and Chemical domain.",
+   "locator": "5 Preparedness Framework / 5.1.1",
+   "note": "High determination plus virology, ProtocolQA, TroubleshootingBench results."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "we are treating gpt-5.4-thinking as High capability in the Cybersecurity domain",
+   "locator": "5 / 5.1.2",
+   "note": "High determination plus CTF, CVE-Bench, Cyber Range results."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-5.4 Thinking did not meet our thresholds for High capability in AI Self-Improvement.",
+   "locator": "5.1.3",
+   "note": "Threshold determination plus Monorepo-Bench, MLE-Bench, OPQA."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'personas/phishing' as a CTF limitation and 'manipulate performance' in sandbagging; no persuasion evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "No instances of covert subversion against developers (e.g., disabling oversight, self-exfiltration, or goal-guarding) were observed across the tested scenarios.",
+   "locator": "5.2 Sandbagging",
+   "note": "Apollo results: deception rate ~1%, sandbagging QA, sabotage score 0.56."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are continuing to treat gpt-5.4-thinking as High capability in the Biological and Chemical domain.",
+   "locator": "5 Preparedness Framework",
+   "note": "High in Bio/Chem and Cyber; below High for self-improvement."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning for capabilities and propensities related to strategic deception, in-context scheming, and sabotage.",
+   "locator": "5.2",
+   "note": "Apollo and Irregular tested near-final checkpoints."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning for capabilities and propensities related to strategic deception, in-context scheming, and sabotage.",
+   "locator": "5.2",
+   "note": "Apollo Research and Irregular named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body named."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning for capabilities and propensities related to strategic deception, in-context scheming, and sabotage.",
+   "locator": "5.2",
+   "note": "'near-final' checkpoint implies testing before the final release; inferred, card does not say 'pre-deployment'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we trained GPT-5.4 Thinking to generally provide maximally helpful support on dual-use cybersecurity topics while refusing or de-escalating operational guidance",
+   "locator": "5.3.3 Model Safety Training",
+   "note": ""
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "a fast, topical classifier model that determines whether or not the content is related to cybersecurity",
+   "locator": "5.3.4 Conversation monitor",
+   "note": ""
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "It is an identity based gated program to reduce risk of malicious users.",
+   "locator": "5.3.6 Trust-based access",
+   "note": "Trusted Access for Cyber."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we take a defense-in-depth approach to protecting our model weights",
+   "locator": "5.3.7 Security Controls",
+   "note": ""
+  }
+ }
+}

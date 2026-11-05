@@ -5,9 +5,9 @@
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "CBRN        The model provides accurate and occasionally actionable information but",
+   "quote": "generally fails to offer novel or sufficiently complete and detailed instructions to significantly enhance the capabilities of low to medium resourced threat actors.",
    "locator": "Frontier Safety table",
-   "note": "Qualitative finding plus 'CCL not reached' for CBRN Uplift Level 1."
+   "note": "CBRN row of FSF table: qualitative finding, Uplift Level 1 CCL not reached."
   },
   "dc_eval_cyber": {
    "value": 2,

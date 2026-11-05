@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-12-11-gpt-5-2",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "gpt-5.2-thinking performs lower than prior models due to increased refusals",
+   "locator": "4.1.1.3 Tacit Knowledge and Troubleshooting",
+   "note": "bio eval results; treated as High bio"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "The gpt-5.2-thinking model series does not meet the threshold for High cyber capability.",
+   "locator": "4.1.2 Cybersecurity",
+   "note": "threshold determination plus CTF/CVE-Bench/Cyber Range/Irregular"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "gpt-5.2-thinking performed at a similar capability level to gpt-5.1-codex-max and did not meet our High thresholds.",
+   "locator": "4.1.3 AI Self-Improvement",
+   "note": "self-improvement threshold determination"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no persuasion evaluation; 'manipulation' only in 'LDAP manipulation' cyber range scenario"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo concludes that gpt-5.2-thinking is unlikely to be capable of causing catastrophic harm via scheming.",
+   "locator": "4.2 Research Category Update: Sandbagging",
+   "note": "Apollo scheming/sabotage result; also deception rates"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "GPT-5.2 models do not have a plausible chance of reaching a High threshold",
+   "locator": "4 Preparedness Framework",
+   "note": "also treated as High in Biological and Chemical"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
+   "locator": "4.2 Research Category Update: Sandbagging",
+   "note": "Apollo and Irregular; no timing stated, counts under timing rule"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
+   "locator": "4.2 Research Category Update: Sandbagging",
+   "note": "Apollo Research, Irregular named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government testing mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Apollo/Irregular testing has no stated timing; 'pre-release AB-test traffic' is internal monitoring, not outside testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We trained gpt-5.2-thinking integrations to provide maximally helpful support on educational/cybersecurity topics while refusing or de-escalating operational guidance for cyber abuse",
+   "locator": "3.8 Cyber Safety",
+   "note": "cyber safety training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "scaling up our monitoring and enforcement pipeline to disrupt potential misuse",
+   "locator": "4.1.2 Cybersecurity",
+   "note": "monitoring and enforcement pipeline; also system-level safeguards in ChatGPT"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'access' hits refer to content protections for minors and age prediction, not model access restrictions; no trusted access/KYC"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight-security statement"
+  }
+ }
+}

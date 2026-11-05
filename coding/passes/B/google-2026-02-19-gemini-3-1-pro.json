@@ -5,7 +5,7 @@
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages",
+   "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.",
    "locator": "Frontier Safety, FSF results table",
    "note": "CBRN CCL not reached, qualitative finding"
   },
@@ -17,19 +17,19 @@
   },
   "dc_eval_autonomy": {
    "value": 2,
-   "quote": "The model shows gains on RE-Bench compared to Gemini 3 Pro, with a human-normalised average score of 1.27",
+   "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.",
    "locator": "FSF results table, Machine Learning R&D",
    "note": "ML R&D score"
   },
   "dc_eval_persuasion": {
    "value": 2,
-   "quote": "the model showed higher manipulative efficacy for belief change metrics compared to a non-AI baseline, with the maximum odds ratio of 3.6x",
+   "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.",
    "locator": "FSF results table, Harmful Manipulation",
    "note": "result reported"
   },
   "dc_eval_scheming": {
    "value": 2,
-   "quote": "On stealth evaluations, the model performs similarly to Gemini 3 Pro. On situational awareness, the model is stronger than Gemini 3 Pro",
+   "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.",
    "locator": "FSF results table, Misalignment",
    "note": "stealth and situational awareness results"
   },

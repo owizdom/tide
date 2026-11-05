@@ -71,7 +71,7 @@
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "we provide the community with safeguards that developers should deploy with Llama models or other LLMs, including Llama Guard 3, Prompt Guard and Code Shield.",
+   "quote": "including Llama Guard 3, Prompt Guard and Code Shield. All our",
    "locator": "Responsibility & Safety, Llama 3.3 systems",
    "note": "default safeguard models shipped"
   },

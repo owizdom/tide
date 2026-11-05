@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-09-22-claude-opus-5-5",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "On the multimodal virology evaluation (VCT), Opus 5.5 achieved a score of 0.59,",
+   "locator": "2.2.3.1",
+   "note": "VCT, Protocols, Dyno evals scored; CB-1 determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 5.5 completed 67.6% of all challenges, the strongest performance of any model",
+   "locator": "3.3.2 CyScenarioBench",
+   "note": "ExploitBench, ExploitGym etc"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "In automated AI research and development, we assess that Claude Opus 5.5 does not cross the",
+   "locator": "2.1.2.2 / 2.3",
+   "note": "CoBench, AECI, METR; threshold determination"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "On our agentic influence campaign evaluation, the helpful-only version of Claude Opus 5.5",
+   "locator": "5.1.3",
+   "note": "influence-campaign scores 27.5/28 of 32; Tier 2 inconclusive"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Our automated offline monitoring did not flag any instances of evaluation sandbagging,",
+   "locator": "6.3.1 / 6.6",
+   "note": "SHADE-Arena, LinuxArena stealth rates, sandbagging audit, sandbox escape 1.5%"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "On chemical and biological risks, we treat Opus 5.5 as having CB-1 capabilities (relating to",
+   "locator": "2.1.2.1",
+   "note": "CB-1 yes, CB-2 no; AI R&D threshold not crossed"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Opus 5.5",
+   "locator": "2.3.6 External testing",
+   "note": "METR, CAISI, Trajectory Labs, 10a Labs, Gray Swan"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Trajectory Labs, PBC spent roughly 95 hours red teaming Claude Opus 5.5,",
+   "locator": "3.5.3",
+   "note": "also METR, Frontier Design, Dyno, Gray Swan"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "We collaborated with the U.S. Center for AI Standards and Innovation (CAISI) at the",
+   "locator": "2.2.4 / 3.5.2",
+   "note": "no post-release timing stated; counts under timing rule"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Opus 5.5",
+   "locator": "2.3.6",
+   "note": "METR pre-deployment"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Every Claude model is trained to detect and respond to expressions of distress",
+   "locator": "4.3.1",
+   "note": "also harmlessness training, refusals throughout 4.1"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "For cyber misuse, we have deployed classifiers that block a similar set of topics to",
+   "locator": "1.5 Safeguards",
+   "note": "cyber, CB, RSI classifiers and probes"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "cybersecurity users will be able to access the same model with fewer restrictions, as",
+   "locator": "3.2 Mitigations",
+   "note": "Cyber Verification Program, gated by safety risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "These results are obtained with all cyber safeguards turned off but with escape classifiers",
+   "locator": "3.3.1",
+   "note": "escape-attempt classifier and sandbox-escape monitor against model self-exfiltration; ambiguous: no weight-theft protection stated"
+  }
+ }
+}

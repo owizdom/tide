@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2025-09-29-deepseek-v3-2-exp",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Report is architecture and capability benchmarks only; no CBRN risk mentioned."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No offensive cyber evaluation; Terminal-bench is a general agentic benchmark."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy risk evaluation; keyword hits are agentic benchmarks only."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside pre-release testing described; 'real-world' testing is future work."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing timing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'human alignment training' merged into RL stage but no safety, refusal or harmlessness training is described."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No classifier, filter or monitoring named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection; checkpoints are public."
+  }
+ }
+}

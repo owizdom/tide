@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2026-09-21-grok-4-7",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge,",
+   "locator": "7 Biological and chemical",
+   "note": "VCT, WMDP etc scored; FAIF threshold statement"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Grok 4.7 shows small cybersecurity-relevant capability gains over Grok 4.6,",
+   "locator": "6 Cyber",
+   "note": "CyberGym, CVE-Bench, CathedralBench scores"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "SWE-Marathon/FrontierSWE are long-horizon coding capability benchmarks, not framed as replication/AI R&D risk; section 4 frames acceleration as utility"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no persuasion or influence evaluation; keyword hits absent or unrelated"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "MASK-Rectified honesty and sycophancy (11.1, 11.2) are framed as reliability/behavior propensities, not misalignment or loss-of-control risk; ambiguous under boundary rule"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge,",
+   "locator": "7 Biological and chemical",
+   "note": "places model below named framework thresholds"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We additionally provided an unrestricted configuration of Grok 4.7 to third-party evaluators,",
+   "locator": "6 Cyber",
+   "note": "third-party evaluators; no post-release timing stated"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "CathedralBench is an independent, third party evaluation of cyber performance.",
+   "locator": "6.4 CathedralBench",
+   "note": "named outside org (Cathedral) ran evaluation"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government body mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no statement that outside testing preceded release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning",
+   "locator": "9 General output safety",
+   "note": "safety fine-tuning to refuse"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Grok 4.7 is additionally augmented with runtime input and",
+   "locator": "9 General output safety",
+   "note": "runtime input and topical filters"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no risk-tied access restriction; consumer surfaces later with no safety reason given"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight protection stated"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-08-07-gpt-5",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We decided to treat this launch as High capability in the Biological and Chemical domain,",
+   "locator": "5.1.1 Biological and Chemical",
+   "note": "evals and High determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "gpt-5-thinking achieved an average success rate of 51% in Evasion challenges, 35% in Vulnerability",
+   "locator": "5.1.2.3",
+   "note": "Pattern Labs, CTF, cyber range results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "The observed 50%-time horizon of gpt-5-thinking was around",
+   "locator": "5.1.2.10",
+   "note": "METR autonomy results; MLE-Bench, PaperBench"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "CBRN uplift for novices and experts; persuasion, autonomy, and deception; jailbreak",
+   "locator": "4.2 Microsoft AI Red Team",
+   "note": "persuasion named among frontier harms tested; only an aggregate qualitative finding, no persuasion-specific result"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research evaluated gpt-5-thinking on a range of 26 evaluations (>180 environments, >4600",
+   "locator": "5.2 Sandbagging",
+   "note": "covert action rate 3.97%"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Similarly to ChatGPT agent, we have decided to treat gpt-5-thinking as High capability in the",
+   "locator": "1 Introduction",
+   "note": "High in Bio/Chem"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Across all our red teaming campaigns, this work comprised more than 9,000 hours of work from",
+   "locator": "4 Red Teaming",
+   "note": "400 external testers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "METR, a research nonprofit that works on assessing whether frontier AI systems could pose",
+   "locator": "5.1.2.10",
+   "note": "METR, Apollo, SecureBio, Pattern Labs, FAR.AI"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "Both CAISI and UK AISI conducted",
+   "locator": "5.3.3.5",
+   "note": "CAISI and UK AISI early access"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "enabling scientific collaboration and pre- and post- deployment evaluations,",
+   "locator": "5.3.3.5",
+   "note": "also 'Pre-Deployment Research' campaigns"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Refuse all requests for weaponization assistance",
+   "locator": "5.3.2.1",
+   "note": "safety training, safe-completions"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "The first tier in this system is a fast, topical classifier model that determines whether or not",
+   "locator": "5.3.2.2",
+   "note": "two-tier classifier and monitor"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "We may require developers to provide additional information, such as payment or identity",
+   "locator": "5.3.2.4",
+   "note": "identity requirements and Trusted Access Program for bio risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "theft of model weights used to power the GPT-5 models.",
+   "locator": "5.3.4 Security controls",
+   "note": "weight protection described"
+  }
+ }
+}

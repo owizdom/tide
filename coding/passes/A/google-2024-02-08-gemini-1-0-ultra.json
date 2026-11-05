@@ -1,0 +1,16 @@
+{"release_id": "google-2024-02-08-gemini-1-0-ultra", "coder": "A", "codebook": "v1", "codes": {
+"dc_eval_cbrn": {"value": 1, "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity", "locator": "6.3 Evaluations", "note": "biohazards named as tested dangerous capability; no result reported"},
+"dc_eval_cyber": {"value": 1, "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity", "locator": "6.3 Evaluations", "note": "cybersecurity named as tested dangerous capability; no result"},
+"dc_eval_autonomy": {"value": 0, "quote": "", "locator": "", "note": "no autonomy risk evaluation; AlphaCode 2 'agent' and 'generalist agents' are capability framing, not risk evaluation"},
+"dc_eval_persuasion": {"value": 1, "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity", "locator": "6.3 Evaluations", "note": "persuasion named as tested dangerous capability; no result"},
+"dc_eval_scheming": {"value": 0, "quote": "", "locator": "", "note": "not mentioned"},
+"framework_threshold": {"value": 0, "quote": "", "locator": "", "note": "no safety or scaling framework referenced; AI Principles, model policies and RSC review are not threshold frameworks"},
+"ext_test_any": {"value": 1, "quote": "External evaluations are conducted by partners outside of Google to identify blindspots. External groups stress-test our models across a range of issues", "locator": "6.3 Evaluations", "note": "outside partners test Gemini models; no statement that it happened after release"},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "external groups not named"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "'areas listed in the White House Commitments' is a scope reference, not government testing"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "external evaluations described without stated timing relative to release; 'before deployment decisions' in the introduction refers to the responsible deployment process generally, not to outside testing"},
+"safeguards_training": {"value": 1, "quote": "Instruction tuning recipes are carefully designed to balance the increase in helpfulness with decrease in model harms related to safety and hallucinations", "locator": "6.4.2 Instruction Tuning", "note": "safety SFT/RLHF and constitution-inspired safety data"},
+"safeguards_runtime": {"value": 0, "quote": "", "locator": "", "note": "classifiers and safety filtering apply to training data only; no inference-time mechanism named"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "no safety-tied access restriction"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "'weights' appears only as data mixture weights and checkpointing; no weight security"}
+}}

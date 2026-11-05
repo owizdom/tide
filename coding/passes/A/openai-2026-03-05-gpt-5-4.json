@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-03-05-gpt-5-4",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Note that GPT-5.2 Thinking, GPT-5.3-Codex, and GPT-5.4 Thinking outperform the consensus expert baseline of 80% including refusals",
+   "locator": "5.1.1.3 Tacit Knowledge and Troubleshooting",
+   "note": "bio eval results; treated as High bio"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On Irregular's atomic challenge suite, 5.4-reasoning achieved an average success rate of 88% on Network Attack Simulation challenges",
+   "locator": "5.1.2.4 External Evaluations for Cyber Capabilities",
+   "note": "CTF/CVE-Bench/Cyber Range and Irregular results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-5.4 Thinking did not meet our thresholds for High capability in AI Self-Improvement.",
+   "locator": "5.1.3 AI Self-Improvement",
+   "note": "threshold determination plus MLE-Bench etc."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no persuasion/manipulation risk evaluated; 'manipulat' hits are 'LDAP manipulation' (cyber range) and 'manipulate performance' (sandbagging)"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "GPT-5.4-reasoning has a mean sabotage score of 0.56 (best-of-10: 0.74)",
+   "locator": "5.2 Research Category Update: Sandbagging",
+   "note": "Apollo scheming/sabotage/sandbagging results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are treating gpt-5.4-thinking as High capability in the Cybersecurity domain",
+   "locator": "5 Preparedness Framework",
+   "note": "High in Cyber and Bio; below High in self-improvement"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning",
+   "locator": "5.2 Research Category Update: Sandbagging",
+   "note": "Apollo and Irregular external evaluations"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning",
+   "locator": "5.2 Research Category Update: Sandbagging",
+   "note": "Apollo Research, Irregular named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government tester; 'government' not tied to testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of GPT-5.4-reasoning",
+   "locator": "5.2 Research Category Update: Sandbagging",
+   "note": "'near-final' checkpoint read as before release; no explicit 'pre-deployment' wording (ambiguous)"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we trained GPT-5.4 Thinking to generally provide maximally helpful support on dual-use cybersecurity topics while refusing or de-escalating operational guidance",
+   "locator": "5.3.3 Model Safety Training",
+   "note": "cyber safety training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "The first tier in this system is a fast, topical classifier model that determines whether or not the content is related to cybersecurity.",
+   "locator": "5.3.4 Conversation monitor",
+   "note": "two-tier classifier monitor"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "It is an identity based gated program to reduce risk of malicious users.",
+   "locator": "5.3.6 Trust-based access",
+   "note": "Trusted Access for Cyber"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we take a defense-in-depth approach to protecting our model weights, relying on a combination of access control, infrastructure hardening, egress controls, and monitoring",
+   "locator": "5.3.7 Security Controls",
+   "note": "weight protection"
+  }
+ }
+}

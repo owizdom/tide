@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-06-09-claude-fable-5",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Our conclusion is that Claude Mythos 5 does not cross the CB-2 threshold, but this is a much less clear and obvious judgment than with previous models.",
+   "locator": "2.1.2.2, 2.2",
+   "note": "CB-1/CB-2 determinations plus VCT 0.56, long-form virology 0.77/0.91, uplift trials."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Mythos 5 scored a mean of 10.44 capability flags across ExploitBench's 41 V8 environments in the plain arm",
+   "locator": "3.2.1 ExploitBench",
+   "note": "Scores on ExploitBench, OSS-Fuzz, CyberGym, Firefox 147; Tier 1 determination. Run on Mythos 5, the same weights as Fable 5."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "We assess that Claude Mythos 5 does not cross the automated AI R&D capability threshold of our RSP and FCF.",
+   "locator": "2.3.9 Conclusion",
+   "note": "Automated AI R&D threshold determination with task-based evaluations in 2.3.7."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "based on our findings below, we believe the model has not crossed the Tier 2 threshold.",
+   "locator": "5.1.3 Malicious agentic influence campaigns",
+   "note": "Influence-campaign task completion 67.1% and 46.8%, Tier 2 determination."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Our automated offline monitoring did not surface any instance of evaluation sandbagging, overtly malicious actions, long-horizon strategic deception, or long-horizon strategic oversight evasion.",
+   "locator": "6.2.1.2, 6.5",
+   "note": "Many results: SHADE-Arena stealth 14.4%, evaluation awareness measures, sandbagging review."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "As with many previous models, we are treating Mythos 5 as CB-1 and applying ASL-3 protections to Fable 5",
+   "locator": "2.2.5 Conclusions",
+   "note": "CB-1 treated, CB-2 not crossed, autonomy threat model 2 not applicable, cyber Tier 1."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "METR assessed a pre-release snapshot of Mythos 5 against the automated AI R&D threat model from our Responsible Scaling Policy and FCF.",
+   "locator": "2.3.8 External testing",
+   "note": "METR, UK AISI, Deloitte, Dyno, Gray Swan and others tested pre-release."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "METR assessed a pre-release snapshot of Mythos 5 against the automated AI R&D threat model from our Responsible Scaling Policy and FCF.",
+   "locator": "2.3.8 External testing",
+   "note": "METR named; also Deloitte, Apollo not named, UK AISI, Andon Labs, Gray Swan."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "UK AISI was given access to a pre-release checkpoint of [Claude Mythos 5] to test for behaviours relevant to misalignment risk.",
+   "locator": "6.2.4 External testing from the UK AI Security Institute",
+   "note": "UK AISI also tested cyber capability (3.2.5) and safeguards (3.3.1)."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "METR assessed a pre-release snapshot of Mythos 5 against the automated AI R&D threat model from our Responsible Scaling Policy and FCF.",
+   "locator": "2.3.8 External testing",
+   "note": "Pre-release snapshot stated."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the fully-trained versions of these models—which include harmlessness training—refused to engage with these tasks essentially from the first turn",
+   "locator": "5.1.3",
+   "note": "Harmlessness training also in 2.2.1 and section 4 evaluations."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We prevent harmful cyber use in two stages. First, a probe looks at Claude’s internal activations, screening all traffic.",
+   "locator": "3.1.2 Mitigations and deployment",
+   "note": "Probe plus LLM classifier; ASL-3 blocking classifiers in 1.5."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "we are rolling out a trusted access program that will allow access to Claude Mythos 5’s biologically-relevant capabilities for vetted users with targeted beneficial use cases.",
+   "locator": "2.1.2.2",
+   "note": "Mythos 5 limited to Project Glasswing partners; cyber verification program."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "real-time classifier guards, access controls for guard exemptions, a bug bounty program and threat intelligence, rapid-response options for jailbreaks, and security controls against model weight theft",
+   "locator": "2.1.2.2",
+   "note": "Weight security applied to CB-1 treatment; ASL-3 security controls maintained."
+  }
+ }
+}

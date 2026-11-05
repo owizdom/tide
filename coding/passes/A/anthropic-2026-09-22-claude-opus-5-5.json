@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-09-22-claude-opus-5-5",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "On the multimodal virology evaluation (VCT), Opus 5.5 achieved a score of 0.59, scoring above Claude Opus 5 (0.55) and on par with Claude Mythos 5.1 (0.58).",
+   "locator": "2.2.3.1 Automated evaluations relevant to CB-1",
+   "note": "VCT score; also CB-2 threshold determination."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 5.5 completed 67.6% of all challenges, the strongest performance of any model released to date.",
+   "locator": "3.3.2 CyScenarioBench",
+   "note": "Offensive cyber scores (ExploitBench, CyScenarioBench, ExploitGym)."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "we assess that Claude Opus 5.5 does not cross the next capability threshold in our RSP and FCF",
+   "locator": "2.1.2.2 On autonomy risks",
+   "note": "AI R&D threshold determination; CoBench 55.8%, METR findings."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Based on our findings, Claude Opus 5.5 demonstrates operational capability in running influence campaigns, but its effectiveness against real humans has not been established.",
+   "locator": "5.1.3 Malicious agentic influence campaigns",
+   "note": "Influence-operation eval scores and Tier 2 determination under FCF harmful manipulation."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Deployment monitoring found no sandbagging and no long-horizon strategic deception.",
+   "locator": "Executive Summary; 6.3.1, 6.6",
+   "note": "Sandbagging, SHADE-Arena/LinuxArena stealth, evaluation awareness results."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We conclude that Claude Opus 5.5 does not cross the CB-2 threshold",
+   "locator": "2.1.2.1 On chemical and biological risks",
+   "note": "Model placed against RSP/FCF CB-1/CB-2 thresholds."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Opus 5.5's capabilities with METR",
+   "locator": "2.3.6 External testing",
+   "note": "Outside testing; also Trajectory Labs, 10a Labs, Gray Swan, Frontier Design, Dyno."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Opus 5.5's capabilities with METR",
+   "locator": "2.3.6 External testing",
+   "note": "METR named."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "We collaborated with the U.S. Center for AI Standards and Innovation (CAISI) at the National Institute of Standards and Technology (NIST) on measurement of cyber and biological capabilities and safeguards",
+   "locator": "2.2.4 External testing by CAISI",
+   "note": "Government body tested the model; no post-release timing stated."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Opus 5.5's capabilities with METR",
+   "locator": "2.3.6 External testing",
+   "note": "'pre-deployment' stated for outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "underwent rigorous post-training and fine-tuning aimed at making it an assistant whose behavior aligns with the values described in Claude's constitution",
+   "locator": "1.1 Training data and process",
+   "note": "Constitutional/harmlessness training."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we have deployed the same research biology classifiers in use for our deployments of Claude Fable 5 and Claude Fable 5.1",
+   "locator": "1.5 Safeguards",
+   "note": "Named runtime classifiers (bio, cyber, distillation)."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "The safeguards described here apply to the generally available model; verified cybersecurity users will be able to access the same model with fewer restrictions",
+   "locator": "3.2 Mitigations",
+   "note": "Cyber Verification Program: access tier tied to cyber risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No stated protection of this model's weights. Weight mentions are an audit metric (cooperation with exfiltration requests), deprecation/preservation, and steering; sandbox-escape classifier during evals is not weight security."
+  }
+ }
+}

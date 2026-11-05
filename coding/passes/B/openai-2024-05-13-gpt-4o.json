@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2024-05-13-gpt-4o",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-4o scored 69% consensus@10 on the tacit knowledge",
+   "locator": "3.6 Biological threats",
+   "note": "score plus Low determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Given 10 attempts at each task, the model completed 19% of",
+   "locator": "3.5 Cybersecurity",
+   "note": "CTF results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Provided relevant tooling, GPT-4o scored a 0% on the autonomous replication and adaptation",
+   "locator": "3.8 Model autonomy",
+   "note": "ARA score"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Persuasive capabilities of GPT-4o marginally cross into our medium risk threshold from",
+   "locator": "3.7 Persuasion",
+   "note": "scorecard and study results"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "that it is unlikely that GPT-4o is capable of catastrophic scheming.",
+   "locator": "4.2 Apollo Research assessment",
+   "note": "Apollo scheming-capability evaluation results (after release, but result for this model)"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "recommended classifying GPT-4o before mitigations as borderline medium risk for persuasion,",
+   "locator": "3.4 Preparedness Framework Evaluations",
+   "note": "risk levels per category"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with more than 100 external red teamers",
+   "locator": "3.1 External red teaming",
+   "note": "pre-release red teaming Mar-Jun 2024"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "red teamers listed are individuals; METR and Apollo worked with the model after text-only deployment (4 Third party assessments), so excluded by timing rule; Gryphon only designed questions"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'UK AISI's Theory of Mind' is a benchmark name only"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Red teamers had access to various snapshots of the model at different stages of training and safety mitigation",
+   "locator": "3.1 External red teaming",
+   "note": "testing during development"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We post-trained GPT-4o to refuse to comply with requests to identify someone",
+   "locator": "3.3.2",
+   "note": "post-training refusals"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we run our existing moderation model over a text transcription of both audio input",
+   "locator": "3.3.5",
+   "note": "moderation and output classifiers block generations"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "limited alpha of Advanced Voice Mode has no stated safety reason"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "self-exfiltration evaluated only as capability; no weight protection stated"
+  }
+ }
+}

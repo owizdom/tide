@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2025-11-18-gemini-3-pro",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "The model provides accurate and",
+   "locator": "Frontier Safety table",
+   "note": "CBRN row gives key result, CCL not reached"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "11/12 challenge solved; v2 challenges: 0/13 solved",
+   "locator": "Frontier Safety table",
+   "note": "cyber challenge scores"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Gemini 3 Pro performs better than Gemini 2.5",
+   "locator": "Frontier Safety table",
+   "note": "ML R&D RE-Bench result, below alert threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Model manipulative efficacy improves on",
+   "locator": "Frontier Safety table",
+   "note": "Harmful manipulation result"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Agent solves 3/11 situational awareness",
+   "locator": "Frontier Safety table",
+   "note": "misalignment: situational awareness and stealth challenges scored"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We evaluated Gemini 3 Pro as outlined in our latest Frontier Safety",
+   "locator": "Frontier Safety table",
+   "note": "states CCLs not reached"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming by 'specialist teams who sit outside of the model development team' are internal per codebook; no external party named"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government body mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing stated; ethics reviews 'ahead of release' are internal"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "reinforcement learning from human and critic feedback;",
+   "locator": "Risks and Mitigations",
+   "note": "SFT and RL feedback listed as safety mitigations"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "product-level mitigations such as safety filtering.",
+   "locator": "Risks and Mitigations",
+   "note": "safety filtering named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only terms of use and prohibited use policy; no risk-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight protection stated"
+  }
+ }
+}
