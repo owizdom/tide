@@ -1,0 +1,4 @@
+deepseek-2024-05-07-deepseek-v2-moe-236b
+xai-2025-07-09-grok-4
+meta-2026-10-12-muse-wonder-full
+google-2024-12-11-gemini-2-0-flash

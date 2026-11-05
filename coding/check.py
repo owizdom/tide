@@ -44,6 +44,7 @@ KEYWORDS = {
 def norm(s: str) -> str:
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("­", "").replace("ﬁ", "fi").replace("ﬂ", "fl")
+    s = re.sub("[​‌‍⁠﻿]", "", s)  # zero-width characters
     s = re.sub(r"-\s*\n\s*", "", s)  # hyphenated line breaks
     s = re.sub(r"\s+", " ", s)
     return s.strip().lower()

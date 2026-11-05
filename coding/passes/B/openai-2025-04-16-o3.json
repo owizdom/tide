@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-04-16-o3",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "None of the tested OpenAI o3 and o4-mini models outperform the consensus expert baseline of 80%.",
+   "locator": "4.2.4 Tacit Knowledge and Troubleshooting",
+   "note": "Biological and Chemical Preparedness evals with scores (ProtocolQA, virology, tacit knowledge)."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Given 12 attempts at each task, o3 completes 89% of high-school level, 68% of collegiate level, and 59% of professional level CTF challenges.",
+   "locator": "4.3.1 Capture the Flag",
+   "note": "CTF and Cyber Range results; Pattern Labs results."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "METR measured the models’ general autonomous capabilities following the methodology outlined in their recent paper.",
+   "locator": "3.9.1 METR; 4.4 AI Self-improvement",
+   "note": "METR time horizon about 1h30 for o3; AI self-improvement evals (SWE-Lancer, PaperBench, OpenAI PRs) with scores."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No persuasion, manipulation or influence-operation evaluation anywhere in the card; grep found no keywords. Extremist/propaganda is a refusal category."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research evaluated OpenAI o3 and o4-mini for in context scheming and strategic deception.",
+   "locator": "3.9.2 / 7.1 Apollo Research",
+   "note": "Results reported: lower than o1 on in-context scheming, sandbagging, reward hacking attempts by METR."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "OpenAI’s Safety Advisory Group (SAG) reviewed the results of these evaluations and determined that OpenAI o3 and o4-mini do not reach the High threshold",
+   "locator": "4 Preparedness",
+   "note": "States where model sits against Preparedness Framework High threshold in all three categories."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI provided third party assessors early model access to evaluate frontier risks related to autonomous capabilities, deception, and cybersecurity.",
+   "locator": "3.9 Third Party Assessments",
+   "note": "Third-party assessors and external red teamers tested o3."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "METR, a research nonprofit that works on assessing whether cutting-edge AI systems could pose catastrophic risks to society, evaluated earlier checkpoints of o4-mini and o3.",
+   "locator": "3.9.1 METR",
+   "note": "METR, Apollo Research and Pattern Labs named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No government body named as testing; grep for AISI/CAISI/institute found nothing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Third party assessors were provided both OpenAI o3 and o4-mini early checkpoints, as well as the final launch candidate models to conduct their assessments.",
+   "locator": "3.9 Third Party Assessments",
+   "note": "Testing on early checkpoints and launch candidates, i.e. before release."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Our safety mitigations include post-training our reasoning models to refuse requests to identify a person based on an image, and to refuse requests for ungrounded inferences.",
+   "locator": "3.5",
+   "note": "Also deliberative alignment and modified post-training to refuse high-risk biological requests."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we’ve deployed new monitoring approaches for biological and chemical risk. These use a safety-focused reasoning monitor similar to that used in GPT-4o Image Generation and can block model responses.",
+   "locator": "4.5 Safeguards",
+   "note": "Named reasoning monitor and moderation classifiers."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "4.5 Safeguards",
+   "note": "Account-level enforcement of Usage Policies is mentioned but no access restriction programme (trusted access, KYC, tiers) is described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "4.5 Safeguards",
+   "note": "Only 'enhanced security, including both information security and technical security' as future investment; no stated weight protection for this model."
+  }
+ }
+}

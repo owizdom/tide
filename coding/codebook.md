@@ -1,4 +1,4 @@
-# Codebook v1 (frozen 2026-11-05 after the 10-release pilot)
+# Codebook v1.1 (v1 frozen 2026-11-05 after the pilot; v1.1 adds two clarifications the same day, listed at the end)
 
 Unit: one release, coded from the text of its primary card as captured in `cards/manifest.csv`. Later addenda in `other_docs` are not read for at-launch codes. Every value above 0 needs a verbatim quote from the card text and a locator (page or section heading). A quote must be copied exactly; the test in AT6 searches for it.
 
@@ -75,3 +75,10 @@ Pass A Opus 5.5, pass B Sonnet 5.5, 10 releases, 130 codes, 7 disagreements: ext
 ## Pilot plan (v0)
 
 10 releases, stratified: one per lab plus three more from the labs with the longest cards. Two independent passes. Disagreements and any definition that produced them are logged in `docs/JOURNAL.md`; definitions may change only here, before the main pass, and the version number goes up.
+
+## v1.1 clarifications (2026-11-05, during the main pass)
+
+1. Addendum cards (Wisdom). When the coded document is an addendum, appendix or update to an earlier model's card (for example the Claude 2 card with a Claude 2.1 appendix), an item counts only if the document reports it for this model or states that the result carries over to this model. Evaluations and outside testing reported for the earlier model do not count for this release. Safety training described for the model family counts when the document says this model was built the same way.
+2. Outside testing means safety or risk testing: red teaming, dangerous-capability, alignment, or misuse evaluations. A third party that only ran or reported capability benchmark scores (for example "Results are taken from tests conducted by Mercor") is not outside testing.
+
+Releases coded under v1 that these clarifications can change are recoded on both passes (coding/groups/r02_recode.txt).

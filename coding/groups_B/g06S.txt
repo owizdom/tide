@@ -1,0 +1,4 @@
+mistral-2025-06-10-magistral-medium-1-1
+deepseek-2025-01-20-deepseek-r1
+mistral-2026-10-06-mistral-large-4
+deepseek-2024-09-06-deepseek-v2-5

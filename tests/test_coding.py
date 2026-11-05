@@ -13,6 +13,10 @@ def test_normalise_collapses_whitespace_quotes_and_hyphen_breaks():
     assert a == b
 
 
+def test_zero_width_characters_ignored():
+    assert check.quote_found("System Card: Claude", "System Card:\u200b Claude Opus")
+
+
 def test_quote_found_and_not_found():
     text = "Section 4. We ran CTF challenges and the model solved 12 of 40.\n"
     assert check.quote_found("the model solved 12 of 40", text)

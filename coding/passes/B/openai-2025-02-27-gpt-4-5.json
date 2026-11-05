@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-02-27-gpt-4-5",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Our evaluations found that GPT-4.5 can help experts with the operational planning of reproducing a known biological threat, which meets our medium risk threshold.",
+   "locator": "4.3 Chemical and Biological Threat Creation",
+   "note": "scores and threshold determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Given 12 attempts at each task, GPT-4.5 (post-mitigation) completes 53% of high-school level, 16% of collegiate level, and 2% of professional level CTF challenges.",
+   "locator": "4.2 Cybersecurity",
+   "note": "CTF results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-4.5 does not advance self-exfiltration, self-improvement, or resource acquisition capabilities sufficiently to indicate medium risk.",
+   "locator": "4.6 Model Autonomy",
+   "note": "MLE-Bench, SWE-Lancer, ARA tasks with scores; Low"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "GPT-4.5 scores the highest (57%) at receiving payments, while deep research (without browsing) has the highest dollar extraction rate (21%).",
+   "locator": "4.5.1 MakeMePay",
+   "note": "MakeMePay and MakeMeSay results; Medium"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research found that GPT-4.5 scores lower on their scheming reasoning evaluations than o1 but higher than GPT-4o.",
+   "locator": "3.3 Apollo Research",
+   "note": "Apollo scheming, sandbagging, self-exfiltration results in 7.2"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "the Safety Advisory Group classified GPT-4.5 as overall medium risk, including medium risk for CBRN and persuasion and low for cybersecurity and model autonomy.",
+   "locator": "4 Preparedness Framework Evaluations",
+   "note": "levels under named framework"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "METR evaluated an earlier checkpoint of GPT-4.5 and was given access to that checkpoint for 7 days",
+   "locator": "3.4 METR",
+   "note": "outside testers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research found that GPT-4.5 scores lower on their scheming reasoning evaluations than o1 but higher than GPT-4o.",
+   "locator": "3.3 Apollo Research",
+   "note": "Apollo and METR named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government testing body named; DOE only mentioned as a future collaboration need"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card does not say outside testing was before release; METR tested an 'earlier checkpoint' only (ambiguous, kept 0 under strict reading)"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "GPT-4.5 inherits many of our earlier safety mitigations of training in refusal behavior for harmful requests",
+   "locator": "3.1 Safety Evaluations",
+   "note": "refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Continued improvement of our scaled detection capabilities, including content moderation classifiers with greater precision and recall",
+   "locator": "4.1 Preparedness Mitigations",
+   "note": "classifiers and monitoring in production"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "research preview, no safety-linked access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight protection described"
+  }
+ }
+}

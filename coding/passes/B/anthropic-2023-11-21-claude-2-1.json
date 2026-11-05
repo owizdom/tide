@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2023-11-21-claude-2-1",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Only generic 'national security and safety related risks'; no CBRN domain named anywhere in the card."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "No offensive cyber evaluation mentioned."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Neither ARC nor we believe that our current Claude models possess the dangerous capabilities (‘autonomous replication’ abilities) that ARC is aiming to detect",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Threshold determination covering current Claude models, per codebook boundary rule."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Misinformation named only as a Trust and Safety red-team topic, not persuasion/manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "3.5 / Appendix 3",
+   "note": "Honesty evals are factual accuracy and document faithfulness, not misalignment or deception risk."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test Claude 2 on a range of Trust and Safety related topics",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "External red teamers tested Claude 2 before deployment."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have been working with the Alignment Research Center (ARC) since fall of 2022 to support their safety audits of our AI models.",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "ARC named as outside auditor; no post-release timing stated."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "No government body testing; 'working with policymakers' is generic."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test Claude 2 on a range of Trust and Safety related topics",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Explicit 'Before deployment'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "trained via unsupervised learning, RLHF, and Constitutional AI (including both a supervised and Reinforcement Learning (RL) phase)",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming / Model details",
+   "note": "Constitutional AI and RLHF for harmlessness; see also Ethical Considerations."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "AUP and Trust and Safety processes mentioned but no named runtime mechanism (classifier, filter, monitoring)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "No access restrictions tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "No weight protection stated."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-05-28-claude-opus-4-8",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "On the two long-form virology tasks, Opus 4.8 achieved end-to-end scores of 0.77 and 0.89",
+   "locator": "2.2.4 Biological risk results: CB-1",
+   "note": "Scores for long-form virology, VCT, DNA synthesis screening evasion, RNA design, AAV capsid."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 4.8 scored 5.45 on AutoNudge, and 5.02 on plain.",
+   "locator": "3.3.1 ExploitBench",
+   "note": "ExploitBench, CyberGym, Firefox exploits, OSS-Fuzz all with scores."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "We assess that Claude Opus 4.8 does not cross the automated AI-R&D capability threshold.",
+   "locator": "2.3.5 Conclusion",
+   "note": "AI R&D threshold determination plus AECI trajectory; autonomy threat models 1 and 2 addressed."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "The helpful-only version of Claude Opus 4.8 showed a notably higher success rate than even Claude Mythos Preview on both tasks",
+   "locator": "5.1.3 Malicious agentic influence campaigns",
+   "note": "Influence-operation capability evaluation with task completion rates 73.3% and 55.1%."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Under the realistic Extended Thinking conditions, Claude Opus 4.8’s stealth rate is just over 1% and roughly flat across reasoning-effort levels",
+   "locator": "6.4.2.1 SHADE-Arena",
+   "note": "SHADE-Arena stealth, sandbagging review, evaluation awareness, reward hacking, secret password: results reported."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We believe these risk mitigations are equal to or stronger than our historical ASL-3 protections and sufficient to make catastrophic risk in this category very low but not negligible",
+   "locator": "2.1.3.2 On chemical and biological risks",
+   "note": "RSP applied; CB-1 and CB-2 thresholds, AI R&D threshold determinations for this model."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing, at their discretion, of behaviors or risk factors related to misalignment",
+   "locator": "6.2.4 External testing from the UK AI Security Institute",
+   "note": "UK AISI, Gray Swan, Andon Labs, Dyno Therapeutics, Meridian Labs."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "UK AISI tested an early checkpoint of [Opus 4.8] for behaviours relevant to misalignment risk.",
+   "locator": "6.2.4",
+   "note": "Named outside orgs: UK AISI, Gray Swan, Andon Labs."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing, at their discretion, of behaviors or risk factors related to misalignment",
+   "locator": "6.2.4 External testing from the UK AI Security Institute",
+   "note": "UK AISI is a state institute; testing stated as pre-release."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing, at their discretion, of behaviors or risk factors related to misalignment",
+   "locator": "6.2.4",
+   "note": "Explicit 'pre-release snapshot'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the fully-trained versions of these models—which include harmlessness training—refused to engage with these tasks essentially from the first turn",
+   "locator": "5.1.3",
+   "note": "Harmlessness training; also post-training toward constitution (1.1)."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we apply strong real-time classifier guards to this model and access controls for classifier guard exemptions",
+   "locator": "2.1.3.2",
+   "note": "Classifier guards, probes, Constitutional Classifiers named (3.2, 4)."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Cybersecurity practitioners who have appropriate dual use cases and who are experiencing blocks from these probes can apply for exemptions from these safeguards through our Cyber Verification Program.",
+   "locator": "3.2 Mitigations",
+   "note": "Cyber Verification Program and access controls for classifier guard exemptions tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "a variety of rapid response options for jailbreaks; and security controls to reduce risk of model weight theft.",
+   "locator": "2.2.6",
+   "note": "Stated for this model's CB-1 safeguards."
+  }
+ }
+}

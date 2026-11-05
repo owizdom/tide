@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2023-12-06-gemini-1-0-pro",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "Assurance evaluations include\ntesting across Gemini policies, and include ongoing testing for dangerous capabilities such as potential\nbiohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "biohazards named as evaluated dangerous capability; no result reported"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Assurance evaluations include\ntesting across Gemini policies, and include ongoing testing for dangerous capabilities such as potential\nbiohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "cybersecurity named as evaluated dangerous capability; no result reported"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy/replication/AI R&D evaluation mentioned; 'agents' only as capability direction (AlphaCode 2)."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "Assurance evaluations include\ntesting across Gemini policies, and include ongoing testing for dangerous capabilities such as potential\nbiohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "persuasion named as evaluated dangerous capability; no result reported"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/sabotage/scheming evaluation mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework named; only Google AI Principles and White House Commitments, which are not frameworks with thresholds."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "External evaluations are conducted by partners outside of Google to identify blindspots. External groups stress-test our models",
+   "locator": "6.3 Evaluations",
+   "note": "outside partners tested Gemini models; no post-release timing stated"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "External partners are not named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "External evaluations described without stating they occurred before release ('reported periodically')."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "for reward model training, we find it critical\nto balance the dataset with examples where the model prefers to say, “I cannot help with that,” for\nsafety reasons",
+   "locator": "6.4.2 Instruction Tuning",
+   "note": "safety SFT/RLHF and constitution-based data described; Gemini Pro named as mitigated"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Classifiers/filters mentioned only for training-data filtering, not at inference; no runtime mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No risk-tied access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Weights mentioned only re data-mixture weights and checkpointing; no weight protection."
+  }
+ }
+}

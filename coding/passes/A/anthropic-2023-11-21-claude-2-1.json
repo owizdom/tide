@@ -1,0 +1,16 @@
+{"release_id": "anthropic-2023-11-21-claude-2-1", "coder": "A", "codebook": "v1", "codes": {
+"dc_eval_cbrn": {"value": 0, "quote": "", "locator": "", "note": "No CBRN domain named anywhere; 'national security ... risks' (Sec 2) is unspecified and about Claude 2-era models; 2.1 appendix has only long-context and honesty evals."},
+"dc_eval_cyber": {"value": 0, "quote": "", "locator": "", "note": "No cyber keywords in card."},
+"dc_eval_autonomy": {"value": 0, "quote": "", "locator": "Sec 2 Evaluations and Red Teaming", "note": "ARC 'autonomous replication' determination covers 'our current Claude models' as of the Claude 2 card (July 2023), written before 2.1 existed; 2.1 appendix reports no autonomy eval for 2.1. Evaluations are events on earlier models, not inherited by 'remains similar'."},
+"dc_eval_persuasion": {"value": 0, "quote": "", "locator": "", "note": "No persuasion/manipulation keywords in card."},
+"dc_eval_scheming": {"value": 0, "quote": "", "locator": "Appendix Sec 3", "note": "2.1 honesty evals are factual accuracy/faithfulness (hallucination), not deception framed as misalignment risk."},
+"framework_threshold": {"value": 0, "quote": "", "locator": "", "note": "No RSP or other framework named."},
+"ext_test_any": {"value": 0, "quote": "", "locator": "Sec 2 Evaluations and Red Teaming", "note": "External red teamers and ARC tested Claude 2 / a Claude snapshot before Claude 2 deployment; card does not say outsiders tested Claude 2.1."},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "Sec 2", "note": "ARC named, but its audits are of earlier Claude models, not tied to 2.1."},
+"ext_test_government": {"value": 0, "quote": "", "locator": "Sec 2", "note": "Only 'working with policymakers ... to share our findings'; generic, not government testing."},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "Sec 2", "note": "'Before deployment' external red teaming refers to Claude 2, not 2.1."},
+"safeguards_training": {"value": 1, "quote": "Using this Constitution, models are trained to avoid sexist, racist, and toxic outputs, as well as to avoid\nhelping a human engage in illegal or unethical activities.", "locator": "Sec 2 Ethical Considerations", "note": "Appendix: 2.1 builds on Claude 2.0 and 'In most other respects, Claude 2.1 remains similar to Claude 2.0', so the 2.0 safety training (a model property) carries over."},
+"safeguards_runtime": {"value": 0, "quote": "", "locator": "Sec 2 Ethical Considerations", "note": "'Trust and Safety processes, which help enforce our AUP' names no mechanism (no classifier/filter/monitoring)."},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "No safety-tied access restriction."},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "No weight-security statement."}
+}}
