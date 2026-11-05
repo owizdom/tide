@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2024-12-06-llama-3-3-70b",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we performed uplift testing designed to assess whether use of the Llama models could meaningfully increase the capabilities of malicious actors to plan or carry out attacks using these types of weapons",
+   "locator": "Critical and other risks, 1 CBRNE",
+   "note": "evaluated, no result"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Our cyber attack uplift study investigated whether the Llama 3 family of LLMs can enhance human capabilities in hacking tasks, both in terms of skill level and speed.",
+   "locator": "Critical and other risks, 3 Cyber",
+   "note": "study described, no result"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "Critical and other risks, 3",
+   "note": "Autonomous-agent ransomware study is cyber per boundary rule; no replication or AI R&D evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation risk evaluation mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception, sandbagging or similar evaluation mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No scaling or safety framework named; 'Responsible release approach' and Responsible Use Guide are not frameworks with thresholds."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We also partnered with content specialists to perform red teaming exercises assessing potentially violating content",
+   "locator": "Critical and other risks, 2 Child Safety",
+   "note": "Partnered specialists red-teamed; borderline since not explicitly external"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named as testing this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No statement that outside testing preceded release."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we put a great emphasis on model refusals to benign prompts as well as refusal tone. We included both borderline and adversarial prompts in our safety data strategy",
+   "locator": "Responsibility & Safety, Refusals and Tone",
+   "note": "safety fine-tuning"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we provide the community with safeguards that developers should deploy with Llama models or other LLMs, including Llama Guard 3, Prompt Guard and Code Shield.",
+   "locator": "Responsibility & Safety, Llama 3.3 systems",
+   "note": "default safeguard models shipped"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only license and feedback channels."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection; model openly released."
+  }
+ }
+}

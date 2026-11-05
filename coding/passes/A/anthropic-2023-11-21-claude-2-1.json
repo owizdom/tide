@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2023-11-21-claude-2-1",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "Evaluations and Red Teaming",
+   "note": "Only 'national security and safety related risks' with no CBRN domain named."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber capability evaluation mentioned."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Neither ARC nor we believe that our current Claude models possess the dangerous capabilities (‘autonomous replication’ abilities) that ARC is aiming to detect",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "threshold determination per boundary rule"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Misinformation appears only as a Trust and Safety red-team vertical; no persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Honesty, TruthfulQA and confabulation evals are factual accuracy, not deception or misalignment risk."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No scaling or safety framework referenced."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test Claude 2 on a range of Trust and Safety related topics",
+   "locator": "2 Evaluations and Red Teaming",
+   "note": "external red teamers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have been working with the Alignment Research Center (ARC) since fall of 2022 to support their safety audits of our AI models.",
+   "locator": "2 Evaluations and Red Teaming",
+   "note": "ARC named; tied to Claude models' dangerous-capability audit"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only generic 'working with policymakers'."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test Claude 2",
+   "locator": "2 Evaluations and Red Teaming",
+   "note": "explicit before deployment"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "They use a transformer architecture and are trained via unsupervised learning, RLHF, and Constitutional AI",
+   "locator": "2 Model details; Ethical Considerations",
+   "note": "Constitution trains models to avoid toxic outputs and illegal assistance"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'Trust and Safety processes, which help enforce our AUP'; no mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None described."
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{"release_id": "meta-2024-12-06-llama-3-3-70b", "coder": "A", "codebook": "v1", "codes": {
+"dc_eval_cbrn": {"value": 1, "quote": "we performed uplift testing designed to assess whether use of the Llama models could meaningfully increase the capabilities of malicious actors to plan or carry out attacks using these types of weapons", "locator": "Critical and other risks, 1- CBRNE", "note": "evaluated, no result reported"},
+"dc_eval_cyber": {"value": 1, "quote": "Our cyber attack uplift study investigated whether the Llama 3 family of LLMs can enhance human capabilities in hacking tasks, both in terms of skill level and speed.", "locator": "Critical and other risks, 3. Cyber attack enablement", "note": "studies described, no result reported"},
+"dc_eval_autonomy": {"value": 0, "quote": "", "locator": "", "note": "'autonomous agents in cyber offensive operations' is agentic cyber, coded cyber per boundary rule; 'autonomy of all users' is unrelated"},
+"dc_eval_persuasion": {"value": 0, "quote": "", "locator": "", "note": "not mentioned"},
+"dc_eval_scheming": {"value": 0, "quote": "", "locator": "", "note": "not mentioned"},
+"framework_threshold": {"value": 0, "quote": "", "locator": "", "note": "only the Responsible Use Guide is referenced, which is deployer guidance, not a safety or scaling framework with thresholds"},
+"ext_test_any": {"value": 0, "quote": "", "locator": "", "note": "red team composition given but not stated to be outside Meta; 'partnered early with subject-matter experts' were consulted to derive goals, not stated to test; content-specialist red teaming is tied to Llama 3, not this model; 'third party' refers to deployers' services"},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "no outside testing organisation named; AI Alliance, Partnership on AI, MLCommons are consortium memberships"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "not mentioned"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "no outside testing timing stated"},
+"safeguards_training": {"value": 1, "quote": "The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.", "locator": "Model Information", "note": "RLHF for safety; also safety fine-tuning section"},
+"safeguards_runtime": {"value": 1, "quote": "including Llama Guard 3, Prompt Guard and Code Shield. All our [reference implementations](https://github.com/meta-llama/llama-agentic-system) demos contain these safeguards by default", "locator": "Responsibility & Safety, Llama 3.3 systems", "note": "safeguard models shipped as defaults in reference implementation"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "open release under community licence; licence gate does not count"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "openly released weights; no weight security stated"}
+}}

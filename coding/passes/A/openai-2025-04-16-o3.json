@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-04-16-o3",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We evaluated o3 and o4-mini on a suite of evaluations, outlined below.",
+   "locator": "4.2 Biological and Chemical",
+   "note": "Long-form biorisk, virology troubleshooting, ProtocolQA, tacit knowledge results reported. Quote shortened; also 'Our evaluations found that OpenAI o3 and o4-mini can help experts with the operational planning of reproducing a known biological threat.'"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "The o3 model achieved an average success rate of 51% in evasion challenges, 29% in network attack simulation challenges, and 29% in vulnerability discovery and exploitation challenges.",
+   "locator": "3.9.3 Pattern Labs; 4.3 Cybersecurity",
+   "note": "scores reported"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "This is about 1 hour and 30 minutes for o3, and 1 hour and 15 minutes for o4-mini.",
+   "locator": "3.9.1 METR; 4.4 AI Self-improvement",
+   "note": "METR time horizon, plus AI self-improvement evals (PaperBench 18% etc.)"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation evaluation anywhere in the card (keyword grep for persuas, manipulat, influence op: no hits)."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "They found that OpenAI o3 and o4-mini score lower than o1 on in-context scheming evaluations, but they still exhibit deceptive tendencies against their developers and users",
+   "locator": "3.9.2 Apollo Research",
+   "note": "scheming, sandbagging, reward hacking results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "determined that OpenAI o3 and o4-mini do not reach the High threshold in any of our three Tracked Categories",
+   "locator": "1 Introduction; 4 Preparedness",
+   "note": "threshold determination"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI provided third party assessors early model access to evaluate frontier risks related to autonomous capabilities, deception, and cybersecurity.",
+   "locator": "3.9 Third Party Assessments",
+   "note": "outside testers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "METR, a research nonprofit that works on assessing whether cutting-edge AI systems could pose catastrophic risks to society, evaluated earlier checkpoints of o4-mini and o3.",
+   "locator": "3.9.1 METR",
+   "note": "also Apollo Research, Pattern Labs"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body named as testing; keyword grep (AISI, institute, government) no hits."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Third party assessors were provided both OpenAI o3 and o4-mini early checkpoints, as well as the final launch candidate models to conduct their assessments.",
+   "locator": "3.9 Third Party Assessments",
+   "note": "early checkpoints and launch candidates imply pre-release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Modified post-training of the models to refuse high-risk biological requests while not refusing benign requests",
+   "locator": "4.5 Safeguards",
+   "note": "also deliberative alignment in Introduction"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we’ve deployed new monitoring approaches for biological and chemical risk. These use a safety-focused reasoning monitor similar to that used in GPT-4o Image Generation and can block model responses.",
+   "locator": "4.5 Safeguards",
+   "note": "reasoning monitor, moderation classifiers"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions tied to safety; account-level enforcement of Usage Policies is generic."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "4.5 Safeguards",
+   "note": "'enhanced security, including both information security and technical security' does not state weight protection for this model."
+  }
+ }
+}

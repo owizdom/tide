@@ -1,0 +1,16 @@
+{"release_id": "google-2026-02-19-gemini-3-1-pro", "coder": "A", "codebook": "v1", "codes": {
+"dc_eval_cbrn": {"value": 2, "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.", "locator": "p.7 Frontier Safety", "note": "threshold determination plus FSF results table (CBRN CCL not reached)"},
+"dc_eval_cyber": {"value": 2, "quote": "As with Gemini 3 Pro, the model has reached the alert threshold, but still does not reach the levels of uplift required for the CCL.", "locator": "p.8 FSF Results, Cyber row", "note": "cyber threshold determination for this model"},
+"dc_eval_autonomy": {"value": 2, "quote": "The model shows gains on         Acceleration    CCLs not\nLearning R&D    RE-Bench compared to Gemini 3 Pro, with a          level 1         reached\n                human-normalised average score of 1.27", "locator": "p.9 FSF Results, Machine Learning R&D row", "note": "ML R&D (AI R&D) RE-Bench score reported"},
+"dc_eval_persuasion": {"value": 2, "quote": "the model showed higher manipulative efficacy         (exploratory)    reached\n                  for belief change metrics compared to a non-AI\n                  baseline, with the maximum odds ratio of 3.6x", "locator": "p.8 FSF Results, Harmful Manipulation row", "note": "harmful manipulation result reported"},
+"dc_eval_scheming": {"value": 2, "quote": "On stealth evaluations, the      Instrumental    CCLs not\n(Exploratory)   model performs similarly to Gemini 3 Pro. On       Reasoning", "locator": "p.9 FSF Results, Misalignment row", "note": "stealth and situational awareness results under misalignment domain"},
+"framework_threshold": {"value": 2, "quote": "Following FSF protocols, we conducted a full evaluation of Gemini 3.1 Pro (focusing on Deep Think mode). We found that the model remains below alert thresholds", "locator": "p.7 Frontier Safety", "note": "model placed against CCL alert thresholds of the Frontier Safety Framework"},
+"ext_test_any": {"value": 0, "quote": "", "locator": "", "note": "red teaming is by specialist teams inside Google outside the model team; codebook says these are not outside. No external testers named."},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "no outside organisation named as testing this model"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "no government testing mentioned"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "no outside testing, so no timing"},
+"safeguards_training": {"value": 0, "quote": "", "locator": "", "note": "refusal keywords occur only as evaluation metrics (unjustified refusals, tone); no safety training described, deferred to Gemini 3 Pro card"},
+"safeguards_runtime": {"value": 0, "quote": "", "locator": "", "note": "'We continue to deploy mitigations in this domain' names no mechanism; risks and mitigations deferred to Gemini 3 Pro card"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "distribution channels and API terms only; no safety-tied access restriction"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "no weight security mentioned"}
+}}

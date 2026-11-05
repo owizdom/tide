@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-02-19-gemini-3-1-pro",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages",
+   "locator": "Frontier Safety, FSF results table",
+   "note": "CBRN CCL not reached, qualitative finding"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "the model has reached the alert threshold, but still does not reach the levels of uplift required for the CCL",
+   "locator": "FSF results table, Cyber",
+   "note": "threshold determination"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "The model shows gains on RE-Bench compared to Gemini 3 Pro, with a human-normalised average score of 1.27",
+   "locator": "FSF results table, Machine Learning R&D",
+   "note": "ML R&D score"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "the model showed higher manipulative efficacy for belief change metrics compared to a non-AI baseline, with the maximum odds ratio of 3.6x",
+   "locator": "FSF results table, Harmful Manipulation",
+   "note": "result reported"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "On stealth evaluations, the model performs similarly to Gemini 3 Pro. On situational awareness, the model is stronger than Gemini 3 Pro",
+   "locator": "FSF results table, Misalignment",
+   "note": "stealth and situational awareness results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs.",
+   "locator": "Frontier Safety",
+   "note": "CCL status stated"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "Ethics and Content Safety",
+   "note": "Red teaming is by specialist teams who sit outside of the model development team, which codebook says is not outside the lab."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside org named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "Ethics and Content Safety",
+   "note": "Refusal tone and unjustified-refusal evals are measurements; no safety training described, deferred to Gemini 3 Pro card."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'we continue to deploy mitigations', no mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Distribution channels only, no safety-tied access limits."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection stated."
+  }
+ }
+}
