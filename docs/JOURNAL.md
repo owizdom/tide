@@ -2,7 +2,7 @@
 
 ## Snapshot (rewritten each wave)
 
-- Stage: Track A FROZEN (87 events). Track B built: `cards/discovery.csv` 131 rows, `cards/manifest.csv` 87 rows, `pytest tests` 35 passed. Fresh Track B review running.
+- Stage: Track A FROZEN (87 events). Track B done after two fresh reviews: `cards/manifest.csv` 87 rows, `pytest tests` 50 passed. Committed locally on owizdom/tide-tracks-a-b.
 - Next action: fix in-scope review findings, then Track C codebook pilot on 10 releases (codebook v0 in `coding/codebook.md`).
 - Repo: local only, no git commits yet, no remote.
 
@@ -42,3 +42,9 @@
 - Rule changes in fetch.py, each with a test: primary card = latest card dated by launch + 2, else earliest later card (GPT-5.6 has a 2026-06-25 preview card); publication date = earlier of printed date and first capture (Muse Spark report archived 2026-04-14, prints 2026-05-26); AT5 test aligned to the spec wording "capture_ts or a source date".
 - Fetch run: 87 rows; sources wayback 56, live 9, commit 8, none 14; 19 cards flagged launch_version_unverified. Gemini 1.0 report failed once (connection refused) and succeeded on `--only` retry.
 - Preliminary, unreviewed: card_at_launch by half 2/5, 5/8, 7/10, 6/8, 7/12, 11/14, 10/13, 14/17 (2023H1 to 2026H2).
+
+### 2026-11-05 Track B reviews
+
+- Review 1 (Opus 5.5): 19 of 87 rows on the wrong document or version, tests green. Earlier preliminary card-at-launch numbers RETRACTED to the user. Fixes: arXiv abs -> v1 PDF; HF blob -> resolve; launch-window pick; undated cards dated by first capture; redirect following; CDX errors raise instead of live fallback; zstd/gzip decompress; printed date from coded bytes; search tokens ignore "not run"; card-signal test. Wisdom: docs spec pages are not cards.
+- Review 2 (Opus 5.5): 9 of 11 fixed; new N1-N6 (relative redirect Location, missed launch-day Anthropic copies, DeepSeek R1 and V4-Pro launch PDFs at commits, Mistral Large 4 placeholder capture, April Gemini 2.5 Pro card). All fixed with per-release regression tests; also CDX query encoding of '&' (Fable 5.1). No third review round: regressions are asserted per release; the final review covers Track B again.
+- Pinned Epoch zip left ~/Desktop (copies in ~/Downloads and Trash, both sha256 a31aafbf...); vendored at releases/epoch/ai_models.zip.
