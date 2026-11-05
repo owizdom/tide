@@ -1,0 +1,2 @@
+Epoch AI, "Data on AI models", retrieved 2026-11-05 from https://epoch.ai/data/ai-models. CC BY 4.0.
+sha256 a31aafbf290549655ca57ef4d6f207cdc9bc036dfbde183c14ba5114323d6ee4

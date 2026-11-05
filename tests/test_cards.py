@@ -86,12 +86,22 @@ def test_undated_card_uses_first_capture_date():
     assert fetch.pick_primary(rows, "2023-11-04")["card_url"] == "x.ai/model-card"
 
 
-def test_pick_prefers_earliest_in_launch_window_over_later_report():
+def test_pick_prefers_richest_kind_within_launch_window():
+    # every document public by launch + 2 counts as at launch; code the richest one
     rows = [
-        {"doc_kind": "hf_card", "card_date": "2026-04-24", "card_url": "readme"},
-        {"doc_kind": "tech_report", "card_date": "2026-04-26", "card_url": "arxiv"},
+        {"doc_kind": "hf_card", "card_date": "2025-01-20", "card_url": "readme"},
+        {"doc_kind": "tech_report", "card_date": "2025-01-22", "card_url": "paper"},
+        {"doc_kind": "tech_report", "card_date": "2025-01-20", "card_url": "launch-pdf"},
     ]
-    assert fetch.pick_primary(rows, "2026-04-24")["card_url"] == "readme"
+    assert fetch.pick_primary(rows, "2025-01-20")["card_url"] == "launch-pdf"
+
+
+def test_pick_tie_prefers_earliest_archived_copy():
+    rows = [
+        {"doc_kind": "system_card", "card_date": "2025-02-24", "wayback_first_200": "20260126195603", "card_url": "late-copy"},
+        {"doc_kind": "system_card", "card_date": "2025-02-24", "wayback_first_200": "20250224184553", "card_url": "launch-copy"},
+    ]
+    assert fetch.pick_primary(rows, "2025-02-24")["card_url"] == "launch-copy"
 
 
 def test_pick_tie_on_date_prefers_richer_kind():
@@ -110,10 +120,31 @@ def test_pick_pre_launch_card_when_none_in_window():
     assert fetch.pick_primary(rows, "2024-02-08")["card_url"] == "report"
 
 
+def test_ranked_candidates_give_fallbacks_in_order():
+    rows = [
+        {"doc_kind": "hf_card", "card_date": "2026-04-24", "card_url": "readme"},
+        {"doc_kind": "tech_report", "card_date": "2026-04-24", "card_url": "dead-pdf"},
+        {"doc_kind": "tech_report", "card_date": "2026-04-26", "card_url": "arxiv"},
+    ]
+    assert [r["card_url"] for r in fetch.ranked_candidates(rows, "2026-04-24")] == ["dead-pdf", "arxiv", "readme"]
+
+
+def test_launch_status_falls_back_to_effective_date():
+    s = fetch.launch_status("2025-09-29", card_date="", capture_ts="", date_eff="2025-09-29")
+    assert s["card_at_launch"] == 1 and s["launch_version_unverified"] == 1
+
+
 def test_redirect_target_from_wayback_location():
     loc = "https://web.archive.org/web/20250929172200id_/https://assets.anthropic.com/m/12f2/original/Card.pdf"
     assert fetch.original_from_location(loc) == "https://assets.anthropic.com/m/12f2/original/Card.pdf"
     assert fetch.original_from_location("https://assets.anthropic.com/x.pdf") == "https://assets.anthropic.com/x.pdf"
+    rel = "/web/20260901180542id_/https://www.anthropic.com/document/card.pdf"
+    assert fetch.original_from_location(rel) == "https://www.anthropic.com/document/card.pdf"
+
+
+def test_cdx_query_encodes_ampersand():
+    q = fetch.cdx_query("https://www-cdn.anthropic.com/x/Claude%20Fable%205.1%20&%20Mythos.pdf")
+    assert "Fable%205.1%20%26%20Mythos.pdf&output=json" in q
 
 
 def test_decompress_zstd_and_gzip():
@@ -157,6 +188,13 @@ def test_search_tokens_from_free_text():
     from cards import merge
     got = merge.search_tokens("announcement bytes; HF/GitHub/arXiv not linked; Wayback CDX on announcement", "https://x.ai/blog/a")
     assert got == {"lab", "announcement", "hf", "github", "arxiv", "wayback"}
+
+
+def test_pinned_hf_resolve_at_commit():
+    from cards import merge
+    r = merge.pin({"card_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/5c449c2f36b66f448ebf8e68add19d8b555d5c9b/DeepSeek_V4.pdf",
+                   "card_date_src": "commit 5c449c2f36b66f448ebf8e68add19d8b555d5c9b committed 2026-04-24T02:50:24Z", "card_date": "2026-04-24"})
+    assert r == ("https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/5c449c2f36b66f448ebf8e68add19d8b555d5c9b/DeepSeek_V4.pdf", "2026-04-24")
 
 
 def test_pinned_hf_and_github_commits():
@@ -243,6 +281,14 @@ def test_regressions_from_track_b_review():
     m = {r["release_id"]: r for r in _manifest()}
     assert m["xai-2023-11-04-grok-1"]["card_at_launch"] == "1"
     assert m["deepseek-2026-04-24-deepseek-v4-pro"]["launch_version_unverified"] == "0"
+    assert m["deepseek-2026-04-24-deepseek-v4-pro"]["card_url"].endswith("DeepSeek_V4.pdf")
+    assert m["deepseek-2025-01-20-deepseek-r1"]["card_url"].endswith("DeepSeek_R1.pdf")
+    for rid in ["anthropic-2026-09-01-claude-fable-5-1", "anthropic-2026-09-22-claude-opus-5-5",
+                "anthropic-2023-11-21-claude-2-1", "anthropic-2025-02-24-claude-3-7-sonnet", "anthropic-2025-08-05-claude-opus-4-1"]:
+        assert m[rid]["source"] == "wayback" and m[rid]["launch_version_unverified"] == "0", rid
+        assert m[rid]["card_url"].startswith("http"), rid
+    assert int(m["mistral-2026-10-06-mistral-large-4"]["card_days_after_launch"]) >= 20
+    assert m["google-2025-03-25-gemini-2-5-pro-mar-2025"]["card_days_after_launch"] == "22"
     assert m["anthropic-2025-09-29-claude-sonnet-4-5"]["source"] == "wayback"
     assert "o1-system-card" in m["openai-2024-09-12-o1-preview"]["card_url"]
     assert m["openai-2024-09-12-o1-preview"]["card_url"].endswith(".pdf")

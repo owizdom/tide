@@ -56,12 +56,15 @@ def days_between(a: str, b: str) -> int:
     return (dt.date.fromisoformat(b[:10]) - dt.date.fromisoformat(a[:10])).days
 
 
-def launch_status(launch: str, card_date: str, capture_ts: str) -> dict:
+def launch_status(launch: str, card_date: str, capture_ts: str, date_eff: str = "") -> dict:
     """card_at_launch: the card was public by launch + GRACE (documented date first, else capture).
     launch_version_unverified: the coded bytes were captured more than GRACE days after the later
     of launch and publication, so they may be an edited version."""
     cap = ts_date(capture_ts) if capture_ts else ""
-    pub = min(d for d in (card_date, cap) if d) if (card_date or cap) else ""
+    known = [d for d in (card_date, cap, date_eff) if d]
+    pub = min(known) if known else ""
+    if not pub:
+        return {"card_at_launch": 0, "launch_version_unverified": 1, "card_days_after_launch": ""}
     days = days_between(launch, pub)
     ref = pub if pub > launch else launch
     unverified = 0 if cap and days_between(ref, cap) <= GRACE_DAYS else 1
@@ -84,27 +87,36 @@ def digest_change_dates(caps: list[tuple[str, str]]) -> list[str]:
 KIND_RANK = {"system_card": 0, "model_card": 1, "tech_report": 2, "addendum": 3, "hf_card": 4, "github_card": 5}
 
 
+def _cap(r: dict) -> str:
+    s = re.sub(r"\D", "", r.get("wayback_first_200") or "")
+    return s[:8] if len(s) >= 8 else "99999999"
+
+
 def _d(r: dict) -> str:
     return r.get("card_date") or r.get("date_eff") or ""
 
 
-def pick_primary(rows: list[dict], launch: str) -> dict | None:
-    """The version available at launch (spec 1.2):
-    1. the earliest card dated in [launch, launch + GRACE], ties to the richer kind;
-    2. else the latest card dated before launch (a report that preceded public availability);
-    3. else the earliest later card; undated cards (no printed date, no capture) come last.
-    A card's date is its printed date, or its first Wayback capture when it prints none."""
+def ranked_candidates(rows: list[dict], launch: str) -> list[dict]:
+    """All cards in preference order for the version available at launch (spec 1.2):
+    1. cards dated in [launch, launch + GRACE], richest kind first, then earliest;
+    2. then cards dated before launch, latest first;
+    3. then later cards, earliest first; undated cards (no printed date, no capture) last.
+    A card's date is its printed date, or its first Wayback capture when it prints none.
+    Later entries are fallbacks when an earlier one cannot be retrieved."""
     cards = [r for r in rows if r["doc_kind"] in CARD_KINDS and r.get("card_url")]
-    if not cards:
-        return None
     rank = lambda r: KIND_RANK.get(r["doc_kind"], 9)
-    window = [r for r in cards if _d(r) and 0 <= days_between(launch, _d(r)) <= GRACE_DAYS]
-    if window:
-        return min(window, key=lambda r: (_d(r), rank(r)))
-    before = [r for r in cards if _d(r) and days_between(launch, _d(r)) < 0]
-    if before:
-        return max(before, key=lambda r: (_d(r), -rank(r)))
-    return min(cards, key=lambda r: (_d(r) or "9999", rank(r)))
+    window = sorted((r for r in cards if _d(r) and 0 <= days_between(launch, _d(r)) <= GRACE_DAYS),
+                    key=lambda r: (rank(r), _d(r), _cap(r)))
+    before = sorted((r for r in cards if _d(r) and days_between(launch, _d(r)) < 0),
+                    key=lambda r: (_d(r), -rank(r), [-int(c) for c in _cap(r)]), reverse=True)
+    later = sorted((r for r in cards if r not in window and r not in before),
+                   key=lambda r: (_d(r) or "9999", rank(r), _cap(r)))
+    return window + before + later
+
+
+def pick_primary(rows: list[dict], launch: str) -> dict | None:
+    c = ranked_candidates(rows, launch)
+    return c[0] if c else None
 
 
 DATE_PAT = re.compile(
@@ -129,7 +141,7 @@ def printed_date(text: str) -> str:
 
 
 def original_from_location(loc: str) -> str:
-    m = re.match(r"^https?://web\.archive\.org/web/\d+(?:[a-z_]+)?/(.*)$", loc)
+    m = re.match(r"^(?:https?://web\.archive\.org)?/web/\d+(?:[a-z_]+)?/(.*)$", loc)
     return m.group(1) if m else loc
 
 
@@ -168,6 +180,13 @@ def _get(url: str, tries: int = 4) -> bytes:
     raise RuntimeError(f"{url}: {last}")
 
 
+def cdx_query(url: str) -> str:
+    from urllib.parse import quote
+
+    bare = quote(re.sub(r"^https?://", "", url), safe=":/%~@!$'()*+,;=")
+    return f"https://web.archive.org/cdx/search/cdx?url={bare}&output=json&fl=timestamp,statuscode,digest&limit=2000"
+
+
 class CdxError(Exception):
     pass
 
@@ -177,9 +196,7 @@ def cdx_all(url: str) -> list[tuple[str, str, str]]:
     so a Wayback outage never silently turns into a live fetch."""
     import json
 
-    bare = re.sub(r"^https?://", "", url)
-    q = (f"https://web.archive.org/cdx/search/cdx?url={bare}&output=json"
-         "&fl=timestamp,statuscode,digest&limit=2000")
+    q = cdx_query(url)
     time.sleep(1)
     try:
         body = _get(q)
@@ -247,33 +264,44 @@ def capture(release: dict, docs: list[dict]) -> dict:
     log = sorted({s.strip() for d in docs for s in (d.get("search_log") or "").split(";") if s.strip()})
     row = {k: "" for k in MANIFEST_FIELDS}
     row.update(release_id=release["release_id"], fetched_at=now, search_log="; ".join(log))
-    prim = pick_primary(docs, release["available_date"])
-    if prim is None:
+    cands = ranked_candidates(docs, release["available_date"])
+    if not cands:
         row["doc_kind"] = "announcement_only" if any(d["doc_kind"] == "announcement_only" for d in docs) else "none"
         row["card_at_launch"] = "0"
         return row
-    url = prim["card_url"]
-    others = [f"{d['doc_kind']}:{d.get('card_date','')}:{d['card_url']}" for d in docs
-              if d is not prim and d["doc_kind"] in CARD_KINDS and d.get("card_url")]
-    row.update(doc_kind=prim["doc_kind"], card_url=url, card_date=prim.get("card_date", ""),
-               card_date_src=prim.get("card_date_src", ""), other_docs=" | ".join(others))
-    pinned = prim.get("pinned_url") or ""
-    target, caps = (url, []) if pinned else resolve_captures(url)
-    if pinned:
-        data, src, cap_ts, arch = _get(pinned), "commit", (prim.get("pinned_date") or "").replace("-", ""), pinned
-    elif caps:
-        cap_ts, _ = earliest(caps)
-        arch = raw_url(cap_ts, target)
-        data, src = _get(arch), "wayback"
-        row["digest_change_dates"] = " ".join(digest_change_dates(caps))
+    failed = []
+    for prim in cands:
+        url = prim["card_url"]
+        pinned = prim.get("pinned_url") or ""
+        try:
+            target, caps = (url, []) if pinned else resolve_captures(url)
+            if pinned:
+                data, src, cap_ts, arch = _get(pinned), "commit", (prim.get("pinned_date") or "").replace("-", ""), pinned
+            elif caps:
+                cap_ts, _ = earliest(caps)
+                arch = raw_url(cap_ts, target)
+                data, src = _get(arch), "wayback"
+                row["digest_change_dates"] = " ".join(digest_change_dates(caps))
+            else:
+                data, src, cap_ts, arch = _get(url), "live", "", url
+            break
+        except CdxError:
+            raise
+        except Exception as e:
+            failed.append(f"{url}: {str(e)[:120]}")
     else:
-        data, src, cap_ts, arch = _get(url), "live", "", url
+        raise RuntimeError("all candidates failed: " + " | ".join(failed))
+    final_url = target if (not pinned and caps) else url
+    others = [f"{d['doc_kind']}:{d.get('card_date','')}:{d['card_url']}" for d in cands if d is not prim]
+    row.update(doc_kind=prim["doc_kind"], card_url=final_url, card_date=prim.get("card_date", ""),
+               card_date_src=prim.get("card_date_src", ""), other_docs=" | ".join(others),
+               text_flag=("fallback after: " + " | ".join(failed)) if failed else "")
     data = decompress(data)
     sha = hashlib.sha256(data).hexdigest()
     CACHE.mkdir(parents=True, exist_ok=True)
     (CACHE / "text").mkdir(exist_ok=True)
-    cache_path(sha, url).write_bytes(data)
-    text, pages = extract_text(data, url)
+    cache_path(sha, final_url).write_bytes(data)
+    text, pages = extract_text(data, final_url)
     tpath = CACHE / "text" / f"{sha}.txt"
     tpath.write_text(text, encoding="utf-8")
     words = len(text.split())
@@ -283,10 +311,10 @@ def capture(release: dict, docs: list[dict]) -> dict:
         row["card_date"] = pd
     elif not row["card_date"] and prim.get("date_eff"):
         row["card_date_src"] = f"undated; first Wayback capture {prim['date_eff']} is an upper bound"
-    st = launch_status(release["available_date"], row["card_date"], cap_ts)
-    row.update(source=src, archive_url=arch, card_url=url if pinned else target, capture_ts=cap_ts, sha256=sha, bytes=str(len(data)),
+    st = launch_status(release["available_date"], row["card_date"], cap_ts, prim.get("date_eff", ""))
+    row.update(source=src, archive_url=arch, capture_ts=cap_ts, sha256=sha, bytes=str(len(data)),
                text_path=str(tpath), words=str(words), pages=str(pages or ""),
-               text_flag="low_words_per_page" if pages and words / pages < 40 else "",
+               text_flag=(row["text_flag"] + " low_words_per_page").strip() if pages and words / pages < 40 else row["text_flag"],
                **{k: str(v) for k, v in st.items()})
     return row
 

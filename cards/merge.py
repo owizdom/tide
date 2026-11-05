@@ -75,6 +75,9 @@ def pin(r: dict) -> tuple[str, str]:
     url, src = r.get("card_url", ""), r.get("card_date_src", "")
     if url.startswith("https://arxiv.org/pdf/") and url.endswith("v1"):
         return url, norm_date(r.get("card_date", ""))
+    if re.search(r"huggingface\.co/[^/]+/[^/]+/resolve/[0-9a-f]{40}/", url):
+        m = re.search(r"committed (20\d\d-\d\d-\d\d)", src)
+        return url, (m.group(1) if m else norm_date(r.get("card_date", "")))
     if "raw.githubusercontent.com" in url and SHA.search(url):
         m = re.search(r"committed (20\d\d-\d\d-\d\d)", src)
         return url, (m.group(1) if m else norm_date(r.get("card_date", "")))
@@ -97,7 +100,8 @@ def main() -> int:
         for r in csv.DictReader(f.open(encoding="utf-8")):
             r = {k: (v or "") for k, v in r.items()}
             for o in ovs:
-                if o["release_id"] == r["release_id"] and o["match"] and o["match"] in r["card_url"]:
+                field = o.get("match_field") or "card_url"
+                if o["release_id"] == r["release_id"] and o["match"] and o["match"] in r.get(field, ""):
                     r[o["field"]] = o["value"]
                     r["notes"] = (r.get("notes", "") + f" [override: {o['field']}={o['value']}: {o['reason']}]").strip()
             r["card_url"] = canonical_url(r["card_url"])

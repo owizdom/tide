@@ -103,7 +103,7 @@ class Built:
 
 
 def default_zip_path() -> Path:
-    return Path.home() / "Desktop" / "ai_models.zip"
+    return ROOT / "releases" / "epoch" / "ai_models.zip"
 
 
 def sha256_file(path: Path) -> str:
