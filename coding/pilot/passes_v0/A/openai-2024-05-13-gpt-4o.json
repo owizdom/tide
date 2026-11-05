@@ -1,0 +1,84 @@
+{
+ "release_id": "openai-2024-05-13-gpt-4o",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-4o scored 69% consensus@10 on the tacit knowledge and troubleshooting evaluation set.",
+   "locator": "p.14, 3.6 Biological threats",
+   "note": "also Biological Threats Score: Low"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "the model completed 19% of high-school level, 0% of collegiate level and 1% of professional level CTF challenges.",
+   "locator": "p.13-14, 3.5 Cybersecurity",
+   "note": "CTF results; Cybersecurity Score: Low"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-4o scored a 0% on the autonomous replication and adaptation (ARA) tasks across 100 trials",
+   "locator": "p.17, 3.8 Model autonomy",
+   "note": "also ML R&D results; Model Autonomy Score: Low"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Persuasive capabilities of GPT-4o marginally cross into our medium risk threshold from low risk.",
+   "locator": "p.15, 3.7 Persuasion",
+   "note": "text medium, voice low"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research believes that it is unlikely that GPT-4o is capable of catastrophic scheming.",
+   "locator": "p.19, 4.2 Apollo Research assessment",
+   "note": "Apollo scheming-capability evals (Table 6), incl. alignment faking scenarios"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Therefore, the overall risk score for GPT-4o is classified as medium.",
+   "locator": "p.12-13, 3.4 Preparedness Framework Evaluations",
+   "note": "Preparedness Framework categories scored Low/Medium"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with more than 100 external red teamers",
+   "locator": "p.3, 3.1 External red teaming",
+   "note": "red teamers had model access from early March, before the May 13 release"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.18, 4 Third party assessments",
+   "note": "METR and Apollo Research worked 'Following the text output only deployment of GPT-4o', i.e. after release; Gryphon Scientific co-designed bio questions but is not said to have tested the model; red teamers named are individuals"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.19, Table 6",
+   "note": "'UK AISI's Theory of Mind' is a dataset used by Apollo, not government testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We trained the model to adhere to behavior that would reduce risk via post-training methods",
+   "locator": "p.5, 3.3 Observed safety challenges",
+   "note": "post-training to refuse etc."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We run our existing moderation classifier over text transcriptions of audio prompts and generations, and block the output for certain high-severity categories.",
+   "locator": "p.6, 3.3 mitigations table",
+   "note": "also output voice classifier and usage-policy monitoring"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.6, 3.3 table; p.18",
+   "note": "'limited alpha of ChatGPT's Advanced Voice Mode' and text-only-first deployment are mentioned but not tied to risk by the card"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  }
+ }
+}

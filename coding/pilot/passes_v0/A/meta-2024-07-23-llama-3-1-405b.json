@@ -1,0 +1,84 @@
+{
+ "release_id": "meta-2024-07-23-llama-3-1-405b",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we performed uplift testing designed to assess whether use of Llama 3.1 models could meaningfully increase the capabilities of malicious actors",
+   "locator": "Critical and other risks, 1. CBRNE",
+   "note": "uplift testing described, no result given"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Our attack automation study focused on evaluating the capabilities of LLMs when used as autonomous agents in cyber offensive operations",
+   "locator": "Critical and other risks, 3. Cyber attack enablement",
+   "note": "studies described, results deferred to whitepaper"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "3. Cyber attack enablement; Ethical Considerations",
+   "note": "'autonomous agents in cyber offensive operations' is cyber; 'autonomy of all users' is unrelated"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "3. Cyber attack enablement",
+   "note": "social engineering/spear-phishing uplift study is framed as cyber attack enablement, not persuasion; no persuasion keywords"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Responsible Use Guide is a developer guide, not a safety/scaling framework"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "Red teaming; 2. Child Safety",
+   "note": "'partnered early with subject-matter experts' is consultation; 'partnered with content specialists to perform red teaming' sits in a passage about Llama 3, not clearly this model; red team composition does not say external"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.",
+   "locator": "Model Information",
+   "note": "also safety fine-tuning section"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we provide the community with [safeguards](https://llama.meta.com/trust-and-safety/) that developers should deploy with Llama models or other LLMs, including Llama Guard 3, Prompt Guard and Code Shield",
+   "locator": "Llama 3.1 systems",
+   "note": "Llama Guard 3 input/output filtering shipped by default in reference implementations; deployment is by developers (open weights)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open release under license; 'accessible' refers to audience, no risk-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open weights; none"
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "release_id": "google-2025-11-18-gemini-3-pro",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "generally fails to offer novel or sufficiently complete and detailed instructions to significantly enhance the capabilities of low to medium resourced threat actors.",
+   "locator": "p.8, Frontier Safety (CBRN row)",
+   "note": "qualitative finding vs Uplift Level 1, CCL not reached"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "11/12 challenge solved; v2 challenges: 0/13 solved",
+   "locator": "p.8, Frontier Safety (Cybersecurity row)",
+   "note": "key skills benchmark scores; alert threshold met"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "aggregate score is still substantially below the alert threshold for the CCLs.",
+   "locator": "p.8, Frontier Safety (Machine Learning R&D row)",
+   "note": "RE-Bench ML R&D result vs acceleration/automation CCLs"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Model manipulative efficacy improves on",
+   "locator": "p.8, Frontier Safety (Harmful Manipulation row)",
+   "note": "harmful manipulation result: improves on non-AI baseline, no significant uplift vs prior models, CCL not reached"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "challenges and 1/4 stealth challenges.",
+   "locator": "p.8, Frontier Safety (Misalignment (Exploratory) row)",
+   "note": "misalignment/instrumental reasoning: 3/11 situational awareness, 1/4 stealth challenges; coded as scheming (stealth = evading oversight)"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "found that it did not reach any critical capability levels",
+   "locator": "p.8, Frontier Safety",
+   "note": "FSF CCLs not reached, per domain"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.5, Ethics and Content Safety",
+   "note": "red teaming by 'specialist teams who sit outside of the model development team' are Google-internal, not outside the lab; no external testers named"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government tester mentioned"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety and responsibility was built into Gemini 3 Pro throughout the training and deployment lifecycle, including pre-training, post-training, and product-level mitigations.",
+   "locator": "p.7, Risks and Mitigations",
+   "note": "mitigation list includes SFT, RL from human and critic feedback, safety policies"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "product-level mitigations such as safety filtering.",
+   "locator": "p.7, Risks and Mitigations",
+   "note": "safety filtering at product level"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.3, Distribution",
+   "note": "distribution channels and terms of use listed, not access restrictions tied to risk"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.5, Acceptable Usage",
+   "note": "'security of others' or Google's services' is a usage prohibition, not weight security"
+  }
+ }
+}

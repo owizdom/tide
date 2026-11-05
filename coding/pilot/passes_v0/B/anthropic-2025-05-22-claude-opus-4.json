@@ -1,0 +1,84 @@
+{
+ "release_id": "anthropic-2025-05-22-claude-opus-4",
+ "coder": "B",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude Opus 4 demonstrates improved biology knowledge in specific areas and shows improved tool-use for agentic biosecurity evaluations, but has mixed performance on dangerous bioweapons-related knowledge.",
+   "locator": "7.2 CBRN evaluations, Claude Opus 4 results",
+   "note": "uplift trials and multiple bio evals"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Based on the evaluation results, we believe the models do not demonstrate catastrophically risky capabilities in the cyber domain.",
+   "locator": "7.4 Cyber evaluations, Results",
+   "note": "CTF suite, Cybench"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Internal surveys of Anthropic researchers indicate that the model provides some productivity gains, but all researchers agreed that Claude Opus 4 does not meet the bar for autonomously performing work equivalent to an entry-level researcher.",
+   "locator": "7.3 Autonomy evaluations",
+   "note": "AI R&D tasks and thresholds"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to manipulate users toward certain views",
+   "locator": "4 Alignment assessment",
+   "note": "named as a phenomenon the alignment assessment aims to detect; no specific result found. Influence Operations in 2.1 is a refusal-rate category (not capability). AMBIGUOUS"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "None of the snapshots we tested showed significant signs of sandbagging, or strategically hiding capabilities during evaluation.",
+   "locator": "4 Alignment assessment",
+   "note": "deception, sandbagging, self-exfiltration, reward hacking findings"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have decided to release Claude Opus 4 under the ASL-3 Standard and Claude Sonnet 4 under the ASL-2 Standard.",
+   "locator": "1.2.3 AI Safety Level determination process",
+   "note": "RSP named, ASL determination"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Several of our external red-teaming partners reported that Claude Opus 4 performed qualitatively differently from any model they had previously tested.",
+   "locator": "1.2.4 Conclusions",
+   "note": "pre-deployment external red teaming"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "we contracted with Apollo Research to assess an early snapshot for propensities and capabilities related to sabotage",
+   "locator": "4.1.1.4 External scenario evaluations",
+   "note": "also Deloitte, SecureBio, Faculty.ai"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "joint pre-deployment testing of the new Claude Opus 4 model was conducted by the US AI Safety Institute (US AISI) and the UK AI Security Institute (UK AISI)",
+   "locator": "7.5 Third party assessments",
+   "note": "explicit"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "pre-deployment measures such as harmlessness training",
+   "locator": "3.1 Malicious applications of computer use",
+   "note": "also helpful/honest/harmless snapshots with broad safety training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "the deployment of detection systems that can halt the model's execution when a potential injection attempt is identified",
+   "locator": "3.2 Prompt injection attacks",
+   "note": "plus safety monitoring in 3.3 and ASL-3 safeguards blocking harmful responses"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no trusted-access or staged rollout described; 'access' hits are model access to tools. 'bug bounty' is post-release vulnerability finding"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card mentions ASL-3 'security controls' and ASL-4 weight-theft protection in a footnote about thresholds, but does not state measures protecting this model's weights. AMBIGUOUS"
+  }
+ }
+}

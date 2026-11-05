@@ -1,0 +1,84 @@
+{
+ "release_id": "openai-2026-09-03-gpt-6-astra",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "the High level in the Biological and Chemical category",
+   "locator": "10 Preparedness",
+   "note": "treated as High; 3 of 4 bio evals above indicative thresholds (10.1.1)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "we determined that Astra reaches the Critical level in Cybersecurity capability",
+   "locator": "10 Preparedness",
+   "note": "Critical cyber threshold met"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "In AI Self-Improvement, Astra does not reach our High threshold.",
+   "locator": "10 Preparedness",
+   "note": "AI self-improvement category assessed (10.1.3)"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "9 Monitorability",
+   "note": "only 'manipulate' hit is about models manipulating measured monitorability (scheming); no persuasion evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "we find that the model is able to remain undetected when strategically underperforming in evaluations (sandbagging)",
+   "locator": "1 Safety Overview, item 5",
+   "note": "also Apollo deception/eval-awareness rates (8.8.1), UK AISI sabotage eval (8.8), metagaming/alignment faking (8.7)"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Astra is our first model to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+   "locator": "1 Safety Overview",
+   "note": "Critical cyber, High bio/chem, below High self-improvement"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of Astra",
+   "locator": "8.8.1 External Evaluations for Alignment - Apollo Research",
+   "note": "near-final checkpoint = pre-release; also UK AISI and external jailbreak testing"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of Astra",
+   "locator": "8.8.1 External Evaluations for Alignment - Apollo Research",
+   "note": "Apollo Research named"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "UK AISI tested how Astra behaves when placed in simulations of difficult cybersecurity evaluations",
+   "locator": "8.8 External Evaluations for Alignment – UK AISI",
+   "note": "at-launch card; timing before release is implied by reporting at launch, not stated in the sentence"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "new robustness safety training techniques, GPT-6 Astra is significantly more robust to jailbreaks",
+   "locator": "1 Safety Overview, item 2",
+   "note": "also safe-completions and alignment training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we have additionally added misalignment monitoring to all tool-using inference involved in our external deployment of Astra",
+   "locator": "1 Safety Overview, item 4",
+   "note": "also realtime safeguards (10.2.3)"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "This section describes our trusted access programs, which reserve the most sensitive cybersecurity and biological capabilities for trusted users.",
+   "locator": "10.2.6 Trust-based Access",
+   "note": "Trusted Access for Biology / Cyber (Daybreak), phased"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "including dedicated detections and controls to mitigate model-weight exfiltration",
+   "locator": "10.2.7 Security Controls",
+   "note": "also checkpoint encryption (3 Internal Deployment)"
+  }
+ }
+}

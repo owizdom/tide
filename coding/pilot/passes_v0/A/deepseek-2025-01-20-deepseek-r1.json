@@ -1,0 +1,84 @@
+{
+ "release_id": "deepseek-2025-01-20-deepseek-r1",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "2.2.4",
+   "note": "'autonomously develops' describes RL self-evolution of reasoning, not an autonomy risk evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "2.2.2 Reward Modeling; 4.2",
+   "note": "reward hacking discussed as a training-engineering reason to avoid neural reward models, not evaluated as a misalignment risk"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we implement a secondary reinforcement learning stage aimed at improving the model’s helpfulness and harmlessness",
+   "locator": "2.3.4 Reinforcement Learning for all Scenarios",
+   "note": "harmlessness RL; also 'safety RL' causing refusals in 3.1"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "filters mentioned only for training data (cold-start/CoT filtering), not inference"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "3 Experiment",
+   "note": "'accessing the OpenAI-o1-1217 API' is about a baseline; model is open-sourced"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open weights; none"
+  }
+ }
+}

@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 THREE_LEVEL = ["dc_eval_cbrn", "dc_eval_cyber", "dc_eval_autonomy", "dc_eval_persuasion", "dc_eval_scheming",
                "framework_threshold"]
-BINARY = ["ext_test_any", "ext_test_named_org", "ext_test_government",
+BINARY = ["ext_test_any", "ext_test_named_org", "ext_test_government", "ext_test_timing_stated",
           "safeguards_training", "safeguards_runtime", "safeguards_access", "safeguards_weights"]
 VARIABLES = THREE_LEVEL + BINARY
 
@@ -32,6 +32,7 @@ KEYWORDS = {
     "ext_test_any": r"external|third-party|third party|red team",
     "ext_test_named_org": r"\bmetr\b|apollo|external|third-party|third party",
     "ext_test_government": r"\baisi\b|\bcaisi\b|safety institute|government",
+    "ext_test_timing_stated": r"pre-deployment|predeployment|prior to (?:release|deployment|launch)|before (?:release|deployment|launch)",
     "framework_threshold": r"responsible scaling|preparedness framework|frontier safety framework|frontier ai framework|risk management framework|asl-|critical capability level|\bccl",
     "safeguards_training": r"refus|safety training|rlhf|harmless|constitution",
     "safeguards_runtime": r"classifier|filter|moderation|monitor",

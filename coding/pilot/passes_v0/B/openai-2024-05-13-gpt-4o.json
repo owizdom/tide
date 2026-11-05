@@ -1,0 +1,84 @@
+{
+ "release_id": "openai-2024-05-13-gpt-4o",
+ "coder": "B",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-4o does not advance biological threat creation capabilities sufficient to meet our medium risk threshold.",
+   "locator": "3.6 Biological threats",
+   "note": "scorecard Low; tacit knowledge 69% consensus@10"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "the model completed 19% of high-school level, 0% of collegiate level and 1% of professional level CTF challenges",
+   "locator": "3.5 Cybersecurity",
+   "note": "CTF results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-4o scored a 0% on the autonomous replication and adaptation (ARA) tasks across 100 trials, although was able to complete some substeps",
+   "locator": "3.8 Model autonomy",
+   "note": "ARA and ML R&D results"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "AI audio clips were 78% of the human audio clips' effect size on opinion shift",
+   "locator": "3.7 Persuasion",
+   "note": "persuasion Medium (text), Low (voice)"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research believes that it is unlikely that GPT-4o is capable of catastrophic scheming",
+   "locator": "4.2 Apollo Research assessment",
+   "note": "scheming capability evals with findings; also self-exfiltration in autonomy section"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "the overall risk score for GPT-4o is classified as medium",
+   "locator": "3.4 Preparedness Framework Evaluations",
+   "note": "Preparedness Framework named, risk levels by category"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with more than 100 external red teamers",
+   "locator": "3.1 External red teaming",
+   "note": "pre-release, Mar to Jun 2024"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "we worked with independent third party labs, METR and Apollo Research to add an additional layer of validation for key risks from general autonomous capabilities",
+   "locator": "4 Third party assessments",
+   "note": "METR, Apollo, Gryphon Scientific; note third-party work followed text-only deployment per card"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only 'UK AISI's Theory of Mind' used as a benchmark dataset in Apollo's table; AISI did not test the model. White House commitments are policy. AMBIGUOUS keyword hit"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We trained the model to adhere to behavior that would reduce risk via post-training methods",
+   "locator": "3.3 Observed safety challenges",
+   "note": "post-trained refusals"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "integrated classifiers for blocking specific generations as a part of the deployed system",
+   "locator": "3.3",
+   "note": "output classifier, moderation model on transcripts"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'limited alpha' of Advanced Voice Mode is mentioned inside a copyright mitigation, not stated as a risk-tied access restriction. AMBIGUOUS, kept 0"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  }
+ }
+}

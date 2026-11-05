@@ -1,0 +1,84 @@
+{
+ "release_id": "anthropic-2023-07-11-claude-2",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.2, Evaluations and Red Teaming",
+   "note": "only 'national security and safety related risks' named generically; no CBRN domain named"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Neither ARC nor we believe that our current Claude models possess the dangerous capabilities (‘autonomous replication’ abilities) that ARC is aiming to detect",
+   "locator": "p.2, Evaluations and Red Teaming",
+   "note": "threshold-style determination from ARC autonomous replication evaluations of current Claude models incl. Claude 2"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.11, 5 Areas for Improvement",
+   "note": "'misalignment from near-future AI systems' is a general statement, no evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no framework named"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test Claude 2 on a range of Trust and Safety related topics",
+   "locator": "p.2, Evaluations and Red Teaming",
+   "note": "external red teamers pre-deployment"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have been working with the Alignment Research Center (ARC) since fall of 2022 to support their safety audits of our AI models.",
+   "locator": "p.2, Evaluations and Red Teaming",
+   "note": "ARC named; at-launch card reports ARC audit of current models incl. Claude 2"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "p.2",
+   "note": "'working with policymakers' is a generic statement, not government testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Using this Constitution, models are trained to avoid sexist, racist, and toxic outputs, as well as to avoid helping a human engage in illegal or unethical activities.",
+   "locator": "p.2, Ethical Considerations",
+   "note": "Constitutional AI and RLHF"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "our Trust and Safety processes, which help enforce our AUP",
+   "locator": "p.2, Ethical Considerations",
+   "note": "production enforcement of the AUP read as moderation/monitoring; no classifier named (borderline)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no risk-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  }
+ }
+}

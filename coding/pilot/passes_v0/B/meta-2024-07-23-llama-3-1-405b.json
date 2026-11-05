@@ -1,0 +1,84 @@
+{
+ "release_id": "meta-2024-07-23-llama-3-1-405b",
+ "coder": "B",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we performed uplift testing designed to assess whether use of Llama 3.1 models could meaningfully increase the capabilities of malicious actors to plan or carry out attacks using these types of weapons",
+   "locator": "Responsibility & Safety, Critical and other risks, 1. CBRNE",
+   "note": "evaluation stated, no result reported"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Our cyber attack uplift study investigated whether LLMs can enhance human capabilities in hacking tasks, both in terms of skill level and speed.",
+   "locator": "Critical and other risks, 3. Cyber attack enablement",
+   "note": "studies described, no result in card (points to whitepaper)"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "attack automation study evaluates LLMs as autonomous agents in ransomware but is a cyber study with no result; AMBIGUOUS between cyber and autonomy, kept 0"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "social engineering / spear phishing uplift study is described under cyber; no persuasion/manipulation/influence-operation domain named. AMBIGUOUS"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no deception/sabotage evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'Responsible release approach' and Responsible Use Guide are not a named scaling/safety framework with thresholds"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We partnered early with subject-matter experts in critical risk areas to understand the nature of these real-world harms",
+   "locator": "Red teaming",
+   "note": "partnered experts and red team incl. cybersecurity experts; whether all external is not explicit"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside organisation named as tester (AI Alliance, MLCommons are community consortia)"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Our main objectives for conducting safety fine-tuning are to provide the research community with a valuable resource for studying the robustness of safety fine-tuning",
+   "locator": "Llama 3.1 instruct",
+   "note": "safety fine-tuning, RLHF for helpfulness and safety"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We built dedicated, adversarial evaluation datasets and evaluated systems composed of Llama models and Llama Guard 3 to filter input prompt and output response.",
+   "locator": "Llama 3.1 systems",
+   "note": "classifiers provided and evaluated as part of system; deployed by developers (AMBIGUOUS whether lab-applied)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none; open release, bug bounty is post-release"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none; weights openly released"
+  }
+ }
+}

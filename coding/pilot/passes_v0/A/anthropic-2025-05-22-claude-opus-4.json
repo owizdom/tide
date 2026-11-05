@@ -1,0 +1,84 @@
+{
+ "release_id": "anthropic-2025-05-22-claude-opus-4",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Altogether, the uplift for Claude Opus 4 and Claude Sonnet 4 was 2.53× and 1.70×, respectively.",
+   "locator": "7.2.4.1 Bioweapons acquisition uplift trial",
+   "note": "many bio results vs ASL-3/ASL-4 thresholds; chem/rad/nuc deferred to partners"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Based on the evaluation results, we believe the models do not demonstrate catastrophically risky capabilities in the cyber domain.",
+   "locator": "7.4 Cyber evaluations",
+   "note": "CTF scores per category, e.g. Web 12/15, Cybench 22/39"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude Opus 4 successfully passed an average of 16.6/42 problems, remaining below threshold.",
+   "locator": "7.3.1 SWE-bench Verified (hard subset)",
+   "note": "AI R&D / autonomy evals vs checkpoint and ASL-4 thresholds"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to hide dangerous capabilities, and attempts to manipulate users toward certain views",
+   "locator": "4 Alignment assessment",
+   "note": "manipulation named as a phenomenon the alignment assessment aims to detect; the audit dimension 'emotionally manipulative toward the auditor' is scored only in a figure (no numbers in text); 'Influence Operations' appears only as a refusal-test category; no persuasion capability result"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "None of the snapshots we tested showed significant signs of sandbagging, or strategically hiding capabilities during evaluation.",
+   "locator": "4 Alignment assessment",
+   "note": "also Apollo Research scheming/deception findings (4.1.1.4), self-exfiltration, subtle sabotage results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have decided to release Claude Opus 4 under the ASL-3 Standard and Claude Sonnet 4 under the ASL-2 Standard.",
+   "locator": "1.2.3 AI Safety Level determination process",
+   "note": "RSP; ASL-3 not ruled out, ASL-4 ruled out"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Several of our external red-teaming partners reported that Claude Opus 4 performed qualitatively differently from any model they had previously tested.",
+   "locator": "1.2.4 Conclusions",
+   "note": "external red teaming pre-deployment"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "we contracted with Apollo Research to assess an early snapshot for propensities and capabilities related to sabotage",
+   "locator": "4.1.1.4 External scenario evaluations",
+   "note": "also Deloitte red teaming (7.2.4.2)"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "joint pre-deployment testing of the new Claude Opus 4 model was conducted by the US AI Safety Institute (US AISI) and the UK AI Security Institute (UK AISI)",
+   "locator": "7.5 Third party assessments",
+   "note": "explicitly pre-deployment"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "To elicit helpful, honest, and harmless responses, we used a variety of techniques including human feedback, Constitutional AI",
+   "locator": "1.1.1 Training data and process",
+   "note": "also harmlessness training (3.1, 3.3)"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We implemented additional monitoring of harmful behavior",
+   "locator": "3.1 Malicious applications of computer use",
+   "note": "also prompt-injection detection systems, ASL-3 safeguards blocking bio prompts"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "3.1; 1.1.2",
+   "note": "account banning is post-hoc enforcement and Developer Mode opt-in is not risk-tied; no trusted-access/KYC/tiered restriction described"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we believe that our security is sufficient to prevent model self-exfiltration attempts by models of Claude Opus 4’s capability level",
+   "locator": "4.1.1.1 Continuations of self-exfiltration attempts",
+   "note": "security against weight self-exfiltration; ASL-3 'security controls' (1.2.4)"
+  }
+ }
+}

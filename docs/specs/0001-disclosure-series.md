@@ -46,7 +46,8 @@ Each is coded from the card as available at launch. "Card" means a document from
 | `card_at_launch` | card public no later than launch day + 2 | FMTI 44, 48 ("concurrent with release") |
 | `card_ever`, `card_days_after_launch` | first card by 2026-10-31, and its lag in days | brief |
 | `dc_eval_{cbrn,cyber,autonomy,persuasion,scheming}` | 0 not mentioned, 1 domain named without a result, 2 result reported on this model | FMTI 47, 48 |
-| `ext_test_any`, `ext_test_named_org`, `ext_test_government` | pre-deployment testing by outsiders, a named organisation, a government body (US CAISI or AISI, UK AISI, other) | FMTI 50, 51 |
+| `ext_test_any`, `ext_test_named_org`, `ext_test_government` | testing by outsiders, a named organisation, a government body (US CAISI or AISI, UK AISI, other), counted unless the card says it came after release | FMTI 50, 51 |
+| `ext_test_timing_stated` | the card states some outside testing happened before release | brief ("pre-deployment") |
 | `framework_threshold` | 0 none, 1 framework named, 2 the model's position against a named threshold stated (ASL-3, "High", a CCL) | FMTI 58 |
 | `safeguards_{training,runtime,access,weights}` | safety training, runtime classifiers or monitoring, access restrictions, weight security | FMTI 52, 56, 88 to 90 |
 | `card_words`, `card_pages` | length of the launch version | brief; reported apart, never scored |

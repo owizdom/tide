@@ -1,0 +1,84 @@
+{
+ "release_id": "google-2023-12-06-gemini-1-0-pro",
+ "coder": "A",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "biohazard testing named, no result; 'biorisk' also an impact-assessment focus area"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "cybersecurity testing named, no result"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned as an evaluated risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations",
+   "note": "persuasion testing named, no result"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "6.3, 6.6",
+   "note": "no named safety/scaling framework; Shevlane et al. citation and AI Principles/RSC are not a framework with thresholds"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "External evaluations are conducted by partners outside of Google to identify blindspots.",
+   "locator": "6.3 Evaluations",
+   "note": "external groups stress-test and red team the models"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "6.3 Evaluations",
+   "note": "external partners not named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "6.3 Evaluations",
+   "note": "White House Commitments referenced as test areas, not a government tester"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Instruction tuning recipes are carefully designed to balance the increase in helpfulness with decrease in model harms related to safety and hallucinations",
+   "locator": "6.4.2 Instruction Tuning",
+   "note": "SFT/RLHF with safety reward, constitution-style data"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "4 Training Dataset; 6.4.1",
+   "note": "filters/classifiers described only for training data, not inference or production"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "footnote 2",
+   "note": "Ultra general availability later is mentioned, but not as a risk-tied restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "3 Training Infrastructure",
+   "note": "'checkpointing of weights' is about training reliability, not security"
+  }
+ }
+}
