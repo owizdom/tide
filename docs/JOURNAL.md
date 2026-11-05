@@ -48,3 +48,9 @@
 - Review 1 (Opus 5.5): 19 of 87 rows on the wrong document or version, tests green. Earlier preliminary card-at-launch numbers RETRACTED to the user. Fixes: arXiv abs -> v1 PDF; HF blob -> resolve; launch-window pick; undated cards dated by first capture; redirect following; CDX errors raise instead of live fallback; zstd/gzip decompress; printed date from coded bytes; search tokens ignore "not run"; card-signal test. Wisdom: docs spec pages are not cards.
 - Review 2 (Opus 5.5): 9 of 11 fixed; new N1-N6 (relative redirect Location, missed launch-day Anthropic copies, DeepSeek R1 and V4-Pro launch PDFs at commits, Mistral Large 4 placeholder capture, April Gemini 2.5 Pro card). All fixed with per-release regression tests; also CDX query encoding of '&' (Fable 5.1). No third review round: regressions are asserted per release; the final review covers Track B again.
 - Pinned Epoch zip left ~/Desktop (copies in ~/Downloads and Trash, both sha256 a31aafbf...); vendored at releases/epoch/ai_models.zip.
+
+### 2026-11-05 Track C pilot and main pass start
+
+- Pilot: pass A Opus 5.5 and pass B Sonnet 5.5 on 10 releases (coding/pilot_ids.txt). AT6 and AT7 clean. 130 codes, 7 disagreements; kappa ext_test_any 0.60, ext_test_named_org 0.60, safeguards_weights 0.62, ext_test_government 0.74, safeguards_runtime 0.78, dc_eval_autonomy 0.82, the rest 1.00. Both pilot coders keyword-scanned parts of the three longest cards; the main brief forbids that.
+- Wisdom: outside testing counts unless the card says it came after release; new flag ext_test_timing_stated carries the strict reading. Codebook v1 frozen with boundary rules from the pilot. Pilot passes archived in coding/pilot/passes_v0.
+- Main pass: 73 cards, 1,235,825 words, 12 groups of about 103k words (coding/groups/), wave 1 = groups 1-3 for A (Opus) and B (Sonnet). Wisdom approved the token cost.
