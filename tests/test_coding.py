@@ -54,3 +54,17 @@ def test_at6_every_positive_code_quote_is_in_the_card():
     assert passes.exists() and any(passes.iterdir()), "no coding passes yet"
     probs = check.verify_all(passes)
     assert probs == [], "\n".join(probs[:20])
+
+
+def test_passes_are_independent():
+    """Two independent coders never share most of their free-text notes for one release."""
+    a_dir, b_dir = ROOT / "coding" / "passes" / "A", ROOT / "coding" / "passes" / "B"
+    a, b = check.load_pass(a_dir), check.load_pass(b_dir)
+    bad = []
+    for rid in sorted(set(a) & set(b)):
+        same = sum(1 for v in check.VARIABLES
+                   if a[rid]["codes"].get(v, {}).get("note") and
+                   a[rid]["codes"][v]["note"] == b[rid]["codes"].get(v, {}).get("note"))
+        if same >= 4:
+            bad.append((rid, same))
+    assert bad == [], bad

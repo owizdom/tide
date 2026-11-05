@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2024-06-20-claude-3-5-sonnet",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude 3.5 Sonnet\ndid not exceed our safety thresholds in these evaluations and we classify it at ASL-2.",
+   "locator": "3.3 Safety Evaluations Results",
+   "note": "threshold determination across CBRN, cyber, autonomy evals (3.2 lists CBRN tests)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude 3.5 Sonnet\ndid not exceed our safety thresholds in these evaluations and we classify it at ASL-2.",
+   "locator": "3.3 Safety Evaluations Results",
+   "note": "threshold determination; 3.2 says cyber assessed via CTF challenges"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude 3.5 Sonnet\ndid not exceed our safety thresholds in these evaluations and we classify it at ASL-2.",
+   "locator": "3.3 Safety Evaluations Results",
+   "note": "threshold determination; 3.2 says autonomous capabilities evaluated"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Persuasion/manipulation not mentioned; keywords absent."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/sabotage evaluation; 'Honesty' only appears as a human-preference win-rate category, not a misalignment eval."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Based on our assess-\nments, we classify Claude 3.5 Sonnet as an AI Safety Level 2 (ASL-2) model",
+   "locator": "3.1 Introduction",
+   "note": "places model at ASL-2 under the RSP"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "The\nUK AISI also conducted pre-deployment testing of a near-final model",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "external testing by UK AISI (and METR)"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Additionally, METR [28] did an initial exploration of\nthe model’s autonomy-relevant capabilities.",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "METR and UK AISI named; no post-release timing stated for METR"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "The\nUK AISI also conducted pre-deployment testing of a near-final model",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "UK AISI government testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "The\nUK AISI also conducted pre-deployment testing of a near-final model",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "'pre-deployment' stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "safety\nguardrails can cause capability evaluations to underestimate a model’s underlying capabilities due to refusals\ncaused by the HHH training.",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "model is HHH-trained (harmlessness training producing refusals)"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No classifier, filter or monitoring mechanism named; refusal keyword appears only for model behaviour evals."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only a hypothetical 'increase in safety and security protections' if thresholds were exceeded; none stated as applied to this model."
+  }
+ }
+}

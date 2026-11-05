@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2024-02-08-gemini-1-0-ultra",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations, assurance evaluations",
+   "note": "named as tested, no result"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations, assurance evaluations",
+   "note": "named as tested, no result"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy, replication or AI R&D risk evaluation; AlphaCode 2 is a capability demo."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "locator": "6.3 Evaluations, assurance evaluations",
+   "note": "named as tested, no result"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception or misalignment evaluation; hedging and factuality are hallucination."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No scaling or safety framework named; model policies and AI Principles only."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "External evaluations are conducted by partners outside of Google to identify blindspots.",
+   "locator": "6.3 Evaluations",
+   "note": "outside partners stress-test"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Partners not named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "White House Commitments are a reference list of areas, not government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No statement that outside testing preceded release; periodic reporting only."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "for reward model training, we find it critical to balance the dataset with examples where the model prefers to say, “I cannot help with that,” for safety reasons",
+   "locator": "6.4.2 Instruction Tuning",
+   "note": "SFT, RLHF, constitution-inspired data"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Classifiers appear only for training data filtering, not inference-time."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None described."
+  }
+ }
+}

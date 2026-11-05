@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-11-13-gpt-5-1",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "we are continuing to treat GPT-5.1 as High risk in the Biological and Chemical domain",
+   "locator": "3 Preparedness Framework",
+   "note": "threshold determination for this model"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "evaluations of near-final checkpoints indicate that, like their GPT-5 predecessor models, GPT-5.1 models do not have a plausible chance of reaching a High threshold",
+   "locator": "3 Preparedness Framework",
+   "note": "cybersecurity evaluated, below High; threshold determination"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "evaluations of near-final checkpoints indicate that, like their GPT-5 predecessor models, GPT-5.1 models do not have a plausible chance of reaching a High threshold",
+   "locator": "3 Preparedness Framework",
+   "note": "AI self-improvement named in same sentence, below High"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no deception/sabotage/evaluation awareness evaluation in addendum"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are continuing to treat GPT-5.1 as High risk in the Biological and Chemical domain",
+   "locator": "3 Preparedness Framework",
+   "note": "places model at High"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only internal 'pre-deployment safety review'; no outside testers named"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside org named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government body"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing stated"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no safety training described in addendum; defers to GPT-5 card"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only 'routing to specific safer models' mentioned as possible future mitigation; no named runtime mechanism"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no access restriction described"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight protection described"
+  }
+ }
+}

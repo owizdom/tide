@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2025-11-13-gpt-5-1",
+ "coder": "A",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "we are continuing to treat GPT-5.1\nas High risk in the Biological and Chemical domain",
+   "locator": "3 Preparedness Framework",
+   "note": "threshold determination: High in bio/chem"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "For cybersecurity and AI self-improvement, evaluations of near-final checkpoints\nindicate that, like their GPT-5 predecessor models, GPT-5.1 models do not have a plausible\nchance of reaching a High threshold.",
+   "locator": "3 Preparedness Framework",
+   "note": "threshold determination below High for cyber"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "For cybersecurity and AI self-improvement, evaluations of near-final checkpoints\nindicate that, like their GPT-5 predecessor models, GPT-5.1 models do not have a plausible\nchance of reaching a High threshold.",
+   "locator": "3 Preparedness Framework",
+   "note": "AI self-improvement threshold determination below High"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation evaluation mentioned; keywords absent."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/sabotage/scheming evaluation mentioned; keywords absent."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are continuing to treat GPT-5.1\nas High risk in the Biological and Chemical domain",
+   "locator": "3 Preparedness Framework",
+   "note": "places model at High under the Preparedness Framework"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testers mentioned; only internal evals and A/B online measurements."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing, so no timing; 'pre-deployment safety review' refers to internal baseline evals."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Refusal rates are measured but no safety training method is described in this addendum; mitigations deferred to GPT-5 card."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'corresponding safeguards' and possible 'routing to specific safer models' named only generically/hypothetically; no mechanism stated as applied. Keyword 'refus' appears only in jailbreak eval description."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

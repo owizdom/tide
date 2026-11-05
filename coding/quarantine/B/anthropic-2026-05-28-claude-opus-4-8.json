@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-05-28-claude-opus-4-8",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Our capability assessments are consistent with the model being capable of providing specific, actionable information relevant to the threat model",
+   "locator": "2.1.3.2; 2.2 CB evaluations",
+   "note": "scores for virology, DNA screening, RNA design, AAV in Table 2.2.3.B"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 4.8 generally demonstrated slightly stronger cyber capabilities than Opus 4.7",
+   "locator": "3.1 Introduction; 3.3",
+   "note": "ExploitBench, CyberGym, OSS-Fuzz results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Autonomy threat model 2 is not applicable to Claude Opus 4.8.",
+   "locator": "2.1.3.1; 2.3 AI R&D",
+   "note": "AI R&D determination plus evaluations"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "The helpful-only version of Claude Opus 4.8 showed a notably higher success rate than even Claude Mythos Preview on both tasks",
+   "locator": "5.1.3 Malicious agentic influence campaigns",
+   "note": "influence operation task completion 73.3% and 55.1%"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "None of the transcripts analyzed displayed clear signs of deliberate sandbagging.",
+   "locator": "6.4.1 sandbagging; 6.2.3 alignment audit; 6.6.2 evaluation awareness",
+   "note": "sandbagging, SHADE-Arena, evaluation awareness results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We believe these risk mitigations are equal to or stronger than our historical ASL-3 protections",
+   "locator": "2.1.3.2; Autonomy TM2 not applicable; CB-2 not crossed",
+   "note": "RSP threshold determinations"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing",
+   "locator": "6.2.4 External testing from the UK AI Security Institute",
+   "note": "also Andon Labs, Gray Swan"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Gray Swan, an external research partner, evaluated our models using the Agent Red",
+   "locator": "5.2.1; 6.2.5 Andon Labs",
+   "note": "Gray Swan, Andon Labs, Meridian, UK AISI"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing",
+   "locator": "6.2.4",
+   "note": "UK AI Security Institute"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.8 with UK AISI for open-ended testing",
+   "locator": "6.2.4",
+   "note": "pre-release stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the fully-trained versions of these models—which include harmlessness training—refused to engage with these tasks essentially from the first turn",
+   "locator": "5.1.3",
+   "note": "harmlessness training; constitution-aligned post-training in 1.1"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we apply strong real-time classifier guards to this model and access controls for classifier guard exemptions",
+   "locator": "2.1.3.2; 3.2 Mitigations",
+   "note": "classifier guards, probe-based classifiers"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Cybersecurity practitioners who have appropriate dual use cases and who are experiencing blocks from these probes can apply for exemptions from these safeguards through our Cyber Verification Program.",
+   "locator": "3.2 Mitigations",
+   "note": "exemption programme tied to misuse risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "security controls to reduce risk of model weight theft",
+   "locator": "2.1.3.2",
+   "note": "stated protection"
+  }
+ }
+}

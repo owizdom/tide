@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2024-06-20-claude-3-5-sonnet",
+ "coder": "B",
+ "codebook": "v1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude 3.5 Sonnet did not exceed our safety thresholds in these evaluations and we classify it at ASL-2.",
+   "locator": "3.3 Safety Evaluations Results",
+   "note": "CBRN knowledge tests and uplift study named in 3.2; threshold determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Cybersecurity was assessed through capture-the-flag challenges testing vulnerability discovery and exploit development.",
+   "locator": "3.2 Safety Evaluations Overview",
+   "note": "with threshold determination in 3.3 (did not exceed thresholds)"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude 3.5 Sonnet did not exceed our safety thresholds in these evaluations and we classify it at ASL-2.",
+   "locator": "3.3 Safety Evaluations Results",
+   "note": "autonomous capabilities evaluated; threshold determination; METR explored autonomy-relevant capabilities"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned as evaluated risk"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no deception/sabotage evaluation; 'Honesty' win rate is a helpfulness comparison"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we classify Claude 3.5 Sonnet as an AI Safety Level 2 (ASL-2) model, indicating that it does not pose risk of catastrophic harm",
+   "locator": "3.1 Introduction",
+   "note": "places model at ASL-2 under RSP"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we worked with external third party evaluation partners such as the UK Artificial Intelligence Safety Institute (UK AISI) to independently assess Claude 3.5 Sonnet",
+   "locator": "3.1 Introduction",
+   "note": "outside testers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Additionally, METR [28] did an initial exploration of the model\u2019s autonomy-relevant capabilities.",
+   "locator": "3.2",
+   "note": "METR named"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "The UK AISI also conducted pre-deployment testing of a near-final model",
+   "locator": "3.2",
+   "note": "UK AISI"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "The UK AISI also conducted pre-deployment testing of a near-final model",
+   "locator": "3.2",
+   "note": "pre-deployment stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "refusals caused by the HHH training",
+   "locator": "3.2",
+   "note": "HHH training described as safety guardrail causing refusals"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no classifier/filter/monitoring named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  }
+ }
+}
