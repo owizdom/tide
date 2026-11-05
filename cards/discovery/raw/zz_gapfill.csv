@@ -1,0 +1,14 @@
+release_id,doc_kind,card_url,card_date,card_date_src,wayback_first_200,announcement_url,status,search_log,notes
+anthropic-2023-04-18-claude-1-3,none,,,,,,VERIFIED,"lab site: anthropic.com/news live 200, no Claude 1.3 card or mention (2026-11-05)",gap search by orchestrator
+google-2025-02-05-gemini-2-0-pro,none,,,,,,VERIFIED,"arXiv API ti:""Gemini 2.0"": 5 third-party papers, no Google card; GitHub org listings google-deepmind and google-gemini: no 2.0 Pro card repo; HF api models author=google search=gemini: none",gap search by orchestrator
+meta-2026-08-05-muse-spark-1-2,none,,,,,,VERIFIED,"arXiv API ti:""Muse Spark"": only 'Muse Spark Safety & Preparedness Report' (2026-05-14, Muse Spark 1.0); GitHub org listings facebookresearch and meta-llama: no Muse repo; HF api models author=facebook and meta-llama search=muse: none",gap search by orchestrator
+mistral-2023-12-11-mistral-medium,none,,,,,,VERIFIED,GitHub org listing mistralai (100 newest): no Medium or Large card repo,gap search by orchestrator
+mistral-2024-02-26-mistral-large,none,,,,,,VERIFIED,GitHub org listing mistralai (100 newest): no Medium or Large card repo,gap search by orchestrator
+mistral-2025-05-07-mistral-medium-3,none,,,,,,VERIFIED,"GitHub org listing mistralai: no Medium repo; HF api models author=mistralai search=Medium: only Medium 3.5 repos",gap search by orchestrator
+mistral-2025-08-12-mistral-medium-3-1,none,,,,,,VERIFIED,"lab site: mistral.ai/news live 200, no 'Medium 3.1' string; GitHub org listing mistralai: no Medium repo; HF search=Medium: only Medium 3.5",gap search by orchestrator
+mistral-2025-09-18-magistral-medium-1-2,none,,,,,,VERIFIED,"GitHub org listing mistralai: no Magistral repo; HF api models author=mistralai search=Magistral-Medium: none; lab site mistral.ai/news/magistral-1-2 404",gap search by orchestrator
+xai-2024-03-28-grok-1-5,none,,,,,,VERIFIED,"arXiv API ti/abs ""Grok-1.5"": no results",gap search by orchestrator
+xai-2025-02-17-grok-3,none,,,,,,VERIFIED,"arXiv API ti ""Grok 3"" or ""Grok-3"": no results",gap search by orchestrator
+xai-2026-04-17-grok-4-3-beta,none,,,,,,VERIFIED,"arXiv API ti ""Grok 4.3"": no results",gap search by orchestrator
+google-2025-02-05-gemini-2-0-pro,none,,,,,,VERIFIED,"Wayback CDX prefix storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Pro* and deepmind.google/models/model-cards/gemini-2-0-pro*: no 200 captures (2026-11-05)",gap search by orchestrator after Track B review
+mistral-2025-09-18-magistral-medium-1-2,docs_page,https://docs.mistral.ai/models/magistral-medium-1-2-25-09,,,20251025183031,,VERIFIED,"Wayback CDX prefix docs.mistral.ai/models/magistral-medium*: 1.2 docs page first 200 20251025183031; mistral.ai/news/magistral* captures are the 1.1 post; huggingface.co/mistralai/Magistral-Medium*: no captures",docs spec page; not a card (Wisdom 2026-11-05)
