@@ -1,0 +1,334 @@
+lab,epoch_date,epoch_name,accessibility,decision,reason,version,tier,ref,note
+anthropic,2023-03-14,Claude,API access,include,NEW_VERSION,1,base,,
+anthropic,2023-04-18,Claude 1.3,API access,include,NEW_VERSION,1.3,base,,
+anthropic,2023-07-11,Claude 2,API access,include,NEW_VERSION,2,base,,
+anthropic,2023-08-09,Claude Instant,API access,exclude,SMALL_TIER,,instant,,
+anthropic,2023-11-21,Claude 2.1,API access,include,NEW_VERSION,2.1,base,,
+anthropic,2024-03-04,Claude 3 Haiku,API access,exclude,SMALL_TIER,,haiku,,
+anthropic,2024-03-04,Claude 3 Opus,API access,include,NEW_VERSION,3,opus,,
+anthropic,2024-03-04,Claude 3 Sonnet,API access,exclude,LOWER_TIER,3,sonnet,Claude 3 Opus,
+anthropic,2024-06-20,Claude 3.5 Sonnet,API access,include,NEW_VERSION,3.5,sonnet,,
+anthropic,2024-10-22,Claude 3.5 Haiku,API access,exclude,SMALL_TIER,,haiku,,
+anthropic,2024-10-22,Claude 3.5 Sonnet (October 2024),API access,exclude,SNAPSHOT,,,Claude 3.5 Sonnet,
+anthropic,2025-02-24,Claude 3.7 Sonnet,API access,include,NEW_VERSION,3.7,sonnet,,
+anthropic,2025-05-22,Claude Opus 4,API access,include,NEW_VERSION,4,opus,,
+anthropic,2025-05-22,Claude Sonnet 4,API access,exclude,LOWER_TIER,4,sonnet,Claude Opus 4,
+anthropic,2025-08-05,Claude Opus 4.1,API access,include,NEW_VERSION,4.1,opus,,
+anthropic,2025-09-29,Claude Sonnet 4.5,API access,include,NEW_VERSION,4.5,sonnet,,
+anthropic,2025-10-15,Claude Haiku 4.5,API access,exclude,SMALL_TIER,,haiku,,
+anthropic,2025-11-24,Claude Opus 4.5,API access,include,HIGHER_TIER,4.5,opus,Claude Sonnet 4.5,
+anthropic,2026-02-05,Claude Opus 4.6,API access,include,NEW_VERSION,4.6,opus,,
+anthropic,2026-02-17,Claude Sonnet 4.6,API access,exclude,LOWER_TIER,4.6,sonnet,Claude Opus 4.6,
+anthropic,2026-04-07,Claude Mythos Preview,Limited access,exclude,NOT_PUBLIC,,,,Epoch: not available to the general public; trusted partners via Project Glasswing
+anthropic,2026-04-16,Claude Opus 4.7,API access,include,NEW_VERSION,4.7,opus,,
+anthropic,2026-05-28,Claude Opus 4.8,API access,include,NEW_VERSION,4.8,opus,,
+anthropic,2026-06-09,Claude Fable 5,API access,include,NEW_VERSION,5,fable,,"Epoch abstract: Mythos-class, exceeds any model made generally available"
+anthropic,2026-06-30,Claude Sonnet 5,API access,exclude,LOWER_TIER,5,sonnet,Claude Fable 5,
+anthropic,2026-07-24,Claude Opus 5,API access,exclude,LOWER_TIER,5,opus,Claude Fable 5,Epoch abstract: comes close to Fable 5 at half the price
+anthropic,2026-09-01,Claude Fable 5.1,API access,include,NEW_VERSION,5.1,fable,,
+anthropic,2026-09-22,Claude Opus 5.5,API access,include,NEW_VERSION,5.5,opus,,
+anthropic,2026-09-28,Claude Sonnet 5.5,API access,exclude,LOWER_TIER,5.5,sonnet,Claude Opus 5.5,
+anthropic,2026-10-07,Claude Haiku 5.5,API access,exclude,SMALL_TIER,,haiku,,
+deepseek,2023-11-02,DeepSeek Coder 1.3B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+deepseek,2023-11-02,DeepSeek Coder 33B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+deepseek,2023-11-02,DeepSeek Coder 6.7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+deepseek,2024-01-05,DeepSeek LLM 67B,Open weights (restricted use),include,NEW_VERSION,llm,pro,,
+deepseek,2024-01-05,DeepSeek LLM 7B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+deepseek,2024-01-11,DeepSeekMoE-16B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+deepseek,2024-02-05,DeepSeekMath 7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,math
+deepseek,2024-03-08,DeepSeek-VL-1.3B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,"vision, small"
+deepseek,2024-03-08,DeepSeek-VL-7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,"vision, small"
+deepseek,2024-05-07,DeepSeek-V2 (MoE-236B),Open weights (restricted use),include,NEW_VERSION,2,pro,,
+deepseek,2024-06-17,DeepSeek-Coder-V2 236B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+deepseek,2024-08-15,DeepSeek-Prover-V1.5,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,theorem proving
+deepseek,2024-09-06,DeepSeek-V2.5,Open weights (restricted use),include,NEW_VERSION,2.5,pro,,
+deepseek,2024-10-17,Janus 1.3B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,"image, small"
+deepseek,2024-11-20,DeepSeek-R1-Lite-Preview,Hosted access (no API),exclude,SMALL_TIER,,small,,Lite preview of the R1 line
+deepseek,2024-12-24,DeepSeek-V3,Open weights (restricted use),include,NEW_VERSION,3,pro,,
+deepseek,2025-01-20,DeepSeek-R1,Open weights (unrestricted),include,NEW_VERSION,r1,pro,,
+deepseek,2025-01-20,DeepSeek-R1-Zero,Open weights (unrestricted),exclude,LOWER_TIER,r1,exp,DeepSeek-R1,research variant released alongside R1
+deepseek,2025-01-22,DeepSeek-R1-Distill-Llama-70B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,distilled onto a Llama base
+deepseek,2025-01-22,DeepSeek-R1-Distill-Llama-8B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+deepseek,2025-01-22,DeepSeek-R1-Distill-Qwen-1.5B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+deepseek,2025-01-22,DeepSeek-R1-Distill-Qwen-14B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+deepseek,2025-01-22,DeepSeek-R1-Distill-Qwen-32B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+deepseek,2025-01-22,DeepSeek-R1-Distill-Qwen-7B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+deepseek,2025-01-27,Janus-Pro-1B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,image
+deepseek,2025-01-27,Janus-Pro-7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,image
+deepseek,2025-03-24,DeepSeek-V3 (Mar 2025),Open weights (restricted use),exclude,SNAPSHOT,,,DeepSeek-V3,
+deepseek,2025-04-30,DeepSeek-Prover-V2-671B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,theorem proving
+deepseek,2025-04-30,DeepSeek-Prover-V2-7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,theorem proving
+deepseek,2025-05-28,DeepSeek-R1 (May 2025),Open weights (unrestricted),exclude,SNAPSHOT,,,DeepSeek-R1,
+deepseek,2025-08-21,DeepSeek-V3.1,Open weights (unrestricted),include,NEW_VERSION,3.1,pro,,
+deepseek,2025-09-22,DeepSeek-V3.1-Terminus,Open weights (unrestricted),exclude,SNAPSHOT,,,DeepSeek-V3.1,
+deepseek,2025-09-29,DeepSeek-V3.2-Exp,Open weights (unrestricted),include,NEW_VERSION,3.2,exp,,
+deepseek,2025-10-21,Deepseek OCR,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,ocr
+deepseek,2025-11-27,DeepSeekMath-V2,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,math
+deepseek,2025-12-01,DeepSeek-V3.2,Open weights (unrestricted),exclude,SNAPSHOT,,,DeepSeek-V3.2-Exp,general release after the experimental one; previews count once (Wisdom 2026-11-05)
+deepseek,2026-04-24,DeepSeek-V4-Flash,Open weights (unrestricted),exclude,LOWER_TIER,4,flash,DeepSeek-V4-Pro,
+deepseek,2026-04-24,DeepSeek-V4-Pro,Open weights (unrestricted),include,NEW_VERSION,4,pro,,
+deepseek,2026-07-31,DeepSeek V4 Flash 0731,Open weights (unrestricted),exclude,SNAPSHOT,,,DeepSeek-V4-Pro,dated re-release of V4-Flash
+deepseek,2026-08-13,DeepSeek V4 Pro 0813,Open weights (unrestricted),exclude,SNAPSHOT,,,DeepSeek-V4-Pro,
+deepseek,2026-09-09,DeepSeek V4.1 Flash,Open weights (unrestricted),include,NEW_VERSION,4.1,flash,,top tier released under 4.1
+google,2023-03-03,Flan UL2,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,open research model while PaLM is the flagship
+google,2023-05-10,PaLM 2,API access,include,NEW_VERSION,palm2,ultra,,umbrella entry; Unicorn is the largest size
+google,2023-05-10,PaLM-2 Bison,API access,exclude,LOWER_TIER,palm2,pro,PaLM 2,
+google,2023-05-10,PaLM-2 Gecko,API access,exclude,SMALL_TIER,,nano,,
+google,2023-05-10,PaLM-2 Otter,API access,exclude,LOWER_TIER,palm2,flash,PaLM 2,
+google,2023-05-10,PaLM-2 Unicorn,API access,exclude,LOWER_TIER,palm2,ultra,PaLM 2,same model family entry as PaLM 2
+google,2023-09-09,MADLAD-400 10B,Open weights (unrestricted),exclude,NOT_GENERAL,,,,translation research model
+google,2023-12-06,Gemini 1.0 Pro,API access,include,NEW_VERSION,1.0,pro,,top tier publicly usable on 2023-12-06
+google,2023-12-06,Gemini 1.0 Ultra,API access,include,HIGHER_TIER,1.0,ultra,Gemini 1.0 Pro,
+google,2023-12-13,MedLM,API access,exclude,DOMAIN_VARIANT,,,,medical
+google,2023-12-14,FunSearch,Open weights (unrestricted),exclude,NOT_GENERAL,,,,research method
+google,2023-12-19,Gemini Nano-1,API access,exclude,SMALL_TIER,,nano,,
+google,2024-02-15,Gemini 1.0 Pro Vision,API access,exclude,DOMAIN_VARIANT,,,,vision variant of 1.0 Pro
+google,2024-02-15,Gemini 1.5 Pro,API access,include,NEW_VERSION,1.5,pro,,
+google,2024-02-21,Gemma 2B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-02-21,Gemma 7B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-02-24,Gemma 1.1 7B Instruct,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-05-10,Gemini 1.5 Flash,API access,exclude,LOWER_TIER,1.5,flash,Gemini 1.5 Pro,
+google,2024-05-10,Gemini 1.5 Flash 8B,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2024-05-14,LearnLM-Tutor,Hosted access (no API),exclude,DOMAIN_VARIANT,,,,education
+google,2024-06-13,OpenVLA,Open weights (unrestricted),exclude,THIRD_PARTY,,,,Stanford-led robotics model
+google,2024-06-14,DigiRL,Open weights (unrestricted),exclude,THIRD_PARTY,,,,UC Berkeley-led agent research
+google,2024-06-24,Gemma 2 27B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-06-24,Gemma 2 2B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-06-24,Gemma 2 9B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2024-09-12,DataGemma,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma variant
+google,2024-11-15,Gemini-Exp-1114,Hosted access (no API),exclude,SNAPSHOT,,,Gemini 1.5 Pro,experimental checkpoint without a version name
+google,2024-12-11,Gemini 2.0 Flash,API access,include,NEW_VERSION,2.0,flash,,top tier publicly usable on 2024-12-11
+google,2024-12-11,Gemini 2.0 Pro,Hosted access (no API),include,HIGHER_TIER,2.0,pro,Gemini 2.0 Flash,
+google,2024-12-19,Gemini 2.0 Flash Thinking,API access,exclude,INFERENCE_MODE,,,Gemini 2.0 Flash,thinking mode of 2.0 Flash
+google,2025-02-05,Gemini 2.0 Flash-Lite,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2025-02-19,PaliGemma 2 3B Mix 224,Open weights (non-commercial),exclude,SECONDARY_LINE,,,,Gemma vision variant
+google,2025-02-19,PaliGemma 2 3B Mix 448,Open weights (non-commercial),exclude,SECONDARY_LINE,,,,Gemma vision variant
+google,2025-03-12,Gemma 3 12B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2025-03-12,Gemma 3 1B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2025-03-12,Gemma 3 27B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2025-03-12,Gemma 3 4B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2025-03-25,Gemini 2.5 Pro (Mar 2025),API access,include,NEW_VERSION,2.5,pro,,
+google,2025-04-04,Sec-Gemini v1,,exclude,DOMAIN_VARIANT,,,,security
+google,2025-04-08,T5Gemma (Gemma 9B-9B),Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma variant
+google,2025-04-08,TxGemma 27B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,therapeutics
+google,2025-04-08,TxGemma 2B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,therapeutics
+google,2025-04-08,TxGemma 9B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,therapeutics
+google,2025-04-17,Gemini 2.5 Flash,API access,exclude,LOWER_TIER,2.5,flash,Gemini 2.5 Pro (Mar 2025),
+google,2025-04-18,Gemma 3 QAT 12B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma quantised variant
+google,2025-04-18,Gemma 3 QAT 1B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma quantised variant
+google,2025-04-18,Gemma 3 QAT 27B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma quantised variant
+google,2025-04-18,Gemma 3 QAT 4B,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma quantised variant
+google,2025-05-06,Gemini 2.5 Pro (May 2025),API access,exclude,SNAPSHOT,,,Gemini 2.5 Pro (Mar 2025),
+google,2025-05-14,AlphaEvolve,,exclude,NOT_GENERAL,,,,research agent system
+google,2025-05-20,Gemma 3n,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma on-device variant
+google,2025-05-20,MedGemma 27B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,medical
+google,2025-05-23,DataRater test model (1B),,exclude,NOT_GENERAL,,,,research test model
+google,2025-05-27,SignGemma,,exclude,DOMAIN_VARIANT,,,,sign language
+google,2025-06-05,Gemini 2.5 Pro (Jun 2025),API access,exclude,SNAPSHOT,,,Gemini 2.5 Pro (Mar 2025),
+google,2025-06-15,Gemini 2.5 Flash-Lite,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2025-07-14,Gemini Embedding,API access,exclude,DOMAIN_VARIANT,,,,embedding
+google,2025-07-23,Aeneas,Hosted access (no API),exclude,DOMAIN_VARIANT,,,,ancient inscriptions
+google,2025-08-01,Gemini 2.5 Deep Think,Hosted access (no API),exclude,INFERENCE_MODE,,,Gemini 2.5 Pro (Mar 2025),
+google,2025-08-14,Gemma 3 270M,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2025-09-05,EmbeddingGemma,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,embedding
+google,2025-09-25,Gemini Robotics-ER 1.5,API access,exclude,DOMAIN_VARIANT,,,,robotics
+google,2025-10-07,Gemini 2.5 Computer Use,API access,exclude,AGENT_PRODUCT,,,,computer-use model built on 2.5
+google,2025-10-11,C2S-Scale,Open weights (unrestricted),exclude,THIRD_PARTY,,,,Yale-led single-cell model
+google,2025-11-18,Gemini 3 Deep Think,Hosted access (no API),exclude,INFERENCE_MODE,,,Gemini 3 Pro,
+google,2025-11-18,Gemini 3 Pro,API access,include,NEW_VERSION,3,pro,,
+google,2025-12-17,Gemini 3 Flash,API access,exclude,LOWER_TIER,3,flash,Gemini 3 Pro,
+google,2026-02-19,Gemini 3.1 Pro,API access,include,NEW_VERSION,3.1,pro,,
+google,2026-03-03,Gemini 3.0 Flash-lite,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2026-03-03,Gemini 3.1 Flash-Lite,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2026-04-02,Gemma 4 26B A4B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2026-04-02,Gemma 4 31B IT,Open weights (restricted use),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2026-04-14,Gemini Robotics-ER 1.6,API access,exclude,DOMAIN_VARIANT,,,,robotics
+google,2026-05-19,Gemini 3.5 Flash,API access,include,NEW_VERSION,3.5,flash,,top tier released under 3.5
+google,2026-06-03,Gemma 4 12B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2026-06-10,DiffusionGemma 26B-A4B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,Gemma diffusion variant
+google,2026-07-02,Gemma 4 E2B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2026-07-02,Gemma 4 E4B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,Gemma open line below Gemini
+google,2026-07-21,Gemini 3.5 Flash-Lite,API access,exclude,SMALL_TIER,,flash-lite,,
+google,2026-07-21,Gemini 3.6 Flash,API access,include,NEW_VERSION,3.6,flash,,
+google,2026-08-13,Gemini 3.7 Flash,API access,include,NEW_VERSION,3.7,flash,,
+google,2026-09-02,Gemini 3.8 Flash,API access,include,NEW_VERSION,3.8,flash,,
+google,2026-09-30,Gemini 4 Argon,Limited access,exclude,NOT_PUBLIC,,,,Epoch: limited access
+google,2026-10-06,Gemini 3.6 Flash Image (Nano Banana 2.1),API access,exclude,DOMAIN_VARIANT,,,,image
+google,2026-10-27,Genie 4,Limited access,exclude,DOMAIN_VARIANT,,,,world model; limited access
+meta,2023-02-09,ToolFormer,,exclude,NOT_GENERAL,,,,research model
+meta,2023-02-24,LLaMA-65B,Open weights (non-commercial),include,NEW_VERSION,1,flagship,,
+meta,2023-02-24,LLaMA-7B,Open weights (non-commercial),exclude,SMALL_TIER,,small,,
+meta,2023-02-27,LLaMA-13B,Open weights (non-commercial),exclude,SMALL_TIER,,small,,
+meta,2023-02-27,LLaMA-33B,Open weights (non-commercial),exclude,LOWER_TIER,1,large,LLaMA-65B,
+meta,2023-04-09,Incoder-6.7B,Open weights (non-commercial),exclude,DOMAIN_VARIANT,,,,code
+meta,2023-05-09,ImageBind,Open weights (non-commercial),exclude,NOT_GENERAL,,,,embedding research model
+meta,2023-07-18,Llama 2-13B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2023-07-18,Llama 2-70B,Open weights (restricted use),include,NEW_VERSION,2,flagship,,
+meta,2023-07-18,Llama 2-7B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2023-08-14,Code Llama-13B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+meta,2023-08-14,Code Llama-34B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+meta,2023-08-14,Code Llama-7B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+meta,2023-12-07,Llama Guard,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,safety classifier
+meta,2024-01-29,Code Llama-70B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+meta,2024-04-18,LLaMA-3-Instruct-8B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-04-18,Llama 3-70B,Open weights (restricted use),include,NEW_VERSION,3,flagship,,
+meta,2024-04-18,Llama 3-8B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-04-30,Multi-Token Prediction 7B,Open weights (non-commercial),exclude,NOT_GENERAL,,,,FAIR research model
+meta,2024-05-16,Chameleon-34B,Open weights (non-commercial),exclude,NOT_GENERAL,,,,FAIR research model
+meta,2024-05-16,FragLlama: Next-fragment prediction for molecular design,Open weights (non-commercial),exclude,NOT_GENERAL,,,,molecular design research
+meta,2024-07-23,Llama 3.1-405B,Open weights (restricted use),include,NEW_VERSION,3.1,flagship,,
+meta,2024-07-23,Llama 3.1-70B,Open weights (restricted use),exclude,LOWER_TIER,3.1,large,Llama 3.1-405B,
+meta,2024-07-23,Llama 3.1-8B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-09-24,Llama 3.2 11B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-09-24,Llama 3.2 1B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-09-24,Llama 3.2 3B,Open weights (restricted use),exclude,SMALL_TIER,,small,,
+meta,2024-09-24,Llama 3.2 90B,Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,Epoch: vision LLMs that are drop-in replacements for the 3.1 text models; same treatment as GPT-4V and Pixtral Large
+meta,2024-10-12,Llama-3.1-Nemotron-70B-Instruct,Open weights (restricted use),exclude,THIRD_PARTY,,,,Nvidia fine-tune
+meta,2024-10-22,LongVU,Open weights (unrestricted),exclude,NOT_GENERAL,,,,video research model
+meta,2024-12-06,Llama 3.3 70B,Open weights (restricted use),include,NEW_VERSION,3.3,flagship,,only size released under 3.3; review
+meta,2025-04-05,Llama 4 Maverick,Open weights (restricted use),include,NEW_VERSION,4,flagship,,
+meta,2025-04-05,Llama 4 Scout,Open weights (restricted use),exclude,LOWER_TIER,4,large,Llama 4 Maverick,
+meta,2026-04-08,Muse Spark,API access,include,NEW_VERSION,muse-1.0,spark,,
+meta,2026-07-09,Muse Spark 1.1,API access,include,NEW_VERSION,muse-1.1,spark,,
+meta,2026-08-05,Muse Spark 1.2,API access,include,NEW_VERSION,muse-1.2,spark,,
+meta,2026-08-10,Muse Glimmer,Open weights (unrestricted),exclude,SMALL_TIER,,small,,Epoch abstract: 30B model for local agents
+meta,2026-09-02,Muse Spark 1.3,API access,include,NEW_VERSION,muse-1.3,spark,,
+meta,2026-10-12,Muse Wonder,API access,exclude,LOWER_TIER,muse-wonder,wonder,Muse Wonder Full,
+meta,2026-10-12,Muse Wonder Full,API access,include,NEW_VERSION,muse-wonder,wonder-full,,Full above Wonder is assumed from the name; same event either way
+meta,2026-10-15,Muse Spark Open,Open weights (restricted use),exclude,LOWER_TIER,muse-spark-open,spark,Muse Wonder Full,open-weight Spark after Wonder
+mistral,2023-10-10,Mistral 7B,Open weights (unrestricted),include,NEW_VERSION,7b,medium,,Mistral's only model at release; review
+mistral,2023-12-11,Mistral Medium,API access,include,NEW_VERSION,medium-1,medium,,
+mistral,2023-12-11,Mixtral 8x7B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,"open line below Mistral Medium, same day"
+mistral,2024-02-26,Mistral Large,API access,include,NEW_VERSION,large-1,large,,
+mistral,2024-04-17,Mixtral 8x22B,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,open line below Mistral Large
+mistral,2024-05-29,Codestral,Open weights (non-commercial),exclude,DOMAIN_VARIANT,,,,code
+mistral,2024-07-16,Codestral Mamba,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,code
+mistral,2024-07-16,Mathstral,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,math
+mistral,2024-07-18,Mistral NeMo,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2024-07-24,Mistral Large 2,Open weights (non-commercial),include,NEW_VERSION,2,large,,
+mistral,2024-09-17,Mistral Small v24.09,Open weights (non-commercial),exclude,SMALL_TIER,,small,,
+mistral,2024-09-17,Pixtral 12B,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2024-10-16,Ministral 3B,API access,exclude,SMALL_TIER,,mini,,
+mistral,2024-10-16,Ministral 8B,Open weights (non-commercial),exclude,SMALL_TIER,,mini,,
+mistral,2024-11-07,Mistral Moderation,API access,exclude,DOMAIN_VARIANT,,,,moderation classifier
+mistral,2024-11-15,Mistral Large 2.1,Open weights (non-commercial),exclude,SNAPSHOT,,,Mistral Large 2,"Epoch: Mistral-Large-Instruct-2411 extending -2407, a dated re-snapshot"
+mistral,2024-11-18,Pixtral Large,Open weights (non-commercial),exclude,DOMAIN_VARIANT,,,,Epoch: multimodal model built on top of Mistral Large 2
+mistral,2025-01-30,Mistral Small 3,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-02-17,Mistral Saba,API access,exclude,DOMAIN_VARIANT,,,,regional language model
+mistral,2025-03-06,Mistral OCR,API access,exclude,DOMAIN_VARIANT,,,,ocr
+mistral,2025-03-17,Mistral Small 3.1,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-05-07,Mistral Medium 3,API access,include,NEW_VERSION,3,medium,,
+mistral,2025-05-21,Devstral Small,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,code
+mistral,2025-05-28,Codestral Embed,API access,exclude,DOMAIN_VARIANT,,,,embedding
+mistral,2025-06-10,Devstral Medium,API access,exclude,DOMAIN_VARIANT,,,,code
+mistral,2025-06-10,Magistral Medium 1.1,API access,include,NEW_VERSION,magistral-1.1,medium,,"Epoch: Mistral's first reasoning model, own RL pipeline; same treatment as DeepSeek-R1"
+mistral,2025-06-10,Magistral Small 1.0,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-06-15,Mistral Small 3.2,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-07-15,Voxtral Mini,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,voice
+mistral,2025-07-24,Magistral Small 1.1,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-08-12,Mistral Medium 3.1,API access,include,NEW_VERSION,3.1,medium,,
+mistral,2025-09-18,Magistral Medium 1.2,API access,include,NEW_VERSION,magistral-1.2,medium,,"version bump, same convention as Mistral Medium 3.1"
+mistral,2025-09-18,Magistral Small 1.2,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2025-12-02,Ministral 3 14B,Open weights (unrestricted),exclude,SMALL_TIER,,mini,,
+mistral,2025-12-02,Ministral 3 3B,Open weights (unrestricted),exclude,SMALL_TIER,,mini,,
+mistral,2025-12-02,Ministral 3 8B,Open weights (unrestricted),exclude,SMALL_TIER,,mini,,
+mistral,2025-12-02,Mistral Large 3,Open weights (unrestricted),include,HIGHER_TIER,3,large,Mistral Medium 3,
+mistral,2025-12-09,Devstral 2 (123B),Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+mistral,2025-12-09,Devstral 2 (24B),Open weights (restricted use),exclude,DOMAIN_VARIANT,,,,code
+mistral,2025-12-09,Devstral Small 2,Open weights (unrestricted),exclude,DOMAIN_VARIANT,,,,code
+mistral,2026-03-16,Mistral Small 4,Open weights (unrestricted),exclude,SMALL_TIER,,small,,
+mistral,2026-04-29,Mistral Medium 3.5,Open weights (restricted use),include,NEW_VERSION,3.5,medium,,
+mistral,2026-10-06,Mistral Large 4,Open weights (restricted use),include,NEW_VERSION,4,large,,
+openai,2023-01-23,Operator,API access,exclude,AGENT_PRODUCT,,,,agent product; Epoch date 2023-01-23 looks like a year error for 2025
+openai,2023-03-15,GPT-4 (Mar 2023),API access,include,NEW_VERSION,4,base,,
+openai,2023-06-13,GPT-3.5 Turbo,API access,exclude,LOWER_TIER,3.5,base,GPT-4 (Mar 2023),
+openai,2023-06-13,GPT-4 (Jun 2023),API access,exclude,SNAPSHOT,,,GPT-4 (Mar 2023),
+openai,2023-09-25,GPT-4V,API access,exclude,DOMAIN_VARIANT,,,,"vision capability of GPT-4 (Mar 2023), whose abstract already accepts image inputs"
+openai,2023-09-28,GPT-3.5 Turbo Instruct,API access,exclude,LOWER_TIER,3.5,base,GPT-4 (Mar 2023),
+openai,2023-11-06,GPT-4 Turbo (Nov 2023),API access,include,NEW_VERSION,4-turbo,base,,
+openai,2024-01-04,babbage-002,,exclude,LOWER_TIER,3,base,GPT-4 Turbo (Nov 2023),
+openai,2024-01-25,text-embedding-3-large,API access,exclude,DOMAIN_VARIANT,,,,embedding
+openai,2024-01-25,text-embedding-3-small,API access,exclude,DOMAIN_VARIANT,,,,embedding
+openai,2024-04-09,GPT-4 Turbo (Apr 2024),API access,exclude,SNAPSHOT,,,GPT-4 Turbo (Nov 2023),
+openai,2024-05-13,GPT-4o,API access,include,NEW_VERSION,4o,base,,
+openai,2024-06-27,CriticGPT,,exclude,NOT_PUBLIC,,,,"internal critic model, no public access"
+openai,2024-07-18,GPT-4o mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2024-08-06,GPT-4o (Aug 2024),API access,exclude,SNAPSHOT,,,GPT-4o,
+openai,2024-09-12,o1-mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2024-09-12,o1-preview,API access,include,NEW_VERSION,o1,preview,,
+openai,2024-11-20,GPT-4o (Nov 2024),API access,exclude,SNAPSHOT,,,GPT-4o,
+openai,2024-12-05,o1,API access,exclude,SNAPSHOT,,,o1-preview,"general release after the preview; previews count once, at the preview (Wisdom 2026-11-05)"
+openai,2024-12-20,o3,API access,include,NEW_VERSION,o3,base,,
+openai,2025-01-23,Computer-Using Agent (CUA),Hosted access (no API),exclude,AGENT_PRODUCT,,,,agent model behind Operator
+openai,2025-01-29,GPT-4o (Jan 2025),API access,exclude,SNAPSHOT,,,GPT-4o,
+openai,2025-01-31,o3-mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2025-02-27,GPT-4.5,API access,include,NEW_VERSION,4.5,base,,
+openai,2025-03-19,o1-pro,API access,exclude,INFERENCE_MODE,,,o1-preview,Pro mode of o1
+openai,2025-03-27,GPT-4o (Mar 2025),API access,exclude,SNAPSHOT,,,GPT-4o,
+openai,2025-04-14,GPT-4.1,API access,include,NEW_VERSION,4.1,base,,
+openai,2025-04-14,GPT-4.1 mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2025-04-14,GPT-4.1 nano,API access,exclude,SMALL_TIER,,nano,,
+openai,2025-04-16,o4-mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2025-05-16,codex-1,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-05-16,codex-mini,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-05-23,o3 Operator,Hosted access (no API),exclude,AGENT_PRODUCT,,,,Operator on o3
+openai,2025-06-10,o3-pro,API access,exclude,INFERENCE_MODE,,,o3,
+openai,2025-07-17,ChatGPT agent,Hosted access (no API),exclude,AGENT_PRODUCT,,,,agent product
+openai,2025-08-05,gpt-oss-120b,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,open-weight line below the GPT flagship
+openai,2025-08-05,gpt-oss-20b,Open weights (unrestricted),exclude,SECONDARY_LINE,,,,open-weight line below the GPT flagship
+openai,2025-08-07,GPT-5,API access,include,NEW_VERSION,5,base,,
+openai,2025-08-07,GPT-5 mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2025-08-07,GPT-5 nano,API access,exclude,SMALL_TIER,,nano,,
+openai,2025-08-28,gpt-realtime,API access,exclude,DOMAIN_VARIANT,,,,voice
+openai,2025-09-15,GPT-5-Codex,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-10-07,GPT-5 Pro,API access,exclude,INFERENCE_MODE,,,GPT-5,
+openai,2025-11-12,GPT-5.1-Codex,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-11-12,GPT-5.1-Codex-mini,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-11-13,GPT-5.1,API access,include,NEW_VERSION,5.1,base,,
+openai,2025-11-13,GPT-5.1 Instant,API access,exclude,INFERENCE_MODE,,,GPT-5.1,
+openai,2025-11-19,GPT-5.1-Codex-Max,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2025-12-11,GPT-5.2,API access,include,NEW_VERSION,5.2,base,,
+openai,2025-12-11,GPT-5.2 Pro,API access,exclude,INFERENCE_MODE,,,GPT-5.2,
+openai,2025-12-16,GPT Image 1.5,API access,exclude,DOMAIN_VARIANT,,,,image
+openai,2025-12-18,GPT-5.2 Codex,API access,exclude,DOMAIN_VARIANT,,,,code
+openai,2026-02-05,GPT-5.3 Codex,API access,exclude,DOMAIN_VARIANT,,,,code; no general GPT-5.3 in Epoch
+openai,2026-02-12,GPT-5.3-Codex-Spark,Hosted access (no API),exclude,DOMAIN_VARIANT,,,,code
+openai,2026-03-05,GPT-5.4,API access,include,NEW_VERSION,5.4,base,,
+openai,2026-03-05,GPT-5.4 Pro,API access,exclude,INFERENCE_MODE,,,GPT-5.4,
+openai,2026-03-17,GPT-5.4 Mini,API access,exclude,SMALL_TIER,,mini,,
+openai,2026-03-17,GPT-5.4 Nano,API access,exclude,SMALL_TIER,,nano,,
+openai,2026-04-14,GPT-5.4-Cyber,Limited access,exclude,DOMAIN_VARIANT,,,,cyber; limited access
+openai,2026-04-23,GPT-5.5,API access,include,NEW_VERSION,5.5,base,,
+openai,2026-04-23,GPT-5.5 Pro,API access,exclude,INFERENCE_MODE,,,GPT-5.5,
+openai,2026-05-05,GPT-5.5 Instant,API access,exclude,INFERENCE_MODE,,,GPT-5.5,
+openai,2026-07-06,GPT-Realtime-2.1-Mini,API access,exclude,DOMAIN_VARIANT,,,,voice
+openai,2026-07-09,GPT-5.6 Luna,API access,exclude,LOWER_TIER,5.6,luna,GPT-5.6 Sol,
+openai,2026-07-09,GPT-5.6 Sol,API access,include,NEW_VERSION,5.6,sol,,"Sol over Terra over Luna is assumed, Epoch has no abstract; review"
+openai,2026-07-09,GPT-5.6 Terra,API access,exclude,LOWER_TIER,5.6,terra,GPT-5.6 Sol,
+openai,2026-08-11,GPT-5.6 Cyber,API access,exclude,DOMAIN_VARIANT,,,,cyber
+openai,2026-09-03,GPT-6 Astra,API access,include,NEW_VERSION,6,astra,,
+openai,2026-09-22,GPT-6 Luna,API access,exclude,LOWER_TIER,6,luna,GPT-6 Astra,
+openai,2026-09-22,GPT-6 Luna Decisions,API access,exclude,DOMAIN_VARIANT,,,,task variant of GPT-6 Luna
+openai,2026-09-22,GPT-6 Sol,API access,exclude,LOWER_TIER,6,sol,GPT-6 Astra,"Epoch abstract: Astra keeps the full depth, Sol and Luna distribute it"
+openai,2026-09-29,GPT-6.1 Sol,API access,include,NEW_VERSION,6.1,sol,,Epoch abstract: upgrade to GPT-6 Sol that nearly matches Astra
+openai,2026-10-26,GPT-6.1 Terra,API access,exclude,LOWER_TIER,6.1,terra,GPT-6.1 Sol,Terra below Sol is assumed from the 5.6 naming; review
+xai,2023-11-04,Grok-0,Hosted access (no API),exclude,LOWER_TIER,0,base,Grok-1,prototype predating Grok-1
+xai,2023-11-04,Grok-1,Open weights (unrestricted),include,NEW_VERSION,1,base,,
+xai,2024-03-28,Grok-1.5,Hosted access (no API),include,NEW_VERSION,1.5,base,,
+xai,2024-03-28,Grok-1.5V,Hosted access (no API),exclude,DOMAIN_VARIANT,,,,vision variant of 1.5
+xai,2024-08-13,Grok-2,API access,include,NEW_VERSION,2,base,,
+xai,2024-08-13,Grok-2 mini,Hosted access (no API),exclude,SMALL_TIER,,mini,,
+xai,2025-02-17,Grok 3,API access,include,NEW_VERSION,3,base,,
+xai,2025-02-19,Grok-3 mini,API access,exclude,SMALL_TIER,,mini,,
+xai,2025-07-09,Grok 4,API access,include,NEW_VERSION,4,base,,
+xai,2025-08-28,Grok Code Fast 1,API access,exclude,DOMAIN_VARIANT,,,,code
+xai,2025-09-19,Grok 4 Fast,API access,exclude,SMALL_TIER,,fast,,
+xai,2025-11-17,Grok 4.1,API access,include,NEW_VERSION,4.1,base,,
+xai,2025-11-19,Grok 4.1 Fast,API access,exclude,SMALL_TIER,,fast,,
+xai,2026-02-17,Grok 4.20,API access,include,NEW_VERSION,4.20,base,,"Epoch: API early access, available to paid Grok users"
+xai,2026-04-17,Grok 4.3 Beta,Hosted access (no API),include,NEW_VERSION,4.3,base,,consumer app only (hosted)
+xai,2026-05-29,Grok Build 0.1,API access,exclude,DOMAIN_VARIANT,,,,code
+xai,2026-07-08,Grok 4.5,API access,include,NEW_VERSION,4.5,base,,
+xai,2026-08-12,Grok 4.6,API access,include,NEW_VERSION,4.6,base,,
+xai,2026-09-21,Grok 4.7,API access,include,NEW_VERSION,4.7,base,,
+xai,2026-10-14,Grok Voice 3.0,API access,exclude,DOMAIN_VARIANT,,,,voice

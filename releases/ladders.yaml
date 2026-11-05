@@ -1,0 +1,372 @@
+# Frontier release decisions (spec 0001, section 1.1). One entry per Epoch candidate.
+# r: reason code (releases/rule.py vocabulary)  v: version  t: tier  ref: model it is relative to  n: note
+# Tiers are listed low to high; rank only matters within one version. `small` tiers are never frontier.
+# Tier order evidence for 2026 lines is Epoch's abstract text for each model (see docs/JOURNAL.md).
+
+anthropic:
+  tiers: [instant, haiku, sonnet, base, opus, fable]
+  small: [instant, haiku]
+  models:
+    "Claude": {r: NEW_VERSION, v: "1", t: base}
+    "Claude 1.3": {r: NEW_VERSION, v: "1.3", t: base}
+    "Claude 2": {r: NEW_VERSION, v: "2", t: base}
+    "Claude Instant": {r: SMALL_TIER, t: instant}
+    "Claude 2.1": {r: NEW_VERSION, v: "2.1", t: base}
+    "Claude 3 Opus": {r: NEW_VERSION, v: "3", t: opus}
+    "Claude 3 Sonnet": {r: LOWER_TIER, v: "3", t: sonnet, ref: "Claude 3 Opus"}
+    "Claude 3 Haiku": {r: SMALL_TIER, t: haiku}
+    "Claude 3.5 Sonnet": {r: NEW_VERSION, v: "3.5", t: sonnet}
+    "Claude 3.5 Haiku": {r: SMALL_TIER, t: haiku}
+    "Claude 3.5 Sonnet (October 2024)": {r: SNAPSHOT, ref: "Claude 3.5 Sonnet"}
+    "Claude 3.7 Sonnet": {r: NEW_VERSION, v: "3.7", t: sonnet}
+    "Claude Opus 4": {r: NEW_VERSION, v: "4", t: opus}
+    "Claude Sonnet 4": {r: LOWER_TIER, v: "4", t: sonnet, ref: "Claude Opus 4"}
+    "Claude Opus 4.1": {r: NEW_VERSION, v: "4.1", t: opus}
+    "Claude Sonnet 4.5": {r: NEW_VERSION, v: "4.5", t: sonnet}
+    "Claude Haiku 4.5": {r: SMALL_TIER, t: haiku}
+    "Claude Opus 4.5": {r: HIGHER_TIER, v: "4.5", t: opus, ref: "Claude Sonnet 4.5"}
+    "Claude Opus 4.6": {r: NEW_VERSION, v: "4.6", t: opus}
+    "Claude Sonnet 4.6": {r: LOWER_TIER, v: "4.6", t: sonnet, ref: "Claude Opus 4.6"}
+    "Claude Mythos Preview": {r: NOT_PUBLIC, n: "Epoch: not available to the general public; trusted partners via Project Glasswing"}
+    "Claude Opus 4.7": {r: NEW_VERSION, v: "4.7", t: opus}
+    "Claude Opus 4.8": {r: NEW_VERSION, v: "4.8", t: opus}
+    "Claude Fable 5": {r: NEW_VERSION, v: "5", t: fable, n: "Epoch abstract: Mythos-class, exceeds any model made generally available"}
+    "Claude Sonnet 5": {r: LOWER_TIER, v: "5", t: sonnet, ref: "Claude Fable 5"}
+    "Claude Opus 5": {r: LOWER_TIER, v: "5", t: opus, ref: "Claude Fable 5", n: "Epoch abstract: comes close to Fable 5 at half the price"}
+    "Claude Fable 5.1": {r: NEW_VERSION, v: "5.1", t: fable}
+    "Claude Opus 5.5": {r: NEW_VERSION, v: "5.5", t: opus}
+    "Claude Sonnet 5.5": {r: LOWER_TIER, v: "5.5", t: sonnet, ref: "Claude Opus 5.5"}
+    "Claude Haiku 5.5": {r: SMALL_TIER, t: haiku}
+
+openai:
+  tiers: [nano, mini, luna, terra, preview, base, sol, astra]
+  small: [nano, mini]
+  models:
+    "Operator": {r: AGENT_PRODUCT, n: "agent product; Epoch date 2023-01-23 looks like a year error for 2025"}
+    "GPT-4 (Mar 2023)": {r: NEW_VERSION, v: "4", t: base}
+    "GPT-3.5 Turbo": {r: LOWER_TIER, v: "3.5", t: base, ref: "GPT-4 (Mar 2023)"}
+    "GPT-4 (Jun 2023)": {r: SNAPSHOT, ref: "GPT-4 (Mar 2023)"}
+    "GPT-4V": {r: DOMAIN_VARIANT, n: "vision capability of GPT-4 (Mar 2023), whose abstract already accepts image inputs"}
+    "GPT-3.5 Turbo Instruct": {r: LOWER_TIER, v: "3.5", t: base, ref: "GPT-4 (Mar 2023)"}
+    "GPT-4 Turbo (Nov 2023)": {r: NEW_VERSION, v: "4-turbo", t: base}
+    "babbage-002": {r: LOWER_TIER, v: "3", t: base, ref: "GPT-4 Turbo (Nov 2023)"}
+    "text-embedding-3-large": {r: DOMAIN_VARIANT, n: embedding}
+    "text-embedding-3-small": {r: DOMAIN_VARIANT, n: embedding}
+    "GPT-4 Turbo (Apr 2024)": {r: SNAPSHOT, ref: "GPT-4 Turbo (Nov 2023)"}
+    "GPT-4o": {r: NEW_VERSION, v: "4o", t: base}
+    "CriticGPT": {r: NOT_PUBLIC, n: "internal critic model, no public access"}
+    "GPT-4o mini": {r: SMALL_TIER, t: mini}
+    "GPT-4o (Aug 2024)": {r: SNAPSHOT, ref: "GPT-4o"}
+    "o1-mini": {r: SMALL_TIER, t: mini}
+    "o1-preview": {r: NEW_VERSION, v: "o1", t: preview}
+    "GPT-4o (Nov 2024)": {r: SNAPSHOT, ref: "GPT-4o"}
+    "o1": {r: SNAPSHOT, ref: "o1-preview", n: "general release after the preview; previews count once, at the preview (Wisdom 2026-11-05)"}
+    "o3": {r: NEW_VERSION, v: "o3", t: base, a: 2025-04-16, src: "Epoch o3 abstract 'Today, we''re releasing OpenAI o3 and o4-mini' is the o4-mini row text, dated 2025-04-16; Epoch 2024-12-20 is the announcement"}
+    "Computer-Using Agent (CUA)": {r: AGENT_PRODUCT, n: "agent model behind Operator"}
+    "GPT-4o (Jan 2025)": {r: SNAPSHOT, ref: "GPT-4o"}
+    "o3-mini": {r: SMALL_TIER, t: mini}
+    "GPT-4.5": {r: NEW_VERSION, v: "4.5", t: base}
+    "o1-pro": {r: INFERENCE_MODE, ref: "o1-preview", n: "Pro mode of o1"}
+    "GPT-4o (Mar 2025)": {r: SNAPSHOT, ref: "GPT-4o"}
+    "GPT-4.1": {r: NEW_VERSION, v: "4.1", t: base}
+    "GPT-4.1 mini": {r: SMALL_TIER, t: mini}
+    "GPT-4.1 nano": {r: SMALL_TIER, t: nano}
+    "o4-mini": {r: SMALL_TIER, t: mini}
+    "codex-1": {r: DOMAIN_VARIANT, n: code}
+    "codex-mini": {r: DOMAIN_VARIANT, n: code}
+    "o3 Operator": {r: AGENT_PRODUCT, n: "Operator on o3"}
+    "o3-pro": {r: INFERENCE_MODE, ref: "o3"}
+    "ChatGPT agent": {r: AGENT_PRODUCT, n: "agent product"}
+    "gpt-oss-120b": {r: SECONDARY_LINE, n: "open-weight line below the GPT flagship"}
+    "gpt-oss-20b": {r: SECONDARY_LINE, n: "open-weight line below the GPT flagship"}
+    "GPT-5": {r: NEW_VERSION, v: "5", t: base}
+    "GPT-5 mini": {r: SMALL_TIER, t: mini}
+    "GPT-5 nano": {r: SMALL_TIER, t: nano}
+    "gpt-realtime": {r: DOMAIN_VARIANT, n: voice}
+    "GPT-5-Codex": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5 Pro": {r: INFERENCE_MODE, ref: "GPT-5"}
+    "GPT-5.1-Codex": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5.1-Codex-mini": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5.1": {r: NEW_VERSION, v: "5.1", t: base}
+    "GPT-5.1 Instant": {r: INFERENCE_MODE, ref: "GPT-5.1"}
+    "GPT-5.1-Codex-Max": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5.2": {r: NEW_VERSION, v: "5.2", t: base}
+    "GPT-5.2 Pro": {r: INFERENCE_MODE, ref: "GPT-5.2"}
+    "GPT Image 1.5": {r: DOMAIN_VARIANT, n: image}
+    "GPT-5.2 Codex": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5.3 Codex": {r: DOMAIN_VARIANT, n: "code; no general GPT-5.3 in Epoch"}
+    "GPT-5.3-Codex-Spark": {r: DOMAIN_VARIANT, n: code}
+    "GPT-5.4": {r: NEW_VERSION, v: "5.4", t: base}
+    "GPT-5.4 Pro": {r: INFERENCE_MODE, ref: "GPT-5.4"}
+    "GPT-5.4 Mini": {r: SMALL_TIER, t: mini}
+    "GPT-5.4 Nano": {r: SMALL_TIER, t: nano}
+    "GPT-5.4-Cyber": {r: DOMAIN_VARIANT, n: "cyber; limited access"}
+    "GPT-5.5": {r: NEW_VERSION, v: "5.5", t: base}
+    "GPT-5.5 Pro": {r: INFERENCE_MODE, ref: "GPT-5.5"}
+    "GPT-5.5 Instant": {r: INFERENCE_MODE, ref: "GPT-5.5"}
+    "GPT-Realtime-2.1-Mini": {r: DOMAIN_VARIANT, n: voice}
+    "GPT-5.6 Sol": {r: NEW_VERSION, v: "5.6", t: sol, n: "Sol over Terra over Luna is assumed, Epoch has no abstract; review"}
+    "GPT-5.6 Terra": {r: LOWER_TIER, v: "5.6", t: terra, ref: "GPT-5.6 Sol"}
+    "GPT-5.6 Luna": {r: LOWER_TIER, v: "5.6", t: luna, ref: "GPT-5.6 Sol"}
+    "GPT-5.6 Cyber": {r: DOMAIN_VARIANT, n: cyber}
+    "GPT-6 Astra": {r: NEW_VERSION, v: "6", t: astra}
+    "GPT-6 Sol": {r: LOWER_TIER, v: "6", t: sol, ref: "GPT-6 Astra", n: "Epoch abstract: Astra keeps the full depth, Sol and Luna distribute it"}
+    "GPT-6 Luna": {r: LOWER_TIER, v: "6", t: luna, ref: "GPT-6 Astra"}
+    "GPT-6 Luna Decisions": {r: DOMAIN_VARIANT, n: "task variant of GPT-6 Luna"}
+    "GPT-6.1 Sol": {r: NEW_VERSION, v: "6.1", t: sol, n: "Epoch abstract: upgrade to GPT-6 Sol that nearly matches Astra"}
+    "GPT-6.1 Terra": {r: LOWER_TIER, v: "6.1", t: terra, ref: "GPT-6.1 Sol", n: "Terra below Sol is assumed from the 5.6 naming; review"}
+
+google:
+  tiers: [nano, flash-lite, flash, pro, ultra]
+  small: [nano, flash-lite]
+  models:
+    "Flan UL2": {r: SECONDARY_LINE, n: "open research model while PaLM is the flagship"}
+    "PaLM 2": {r: NEW_VERSION, v: palm2, t: ultra, n: "umbrella entry; Unicorn is the largest size"}
+    "PaLM-2 Unicorn": {r: LOWER_TIER, v: palm2, t: ultra, ref: "PaLM 2", n: "same model family entry as PaLM 2"}
+    "PaLM-2 Bison": {r: LOWER_TIER, v: palm2, t: pro, ref: "PaLM 2"}
+    "PaLM-2 Otter": {r: LOWER_TIER, v: palm2, t: flash, ref: "PaLM 2"}
+    "PaLM-2 Gecko": {r: SMALL_TIER, t: nano}
+    "MADLAD-400 10B": {r: NOT_GENERAL, n: "translation research model"}
+    "Gemini 1.0 Ultra": {r: HIGHER_TIER, v: "1.0", t: ultra, ref: "Gemini 1.0 Pro", a: 2024-02-08, src: "blog.google/products/gemini/bard-gemini-advanced-app/ datePublished 2024-02-08: 'rolling out ... Gemini Advanced with Ultra 1.0'"}
+    "Gemini 1.0 Pro": {r: NEW_VERSION, v: "1.0", t: pro, n: "top tier publicly usable on 2023-12-06"}
+    "MedLM": {r: DOMAIN_VARIANT, n: medical}
+    "FunSearch": {r: NOT_GENERAL, n: "research method"}
+    "Gemini Nano-1": {r: SMALL_TIER, t: nano}
+    "Gemini 1.0 Pro Vision": {r: DOMAIN_VARIANT, n: "vision variant of 1.0 Pro"}
+    "Gemini 1.5 Pro": {r: NEW_VERSION, v: "1.5", t: pro}
+    "Gemma 2B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 7B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 1.1 7B Instruct": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemini 1.5 Flash": {r: LOWER_TIER, v: "1.5", t: flash, ref: "Gemini 1.5 Pro"}
+    "Gemini 1.5 Flash 8B": {r: SMALL_TIER, t: flash-lite}
+    "LearnLM-Tutor": {r: DOMAIN_VARIANT, n: education}
+    "OpenVLA": {r: THIRD_PARTY, n: "Stanford-led robotics model"}
+    "DigiRL": {r: THIRD_PARTY, n: "UC Berkeley-led agent research"}
+    "Gemma 2 27B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 2 2B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 2 9B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "DataGemma": {r: SECONDARY_LINE, n: "Gemma variant"}
+    "Gemini-Exp-1114": {r: SNAPSHOT, ref: "Gemini 1.5 Pro", n: "experimental checkpoint without a version name"}
+    "Gemini 2.0 Pro": {r: HIGHER_TIER, v: "2.0", t: pro, ref: "Gemini 2.0 Flash", a: 2025-02-05, src: "blog.google/technology/google-deepmind/gemini-model-updates-february-2025/ datePublished 2025-02-05: 'We''re also releasing an experimental version of Gemini 2.0 Pro'"}
+    "Gemini 2.0 Flash": {r: NEW_VERSION, v: "2.0", t: flash, n: "top tier publicly usable on 2024-12-11"}
+    "Gemini 2.0 Flash Thinking": {r: INFERENCE_MODE, ref: "Gemini 2.0 Flash", n: "thinking mode of 2.0 Flash"}
+    "Gemini 2.0 Flash-Lite": {r: SMALL_TIER, t: flash-lite}
+    "PaliGemma 2 3B Mix 224": {r: SECONDARY_LINE, n: "Gemma vision variant"}
+    "PaliGemma 2 3B Mix 448": {r: SECONDARY_LINE, n: "Gemma vision variant"}
+    "Gemma 3 12B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 3 1B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 3 27B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 3 4B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemini 2.5 Pro (Mar 2025)": {r: NEW_VERSION, v: "2.5", t: pro}
+    "Sec-Gemini v1": {r: DOMAIN_VARIANT, n: security}
+    "T5Gemma (Gemma 9B-9B)": {r: SECONDARY_LINE, n: "Gemma variant"}
+    "TxGemma 27B": {r: DOMAIN_VARIANT, n: therapeutics}
+    "TxGemma 2B": {r: DOMAIN_VARIANT, n: therapeutics}
+    "TxGemma 9B": {r: DOMAIN_VARIANT, n: therapeutics}
+    "Gemini 2.5 Flash": {r: LOWER_TIER, v: "2.5", t: flash, ref: "Gemini 2.5 Pro (Mar 2025)"}
+    "Gemma 3 QAT 12B": {r: SECONDARY_LINE, n: "Gemma quantised variant"}
+    "Gemma 3 QAT 1B": {r: SECONDARY_LINE, n: "Gemma quantised variant"}
+    "Gemma 3 QAT 27B": {r: SECONDARY_LINE, n: "Gemma quantised variant"}
+    "Gemma 3 QAT 4B": {r: SECONDARY_LINE, n: "Gemma quantised variant"}
+    "Gemini 2.5 Pro (May 2025)": {r: SNAPSHOT, ref: "Gemini 2.5 Pro (Mar 2025)"}
+    "AlphaEvolve": {r: NOT_GENERAL, n: "research agent system"}
+    "Gemma 3n": {r: SECONDARY_LINE, n: "Gemma on-device variant"}
+    "MedGemma 27B": {r: DOMAIN_VARIANT, n: medical}
+    "DataRater test model (1B)": {r: NOT_GENERAL, n: "research test model"}
+    "SignGemma": {r: DOMAIN_VARIANT, n: "sign language"}
+    "Gemini 2.5 Pro (Jun 2025)": {r: SNAPSHOT, ref: "Gemini 2.5 Pro (Mar 2025)"}
+    "Gemini 2.5 Flash-Lite": {r: SMALL_TIER, t: flash-lite}
+    "Gemini Embedding": {r: DOMAIN_VARIANT, n: embedding}
+    "Aeneas": {r: DOMAIN_VARIANT, n: "ancient inscriptions"}
+    "Gemini 2.5 Deep Think": {r: INFERENCE_MODE, ref: "Gemini 2.5 Pro (Mar 2025)"}
+    "Gemma 3 270M": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "EmbeddingGemma": {r: DOMAIN_VARIANT, n: embedding}
+    "Gemini Robotics-ER 1.5": {r: DOMAIN_VARIANT, n: robotics}
+    "Gemini 2.5 Computer Use": {r: AGENT_PRODUCT, n: "computer-use model built on 2.5"}
+    "C2S-Scale": {r: THIRD_PARTY, n: "Yale-led single-cell model"}
+    "Gemini 3 Pro": {r: NEW_VERSION, v: "3", t: pro}
+    "Gemini 3 Deep Think": {r: INFERENCE_MODE, ref: "Gemini 3 Pro"}
+    "Gemini 3 Flash": {r: LOWER_TIER, v: "3", t: flash, ref: "Gemini 3 Pro"}
+    "Gemini 3.1 Pro": {r: NEW_VERSION, v: "3.1", t: pro}
+    "Gemini 3.0 Flash-lite": {r: SMALL_TIER, t: flash-lite}
+    "Gemini 3.1 Flash-Lite": {r: SMALL_TIER, t: flash-lite}
+    "Gemma 4 26B A4B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 4 31B IT": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemini Robotics-ER 1.6": {r: DOMAIN_VARIANT, n: robotics}
+    "Gemini 3.5 Flash": {r: NEW_VERSION, v: "3.5", t: flash, n: "top tier released under 3.5"}
+    "Gemma 4 12B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "DiffusionGemma 26B-A4B": {r: SECONDARY_LINE, n: "Gemma diffusion variant"}
+    "Gemma 4 E2B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemma 4 E4B": {r: SECONDARY_LINE, n: "Gemma open line below Gemini"}
+    "Gemini 3.5 Flash-Lite": {r: SMALL_TIER, t: flash-lite}
+    "Gemini 3.6 Flash": {r: NEW_VERSION, v: "3.6", t: flash}
+    "Gemini 3.7 Flash": {r: NEW_VERSION, v: "3.7", t: flash}
+    "Gemini 3.8 Flash": {r: NEW_VERSION, v: "3.8", t: flash}
+    "Gemini 4 Argon": {r: NOT_PUBLIC, n: "Epoch: limited access"}
+    "Gemini 3.6 Flash Image (Nano Banana 2.1)": {r: DOMAIN_VARIANT, n: image}
+    "Genie 4": {r: DOMAIN_VARIANT, n: "world model; limited access"}
+
+meta:
+  tiers: [small, medium, large, spark, flagship, wonder, wonder-full]
+  small: [small]
+  models:
+    "ToolFormer": {r: NOT_GENERAL, n: "research model"}
+    "Chameleon-34B": {r: NOT_GENERAL, n: "FAIR research model"}
+    "FragLlama: Next-fragment prediction for molecular design": {r: NOT_GENERAL, n: "molecular design research"}
+    "Incoder-6.7B": {r: DOMAIN_VARIANT, n: code}
+    "Multi-Token Prediction 7B": {r: NOT_GENERAL, n: "FAIR research model"}
+    "LLaMA-65B": {r: NEW_VERSION, v: "1", t: flagship}
+    "LLaMA-7B": {r: SMALL_TIER, t: small}
+    "LLaMA-13B": {r: SMALL_TIER, t: small}
+    "LLaMA-33B": {r: LOWER_TIER, v: "1", t: large, ref: "LLaMA-65B"}
+    "ImageBind": {r: NOT_GENERAL, n: "embedding research model"}
+    "Llama 2-70B": {r: NEW_VERSION, v: "2", t: flagship}
+    "Llama 2-13B": {r: SMALL_TIER, t: small}
+    "Llama 2-7B": {r: SMALL_TIER, t: small}
+    "Code Llama-13B": {r: DOMAIN_VARIANT, n: code}
+    "Code Llama-34B": {r: DOMAIN_VARIANT, n: code}
+    "Code Llama-7B": {r: DOMAIN_VARIANT, n: code}
+    "Llama Guard": {r: DOMAIN_VARIANT, n: "safety classifier"}
+    "Code Llama-70B": {r: DOMAIN_VARIANT, n: code}
+    "Llama 3-70B": {r: NEW_VERSION, v: "3", t: flagship}
+    "Llama 3-8B": {r: SMALL_TIER, t: small}
+    "LLaMA-3-Instruct-8B": {r: SMALL_TIER, t: small}
+    "Llama 3.1-405B": {r: NEW_VERSION, v: "3.1", t: flagship}
+    "Llama 3.1-70B": {r: LOWER_TIER, v: "3.1", t: large, ref: "Llama 3.1-405B"}
+    "Llama 3.1-8B": {r: SMALL_TIER, t: small}
+    "Llama 3.2 90B": {r: DOMAIN_VARIANT, n: "Epoch: vision LLMs that are drop-in replacements for the 3.1 text models; same treatment as GPT-4V and Pixtral Large"}
+    "Llama 3.2 11B": {r: SMALL_TIER, t: small}
+    "Llama 3.2 1B": {r: SMALL_TIER, t: small}
+    "Llama 3.2 3B": {r: SMALL_TIER, t: small}
+    "Llama-3.1-Nemotron-70B-Instruct": {r: THIRD_PARTY, n: "Nvidia fine-tune"}
+    "LongVU": {r: NOT_GENERAL, n: "video research model"}
+    "Llama 3.3 70B": {r: NEW_VERSION, v: "3.3", t: flagship, n: "only size released under 3.3; review"}
+    "Llama 4 Maverick": {r: NEW_VERSION, v: "4", t: flagship}
+    "Llama 4 Scout": {r: LOWER_TIER, v: "4", t: large, ref: "Llama 4 Maverick"}
+    "Muse Spark": {r: NEW_VERSION, v: "muse-1.0", t: spark}
+    "Muse Spark 1.1": {r: NEW_VERSION, v: "muse-1.1", t: spark}
+    "Muse Spark 1.2": {r: NEW_VERSION, v: "muse-1.2", t: spark}
+    "Muse Glimmer": {r: SMALL_TIER, t: small, n: "Epoch abstract: 30B model for local agents"}
+    "Muse Spark 1.3": {r: NEW_VERSION, v: "muse-1.3", t: spark}
+    "Muse Wonder Full": {r: NEW_VERSION, v: "muse-wonder", t: wonder-full, n: "Full above Wonder is assumed from the name; same event either way"}
+    "Muse Wonder": {r: LOWER_TIER, v: "muse-wonder", t: wonder, ref: "Muse Wonder Full"}
+    "Muse Spark Open": {r: LOWER_TIER, v: "muse-spark-open", t: spark, ref: "Muse Wonder Full", n: "open-weight Spark after Wonder"}
+
+xai:
+  tiers: [mini, fast, base]
+  small: [mini, fast]
+  models:
+    "Grok-1": {r: NEW_VERSION, v: "1", t: base}
+    "Grok-0": {r: LOWER_TIER, v: "0", t: base, ref: "Grok-1", n: "prototype predating Grok-1"}
+    "Grok-1.5": {r: NEW_VERSION, v: "1.5", t: base}
+    "Grok-1.5V": {r: DOMAIN_VARIANT, n: "vision variant of 1.5"}
+    "Grok-2": {r: NEW_VERSION, v: "2", t: base}
+    "Grok-2 mini": {r: SMALL_TIER, t: mini}
+    "Grok 3": {r: NEW_VERSION, v: "3", t: base}
+    "Grok-3 mini": {r: SMALL_TIER, t: mini}
+    "Grok 4": {r: NEW_VERSION, v: "4", t: base}
+    "Grok Code Fast 1": {r: DOMAIN_VARIANT, n: code}
+    "Grok 4 Fast": {r: SMALL_TIER, t: fast}
+    "Grok 4.1": {r: NEW_VERSION, v: "4.1", t: base}
+    "Grok 4.1 Fast": {r: SMALL_TIER, t: fast}
+    "Grok 4.20": {r: NEW_VERSION, v: "4.20", t: base, n: "Epoch: API early access, available to paid Grok users"}
+    "Grok 4.3 Beta": {r: NEW_VERSION, v: "4.3", t: base, n: "consumer app only (hosted)"}
+    "Grok Build 0.1": {r: DOMAIN_VARIANT, n: code}
+    "Grok 4.5": {r: NEW_VERSION, v: "4.5", t: base}
+    "Grok 4.6": {r: NEW_VERSION, v: "4.6", t: base}
+    "Grok 4.7": {r: NEW_VERSION, v: "4.7", t: base}
+    "Grok Voice 3.0": {r: DOMAIN_VARIANT, n: voice}
+
+mistral:
+  tiers: [mini, small, medium, large]
+  small: [mini, small]
+  models:
+    "Mistral 7B": {r: NEW_VERSION, v: "7b", t: medium, n: "Mistral's only model at release; review"}
+    "Mistral Medium": {r: NEW_VERSION, v: "medium-1", t: medium}
+    "Mixtral 8x7B": {r: SECONDARY_LINE, n: "open line below Mistral Medium, same day"}
+    "Mistral Large": {r: NEW_VERSION, v: "large-1", t: large}
+    "Mixtral 8x22B": {r: SECONDARY_LINE, n: "open line below Mistral Large"}
+    "Codestral": {r: DOMAIN_VARIANT, n: code}
+    "Codestral Mamba": {r: DOMAIN_VARIANT, n: code}
+    "Mathstral": {r: DOMAIN_VARIANT, n: math}
+    "Mistral NeMo": {r: SMALL_TIER, t: small}
+    "Mistral Large 2": {r: NEW_VERSION, v: "2", t: large}
+    "Mistral Small v24.09": {r: SMALL_TIER, t: small}
+    "Pixtral 12B": {r: SMALL_TIER, t: small}
+    "Ministral 3B": {r: SMALL_TIER, t: mini}
+    "Ministral 8B": {r: SMALL_TIER, t: mini}
+    "Mistral Moderation": {r: DOMAIN_VARIANT, n: "moderation classifier"}
+    "Mistral Large 2.1": {r: SNAPSHOT, ref: "Mistral Large 2", n: "Epoch: Mistral-Large-Instruct-2411 extending -2407, a dated re-snapshot"}
+    "Pixtral Large": {r: DOMAIN_VARIANT, n: "Epoch: multimodal model built on top of Mistral Large 2"}
+    "Mistral Small 3": {r: SMALL_TIER, t: small}
+    "Mistral Saba": {r: DOMAIN_VARIANT, n: "regional language model"}
+    "Mistral OCR": {r: DOMAIN_VARIANT, n: ocr}
+    "Mistral Small 3.1": {r: SMALL_TIER, t: small}
+    "Mistral Medium 3": {r: NEW_VERSION, v: "3", t: medium}
+    "Devstral Small": {r: DOMAIN_VARIANT, n: code}
+    "Codestral Embed": {r: DOMAIN_VARIANT, n: embedding}
+    "Devstral Medium": {r: DOMAIN_VARIANT, n: code}
+    "Magistral Medium 1.1": {r: NEW_VERSION, v: "magistral-1.1", t: medium, n: "Epoch: Mistral's first reasoning model, own RL pipeline; same treatment as DeepSeek-R1"}
+    "Magistral Small 1.0": {r: SMALL_TIER, t: small}
+    "Mistral Small 3.2": {r: SMALL_TIER, t: small}
+    "Voxtral Mini": {r: DOMAIN_VARIANT, n: voice}
+    "Magistral Small 1.1": {r: SMALL_TIER, t: small}
+    "Mistral Medium 3.1": {r: NEW_VERSION, v: "3.1", t: medium}
+    "Magistral Medium 1.2": {r: NEW_VERSION, v: "magistral-1.2", t: medium, n: "version bump, same convention as Mistral Medium 3.1"}
+    "Magistral Small 1.2": {r: SMALL_TIER, t: small}
+    "Ministral 3 14B": {r: SMALL_TIER, t: mini}
+    "Ministral 3 3B": {r: SMALL_TIER, t: mini}
+    "Ministral 3 8B": {r: SMALL_TIER, t: mini}
+    "Mistral Large 3": {r: HIGHER_TIER, v: "3", t: large, ref: "Mistral Medium 3"}
+    "Devstral 2 (123B)": {r: DOMAIN_VARIANT, n: code}
+    "Devstral 2 (24B)": {r: DOMAIN_VARIANT, n: code}
+    "Devstral Small 2": {r: DOMAIN_VARIANT, n: code}
+    "Mistral Small 4": {r: SMALL_TIER, t: small}
+    "Mistral Medium 3.5": {r: NEW_VERSION, v: "3.5", t: medium}
+    "Mistral Large 4": {r: NEW_VERSION, v: "4", t: large}
+
+deepseek:
+  tiers: [small, exp, flash, pro]
+  small: [small]
+  models:
+    "DeepSeek Coder 1.3B": {r: DOMAIN_VARIANT, n: code}
+    "DeepSeek Coder 33B": {r: DOMAIN_VARIANT, n: code}
+    "DeepSeek Coder 6.7B": {r: DOMAIN_VARIANT, n: code}
+    "DeepSeek LLM 67B": {r: NEW_VERSION, v: llm, t: pro}
+    "DeepSeek LLM 7B": {r: SMALL_TIER, t: small}
+    "DeepSeekMoE-16B": {r: SMALL_TIER, t: small}
+    "DeepSeekMath 7B": {r: DOMAIN_VARIANT, n: math}
+    "DeepSeek-VL-1.3B": {r: DOMAIN_VARIANT, n: "vision, small"}
+    "DeepSeek-VL-7B": {r: DOMAIN_VARIANT, n: "vision, small"}
+    "DeepSeek-V2 (MoE-236B)": {r: NEW_VERSION, v: "2", t: pro}
+    "DeepSeek-Coder-V2 236B": {r: DOMAIN_VARIANT, n: code}
+    "DeepSeek-Prover-V1.5": {r: DOMAIN_VARIANT, n: "theorem proving"}
+    "DeepSeek-V2.5": {r: NEW_VERSION, v: "2.5", t: pro}
+    "Janus 1.3B": {r: DOMAIN_VARIANT, n: "image, small"}
+    "DeepSeek-R1-Lite-Preview": {r: SMALL_TIER, t: small, n: "Lite preview of the R1 line"}
+    "DeepSeek-V3": {r: NEW_VERSION, v: "3", t: pro}
+    "DeepSeek-R1": {r: NEW_VERSION, v: r1, t: pro}
+    "DeepSeek-R1-Zero": {r: LOWER_TIER, v: r1, t: exp, ref: "DeepSeek-R1", n: "research variant released alongside R1"}
+    "DeepSeek-R1-Distill-Llama-70B": {r: SMALL_TIER, t: small, n: "distilled onto a Llama base"}
+    "DeepSeek-R1-Distill-Llama-8B": {r: SMALL_TIER, t: small}
+    "DeepSeek-R1-Distill-Qwen-1.5B": {r: SMALL_TIER, t: small}
+    "DeepSeek-R1-Distill-Qwen-14B": {r: SMALL_TIER, t: small}
+    "DeepSeek-R1-Distill-Qwen-32B": {r: SMALL_TIER, t: small}
+    "DeepSeek-R1-Distill-Qwen-7B": {r: SMALL_TIER, t: small}
+    "Janus-Pro-1B": {r: DOMAIN_VARIANT, n: image}
+    "Janus-Pro-7B": {r: DOMAIN_VARIANT, n: image}
+    "DeepSeek-V3 (Mar 2025)": {r: SNAPSHOT, ref: "DeepSeek-V3"}
+    "DeepSeek-Prover-V2-671B": {r: DOMAIN_VARIANT, n: "theorem proving"}
+    "DeepSeek-Prover-V2-7B": {r: DOMAIN_VARIANT, n: "theorem proving"}
+    "DeepSeek-R1 (May 2025)": {r: SNAPSHOT, ref: "DeepSeek-R1"}
+    "DeepSeek-V3.1": {r: NEW_VERSION, v: "3.1", t: pro}
+    "DeepSeek-V3.1-Terminus": {r: SNAPSHOT, ref: "DeepSeek-V3.1"}
+    "DeepSeek-V3.2-Exp": {r: NEW_VERSION, v: "3.2", t: exp}
+    "Deepseek OCR": {r: DOMAIN_VARIANT, n: ocr}
+    "DeepSeekMath-V2": {r: DOMAIN_VARIANT, n: math}
+    "DeepSeek-V3.2": {r: SNAPSHOT, ref: "DeepSeek-V3.2-Exp", n: "general release after the experimental one; previews count once (Wisdom 2026-11-05)"}
+    "DeepSeek-V4-Pro": {r: NEW_VERSION, v: "4", t: pro}
+    "DeepSeek-V4-Flash": {r: LOWER_TIER, v: "4", t: flash, ref: "DeepSeek-V4-Pro"}
+    "DeepSeek V4 Flash 0731": {r: SNAPSHOT, ref: "DeepSeek-V4-Pro", n: "dated re-release of V4-Flash"}
+    "DeepSeek V4 Pro 0813": {r: SNAPSHOT, ref: "DeepSeek-V4-Pro"}
+    "DeepSeek V4.1 Flash": {r: NEW_VERSION, v: "4.1", t: flash, n: "top tier released under 4.1"}
