@@ -1,0 +1,6 @@
+meta-2026-09-02-muse-spark-1-3
+deepseek-2026-04-24-deepseek-v4-pro
+anthropic-2024-03-04-claude-3-opus
+mistral-2023-10-10-mistral-7b
+xai-2026-02-17-grok-4-20
+google-2026-05-19-gemini-3-5-flash

@@ -1,0 +1,6 @@
+anthropic-2026-05-28-claude-opus-4-8
+google-2024-02-08-gemini-1-0-ultra
+openai-2025-04-16-o3
+anthropic-2023-11-21-claude-2-1
+meta-2024-12-06-llama-3-3-70b
+google-2026-02-19-gemini-3-1-pro

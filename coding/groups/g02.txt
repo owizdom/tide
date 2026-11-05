@@ -1,0 +1,6 @@
+anthropic-2026-09-22-claude-opus-5-5
+openai-2025-08-07-gpt-5
+openai-2024-05-13-gpt-4o
+xai-2026-09-21-grok-4-7
+deepseek-2024-12-24-deepseek-v3
+google-2025-11-18-gemini-3-pro

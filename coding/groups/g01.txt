@@ -1,0 +1,5 @@
+anthropic-2026-06-09-claude-fable-5
+openai-2026-03-05-gpt-5-4
+openai-2025-12-11-gpt-5-2
+google-2026-07-21-gemini-3-6-flash
+deepseek-2025-09-29-deepseek-v3-2-exp

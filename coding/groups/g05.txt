@@ -1,0 +1,6 @@
+meta-2026-04-08-muse-spark
+openai-2026-07-09-gpt-5-6-sol
+mistral-2026-04-29-mistral-medium-3-5
+openai-2026-09-29-gpt-6-1-sol
+xai-2025-11-17-grok-4-1
+google-2026-09-02-gemini-3-8-flash

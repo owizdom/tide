@@ -1,0 +1,7 @@
+meta-2023-07-18-llama-2-70b
+anthropic-2025-05-22-claude-opus-4
+anthropic-2025-02-24-claude-3-7-sonnet
+anthropic-2025-08-05-claude-opus-4-1
+meta-2024-07-23-llama-3-1-405b
+deepseek-2025-08-21-deepseek-v3-1
+xai-2024-08-13-grok-2
