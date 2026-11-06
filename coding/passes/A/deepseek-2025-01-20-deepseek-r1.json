@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2025-01-20-deepseek-r1",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'autonomously develops' describes emergent reasoning during RL, not autonomy evaluated as a risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Reward hacking mentioned only as a training problem for neural/process reward models (sec 2.2.2, 4.2), not evaluated as misalignment."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only GPT-4-Turbo used as LLM judge for AlpacaEval/ArenaHard and o1 scores from official reports; no outside safety testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only GPT-4-Turbo used as LLM judge for AlpacaEval/ArenaHard and o1 scores from official reports; no outside safety testing."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we implement a secondary reinforcement learning stage aimed at improving the model's helpfulness and harmlessness",
+   "locator": "2.3.4 Reinforcement Learning for all Scenarios",
+   "note": "Harmlessness RL stage; also 'refuse answering certain queries after safety RL' (3.1)."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'filters out' refers to training-data filtering of unreadable CoT, not a runtime mechanism."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; paper covers RL training method and capability benchmarks only."
+  }
+ }
+}

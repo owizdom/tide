@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-09-02-gemini-3-8-flash",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN evaluation named; frontier safety only described generically via T/CCLs"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber domain named in card"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy/AI R&D domain named"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion domain named"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/scheming domain named"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are confident that Gemini 3.8 Flash is also unlikely to reach any T/CCLs",
+   "locator": "Frontier Safety Assessment",
+   "note": "States model unlikely to reach any Tracked/Critical Capability Levels under named Frontier Safety Framework"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming is by specialist teams outside the model development team but inside the lab; not outside the lab"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety training described; only automated safety eval results"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No runtime classifier/filter named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions described"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described"
+  }
+ }
+}

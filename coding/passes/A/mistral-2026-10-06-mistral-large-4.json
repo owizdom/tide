@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2026-10-06-mistral-large-4",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Cybersecurity appears only as a capability/workload strength ('state of the art among open-weight models for security work'), not as a risk evaluated."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'ecosystem folks' who integrated frameworks and Artificial Analysis capability indices; no outside safety testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'ecosystem folks' who integrated frameworks and Artificial Analysis capability indices; no outside safety testing."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Card says the model works 'while refusing malicious requests' but describes no safety training or fine-tuning; refusal behaviour claimed, mechanism not disclosed."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Commercial licence for MaaS and free demo budget are not safety-tied access restrictions."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned; HF card covers architecture, benchmarks, serving and licence only."
+  }
+ }
+}

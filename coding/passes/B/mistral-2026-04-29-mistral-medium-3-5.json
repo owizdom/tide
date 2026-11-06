@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2026-04-29-mistral-medium-3-5",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "HF model card read in full (features, benchmarks, usage code, license); no disclosure of this item"
+  }
+ }
+}

@@ -2,9 +2,15 @@
 
 ## Snapshot (rewritten each wave)
 
-- Stage: Track A FROZEN (87 events). Track B done after two fresh reviews: `cards/manifest.csv` 87 rows, `pytest tests` 50 passed. Committed locally on owizdom/tide-tracks-a-b.
-- Next action: fix in-scope review findings, then Track C codebook pilot on 10 releases (codebook v0 in `coding/codebook.md`).
-- Repo: local only, no git commits yet, no remote.
+- Stage: PAUSED 2026-11-06 00:25 by Wisdom until he moves to the premium team plan. Track A frozen (87 events); Track B done (manifest 87 rows); Track C main coding pass part-done under codebook v1.1.
+- Coded on disk: pass A 35 of 73 cards, pass B 33 of 73 (coding/passes/). All validate; quotes verified; independence test in tests/test_coding.py.
+- Resume steps:
+  1. Inventory: list cards missing per pass against coding/groups/g*.txt (pass A) and coding/groups_B/*.txt (pass B split, one agent per card over 25k words).
+  2. Pass A (Opus): groups g05 (part-done), g07-g12, plus recode list coding/groups/r02_recode.txt (gpt-5-1, gpt-5-2, grok-4-5, grok-4-7 under v1.1).
+  3. Pass B (Sonnet): groups_B g06S (part-done), g07L1..g12S, plus groups_B/r02_recode_B.txt and r02_opus47_B.txt.
+  4. Coding budget: about 10 coding agents per 5-hour window on the old plan; run 4 at a time. Open question for Wisdom: full two passes vs pass A on all plus pass B on the audit sample and a random subset.
+  5. Then: agreement and adjudication, audit sheet for the 15 releases in coding/audit_ids.txt, Track D (chart in Free Systems house style, lab heatmap, case studies, methods note, verify_claims).
+- Repo: local only, branch owizdom/tide-tracks-a-b, no remote.
 
 ## Evidence (append only)
 

@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-07-09-gpt-5-6-sol",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "The 80th-percentile expert performance of 36.4% is used as an indicative threshold. Out of the new models released, GPT-5.6 Sol scores the highest at 48.0% – above the threshold.",
+   "locator": "9.1.1.4 TroubleshootingBench",
+   "note": "Full bio/chem High and Critical eval suite with scores"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Results on our internal Capture-The-Flag tasks show all of the GPT-5.6 Series exceeding our Preparedness High threshold. GPT-5.6 Sol saturates the evaluation at 96.7%",
+   "locator": "9.1.2.1.1 Capture the Flag (CTF) Challenges",
+   "note": ""
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "For this model, METR considered other evaluation results and incident-reporting shared by OpenAI and judged that GPT-5.6 Sol would not enable fully automated AI R&D.",
+   "locator": "9.1.3.6 External Evaluations for AI Self Improvement – METR",
+   "note": "Also internal self-improvement suite; below High threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion/manipulation evaluation; keywords absent"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Overall, Apollo did not find evidence that GPT-5.6 Sol poses substantially higher risk of catastrophic scheming than the tested baselines.",
+   "locator": "9.3.1 External Evaluations – Apollo Research",
+   "note": "Also UK AISI sabotage and sandbagging results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Under our Preparedness Framework, we are treating Sol, Terra and Luna as High capability in both Cybersecurity and Biological and Chemical risk. None of them reach our High threshold in AI Self-Improvement.",
+   "locator": "1 Introduction",
+   "note": ""
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Testing by four private red teaming organizations lasted over more than a month, with access beginning June 3rd, 2026.",
+   "locator": "9.4.5 Third Party Red-teaming for Jailbreaks",
+   "note": "Also SecureBio, Irregular, UK AISI, METR, Apollo"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo evaluated GPT-5.6 Sol for strategic deception, scheming, and sabotage, comparing it with GPT-5.5, GPT-5.4, GPT-5.3 Codex, and related pre-release checkpoints.",
+   "locator": "9.3.1 External Evaluations – Apollo Research",
+   "note": ""
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "we provided UK AISI with early access to GPT-5.6 Sol to support independent, pre-deployment evaluation of cyber capabilities",
+   "locator": "9.1.2.6 External Evaluations for Cyber Capabilities – UK AISI",
+   "note": ""
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "we provided UK AISI with early access to GPT-5.6 Sol to support independent, pre-deployment evaluation of cyber capabilities",
+   "locator": "9.1.2.6 External Evaluations for Cyber Capabilities – UK AISI",
+   "note": ""
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The models in the GPT-5.6 family were trained not to generate biological, chemical or cybersecurity content that violates our safety policies. This includes training to mitigate jailbreaks.",
+   "locator": "9.4.2 Model Safety Training and Evaluation",
+   "note": ""
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "With this launch, we are introducing a new safety system based on activation classifiers for Sol and Terra.",
+   "locator": "9.4.3.1 Monitor Design",
+   "note": "Also topical classifiers and safety reasoner monitor"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "This is an identity-gated access pathway that provides higher-risk dual-use cyber capabilities to enterprise customers, verified defenders, and other legitimate users in order to advance ecosystem hardening while reducing the risk of malicious use.",
+   "locator": "9.4.8.2 Cybersecurity – Trusted Access for Cyber",
+   "note": ""
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "We leverage purpose-built detections and controls to mitigate the risk of exfiltration of high-risk model weights.",
+   "locator": "9.4.9 Security Controls",
+   "note": ""
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-04-08-muse-spark",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Muse Spark reached the “possibly enabling” or “likely enabling” threshold across the three classes of bottlenecks",
+   "locator": "2.1.2 High-Risk Bottlenecks, Results",
+   "note": "Scores on MBCT, VCT, WMDP-Bio, ABC Bench, bottleneck tasks and a high-risk determination."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Muse Spark exhibits an overall pass rate of 65.4% pass@1, 79.0% pass@10, and 82.2% pass@30",
+   "locator": "2.2.2.1 CTF Challenges (Cybench)",
+   "note": "Cybench, CyberGym, CyScenarioBench results."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Muse Spark achieves an any medal rate of 15.83%, below our 60% threshold",
+   "locator": "2.3.1.1 Acceleration of AI Development",
+   "note": "AI R&D automation evaluated with MLE-Bench and AIRS-Bench, results and threshold stated."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or influence-operation evaluation. Social engineering and spear-phishing are coded cyber per v1. Prompt-injection 'manipulate' and 'covert manipulation' in model reasoning are not persuasion evaluation. 'its own persuasiveness' is a model's self-description in interviews, not an evaluated risk."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Muse Spark demonstrates a compliance gap of 1.8% between the settings deemed to be training and deployment",
+   "locator": "4.1.10 Scheming (Alignment Faking)",
+   "note": "Also sandbagging, evaluation awareness, Apollo self-exfiltration results."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Under the current Advanced AI Scaling Framework and its deployment context, Muse Spark meets our threshold for responsible deployment at “moderate or lower risk.”",
+   "locator": "1.1.1 Risk Assessment Summary",
+   "note": "Named framework with high-risk / moderate-or-lower determinations."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "A third-party human red team from HandshakeAI32 was granted pre-release access to a few versions of Muse Spark and Meta AI Thinking",
+   "locator": "3.1.3.2 Human Red Teaming",
+   "note": "Also Apollo Research, Irregular, Scale AI, GraySwan."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Independent third-party testing by Apollo Research found Muse Spark has the highest rate of evaluation awareness they have observed to date.",
+   "locator": "Abstract",
+   "note": "Also HandshakeAI, Irregular, GraySwan, ScaleAI."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "US AISI and UK AISI appear only as a prior o1 test cited as a method precedent ('replicate previous pre-deployment tests (US AISI and UK AISI, 2024)') and Cybench described as widely used by safety institutes generally. No statement that a government body tested Muse Spark."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "A third-party human red team from HandshakeAI32 was granted pre-release access to a few versions of Muse Spark and Meta AI Thinking",
+   "locator": "3.1.3.2 Human Red Teaming",
+   "note": "Also GraySwan 'before the Muse Spark launch'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "this performance reflects the layered mitigation strategy we have deployed in Meta AI, as described in section 1: safety-focused training, inference-time classifiers, and product-level guardrails.",
+   "locator": "5.2 Results",
+   "note": "Also 'safety fine-tuning' in 2.2.3 and adversarial training."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we are deploying offline cyber misuse monitoring classifiers as a compensating control to detect and mitigate misuse at the system level.",
+   "locator": "2.2 Cybersecurity",
+   "note": "Also post-launch automated online monitoring, input classifiers."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "early checkpoints of Muse Spark were initially deployed to a small, percentage-limited subset of product users prior to broad availability.",
+   "locator": "1.2 Governance",
+   "note": "Controlled deployment under the framework with chem-bio mitigations enabled to reduce risk, plus 1P deployment without an API. Borderline: safety reason is tied to the framework's controlled-deployment provision, not stated as a standalone access restriction. Structured access programmes appear only as future possibility."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "Meta’s model weight security strategy is built on a multi-pronged, lifecycle-driven framework designed to identify, assess, and mitigate systemic risks of tampering and theft.",
+   "locator": "1.4 Security Practices",
+   "note": "Weight security pillars described for Muse Spark; also self-exfiltration evaluated."
+  }
+ }
+}

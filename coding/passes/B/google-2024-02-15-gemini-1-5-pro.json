@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2024-02-15-gemini-1-5-pro",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Card read in full (pp.1-58); no dangerous-capability evaluation or risk domain of this kind is mentioned; 'dangerous content' appears only as a content-safety policy area."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Card read in full (pp.1-58); no dangerous-capability evaluation or risk domain of this kind is mentioned; 'dangerous content' appears only as a content-safety policy area."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Card read in full (pp.1-58); no dangerous-capability evaluation or risk domain of this kind is mentioned; 'dangerous content' appears only as a content-safety policy area."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Card read in full (pp.1-58); no dangerous-capability evaluation or risk domain of this kind is mentioned; 'dangerous content' appears only as a content-safety policy area."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Card read in full (pp.1-58); no dangerous-capability evaluation or risk domain of this kind is mentioned; 'dangerous content' appears only as a content-safety policy area."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No safety or scaling framework named; only the Responsibility and Safety Council and Google AI Principles, which are not frameworks with thresholds."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "whilst undertaking red teaming and external evaluations",
+   "locator": "Section 6.3 Model Safety Evaluations, p.26",
+   "note": "Card says red teaming and external evaluations are being undertaken for this model; who and when unstated. Weak but counts under the timing rule."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No outside organisation is named as testing this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No government body mentioned as testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "'continuing to conduct ... whilst undertaking' gives no pre-release timing; 'before deployment decisions' in Intro refers to evaluations generally, not outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The most substantial new update in 1.5 Pro mitigation is the incorporation of new image-to-text SFT data",
+   "locator": "Section 6.2 Model Mitigations, p.26",
+   "note": "Safety SFT and RLHF with a reward model on harm-inducing queries."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Only generic mention that logging, monitoring and feedback are documented on product websites; no named classifier, filter or monitoring mechanism for this model."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No safety-tied access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "No weight protection described."
+  }
+ }
+}

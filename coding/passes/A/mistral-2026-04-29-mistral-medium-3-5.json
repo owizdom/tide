@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2026-04-29-mistral-medium-3-5",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'third party' occurs only in the licence clause; no outside testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Vibe config line 'safety = \"neutral\"' is a tool setting, not a named runtime safety mechanism"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Released open-weights under Modified MIT licence; 'gated': false; no risk-tied restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Hugging Face card covers architecture, settings, benchmarks, usage and licence only; no safety content"
+  }
+ }
+}

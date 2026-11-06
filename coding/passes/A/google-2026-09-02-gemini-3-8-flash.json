@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-09-02-gemini-3-8-flash",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN domain named; Frontier Safety section refers only to 'the domains outlined in our Frontier Safety Framework' without naming them"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber domain named in the card"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy domain named in the card"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion/manipulation domain named"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/scheming evaluation named"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "therefore, based on Gemini 3.7 Flash results, we are confident that Gemini 3.8 Flash is also unlikely to reach any T/CCLs",
+   "locator": "Frontier Safety Assessment",
+   "note": "Threshold determination (Tracked/Critical Capability Levels) stated for this model, carried over from 3.7 Flash"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming is by 'specialist teams who sit outside of the model development team' (internal); no outside testers"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside org named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing at all"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety training/fine-tuning described for this model; safety policies deferred to 3.7 Flash card; 'strengthened the mitigations' names no mechanism"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No classifier/filter/moderation named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Distribution channels and terms of use only; no risk-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight security statement"
+  }
+ }
+}

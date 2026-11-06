@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2025-11-17-grok-4-1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.1 achieves broadly similar results to Grok 4 and other frontier models on chemical and biological capabilities tests.",
+   "locator": "2.3.2 Results",
+   "note": "Reports WMDP, VCT, ProtocolQA scores for this model"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "CyBench [Zhang et al., 2024]: a suite of Capture-the-Flag (CTF) challenges measuring agentic cyber attack capabilities.",
+   "locator": "2.3.1 Evaluations",
+   "note": "CyBench and WMDP Cyber scores reported in Table 4"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No replication, AI R&D or long-horizon autonomy evaluation; AgentHarm/AgentDojo are misuse and prompt injection"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Finally, we note that Grok 4.1 performs poorly on MakeMeSay, and that broadly, we do not believe it poses risks due to advanced persuasion capabilities.",
+   "locator": "2.3.2 Results",
+   "note": "MakeMeSay win rate 0.00 in Table 4"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We operationalize deception as the rate at which the model lies, i.e., knowingly making false statements intended to be received as true.",
+   "locator": "2.2.1 Deception",
+   "note": "MASK dishonesty rate reported for Grok 4.1; evaluated as a concerning propensity under the RMF"
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "In line with our Risk Management Framework (RMF), we measure safety-relevant behaviors across three categories",
+   "locator": "1 Introduction",
+   "note": "Framework named; no threshold or level placed for this model"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Pre-deployment testing mentioned but no outside party; internal"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testers named; RAND etc. only cited as benchmark references"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we train Grok 4.1 on demonstrations of appropriate responses to both benign and harmful queries",
+   "locator": "2.1.1 Safety Training Approach",
+   "note": "Refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we employ input filters to reject specific classes of sensitive requests, such as those involving bioweapons, chemical weapons, self-harm",
+   "locator": "2.1.1 Safety Training Approach",
+   "note": "Named input filter model"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions tied to safety"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described"
+  }
+ }
+}

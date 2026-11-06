@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-09-29-gpt-6-1-sol",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-6.1 Sol’s reported results did not cross the indicative Critical thresholds.",
+   "locator": "9.1.1 Biological and Chemical Capabilities",
+   "note": "Addendum reports GPT-6.1 Sol scores in Tables 12-13 and High determination"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "We determined that GPT-6.1 Sol reaches the Critical threshold for cybersecurity capabilities under the Preparedness Framework.",
+   "locator": "9.1.2 Cybersecurity Capabilities",
+   "note": "ExploitBench, SEC-Bench Pro, ExploitGym scores for this model"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "In AI Self-Improvement, GPT-6.1 Sol does not reach our High threshold.",
+   "locator": "9.1.3 AI Self-Improvement Capabilities",
+   "note": "Threshold determination plus Internal Research Debugging score 75.52%"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion/manipulation evaluation anywhere in the addendum (grep for persuas, manipulat found nothing)"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Evaluation awareness. We also investigated evaluation or simulation awareness by analyzing CoT.",
+   "locator": "7.6 Forecasting Misaligned Behavior",
+   "note": "Also coding deception 1.50%, honeypot, sabotage monitor evasion results for this model"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are treating GPT-6.1 Sol as Critical capability in Cybersecurity, High capability in the Biological and Chemical",
+   "locator": "9 Preparedness",
+   "note": "Placed against Preparedness Framework levels"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'Human red-teaming' rows in Table 3 with no stated outside party; no outside testers described in this addendum"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Model refusal remains one layer of our safety stack, alongside additional safeguards that enforce the safety boundary through defense in depth.",
+   "locator": "9.2.1.2 Cybersecurity Safety Training and Evaluation",
+   "note": "Section 9.2.1 Model Safety Training and Evaluation with refusal evals; same safeguards stack as GPT-6 Astra"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Our production monitoring system assigns priorities to issues detected, where a P0 priority results in paging the security team",
+   "locator": "8.1.2 Monitor Evasion",
+   "note": "Named production monitoring system applied to this model's activity; borderline since it is described as misalignment monitoring"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "we are taking a phased approach for GPT-6.1 Sol through Daybreak",
+   "locator": "9.2.1.3 Trusted Access for Cyber",
+   "note": "Trusted access programme tied to rising cyber capability"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Mentions changes to 'internal safety and security posture' but no stated weight protection; exfiltration appears only as a behaviour flag"
+  }
+ }
+}

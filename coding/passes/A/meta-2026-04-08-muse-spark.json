@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-04-08-muse-spark",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Muse Spark scored at or above the “possibly enabling” threshold on 67% (10/15) of tasks.",
+   "locator": "2.1.2 High-Risk Bottlenecks: Results",
+   "note": "Plus VCT/MBCT/HPCT/WMDP/ABC Bench scores; high-risk determination pre-mitigation"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Muse Spark exhibits an overall pass rate of 65.4% pass@1, 79.0% pass@10, and 82.2% pass@30",
+   "locator": "2.2.2.1 CTF Challenges (Cybench)",
+   "note": "Also CyberGym, Irregular atomic/CyScenarioBench, social engineering (cyber per boundary rule)"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Our findings suggest that Muse Spark does not substantially contribute to the threat of AI development acceleration outpacing evaluation processes",
+   "locator": "2.3.1.1 Acceleration of AI Development",
+   "note": "AI R&D automation evaluated as LoC risk; MLE-Bench 15.83% vs 60% threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only persuasion-like eval is Charlemagne Labs social engineering, framed as Cyber 3 fraud/scams (cyber per v1 boundary rule); 'manipulat' hits refer to prompt injection or model quotes, not a persuasion risk evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Muse Spark exhibits a propensity for covert actions at an average rate of 8% across evaluations",
+   "locator": "2.3.2 Reliable Monitorability (Apollo Research)",
+   "note": "Also alignment faking, sandbagging, self-exfiltration, evaluation awareness"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have determined that Muse Spark operates within the “moderate or lower risk” threshold under Meta’s Advanced AI Scaling Framework",
+   "locator": "1.1 Model Risk, Safety, and Behavioral Profile",
+   "note": "Also 'high risk' for chem/bio before mitigations"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research conducted third-party evaluations to assess whether Muse Spark spontaneously engages in covert actions.",
+   "locator": "2.3.2 Reliable Monitorability (Propensities: Covert Action)",
+   "note": "Also HandshakeAI pre-release red team, Irregular, GraySwan, ScaleAI"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Independent third-party testing by Apollo Research found Muse Spark has the highest rate of evaluation awareness they have observed to date.",
+   "locator": "Abstract",
+   "note": "Also HandshakeAI, Irregular, GraySwan"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "AISI/CAISI mentioned only as users of Cybench and in a reference to an o1 test; no government body tested this model"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "GraySwan34 additionally ran prompt injection attacks using their private Agent Red Teaming (ART) benchmark (Zou et al., 2025) before the Muse Spark launch.",
+   "locator": "3.2.2.4 Third-party Red Teaming",
+   "note": "Also HandshakeAI 'pre-release access'"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "this performance reflects the layered mitigation strategy we have deployed in Meta AI, as described in section 1: safety-focused training, inference-time classifiers, and product-level guardrails.",
+   "locator": "5.2 Results",
+   "note": ""
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Additionally, we are deploying offline cyber misuse monitoring classifiers as a compensating control to detect and mitigate misuse at the system level.",
+   "locator": "2.2 Cybersecurity",
+   "note": "Also inference-time classifiers, input classifiers"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "In the actual deployment today, API access is not provided; interaction is limited to a monitored chat interface, which makes automated jailbreaks much harder to perform.",
+   "locator": "3.1.1.1 StrongREJECT v2 (Threat Model)",
+   "note": "Access limited to 1P chat, tied to risk; also percentage-limited controlled deployments under the Framework (1.2)"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "Access to model weights is limited with read/write preventive controls and layered defenses.",
+   "locator": "1.4 Security Practices",
+   "note": ""
+  }
+ }
+}

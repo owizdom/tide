@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-09-29-gpt-6-1-sol",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "GPT-6.1 Sol achieves a refusal-adjusted pass@1 score of 55.34%, compared with 55.5% for GPT-5.6 Sol and 63.11% for GPT-6 Astra.",
+   "locator": "9.1.1 Biological and Chemical Capabilities",
+   "note": "Bio High/Critical threshold evals with scores for this model"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "We determined that GPT-6.1 Sol reaches the Critical threshold for cybersecurity capabilities under the Preparedness Framework.",
+   "locator": "9.1.2 Cybersecurity Capabilities",
+   "note": "Plus ExploitBench, SEC-Bench Pro, ExploitGym scores"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "GPT-6.1 Sol improves meaningfully on GPT-6 Sol but remains below the High threshold. GPT-6.1 Sol achieves a mean rubric score of 75.52%",
+   "locator": "9.1.3 AI Self-Improvement Capabilities",
+   "note": "AI self-improvement evaluated as its own risk with score and threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation evaluation; keywords absent"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "At the highest reasoning effort tested, GPT-6.1 Sol had nearly zero success rate at evading CoT-only monitors in either the task-guided or unguided setting.",
+   "locator": "8.1.2 Monitor Evasion (OAI-repo Sabotage v2)",
+   "note": "Also coding deception rate and evaluation awareness 4.81%"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Under our Preparedness Framework, we are treating GPT-6.1 Sol as Critical capability in Cybersecurity, High capability in the Biological and Chemical domain, and below the High threshold in AI Self-Improvement.",
+   "locator": "9 Preparedness",
+   "note": ""
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'Human red-teaming' rows in Table 3 do not say testers were outside OpenAI; no outside testers, orgs or partners named; 'External Agent Messages' is an eval name"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named as tester"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing reported"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Model Safety Training and Evaluation For a full description of these evaluations, please see the Model Safety Training and Evaluation section in the GPT-6 Astra card.",
+   "locator": "9.2.1 Model Safety Training and Evaluation",
+   "note": "Addendum: safety training listed under the safeguards stack applied to this model; details deferred to Astra card (v1.1 rule 1, 'same safeguards stack')"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Our production monitoring system assigns priorities to issues detected, where a P0 priority results in paging the security team",
+   "locator": "8.1.2 Monitor Evasion",
+   "note": "Named production misalignment monitoring system evaluated against this model"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "As cyber capabilities increase, our approach is to expand defensive access and safeguards together. Like Astra, we are taking a phased approach for GPT-6.1 Sol through Daybreak",
+   "locator": "9.2.1.3 Cybersecurity - Trusted Access for Cyber",
+   "note": "Trusted Access for Cyber tied to cyber capability"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'major changes to our internal safety and security posture' does not mention weights or exfiltration protection; 'exfiltration' appears only as a misalignment flag category"
+  }
+ }
+}

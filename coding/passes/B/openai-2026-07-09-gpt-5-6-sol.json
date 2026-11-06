@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-07-09-gpt-5-6-sol",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We are treating all three members of the GPT-5.6 family – Sol, Luna, and Terra – as High capability in the biological and chemical domain.",
+   "locator": "9.1.1 Biological and Chemical Capabilities",
+   "note": "Threshold determination plus scores for four High and three Critical evals"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "GPT-5.6 Sol saturates the evaluation at 96.7%",
+   "locator": "9.1.2.1.1 Capture the Flag",
+   "note": "CTF, CVE-Bench, VulnLMP, ExploitGym results and High-not-Critical determination"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Our testing indicates that none of these models reach our threshold for High capability in AI self-improvement.",
+   "locator": "9 Preparedness",
+   "note": "Threshold determination plus Internal Research Debugging, NanoGPT, PostTrainBench results; METR time horizon"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation evaluation; keyword search found no persuas/manipulat/influence op after full read"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo evaluated GPT-5.6 Sol for strategic deception, scheming, and sabotage",
+   "locator": "9.3.1 External Evaluations - Apollo Research",
+   "note": "Apollo, UK AISI sabotage, metagaming and eval-awareness results for this model"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have determined that all three members of the GPT-5.6 model family – Sol, Terra, and Luna – warrant the same designations for our Preparedness Framework’s Tracked",
+   "locator": "9 Preparedness",
+   "note": "High in Bio/Chem and Cyber, below High in AI Self-Improvement"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Expert humans and external testers used a diverse set of approaches to find gaps.",
+   "locator": "1 Introduction",
+   "note": "Outside testers named throughout (SecureBio, Irregular, UK AISI, Apollo, METR)"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research is focused on reducing risks from dangerous capabilities in advanced AI systems, especially scheming behaviors.",
+   "locator": "9.3.1 External Evaluations - Apollo Research",
+   "note": "Also SecureBio, Irregular, METR, UK AISI"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "we provided UK AISI with early access to GPT-5.6 Sol to support independent, pre-deployment evaluation of cyber capabilities",
+   "locator": "9.1.2.6 External Evaluations for Cyber Capabilities - UK AISI",
+   "note": "UK AI Security Institute tested this model pre-deployment"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "SecureBio, a nonprofit research organization focused on catastrophic biological risk, evaluated two pre-release checkpoints of GPT-5.6 Sol",
+   "locator": "9.1.1.8 External Evaluation for Bio Capabilities - SecureBio",
+   "note": "Also UK AISI 'pre-deployment'"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The models in the GPT-5.6 family were trained not to generate biological, chemical or cybersecurity content that violates our safety policies.",
+   "locator": "9.4.2 Model Safety Training and Evaluation",
+   "note": "Safety training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we are introducing a new safety system based on activation classifiers for Sol and Terra.",
+   "locator": "9.4.3.1 Monitor Design",
+   "note": "Activation classifiers, topical classifiers and safety reasoner monitor at inference"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "This is an identity-gated access pathway that provides higher-risk dual-use cyber capabilities to enterprise customers, verified defenders",
+   "locator": "9.4.8.2 Cybersecurity - Trusted Access for Cyber",
+   "note": "Trusted access programmes for cyber and biology tied to risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we take a defense-in-depth approach to protecting our model weights, relying on a combination of access control, infrastructure hardening, egress controls, and monitoring.",
+   "locator": "9.4.9 Security Controls",
+   "note": "Stated weight protection"
+  }
+ }
+}

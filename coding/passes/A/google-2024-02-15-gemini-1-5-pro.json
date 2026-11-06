@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2024-02-15-gemini-1-5-pro",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only content-safety 'dangerous content' policy evals (Sec 6.4.1); no CBRN uplift evaluation; defers to Gemini 1.0 report."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No offensive cyber evaluation; memorization divergence attack (6.5) is training-data extraction, not cyber capability."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy risk evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion/manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception/scheming evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety framework named; only Google AI Principles and Responsibility and Safety Council review."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "In addition, we are continuing to conduct evaluations on other modality areas (e.g. audio-to-text and video-to-text) whilst undertaking red teaming and external evaluations.",
+   "locator": "6.3 Model Safety Evaluations",
+   "note": "External evaluations of Gemini 1.5 Pro stated, no results, no org, no timing; not stated to be post-release, so counts under timing rule. Borderline."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "External evaluations described as ongoing ('continuing to conduct'); no pre-deployment timing stated for outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Our modeling mitigation of safety risks is mostly through supervised fine-tuning (SFT) and reinforcement learning through human feedback (RLHF) using a reward model",
+   "locator": "6.2 Model Mitigations",
+   "note": "Safety SFT and RLHF, plus new image-to-text safety SFT data."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'monitoring' refers to evaluating long inputs' effect on safety and to product-site operational docs; no runtime classifier/filter named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Known Caveats says model should not be deployed without downstream safety assessment; this is guidance, not an access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight security described."
+  }
+ }
+}

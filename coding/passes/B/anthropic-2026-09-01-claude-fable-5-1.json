@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-09-01-claude-fable-5-1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "On the long-form virology tasks, Claude Mythos 5.1 achieved end-to-end scores of 0.81",
+   "locator": "2.2.3.1 (p.22)",
+   "note": "Scores on long-form virology, VCT, DNA screening for Mythos 5.1; CB-1/CB-2 determinations"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Mythos 5.1 developed 245 full exploits out of 250 trials (98.0%).",
+   "locator": "3.3.3 Firefox 147 (p.50)",
+   "note": "Also ExploitBench, OSS-Fuzz, ExploitGym results and Tier 1 determination"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "We assess that Claude Mythos 5.1 does not cross the capability threshold for dramatic",
+   "locator": "2.3.7 Conclusion (p.42)",
+   "note": "AI R&D threshold determination plus CoBench, AECI and METR findings"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "We therefore classify Tier 2 as inconclusive for this model.",
+   "locator": "5.1.3 (p.81)",
+   "note": "Agentic influence campaign eval gives median scores 29.5 and 28.5 of 32 against Tier 2 manipulation threshold"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "In both settings, Claude Mythos 5.1 achieved the highest stealth rate of any model we have",
+   "locator": "6.7.2 LinuxArena (p.134)",
+   "note": "Stealth/SHADE-Arena, sandbagging audit, grader and evaluation awareness, sandbox-escape results framed as misalignment risk"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We have determined that Mythos 5.1 does not cross the CB-2 threshold.",
+   "locator": "2.1.2.1 (p.16)",
+   "note": "States CB-1 capabilities conservatively treated, CB-2 not crossed, autonomy threat model 2 not crossed; RSP and FCF named"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Mythos 5.1",
+   "locator": "2.3.6 External testing (p.40)",
+   "note": "METR pre-deployment; also Trajectory Labs, 10a Labs, Gray Swan, FDG, Dyno"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Trajectory Labs, PBC spent roughly 74 hours red teaming Fable 5.1, sending over",
+   "locator": "3.5.2 (p.57)",
+   "note": "Named: METR, Trajectory Labs, 10a Labs, Gray Swan, Frontier Design Group, SecureBio"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "5.2.1 (p.82); 6.7.4 (p.137)",
+   "note": "UK AISI and CAISI appear only as partners on the Gray Swan IPI benchmark, and AISI supplied a CoT-controllability prompt that Anthropic ran. No government body is said to have tested this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We conducted pre-deployment testing of Claude Mythos 5.1",
+   "locator": "2.3.6 External testing (p.40)",
+   "note": "Explicit pre-deployment METR testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the fully-trained versions of these models (which include harmlessness training) refused to engage",
+   "locator": "5.1.3 (p.81)",
+   "note": "Harmlessness training described; also single-turn harmless response rates in 4.1"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We prevent harmful cyber use in two stages. First, a probe looks at Claude",
+   "locator": "3.2 Mitigations (p.45)",
+   "note": "Activation probe plus LLM classifier, fallback to Opus 4.8; bio classifiers; PI probes"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Direct access to Mythos 5.1 is limited to vetted individuals and organizations through our trusted access programs.",
+   "locator": "Executive Summary (p.2)",
+   "note": "Trusted access programs tied to dual-use bio and cyber risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "jailbreaks, and security controls against model weight theft.",
+   "locator": "2.1.2.1 (p.15)",
+   "note": "Protections applied to models treated as CB-1, which the card applies to Mythos 5.1"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2026-10-06-mistral-large-4",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Cybersecurity is claimed as a performance strength for security work (defensive capability), not an offensive-risk evaluation; no risk evaluation or result reported."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Only says it refuses malicious requests; no safety training described."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "Not disclosed in card."
+  }
+ }
+}
