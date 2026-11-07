@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-02-24-claude-3-7-sonnet",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Altogether, we believe that Claude 3.7 Sonnet continues to be sufficiently far away from the ASL-3 capability thresholds",
+   "locator": "7.1 CBRN Evaluations",
+   "note": "Uplift trial scores, VCT, LabBench, long-form virology 69.7%."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "The model succeeded in 13/23 (56%) easy tasks and in 4/13 (30%) medium difficulty evaluations",
+   "locator": "7.3 Cyber Evaluations",
+   "note": "verbatim span supports value"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Results: The production model achieved a 23% success rate on the hard subset of SWE-bench Verified, falling short of our 50% threshold for 2-8 hour software engineering tasks.",
+   "locator": "7.2 Autonomy Evaluations",
+   "note": "AI R&D automation threat model; RE-Bench, internal AI research suite."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "Our Safeguards team's model evaluations included single-turn and multi-turn tests covering our high harm usage policies related to Child Safety, Cyber Attacks, Dangerous Weapons and Technology, Hate & Discrimination, Influence Operations",
+   "locator": "3 Evaluations and Safeguards for Child Safety and Bias",
+   "note": "Influence Operations tested as a policy area; no specific result. Manipulation monitored in thinking (5.2) with rate for 'deceiving or manipulating the user'."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Claude 3.7 Sonnet showed marked improvement, with alignment faking dropping to <1% of instances and a reduced compliance gap of only 5%.",
+   "locator": "5.3 Alignment Faking Reasoning",
+   "note": "Also deceptive reasoning 0.37% and CoT faithfulness scores."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Based on our assessments, we've concluded that Claude 3.7 Sonnet is released under the ASL-2 standard.",
+   "locator": "1.4.3 ASL Determination Process",
+   "note": "verbatim span supports value"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "uplift trials with both internal and external testers, third-party expert red teaming and assessments",
+   "locator": "1.4.3 ASL Determination Process",
+   "note": "verbatim span supports value"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Domain experts from Deloitte engaged in extended conversations with Claude, assessing its ability to assist users with complex domain-specific challenges in weapons development.",
+   "locator": "7.1.4 Expert Red Teaming",
+   "note": "Also Sepal.ai, SecureBio, Pattern Labs, METR."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "the U.S. AI Safety Institute (U.S. AISI) and U.K. AI Security Institute (U.K. AISI) conducted pre-deployment testing of Claude 3.7 Sonnet",
+   "locator": "7.4 Third Party Assessments",
+   "note": "verbatim span supports value"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "the U.S. AI Safety Institute (U.S. AISI) and U.K. AI Security Institute (U.K. AISI) conducted pre-deployment testing of Claude 3.7 Sonnet",
+   "locator": "7.4 Third Party Assessments",
+   "note": "verbatim span supports value"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Anthropic used a technique called Constitutional AI to align Claude with human values during reinforcement learning",
+   "locator": "1.1 Training Data & Process",
+   "note": "Also harmlessness training and preference-model training in section 2."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Our Safeguards team also runs continuous classifiers to monitor prompts and outputs for harmful use cases that violate our AUP.",
+   "locator": "1.1 Training Data & Process",
+   "note": "Also streaming CoT classifier, prompt-injection classifiers."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Enforcement (account bans, removing computer use capability) is AUP enforcement, not a risk-tied access programme."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No protection of this model's weights described; weights/security keywords absent."
+  }
+ }
+}

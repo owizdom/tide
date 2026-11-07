@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2024-05-07-deepseek-v2-moe-236b",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "read whole paper; no CBRN risk evaluation; benchmark examples are general"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no cyber capability evaluation"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no autonomy risk evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no persuasion evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no deception/sabotage evaluation; only a conclusion aim of being honest and safe"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no safety or scaling framework referenced"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing; GPT-4 used only as AlignBench judge"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside tester"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "comprising 1.2M instances for helpfulness and 0.3M instances for safety.",
+   "locator": "4.1 Supervised Fine-Tuning",
+   "note": "safety SFT data; also safety reward model in 4.2"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no runtime classifier/filter/monitoring described"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "weights released openly; no protection"
+  }
+ }
+}

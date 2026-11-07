@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-11-24-claude-opus-4-5",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We determine that Claude Opus 4.5 does not cross the CBRN-4 threshold.",
+   "locator": "1.2.4.2; 7.2 CBRN evaluations",
+   "note": "Threshold determination plus scores (VCT 0.4771, virology uplift 1.97x)."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 4.5 scored 0.82 average pass@1 on the subset of tasks used for RSP\nevaluations, compared to 0.6 for Claude Sonnet 4.5.",
+   "locator": "7.4.7 Cybench",
+   "note": "Cybench and CTF suite results; CyberGym 50.63%."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Our determination is that Claude Opus 4.5 does not cross the AI R&D-4 capability\nthreshold.",
+   "locator": "7.3 Autonomy evaluations, Results",
+   "note": "AI R&D threshold determination plus internal suite scores (Suite 2 0.604)."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to hide dangerous capabilities, and\nattempts to manipulate users toward certain views.",
+   "locator": "6.1 Introduction and summary of findings",
+   "note": "Manipulation listed as a behaviour looked for; no persuasion result reported (boundary rule: persuasion = 1)."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Overall, Claude Opus 4.5 demonstrated a significant improvement at sabotage-relevant\ncapabilities, but at a success rate of 7.7% in the primary setting",
+   "locator": "6.11.1 SHADE-Arena",
+   "note": "Sabotage, sandbagging, evaluation-awareness and deception evaluations with results."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Our determination is that Claude Opus 4.5 does not cross either the AI R&D-4 or CBRN-4\ncapability threshold.",
+   "locator": "1.2.4 Conclusions",
+   "note": "RSP thresholds; deployed under ASL-3 Standard."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "pre-deployment testing of\nClaude Opus 4.5 was conducted by the US Center for AI Standards and Innovation (CAISI)\nand the UK AI Security Institute (UK AISI).",
+   "locator": "7.5 Third party assessments",
+   "note": "Outside testing of this model before release; also expert red teaming, Gray Swan."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "pre-deployment testing of\nClaude Opus 4.5 was conducted by the US Center for AI Standards and Innovation (CAISI)\nand the UK AI Security Institute (UK AISI).",
+   "locator": "7.5 Third party assessments",
+   "note": "CAISI and UK AISI named."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "pre-deployment testing of\nClaude Opus 4.5 was conducted by the US Center for AI Standards and Innovation (CAISI)\nand the UK AI Security Institute (UK AISI).",
+   "locator": "7.5 Third party assessments",
+   "note": "US CAISI and UK AISI are government bodies."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.5\nwith the UK AI Security Institute for open-ended testing",
+   "locator": "6.13 External testing from the UK AI Security Institute",
+   "note": "Pre-release / pre-deployment stated."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Claude Opus 4.5 underwent substantial post-training and\nfine-tuning, with the intention of making it a helpful, honest, and harmless assistant",
+   "locator": "1.1.1 Training data and process",
+   "note": "Harmlessness post-training incl. RLHF and RLAIF."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we have also deployed safeguards tailored to specific uses, such as classifiers\nand system prompts for browser use",
+   "locator": "5.2 Prompt injection risk within agentic systems",
+   "note": "Deployed classifiers; also monitoring for malicious coding activity."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Claude.ai, our consumer offering, is only available to users aged 18 or above",
+   "locator": "3.4 Child safety evaluations",
+   "note": "Age restriction stated in the child-safety context. Borderline: an age gate, not a trusted-access or KYC programme."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'ASL-3 security, under which Claude Opus 4.5 is deployed' named without saying it protects weights; weight-theft protection is described only for the ASL-4 Security Standard, which is not applied (footnote 37). Exfiltration appears only as an evaluated behaviour."
+  }
+ }
+}

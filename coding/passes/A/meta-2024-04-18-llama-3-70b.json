@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2024-04-18-llama-3-70b",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "Involving external CBRNE experts to conduct an uplift test assessing the ability of the model to accurately provide expert knowledge and reduce barriers to potential CBRNE misuse",
+   "locator": "Critical risks > CBRNE",
+   "note": "CBRNE assessment described; no result reported."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On our insecure coding and cyber attacker helpfulness tests, Llama 3 behaved in the same range or safer than models of",
+   "locator": "Critical risks > Cyber Security",
+   "note": "CyberSecEval cyber-attack helpfulness result reported (qualitative comparison)."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'autonomy' appears only as user autonomy (Ethical Considerations); no autonomy risk eval."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety framework referenced; Responsible Use Guide is developer guidance, not a scaling framework."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Involving external CBRNE experts to conduct an uplift test",
+   "locator": "Critical risks > CBRNE",
+   "note": "External experts tested this model; no post-release timing stated."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "External CBRNE experts and content specialists are unnamed; AI Alliance/MLCommons are consortium memberships, not testers."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No single span states outside testing occurred before release; 'before we make our release decision' refers to Meta's process generally."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.",
+   "locator": "Model Details > Model Architecture",
+   "note": "RLHF for safety."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We also provide a set of resources including [Meta Llama Guard 2](https://llama.meta.com/purple-llama/) and [Code Shield](https://llama.meta.com/purple-llama/) safeguards.",
+   "locator": "Responsibility & Safety",
+   "note": "Shipped safeguard models with a reference implementation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only licence/AUP; no risk-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection mentioned."
+  }
+ }
+}

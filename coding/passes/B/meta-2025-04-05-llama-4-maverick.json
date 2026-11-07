@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2025-04-05-llama-4-maverick",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we applied expert-designed and other targeted evaluations designed to assess whether the use of Llama 4 could meaningfully increase the capabilities of malicious actors",
+   "locator": "Safeguards > Critical Risks 1",
+   "note": "Evaluation named, no result reported."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Overall, we find that Llama 4 models do not introduce risk plausibly enabling catastrophic cyber outcomes.",
+   "locator": "Safeguards > Critical Risks 3",
+   "note": "Stated determination from cyber evaluations."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only automating cyberattacks, which is cyber; no replication or AI R&D."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or influence evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception or sabotage evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No named safety or scaling framework; Developer Use Guide is deployer guidance."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming and 'partner early with subject-matter experts' are generic and recurring; card does not say outsiders tested Llama 4 and the red team composition is not stated as external."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside tester named (AI Alliance, MLCommons are consortia, not testers)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No stated outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The primary objective of conducting safety fine-tuning is to offer developers a readily available, safe, and powerful model",
+   "locator": "Safeguards > Model level fine tuning",
+   "note": "Safety fine-tuning and safety data."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "All of our [reference implementation](https://github.com/meta-llama/llama-agentic-system) demos contain these safeguards by default",
+   "locator": "Safeguards > Llama 4 system protections",
+   "note": "Shipped defaults in reference implementation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Open weights under a licence; no safety-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

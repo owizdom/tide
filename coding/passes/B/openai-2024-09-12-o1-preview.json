@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2024-09-12-o1-preview",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Score for both o1-preview and o1-mini: Medium Summary: Our evaluations found that o1-preview and o1-mini can help experts with the operational planning of reproducing a known biological threat",
+   "locator": "4.3 Biological Threat Creation",
+   "note": "scored result"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "o1-preview (post-mitigation) completes 26.7% of high-school level, 0% of collegiate level, and 2.5% of professional level CTF challenges",
+   "locator": "4.2 Cybersecurity",
+   "note": "CTF scores"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Summary: Neither o1-preview nor o1-mini advance self-exfiltration, self-improvement, or resource acquisition capabilities sufficiently to indicate medium risk.",
+   "locator": "4.5 Model Autonomy",
+   "note": "threshold determination plus ARA and AI R&D results"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Both o1-preview and o1-mini demonstrate human-level persuasion capabilities, in that they produce written arguments that are similarly persuasive to human-written text",
+   "locator": "4.4 Persuasion",
+   "note": "scored results"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo found that o1-preview sometimes instrumentally faked alignment during testing",
+   "locator": "3.3.1 Apollo Research",
+   "note": "named test result"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "classified both o1-preview and o1-mini pre-mitigation models as overall medium risk, including medium risk for persuasion and CBRN, and low risk for model autonomy and cybersecurity.",
+   "locator": "4 Preparedness Framework Evaluations",
+   "note": "levels per category"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with multiple organizations and individuals1 to assess key risks associated with the o1 model series",
+   "locator": "3.3 External Red Teaming",
+   "note": "outside red teamers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Red Teaming Organizations: Faculty, METR, Apollo Research, Haize Labs, Gray Swan AI",
+   "locator": "7 Acknowledgements",
+   "note": "named orgs"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "3.3.1 Table 5",
+   "note": "UK AISI appears only as the name of a benchmark (Theory of Mind), not as a tester"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We are grateful to our expert testers and red teamers who helped test our models at early stages of development",
+   "locator": "7 Acknowledgements",
+   "note": "testing during development, before launch; also August to mid-September 2024 access"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "o1 inherits our earlier safety mitigations of training in refusal behavior for harmful requests",
+   "locator": "3.1 Safety Evaluations",
+   "note": "refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "using moderation models for the most egregious content",
+   "locator": "3.1 Safety Evaluations",
+   "note": "moderation models; also Moderation API in data filtering"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no access restriction tied to risk"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "self-exfiltration appears only as an evaluated capability; no weight protection described"
+  }
+ }
+}

@@ -1,91 +1,91 @@
 {
  "release_id": "anthropic-2026-04-16-claude-opus-4-7",
  "coder": "B",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "Claude Opus 4.7 achieved an end-to-end score of 0.82 on the first long-form virology task​\n  ​and 0.94 on the second long-form virology task, placing it above the benchmark of notable​\n   ​capability on both tasks.",
+   "quote": "Claude Opus 4.7 achieved an end-to-end score of 0.82 on the first long-form virology task and 0.94 on the second long-form virology task",
    "locator": "2.2.5.2 Automated evaluations relevant to the CB-1 threat model",
-   "note": "scores plus CB-1/CB-2 threshold determination and expert red teaming"
+   "note": "Scores for this model on virology tasks plus expert red teaming and CB-1/CB-2 determinations."
   },
   "dc_eval_cyber": {
    "value": 2,
-   "quote": "Claude Opus 4.7 solves nearly every challenge with 100% success rate with 10 trials per​\n ​challenge, achieving a pass@1 of 96%.",
+   "quote": "Claude Opus 4.7 solves nearly every challenge with 100% success rate with 10 trials per challenge, achieving a pass@1 of 96%.",
    "locator": "3.3.1 Cybench",
-   "note": "also CyberGym, Firefox 147, UK AISI cyber range"
+   "note": "Cybench, CyberGym, Firefox 147 and UK AISI cyber range results reported for this model."
   },
   "dc_eval_autonomy": {
    "value": 2,
-   "quote": "Our current determination is that Autonomy threat model 2 is​​not​​applicable to Claude​\n ​Opus 4.7.",
-   "locator": "2.1.2.1 On autonomy risks",
-   "note": "automated AI R&D evaluated with task scores (Table 2.3.4.A) and threshold determination"
+   "quote": "Claude Opus 4.7 clears the 4h and 8h thresholds on all tasks, and the 40h threshold on 2 out of 3 tasks.",
+   "locator": "2.3.4 Task-based evaluations",
+   "note": "AI R&D task results (kernel, LLM training, etc.) with threshold determination for automated R&D."
   },
   "dc_eval_persuasion": {
    "value": 2,
-   "quote": "The helpful-only version of Claude Opus 4.7 showed a higher success rate than Claude​\n ​Opus 4.6 on both tasks",
+   "quote": "The helpful-only version of Claude Opus 4.7 showed a higher success rate than Claude Opus 4.6 on both tasks, and scored higher than Claude Mythos Preview on the domestic polarization scenario.",
    "locator": "5.1.3 Malicious agentic influence campaigns",
-   "note": "influence-operation evaluation with task completion rates; external testing also covered Harmful Manipulation"
+   "note": "Influence-operation/harmful manipulation eval with task completion rates (57.1%, 46.8%) for this model."
   },
   "dc_eval_scheming": {
    "value": 2,
-   "quote": "We performed a lightweight model-graded evaluation for sandbagging or refusals in our​\n ​dangerous capability evaluations.",
-   "locator": "6.4.1 Potential sandbagging on dangerous-capability evaluations",
-   "note": "sandbagging evaluation (6.4.1), SHADE-Arena, evaluation awareness, UK AISI misalignment testing with results"
+   "quote": "Under the realistic Extended Thinking conditions, Claude Opus 4.7's stealth rate is 1.5–2.0%",
+   "locator": "6.4.2.1 SHADE-Arena",
+   "note": "SHADE-Arena sabotage stealth rates, sandbagging review, evaluation-awareness and reward-hacking results for this model."
   },
   "framework_threshold": {
    "value": 2,
-   "quote": "Autonomy threat model 2 is​​not​​applicable to Claude​\n ​Opus 4.7.",
-   "locator": "2.1.2.1 On autonomy risks",
-   "note": "RSP named, CB-1/CB-2 and autonomy thresholds placed; CB-1 mitigations described as at or above ASL-3"
+   "quote": "We assess that Claude Opus 4.7 does not cross the automated AI-R&D capability threshold.",
+   "locator": "2.3.8 Conclusion",
+   "note": "RSP: places this model against AI R&D threshold, CB-1/CB-2 thresholds, ASL-3-equivalent protections."
   },
   "ext_test_any": {
    "value": 1,
-   "quote": "We are very grateful to a number of external testers for running pre-deployment​\n ​assessments of Claude Opus 4.7.",
+   "quote": "We are very grateful to a number of external testers for running pre-deployment assessments of Claude Opus 4.7.",
    "locator": "1.1.5 External testing",
-   "note": "outside testers pre-deployment"
+   "note": "External testers named generically; also UK AISI, Gray Swan, expert red teamers."
   },
   "ext_test_named_org": {
    "value": 1,
-   "quote": "We shared a pre-release snapshot of Claude Opus 4.7 with the UK AI Security Institute (UK​\n ​AISI) for open-ended testing, at their discretion, of cyber capabilities.",
+   "quote": "We shared a pre-release snapshot of Claude Opus 4.7 with the UK AI Security Institute (UK AISI) for open-ended testing",
    "locator": "3.4 External testing from the UK AI Security Institute",
-   "note": "UK AISI named; also Dyno Therapeutics, Gray Swan"
+   "note": "UK AISI named; Gray Swan also named (5.2.1)."
   },
   "ext_test_government": {
    "value": 1,
-   "quote": "We shared a pre-release snapshot of Claude Opus 4.7 with the UK AI Security Institute (UK​\n ​AISI) for open-ended testing, at their discretion, of cyber capabilities.",
+   "quote": "We shared a pre-release snapshot of Claude Opus 4.7 with the UK AI Security Institute (UK AISI) for open-ended testing",
    "locator": "3.4 External testing from the UK AI Security Institute",
-   "note": "UK AISI is a government body"
+   "note": "UK AISI tested pre-release snapshot (cyber and misalignment, 6.2.4)."
   },
   "ext_test_timing_stated": {
    "value": 1,
-   "quote": "We are very grateful to a number of external testers for running pre-deployment​\n ​assessments of Claude Opus 4.7.",
+   "quote": "We are very grateful to a number of external testers for running pre-deployment assessments of Claude Opus 4.7.",
    "locator": "1.1.5 External testing",
-   "note": "pre-deployment and pre-release snapshot stated"
+   "note": "Card states pre-deployment and pre-release outside testing."
   },
   "safeguards_training": {
    "value": 1,
    "quote": "The fully-trained versions of these models have additional harmlessness training.",
    "locator": "5.1.3 Malicious agentic influence campaigns",
-   "note": "harmlessness training; final model refuses near 100%"
+   "note": "Harmlessness training stated for the final model; also constitution-aligned post-training (1.1.1)."
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "Our mitigations for cyber misuse rely on probe-based classifiers",
-   "locator": "3.2 Mitigations",
-   "note": "also real-time classifier guards for CB"
+   "quote": "we will apply strong real-time classifier guards to this model and access controls for classifier guard exemptions.",
+   "locator": "2.1.2.2 On chemical and biological risks",
+   "note": "Real-time classifier guards; also cyber probe-based classifiers (3.2) and chemical monitoring (2.2.3)."
   },
   "safeguards_access": {
    "value": 1,
-   "quote": "Cybersecurity practitioners who have appropriate dual use cases and who​\n   ​are nonetheless experiencing blocks from these probes can apply for exemptions from​\n    ​these safeguards",
+   "quote": "Cybersecurity practitioners who have appropriate dual use cases and who are nonetheless experiencing blocks from these probes can apply for exemptions",
    "locator": "3.2 Mitigations",
-   "note": "Cyber Verification Program and access controls for classifier guard exemptions, tied to risk"
+   "note": "Exemption access programme tied to cyber misuse risk; access controls for classifier guard exemptions (2.1.2.2)."
   },
   "safeguards_weights": {
    "value": 1,
-   "quote": "and security controls to reduce risk of​\n         ​model weight theft.",
+   "quote": "a variety of rapid response options for jailbreaks; and security controls to reduce risk of model weight theft.",
    "locator": "2.1.2.2 On chemical and biological risks",
-   "note": "stated weight-theft protection applied to this model's mitigations set"
+   "note": "Security controls against weight theft listed among mitigations applied with this release."
   }
  }
 }

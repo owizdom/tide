@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-09-29-claude-sonnet-4-5",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude Sonnet 4.5 matched or exceeded all its predecessors in the end-to-end evaluation\nof both virology tasks, achieving a “max of 5” score of 0.89 for virology task 1",
+   "locator": "9.2.4.1 Long-form virology tasks",
+   "note": "Virology task scores and ASL determinations."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Overall, Claude Sonnet 4.5 was clearly the best performer on capture-the-flag challenges to\ndate.",
+   "locator": "5.3.1 Irregular challenges",
+   "note": "CTF and cyber range results."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude Sonnet 4.5 successfully passed an average of 20.4/45 problems (45.3%), approaching\nbut remaining below the threshold of 22.5/45 problems.",
+   "locator": "9.3.2 SWE-bench Verified (hard subset)",
+   "note": "AI R&D threshold evaluations with scores."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to hide\ndangerous capabilities, and attempts to manipulate users toward certain views.",
+   "locator": "7 Alignment assessment",
+   "note": "Manipulating users listed as an issue assessed; no persuasion/manipulation capability result reported. Influence-ops items are refusal evals."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "[The snapshot] demonstrates capability for in-context scheming\n reasoning and covert subversion, but only engages in such behavior in\n rare circumstances",
+   "locator": "7.3.2 Apollo Research",
+   "note": "Apollo scheming results; also eval awareness, sabotage, sandbagging results."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Informed by the testing described here, we have deployed Claude Sonnet 4.5 under the AI\nSafety Level 3 Standard.",
+   "locator": "Abstract",
+   "note": "ASL-3 under the RSP; ASL-4 ruled out."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We shared late pre-deployment snapshots of Claude Sonnet 4.5 with two organizations\nthat are building up specialized functions for model behavior evaluation",
+   "locator": "7.3 Third-party testing",
+   "note": "Third-party alignment testing."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "The UK AI\nSecurity Institute (AISI) and the independent nonprofit Apollo Research.",
+   "locator": "7.3 Third-party testing",
+   "note": "Apollo Research and UK AISI named."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "UK AISI was given access to [an early snapshot of Claude Sonnet 4.5] on\n September 22nd, and performed a preliminary exploration",
+   "locator": "7.3.1 UK AISI",
+   "note": "UK AISI tested this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We shared late pre-deployment snapshots of Claude Sonnet 4.5 with two organizations",
+   "locator": "7.3 Third-party testing",
+   "note": "Pre-deployment stated."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "For training Claude Sonnet 4.5, we implemented a new safety training pipeline for\nmitigating harmlessness",
+   "locator": "2 Safeguards and harmlessness",
+   "note": "Safety training pipeline."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we deploy real-time classifier\nsystems that monitor and detect potential prompt injections",
+   "locator": "4.2.4 Tool use evaluation",
+   "note": "Production classifiers; also monitoring for malicious coding activity."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Claude.ai, our consumer offering, is only available to 18+ users",
+   "locator": "2.4 Child safety evaluations",
+   "note": "Age restriction stated within child-safety measures (borderline)."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Card says the ASL-3 Security Standard was met but never states it protects weights; the weight-theft description is for the ASL-4 standard not applied to this model. Exfiltration mentions are eval scenarios."
+  }
+ }
+}

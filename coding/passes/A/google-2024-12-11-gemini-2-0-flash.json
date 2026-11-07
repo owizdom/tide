@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2024-12-11-gemini-2-0-flash",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN domain named; 'biology' appears only in the GPQA benchmark description."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber domain named; FSF evaluations mentioned without domains."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy risk named; 'agentic systems' is a capability description."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "Frontier Safety Framework evaluations according to Google DeepMind’s Frontier\nSafety Framework (FSF);",
+   "locator": "p.4 Ethics and Safety, Evaluation Approach",
+   "note": "FSF named; no threshold or CCL stated for this model."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming by 'specialist teams' and assurance evaluators 'outside of the model development team' are inside Google; no outside testers."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'prior to release' refers to internal evaluations and red teaming, not outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety and responsibility was built into Gemini 2.0 Flash throughout the\ntraining and deployment lifecycle, including pre-training, post-training, and product-level\nmitigations.",
+   "locator": "p.6 Risks and Mitigations",
+   "note": "Safety built into pre- and post-training; list includes SFT and RL from human and critic feedback."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "product-level mitigations such as safety filtering.",
+   "locator": "p.6 Risks and Mitigations",
+   "note": "Safety filtering named as a product-level mitigation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection stated."
+  }
+ }
+}

@@ -1,91 +1,91 @@
 {
  "release_id": "openai-2025-12-11-gpt-5-2",
  "coder": "A",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "gpt-5.2-thinking performs lower than prior models due to increased refusals",
-   "locator": "4.1.1.3 Tacit Knowledge and Troubleshooting",
-   "note": "bio eval results; treated as High bio"
+   "quote": "None of the tested models outperform the consensus expert baseline of 80%, though all models outperform the 80th percentile PhD expert baseline of 63%. gpt-5.2-thinking performs lower than prior models due to increased refusals.",
+   "locator": "p.14, 4.1.1.3 Tacit Knowledge and Troubleshooting",
+   "note": "Bio results for gpt-5.2-thinking; also High determination in 4."
   },
   "dc_eval_cyber": {
    "value": 2,
    "quote": "The gpt-5.2-thinking model series does not meet the threshold for High cyber capability.",
-   "locator": "4.1.2 Cybersecurity",
-   "note": "threshold determination plus CTF/CVE-Bench/Cyber Range/Irregular"
+   "locator": "p.15, 4.1.2 Cybersecurity",
+   "note": "Threshold determination plus CTF, CVE-Bench, Cyber Range results."
   },
   "dc_eval_autonomy": {
    "value": 2,
    "quote": "gpt-5.2-thinking performed at a similar capability level to gpt-5.1-codex-max and did not meet our High thresholds.",
-   "locator": "4.1.3 AI Self-Improvement",
-   "note": "self-improvement threshold determination"
+   "locator": "p.20, 4.1.3 AI Self-Improvement",
+   "note": "AI self-improvement threshold determination and results."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no persuasion evaluation; 'manipulation' only in 'LDAP manipulation' cyber range scenario"
+   "note": "No persuasion or manipulation evaluation; keyword screen: 'LDAP manipulation' is a cyber range scenario, not persuasion."
   },
   "dc_eval_scheming": {
    "value": 2,
    "quote": "Apollo concludes that gpt-5.2-thinking is unlikely to be capable of causing catastrophic harm via scheming.",
-   "locator": "4.2 Research Category Update: Sandbagging",
-   "note": "Apollo scheming/sabotage result; also deception rates"
-  },
-  "framework_threshold": {
-   "value": 2,
-   "quote": "GPT-5.2 models do not have a plausible chance of reaching a High threshold",
-   "locator": "4 Preparedness Framework",
-   "note": "also treated as High in Biological and Chemical"
+   "locator": "p.25, 4.2 Research Category Update: Sandbagging",
+   "note": "Apollo scheming/sabotage/sandbagging evaluation with a finding for this model."
   },
   "ext_test_any": {
    "value": 1,
    "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
-   "locator": "4.2 Research Category Update: Sandbagging",
-   "note": "Apollo and Irregular; no timing stated, counts under timing rule"
+   "locator": "p.25, 4.2",
+   "note": "Outside safety testing of this model (also Irregular cyber evals). No post-release timing stated."
   },
   "ext_test_named_org": {
    "value": 1,
    "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
-   "locator": "4.2 Research Category Update: Sandbagging",
-   "note": "Apollo Research, Irregular named"
+   "locator": "p.25, 4.2",
+   "note": "Apollo Research and Irregular named."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no government testing mentioned"
+   "note": "No government body mentioned."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Apollo/Irregular testing has no stated timing; 'pre-release AB-test traffic' is internal monitoring, not outside testing"
+   "note": "Apollo and Irregular evaluations carry no stated timing; 'pre-release AB-test traffic' refers to internal deception monitoring, not outside testing."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "We are treating this launch as High capability in the Biological and Chemical domain, activating the associated Preparedness safeguards.",
+   "locator": "p.11, 4 Preparedness Framework",
+   "note": "High in bio/chem; below High in cyber and self-improvement."
   },
   "safeguards_training": {
    "value": 1,
    "quote": "We trained gpt-5.2-thinking integrations to provide maximally helpful support on educational/cybersecurity topics while refusing or de-escalating operational guidance for cyber abuse",
-   "locator": "3.8 Cyber Safety",
-   "note": "cyber safety training"
+   "locator": "p.9, 3.8 Cyber Safety",
+   "note": "Safety training for refusals described for this model."
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "scaling up our monitoring and enforcement pipeline to disrupt potential misuse",
-   "locator": "4.1.2 Cybersecurity",
-   "note": "monitoring and enforcement pipeline; also system-level safeguards in ChatGPT"
+   "quote": "including both the model safety training described above and scaling up our monitoring and enforcement pipeline to disrupt potential misuse",
+   "locator": "p.16, 4.1.2 Cybersecurity",
+   "note": "Monitoring and enforcement pipeline named; also age prediction model and system-level safeguards in ChatGPT."
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "'access' hits refer to content protections for minors and age prediction, not model access restrictions; no trusted access/KYC"
+   "note": "Minor protections restrict sensitive content, not access to the model; no trusted access or tiering for safety."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no weight-security statement"
+   "note": "No weight protection mentioned."
   }
  }
 }

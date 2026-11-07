@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2023-10-10-mistral-7b",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no CBRN evaluation"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no cyber evaluation"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "'autonomy' appears only in a Llama 2 sample answer (Table 5), not a risk evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no framework referenced"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "4 Instruction Finetuning",
+   "note": "only llmboxing human preference evaluation (capability, not safety testing); no outside safety testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no outside safety tester named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no outside testing"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "4 Instruction Finetuning",
+   "note": "instruct model fine-tuned on public instruction datasets; no safety training or refusal fine-tuning described (refusal comes from an optional system prompt)"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "5 Adding guardrails",
+   "note": "optional system prompt and a demonstration of the model's ability to act as a content moderator; neither stated as applied to this model's deployment or shipped as a default"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "1 Introduction",
+   "note": "Apache 2.0 open release, no access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "open weights, no protection stated"
+  }
+ }
+}

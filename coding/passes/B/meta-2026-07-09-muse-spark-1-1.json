@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-07-09-muse-spark-1-1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We therefore retain the “high risk” determination for the unmitigated model under Outcomes CB-1 and CB-2.",
+   "locator": "Section 2.1 Chemical & Biological Risks, Summary of Results (p.11)",
+   "note": "Threshold determination plus scores (VCT, WMDP, ABC Bench) for this model."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Our Muse Spark 1.1-powered agent reproduces 59.0% of the targeted vulnerabilities at pass@1",
+   "locator": "Section 2.2.1.2 CyberGym (p.23)",
+   "note": "Cybench 92.9%, CyberGym 59.0%, ExploitGym results for this model."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Muse Spark 1.1 resolved, at least once, 24 out of 42 unique tasks on SWE-Bench Verified Hard",
+   "locator": "Section 2.3.1.1 Acceleration of AI Development, Results (p.40)",
+   "note": "AI R&D acceleration threat evaluated with scores (SWE-Bench Verified Hard, AIRS-Bench) and a threshold assessment."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "statistically indistinguishable from them on sycophancy (1.06), encouragement of delusion (1.01), blackmail (1.00), emotional manipulativeness (1.00), and self-preservation (1.05)",
+   "locator": "Section 4.2 Automated Alignment Assessment (p.69)",
+   "note": "Borderline: the only manipulation result is the Petri 'emotional manipulativeness' dimension (1.00) for this model; the multi-turn Social Engineering eval (2.2.2) is Cyber 3 so coded as cyber per rule, not persuasion. No persuasion or influence-operation capability eval. Coded 2 because a named test gives a result."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Muse Spark 1.1 exhibits a compliance gap of -0.2% between the training and deployment settings",
+   "locator": "Section 4.1.5 Scheming, Alignment Faking (p.64)",
+   "note": "Alignment faking, sandbagging, SHADE-Arena, GDM-Stealth, evaluation awareness results for this model."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have determined that Muse Spark 1.1 operates within the “moderate or lower risk” threshold under Meta’s Advanced AI Scaling Framework",
+   "locator": "Section 1.1 Model Risk, Safety, and Behavioral Profile (p.6)",
+   "note": "High risk pre-mitigation for Chem/Bio, cannot rule out for Cyber; moderate or lower after mitigations."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "GraySwan additionally ran prompt-injection attacks using their private Agent Red Teaming (ART) benchmark (Zou et al., 2025) before the Muse Spark 1.1 launch.",
+   "locator": "Section 3.2.2.3 Third-Party Red Teaming: GraySwan ART (p.55)",
+   "note": "Also Scale AI ran private FORTRESS split (3.1.3.1)."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Scale AI runs the private split of FORTRESS and we include the results in Figure 26.",
+   "locator": "Section 3.1.3.1 FORTRESS (p.49)",
+   "note": "Named outside orgs: Scale AI (FORTRESS), GraySwan (ART)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "Section 2.1.1.1 (p.12) only reference",
+   "note": "Only mention of AISI is a citation of 'US AISI and UK AISI' pre-deployment test of OpenAI o1 as methodology for LAB-Bench SeqQA; not testing of this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "GraySwan additionally ran prompt-injection attacks using their private Agent Red Teaming (ART) benchmark (Zou et al., 2025) before the Muse Spark 1.1 launch.",
+   "locator": "Section 3.2.2.3 (p.55)",
+   "note": "States before launch."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We used adversarial training to mitigate the risk from jailbreaks on disallowed content.",
+   "locator": "Section 3.1 Content Policy Violating Requests (p.46)",
+   "note": "Also model-level mitigations and refusal training referenced."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We continue to harden these surfaces through adversarial training and system-level safeguards such as an injection detector for oversight and action-level intervention.",
+   "locator": "Section 3.2 Agent Robustness (p.50)",
+   "note": "Also Muse Spark 1.1 System with system-level defenses and scalable monitoring of user behavior (2.1.2)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "Section 1.2 Governance (p.9)",
+   "note": "Only 'controlled deployment to a small set of external users prior to external launch, consistent with the provisions of the Framework'; no safety reason stated and no trusted-access, KYC or tier mechanism. Borderline, kept 0. Persistent-misuse deterrence mechanisms are not access restrictions."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "Meta’s model weight security strategy is built on a multi-pronged, lifecycle-driven framework designed to identify, assess, and mitigate systemic risks of tampering and theft.",
+   "locator": "Section 1.4 Security Practices (p.10)",
+   "note": "Says same pillars continue to apply to this model; no detail."
+  }
+ }
+}

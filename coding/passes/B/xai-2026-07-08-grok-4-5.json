@@ -1,91 +1,91 @@
 {
  "release_id": "xai-2026-07-08-grok-4-5",
  "coder": "B",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
    "quote": "Grok 4.5 shows solid but sub-threshold dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
    "locator": "8 Biological and chemical capabilities and safeguards",
-   "note": "VCT 65.5%, WMDP, LAB-Bench scores plus sub-threshold determination"
+   "note": "VCT 65.5%, WMDP-Bio 90.9% and other scores reported."
   },
   "dc_eval_cyber": {
    "value": 2,
    "quote": "CyberGym measures offensive security capability by tasking an agent with reproducing crashes and assembling working exploits for known vulnerabilities.",
    "locator": "7.1 CyberGym",
-   "note": "CyberGym 80.4% and HackerBench results for this model"
+   "note": "CyberGym 80.4% and HackerBench results reported."
   },
   "dc_eval_autonomy": {
    "value": 2,
    "quote": "We evaluate Grok 4.5 on its ability to automate parts of the engineering and research process for training and evaluating new versions of itself.",
    "locator": "5 R&D Enablement",
-   "note": "AI R&D automation evaluated with chart result; framed as enablement not risk (ambiguous), coded 2"
+   "note": "SpaceXAI MTS eval score reported. Framed as enablement not risk; judged AI R&D automation per the autonomy definition. Borderline."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no persuasion/manipulation evaluation; epistemic bias and sycophancy are not influence-operation evals"
+   "note": "No persuasion or influence evaluation; epistemic bias is political framing bias, not persuasion capability."
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "MASK dishonesty and FalseClaimBench framed as reliability/behaviour indicators, not misalignment risk; no sabotage/evaluation-awareness test (ambiguous under scheming boundary rule)"
+   "note": "MASK dishonesty and FalseClaimBench are framed as reliability and behaviour, not misalignment or loss-of-control risk."
   },
   "framework_threshold": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no safety or scaling framework referenced; 'sub-threshold' is not tied to a named framework"
+   "note": "Uses the phrase safety-threshold evaluations but names no framework or policy document."
   },
   "ext_test_any": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no outside pre-release testers; third-party benchmarks only"
+   "note": "Only third-party capability benchmark running (AA, Mercor, Datacurve); no outside safety or risk testing."
   },
   "ext_test_named_org": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "only benchmark authors and leaderboard runners (Artificial Analysis, Mercor), not pre-release safety testing"
+   "note": "Named organisations ran capability benchmarks only."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "none"
+   "note": "No government body mentioned."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "none"
+   "note": "No outside safety testing described."
   },
   "safeguards_training": {
    "value": 1,
-   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests",
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests that show clear intent to cause severe harm or engage in criminal activity.",
    "locator": "10 General output safety",
-   "note": "safety training for refusals"
+   "note": "verbatim span supports value"
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "Grok 4.5 may be augmented with runtime input and topical filters that add controls for classes of severe harm",
+   "quote": "Grok 4.5 may be augmented with runtime input and topical filters that add controls for classes of severe harm, including CSAM, self-harm, and biological/chemical weapons pathways",
    "locator": "10 General output safety",
-   "note": "named runtime filters"
+   "note": "verbatim span supports value"
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no access restrictions tied to safety"
+   "note": "States 'We do not restrict use of our model in any legitimate use case'; no risk-tied access gating."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no weight protection described"
+   "note": "No weight protection described."
   }
  }
 }

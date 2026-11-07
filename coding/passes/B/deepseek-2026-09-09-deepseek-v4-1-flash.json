@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2026-09-09-deepseek-v4-1-flash",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Full read: no biological, chemical, radiological or nuclear evaluation or risk mention."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On cyber-security tasks, DeepSeek-V4.1-Flash establishes a new state of the art among",
+   "locator": "5.3.2 Evaluation Results (Table 3: CyberGym 88.1, SEC-Bench Pro 62.8, ExploitGym 15.3)",
+   "note": "Cyber-security agentic category (SEC-Bench Pro, CyberGym, ExploitGym) with per-model scores; dual-use caveat stated. Framed as capability benchmark, coded 2 per literal rule on offensive exploitation evals with results."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Long-horizon agent benchmarks (Terminal-Bench, DeepSWE) are capability evaluations, not framed as a replication/AI R&D/self-improvement risk. 'Real-world R&D scenarios' perplexity test is not a risk eval."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion, manipulation or influence-operation evaluation in the text."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Reward hacking and exploit-seeking (5.1.3, 5.3.1) are described as RL-environment and benchmark-integrity problems, not misalignment risk evaluation; no deception, sandbagging or eval-awareness tests."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'external partners' only return voluntary usage data for training environments (5.1.1); no outside safety or risk testing. Benchmark authors are not testers."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named as testing this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety, refusal or harmlessness training described; post-training is SFT, RL and OPD on agentic and reasoning data."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "AppArmor profiles and eBPF network policies (5.1.3) protect RL training sandboxes, not deployment; no classifiers, filters or monitoring in production."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions tied to safety; only a community plea to use cyber capability responsibly."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight-protection statement; weights released on Hugging Face."
+  }
+ }
+}

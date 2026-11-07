@@ -1,91 +1,91 @@
 {
  "release_id": "google-2023-12-06-gemini-1-0-pro",
  "coder": "B",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 1,
-   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
    "locator": "6.3 Evaluations",
-   "note": "biohazards named as tested domain, no result"
+   "note": "Named as an area of ongoing testing; no result."
   },
   "dc_eval_cyber": {
    "value": 1,
-   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
    "locator": "6.3 Evaluations",
-   "note": "cybersecurity named, no result"
+   "note": "Named; no result."
   },
   "dc_eval_autonomy": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no autonomy/replication/AI R&D evaluation mentioned; AlphaCode 2 is a capability demo"
+   "note": "No autonomy, replication or AI R&D risk evaluation mentioned."
   },
   "dc_eval_persuasion": {
    "value": 1,
-   "quote": "Assurance evaluations include testing across Gemini policies, and include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
+   "quote": "include ongoing testing for dangerous capabilities such as potential biohazards, persuasion, and cybersecurity",
    "locator": "6.3 Evaluations",
-   "note": "persuasion named, no result"
+   "note": "Named; no result."
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no deception/sabotage/evaluation-awareness mention"
+   "note": "No deception, sabotage or scheming evaluation."
   },
   "framework_threshold": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no scaling or safety framework referenced; White House Commitments and AI Principles are not frameworks of this kind"
+   "note": "No scaling or safety framework named; model policies and RSC governance are not a threshold framework."
   },
   "ext_test_any": {
    "value": 1,
-   "quote": "External evaluations are conducted by partners outside of Google to identify blindspots.",
+   "quote": "External evaluations are conducted by partners outside of Google to identify blindspots. External groups stress-test our models across a range of issues",
    "locator": "6.3 Evaluations",
-   "note": "outside partners stress-test models; family-level statement, tied to Gemini models"
+   "note": "Family-level statement about Gemini models; the report covers Pro. Groups not named."
   },
   "ext_test_named_org": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no outside organisation named"
+   "note": "External groups are not named."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "none"
+   "note": "White House Commitments are cited as an issue list; no government body tested the model."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no statement that outside testing preceded release; 'results are reported periodically'"
+   "note": "No timing relative to release given for external evaluations."
   },
   "safeguards_training": {
    "value": 1,
-   "quote": "Instruction tuning recipes are carefully designed to balance the increase in helpfulness with decrease in model harms related to safety and hallucinations",
+   "quote": "From the detected risk areas, we create additional supervised fine-tuning data to demonstrate the desirable responses.",
    "locator": "6.4.2 Instruction Tuning",
-   "note": "SFT and RLHF with safety reward and constitution-style data"
+   "note": "SFT and RLHF with a safety reward head."
   },
   "safeguards_runtime": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "only training-data filtering; no inference-time classifier or filter named"
+   "note": "Only training-time data filtering; no inference-time classifier, filter or monitoring."
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "none"
+   "note": "No risk-tied access restriction."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "'checkpointing of weights' is infrastructure, not theft protection"
+   "note": "No weight protection described."
   }
  }
 }

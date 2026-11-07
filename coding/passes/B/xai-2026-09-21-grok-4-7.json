@@ -1,91 +1,91 @@
 {
  "release_id": "xai-2026-09-21-grok-4-7",
  "coder": "B",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge,",
-   "locator": "7 Biological and chemical",
-   "note": "VCT, WMDP etc scored; FAIF threshold statement"
+   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
+   "locator": "7 Biological and chemical capabilities and safeguards",
+   "note": "VCT 63.0%, WMDP-Bio 88.1%, BioSecBench reported."
   },
   "dc_eval_cyber": {
    "value": 2,
-   "quote": "Grok 4.7 shows small cybersecurity-relevant capability gains over Grok 4.6,",
-   "locator": "6 Cyber",
-   "note": "CyberGym, CVE-Bench, CathedralBench scores"
+   "quote": "CyberGym measures offensive cybersecurity capability by tasking an agent with reproducing crashes and assembling working exploits for known vulnerabilities.",
+   "locator": "6.1 CyberGym",
+   "note": "CyberGym 80.3%, CVE-Bench, HackerBench, CathedralBench reported."
   },
   "dc_eval_autonomy": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "SWE-Marathon/FrontierSWE are long-horizon coding capability benchmarks, not framed as replication/AI R&D risk; section 4 frames acceleration as utility"
+   "note": "SWE-Marathon and long-horizon coding are capability benchmarks, not evaluated as an autonomy risk; no AI R&D risk evaluation (FrontierSWE V2 lists AI research tasks only as a capability set)."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no persuasion or influence evaluation; keyword hits absent or unrelated"
+   "note": "No persuasion or influence evaluation."
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "MASK-Rectified honesty and sycophancy (11.1, 11.2) are framed as reliability/behavior propensities, not misalignment or loss-of-control risk; ambiguous under boundary rule"
+   "note": "MASK dishonesty and sycophancy framed as reliability and truth-seeking behaviour, not misalignment risk."
   },
   "framework_threshold": {
    "value": 2,
-   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge,",
-   "locator": "7 Biological and chemical",
-   "note": "places model below named framework thresholds"
+   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge",
+   "locator": "7 Biological and chemical capabilities and safeguards",
+   "note": "Names the xAI Frontier Artificial Intelligence Framework and places model below its thresholds."
   },
   "ext_test_any": {
    "value": 1,
-   "quote": "We additionally provided an unrestricted configuration of Grok 4.7 to third-party evaluators,",
-   "locator": "6 Cyber",
-   "note": "third-party evaluators; no post-release timing stated"
+   "quote": "We additionally provided an unrestricted configuration of Grok 4.7 to third-party evaluators, who corroborated the results of our internal evaluations and testing on cyber capabilities.",
+   "locator": "6 Cyber capabilities and safeguards",
+   "note": "Third-party cyber red-team evaluation including CathedralBench."
   },
   "ext_test_named_org": {
    "value": 1,
-   "quote": "CathedralBench is an independent, third party evaluation of cyber performance.",
+   "quote": "CathedralBench is an independent, third party evaluation of cyber performance. It consists of a red-team cyber evaluation on highly-difficult, multiple-exploit chain execution tasks",
    "locator": "6.4 CathedralBench",
-   "note": "named outside org (Cathedral) ran evaluation"
+   "note": "Cathedral is also thanked in Acknowledgements as an evaluation partner."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no government body mentioned"
+   "note": "No government body mentioned."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no statement that outside testing preceded release"
+   "note": "No statement that the third-party cyber evaluation occurred before release."
   },
   "safeguards_training": {
    "value": 1,
-   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning",
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests that show clear intent to cause severe harm or engage in criminal activity.",
    "locator": "9 General output safety",
-   "note": "safety fine-tuning to refuse"
+   "note": "verbatim span supports value"
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "Grok 4.7 is additionally augmented with runtime input and",
+   "quote": "Grok 4.7 is additionally augmented with runtime input and topical filters that add controls for classes of severe harm, including CSAM, self-harm, and biological/chemical weapons pathways",
    "locator": "9 General output safety",
-   "note": "runtime input and topical filters"
+   "note": "verbatim span supports value"
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no risk-tied access restriction; consumer surfaces later with no safety reason given"
+   "note": "No risk-tied access restriction described."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "no weight protection stated"
+   "note": "No weight protection described."
   }
  }
 }

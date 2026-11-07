@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2026-02-17-grok-4-20",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.20 achieves broadly similar results to Grok 4 and other frontier models on chemical and biological capabilities tests.",
+   "locator": "4.1.2 Results",
+   "note": "WMDP Bio/Chem, VCT etc. scores reported"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On the agentic Cybench evaluation, Grok 4.20 does not exceed the current frontier of capabilities, so we do not believe that it substantially increases cybersecurity risk.",
+   "locator": "4.2.2 Results",
+   "note": "CyBench result"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card; 3.2 open-ended audit",
+   "note": "no replication/AI R&D/self-improvement capability evaluated as its own risk; introspective 'desires to self-modify ... propagate itself' finding is a propensity remark in the alignment audit, and 'autonomous' appears only in intended-use and cyber text"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Grok 4.20 performs poorly on MakeMeSay. As this is a particularly simple manipulation benchmark, we do not believe that it poses significant risks due to advanced persuasion capabilities.",
+   "locator": "4.3.2 Results",
+   "note": "MakeMeSay result"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Grok 4.20 occasionally acts against operator interests when given extensive affordances and confronted with evidence of egregious harm",
+   "locator": "3.3 Results",
+   "note": "sabotage audit result; also MASK deception and evaluation awareness rates"
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "We also conduct a dual-use capabilities assessment, in accordance with our Frontier Artificial Intelligence Framework (FAIF)",
+   "locator": "1 Introduction",
+   "note": "framework named; 'safeguards appropriate for its capability threshold' does not place the model against a named threshold or level"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we provided third-party evaluators access to an early snapshot of Grok 4.20 for testing of our refusal policy",
+   "locator": "1.3 Release process",
+   "note": "third-party evaluators tested this model (refusal policy; also scheming audit), safety testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "1.3, 2.2, 3.2",
+   "note": "third-party evaluators not named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no government body"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "During model development, we conducted evaluations of Grok 4.20's safety profile throughout its training process. We evaluate the model in both single-agent and multi-agent settings, both of which have access to our internal tools. Additionally, we provided third-party evaluators access",
+   "locator": "1.3 Release process",
+   "note": "third-party access to an early snapshot during model development, i.e. before release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We train Grok 4.20 to refuse requests with a clear intent to violate the law, without over-refusing sensitive or controversial queries.",
+   "locator": "2.1 Approach to safety",
+   "note": "refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "our input filter refuses almost all direct requests about restricted chemical and biological knowledge",
+   "locator": "2.3 Results",
+   "note": "input filter"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "publicly available; no safety-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no weight protection stated"
+  }
+ }
+}

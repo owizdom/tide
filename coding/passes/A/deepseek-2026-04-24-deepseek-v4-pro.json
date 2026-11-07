@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2026-04-24-deepseek-v4-pro",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "no CBRN evaluation; only capability benchmarks"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "no offensive cyber evaluation; coding/agent benchmarks (SWE, Terminal Bench) are general capability"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "5.4.4 Code Agent; 6",
+   "note": "internal R&D coding benchmark and long-horizon agent tasks are reported as capability, not evaluated as an autonomy risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "no safety framework referenced"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "A.2 Acknowledgment",
+   "note": "'Dolly Deng and other testers' gave feedback on capabilities, not safety/risk testing (v1.1 clarification 2); no outside safety testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "none"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "no outside safety testing"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "5 Post-Training",
+   "note": "post-training described for capabilities (specialists, GRPO, OPD); no safety/refusal training described"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "no runtime safety mechanism; 'monitor' refers to training metrics/cluster monitor"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "Abstract",
+   "note": "open checkpoints on Hugging Face; no safety-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole report",
+   "note": "open weights; no weight protection stated"
+  }
+ }
+}

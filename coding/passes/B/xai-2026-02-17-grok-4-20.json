@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2026-02-17-grok-4-20",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.20 matches or outperforms human baselines on knowledge and protocol troubleshooting questions",
+   "locator": "4.1.2 Results, Table 4",
+   "note": "WMDP Bio, VCT, ProtocolQA scores reported."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On the agentic Cybench evaluation, Grok 4.20 does not exceed the current frontier of capabilities",
+   "locator": "4.2.2 Results, Table 4",
+   "note": "CyBench success rate 0.53."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No replication, AI R&D or long-horizon autonomy evaluation; 'autonomous' only in intended-use caveat and cyber; self-modify/propagate remark is an introspective audit observation, not an autonomy eval."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Grok 4.20 performs poorly on MakeMeSay.",
+   "locator": "4.3.2 Results, Table 4",
+   "note": "MakeMeSay win rate 0.08."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "In our sabotage audits, we test whether Grok 4.20 takes unprompted action against operator interests",
+   "locator": "3.2 Evaluations, Table 3",
+   "note": "MASK deception, sabotage audit, verbalized evaluation awareness results reported."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "in accordance with our Frontier Artificial Intelligence Framework (FAIF) [xAI, 2025]",
+   "locator": "1 Introduction",
+   "note": "Framework named; no named threshold or level placed against this model."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we provided third-party evaluators access to an early snapshot of Grok 4.20 for testing of our refusal policy.",
+   "locator": "1.3 Release process",
+   "note": "Third-party red-teaming of refusal boundary."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Third-party evaluators are never named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body stated."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We provide third-party evaluators with an early version of the checkpoint for testing, including coverage testing and red-teaming",
+   "locator": "2.2 Evaluations, Third-party assessment",
+   "note": "Early version given to testers, results reported on later final deployed checkpoint, so testing preceded release. Mild inference; no word 'pre-deployment'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We train Grok 4.20 to refuse requests with a clear intent to violate the law",
+   "locator": "2.1 Approach to safety",
+   "note": "Refusal SFT and RL."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "our input filter refuses almost all direct requests about restricted chemical and biological knowledge.",
+   "locator": "2.3 Results",
+   "note": "Named input filter."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only an acceptable use policy; no risk-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-10-12-muse-wonder-full",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Without\nmitigations, we do not rule out the model reaching this threshold in the Chemical &\nBiological domain.",
+   "locator": "4. Risk assessments under the Meta Superintelligence Scaling Framework",
+   "note": "threshold determination plus CBRN proxy eval scores (VCT 55.9%, ProtocolQA 89.0%)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "CyberGym                                      88.4%",
+   "locator": "4. Cyber Capability Evaluations",
+   "note": "CyberGym, ExploitBench, ExploitGym results reported"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "loss of control evals are honesty and agentic misalignment (scheming); no replication, AI R&D or long-horizon autonomy risk eval"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no persuasion or manipulation evaluation or mention"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Agentic Misalignment assesses whether an agent takes harmful actions to\n      advance its objectives or avoid replacement or shutdown.",
+   "locator": "4. Loss of Control Evaluations",
+   "note": "MASK 87.3% and Agentic Misalignment 0% reported"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Our evaluations put the\nunmitigated model at \u201cmoderate or lower\u201d for both Cybersecurity and Loss of Control",
+   "locator": "4. Risk assessments under the Meta Superintelligence Scaling Framework",
+   "note": "places model against named threshold levels"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "outside experts only did threat modeling, third parties developed/licensed benchmarks, government gave input; red-teaming not attributed to outsiders; no outside party tested the model"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "SecureBio, Faculty.AI, Datacurve, Artificial Analysis named only as benchmark developers or capability result sources, not as testers of the model for risk"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "government entities engaged for input on evaluations, not testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we apply mitigations designed for this domain,\nincluding safety post-training and system-level classifiers.",
+   "locator": "4. Risk assessments",
+   "note": "safety post-training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "including safety post-training and system-level classifiers.",
+   "locator": "4. Risk assessments",
+   "note": "system-level classifiers"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only terms of use and an under-18 notice; no safety-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we also implemented measures to protect\nmodel weights under Meta's lifecycle-based weight security program.",
+   "locator": "5. Trust and Safety",
+   "note": "stated weights protection"
+  }
+ }
+}

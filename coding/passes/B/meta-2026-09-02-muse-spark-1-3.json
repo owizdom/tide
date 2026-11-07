@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-09-02-muse-spark-1-3",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Muse Spark 1.3 (API) scores 77.4 on the aggregate Meta BioDesign Proxy, compared with 65.0 for Muse Spark 1.3 (Muse Model) and 54.7 for Muse Spark 1.1.",
+   "locator": "2.1 Chemical & Biological Risks, Summary of Results",
+   "note": "Scores on MBCT, VCT, ProtocolQA, ABC Bench, BioDesign plus a pre-mitigation high-risk threshold determination."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Muse Spark 1.3 finishes 3 of the 10 scenarios (30.0% pass@20 and 2.0% pass@1 across 20 attempts per scenario, each with a budget of 1000 shell commands)",
+   "locator": "2.2.1.4 CyScenarioBench",
+   "note": "Also CyberGym 80.5%, ExploitBench, ExploitGym; social engineering counted as cyber per boundary rule."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "We assess Muse Spark 1.3 as “moderate or lower” for acceleration of AI development.",
+   "locator": "2.3.1.1 Acceleration of AI Development",
+   "note": "AI R&D acceleration evaluated with scores on PostTrainBench, ResearchTasteBench, OptimBench (Table 5) and a threshold-style determination. Agentic cyber evals not counted here."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Read whole card. No evaluation of persuasion, manipulation or influence operations by name. Social engineering benchmark (2.2.2) is Cyber 3 and goes to cyber per boundary rule; Petri Bloom emotional-bond and self-promotion rubrics are behaviour propensities not framed as persuasion risk; 'manipulate' hits are about prompt injection or the stance manipulation in interviews."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Capabilities to evade oversight increase relative to Muse Spark 1.1 on SHADE-Arena. The stealth rate measures success at both a legitimate task and a hidden task while avoiding detection.",
+   "locator": "1.1.1 Risk Assessment Summary; 2.3.1.2, 2.3.2, 4.1.6",
+   "note": "Sandbagging, evaluation awareness, SHADE-Arena, GDM Stealth, Agentic Misalignment all with results, framed as loss-of-control risk."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Evaluated without mitigations, we continue to not rule out Muse Spark 1.3 meeting this threshold in the Chemical & Biological domain.",
+   "locator": "Abstract / 1.1",
+   "note": "States position against the Meta Superintelligence Scaling Framework 'high risk' threshold: C&B not ruled out pre-mitigation, cyber and loss of control 'moderate or lower'."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "The Handshake AI red team conducted red teaming before the public launch of Muse.",
+   "locator": "3.1.4.2 Handshake AI Human Red Teaming",
+   "note": "Outside red teamers and third-party prompt-injection evaluators tested the model pre-release."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have shared pre-release access to Muse with Handshake AI’s red team for conducting human red teaming to find jailbreaks.",
+   "locator": "3.1.4.2 Handshake AI Human Red Teaming",
+   "note": "Also Scale AI FORTRESS, Gray Swan, Exponential Security Labs, Irregular (CyScenarioBench)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only government mention is the reference list citing the US AISI and UK AISI joint pre-deployment test of OpenAI o1, and SeqQA running 'following prior pre-deployment testing (US AISI and UK AISI, 2024)'. That is a methodology citation, not government testing of this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We conduct pre-release evaluations on prompt injection robustness with third-party organizations on their private benchmarks for Muse Spark 1.3 (API).",
+   "locator": "3.2.2.3 Third-Party Red Teaming on Prompt Injection",
+   "note": "Also Handshake red teaming 'before the public launch'."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the ASR on JEF-Bench has greatly decreased from Muse Spark 1.1 to Muse Spark 1.3 (API) due to our training on mitigating agentic jailbreaks.",
+   "locator": "3.1.2 Jailbreak Embedded In Files",
+   "note": "Training for jailbreak robustness; also refusal behaviour trained in (Helpful variant is 'without refusal behavior')."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we also integrate with additional layers for automated reviews and integrity monitoring to mitigate the misuse risk, which are deployment-level mitigations",
+   "locator": "3.2.1.1 Evaluating Direct Misuse with DTap",
+   "note": "Named runtime mechanisms for Muse: automated reviews, integrity monitoring, LLM-based review (4.1.2.2), runtime safety reviewers."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Read whole card. No trusted-access, KYC or safety-tied tiering. Helpful-only variant is used only internally for evaluation, with no stated access restriction. Tool allowlists and workspace isolation are recommendations to deployers, not access restrictions."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "Meta’s model weight security strategy is built on a multi-pronged, lifecycle-driven framework designed to identify, assess, and mitigate systemic risks of tampering and theft.",
+   "locator": "1.4 Security Practices",
+   "note": "Says the approach continues to incorporate the same pillars for this model; details are in the earlier report."
+  }
+ }
+}

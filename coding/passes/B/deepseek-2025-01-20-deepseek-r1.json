@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2025-01-20-deepseek-r1",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN risk evaluation anywhere in the paper; only benchmark and training content."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No offensive cyber evaluation; coding benchmarks (Codeforces, SWE-bench, Aider) are general capability."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'autonomously'/'autonomous' appear only describing RL self-evolution of reasoning, not as an evaluated risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'reward hacking' appears only as a training problem for neural reward models (Sec 2.2.2, 4.2), excluded by codebook."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety testing described; external organisations appear only as baselines or benchmark sources."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety testing described; external organisations appear only as baselines or benchmark sources."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety testing described; external organisations appear only as baselines or benchmark sources."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety testing described; external organisations appear only as baselines or benchmark sources."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "primarily due to its tendency to refuse answering certain queries after safety RL.",
+   "locator": "3.1 DeepSeek-R1 Evaluation (also 2.3.4)",
+   "note": "Harmlessness RL stage; Sec 3.1 also mentions safety RL causing refusals."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No classifiers, filters or moderation named for deployment."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described; weights are open-sourced."
+  }
+ }
+}

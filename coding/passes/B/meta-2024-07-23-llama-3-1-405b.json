@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2024-07-23-llama-3-1-405b",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we performed uplift testing designed to assess whether use of Llama 3.1 models could meaningfully increase the capabilities of malicious actors to plan or carry out attacks using these types of weapons",
+   "locator": "Critical and other risks, 1. CBRNE",
+   "note": "Uplift testing described, no result reported."
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "Our cyber attack uplift study investigated whether LLMs can enhance human capabilities in hacking tasks, both in terms of skill level and speed.",
+   "locator": "Critical and other risks, 3. Cyber attack enablement",
+   "note": "Studies described, no result in the card; whitepaper referenced only."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'autonomous agents in cyber offensive operations', which is cyber by the boundary rule; no replication or AI R&D."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or influence-operation evaluation; spear-phishing is cyber."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No deception, sabotage, or evaluation-awareness evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Responsible Use Guide and 'Responsible release approach' are not a named scaling or safety framework; no threshold."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We also partnered with content specialists to perform red teaming exercises assessing potentially violating content while taking account of market specific nuances or experiences.",
+   "locator": "Evaluations, Red teaming; Critical and other risks 2",
+   "note": "Partnered subject-matter experts red-teamed; the card does not say outright they are external, and the Child Safety text refers partly to Llama 3. Borderline."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named as testing this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing stated."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside-testing timing stated (keywords 'red team' occur, no pre-release statement)."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Our main objectives for conducting safety fine-tuning are to provide the research community with a valuable resource for studying the robustness of safety fine-tuning",
+   "locator": "Responsibility & Safety, Llama 3.1 instruct",
+   "note": "Safety fine-tuning, RLHF for safety, refusal and tone data."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "that developers should deploy with Llama models or other LLMs, including Llama Guard 3, Prompt Guard and Code Shield.",
+   "locator": "Responsibility & Safety, Llama 3.1 systems",
+   "note": "Shipped default safeguard models (Llama Guard 3, Prompt Guard, Code Shield) in reference implementations count per codebook."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Open weights under a licence; only licence gating, which does not count."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection stated."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-05-22-claude-opus-4",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Participants who had access to Claude Opus 4 scored 63% ± 13%, and participants who had access to Claude Sonnet 4 scored 42% ± 11%.",
+   "locator": "7.2.4.1 Bioweapons acquisition uplift trial",
+   "note": "bio uplift trial result"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "We observe an increase in capability based on improved evaluation scores, including the first successful solve of a (non-assisted) network challenge by a Claude model.",
+   "locator": "7.4 Cyber evaluations / Results",
+   "note": "CTF results (e.g. Web 12/15, Cybench 22/39)"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude Opus 4 successfully passed an average of 16.6/42 problems, remaining below threshold.",
+   "locator": "7.3.1 SWE-bench Verified (hard subset)",
+   "note": "AI R&D autonomy result vs threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to manipulate users toward certain views",
+   "locator": "4 Alignment assessment",
+   "note": "manipulation listed as a behaviour looked for; emotional-manipulation score is only in a figure, no result stated in text; influence operations tested only within aggregate harmlessness rates"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We found that Claude Opus 4 fails completely in the primary setting, never completing a side task without making the monitor aware of its attempt",
+   "locator": "4.1.10 Subtle sabotage capabilities",
+   "note": "sabotage capability result; also blackmail 84%, situational awareness 5/414, Apollo findings"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "RSP safeguards required for Claude Opus 4: ASL-3 Standard",
+   "locator": "7 Responsible Scaling Policy (RSP) evaluations",
+   "note": "ASL determination under RSP"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "we contracted with Apollo Research to assess an early snapshot for propensities and capabilities related to sabotage",
+   "locator": "4.1.1.4 External scenario evaluations",
+   "note": "outside org tested this model"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "To help reduce the risk of blind spots in our own assessment, we contracted with Apollo Research to assess an early snapshot",
+   "locator": "4.1.1.4 External scenario evaluations",
+   "note": "Apollo Research named (also Deloitte, SepalAI, Eleos, Faculty.ai)"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "joint pre-deployment testing of the new Claude Opus 4 model was conducted by the US AI Safety Institute (US AISI) and the UK AI Security Institute (UK AISI)",
+   "locator": "7.5 Third party assessments",
+   "note": "US and UK AISI tested this model"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "joint pre-deployment testing of the new Claude Opus 4 model was conducted by the US AI Safety Institute",
+   "locator": "7.5 Third party assessments",
+   "note": "pre-deployment stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we implemented several safeguards, including pre-deployment measures such as harmlessness training",
+   "locator": "3.1 Malicious applications of computer use",
+   "note": "harmlessness training; also Constitutional AI and human feedback"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "the deployment of detection systems that can halt the model's execution when a potential injection attempt is identified",
+   "locator": "3.2 Prompt injection attacks and computer use",
+   "note": "runtime detection; also monitoring of harmful behavior and ASL-3 safeguards blocking bio prompts"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no risk-tied access restriction described; account bans are enforcement; Developer Mode opt-in is not a safety restriction"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "we believe that our security is sufficient to prevent model self-exfiltration attempts by models of Claude Opus 4's capability level",
+   "locator": "4.1.1.1 Continuations of self-exfiltration attempts",
+   "note": "stated protection against self-exfiltration of this model's weights"
+  }
+ }
+}

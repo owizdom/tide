@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-08-05-claude-opus-4-1",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Creative biology: Score of 0.48 ± 0.09 (compared to 0.47 ± 0.09 for Claude Opus 4),",
+   "locator": "6.3.1.1 ASL-4 rule-out evaluations",
+   "note": "CBRN score reported for Opus 4.1"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On a 35-challenge subset of Cybench tasks, Claude Opus 4.1 solved 18/35 challenges",
+   "locator": "6.5.1 Cyber results summary",
+   "note": "CTF result for Opus 4.1"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Text-based RL: Best score of 0.425 (vs. 0.625 for Claude Opus 4), well below the 0.9",
+   "locator": "6.4.1 Autonomy results summary",
+   "note": "AI R&D eval score vs threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'manipulate'/'manipulations' refer only to prompt injection; no persuasion eval"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We also saw what appeared to be a slight increase in indications that the model suspected that it was being evaluated",
+   "locator": "4.1 Automated behavioral audit for alignment",
+   "note": "evaluation awareness result from alignment audit (also deception, self-preservation, blackmail)"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Like Claude Opus 4, the model is deployed under the ASL-3 Standard as a precautionary measure, and its capabilities remain below ASL-4 thresholds in all evaluated domains.",
+   "locator": "6 Responsible Scaling Policy (RSP) evaluations",
+   "note": "ASL determination for this model under RSP"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "addendum (v1.1 rule 1): states no new pre-deployment evaluations with external government partners for this release; third-party assessments were for Claude Opus 4 and only said to 'remain relevant'; external partners only helped set thresholds"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside organisation named as testing Opus 4.1"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "explicitly 'did not conduct new pre-deployment evaluations with external government partners for this release'"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing of this model; 'pre- and post-deployment testing of our models' is a generic commitment"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we implemented the same safeguards, including pre-deployment measures such as harmlessness training",
+   "locator": "3.1 Malicious applications of computer use",
+   "note": "harmlessness training applied to this model"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we continue to implement monitoring of harmful behavior post-deployment",
+   "locator": "3.1 Malicious applications of computer use",
+   "note": "production monitoring; also prompt-injection detection systems"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "account bans and removal of computer use are enforcement against violators, not a risk-tied access restriction; ASL-3 Standard not described as access controls in this card"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "ASL-3 Standard named but no weight protection described in this card"
+  }
+ }
+}

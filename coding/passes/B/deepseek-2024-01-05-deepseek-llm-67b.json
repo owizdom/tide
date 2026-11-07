@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2024-01-05-deepseek-llm-67b",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No keyword hits; safety taxonomy covers discrimination, rights, IP, illegal behaviour, not weapons uplift."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber capability evaluation."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy or AI R&D evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion or influence evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'deceived by the surface format' refers to jailbreak format loophole, not a deception-risk evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Safety evaluation used a 20-person expert team the lab established plus annotators; no outside organisation or individuals described. Acknowledged teams are internal."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside tester named (Do-Not-Answer and AlignBench are public datasets, not testers)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "The safety data consists of 300K instances, covering various sensitive topics.",
+   "locator": "4 Alignment",
+   "note": "Safety data in SFT plus harmlessness preference data in DPO."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only a system prompt is described; no named classifier, filter or monitor."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

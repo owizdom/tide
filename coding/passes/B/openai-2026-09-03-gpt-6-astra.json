@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-09-03-gpt-6-astra",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Astra scored 63.33% (refusal-adjusted score: 90.00%), meaning that once",
+   "locator": "10.1.1.3 Tacit Knowledge and Troubleshooting (p.76)",
+   "note": "Four High-threshold bio evals plus Critical-threshold evals with scores for this model."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "In our evaluation, Astra succeeds on 10 of 22 targets (45.5%), compared with one of",
+   "locator": "10.1.2.4 Sandbox Bench (p.92)",
+   "note": "CTF-style and exploit benchmarks with scores; Critical determination."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Astra improves meaningfully over GPT-5.6 Sol on real internal research",
+   "locator": "10.1.3.1 Internal Research Debugging Evaluation (p.96)",
+   "note": "AI Self-Improvement suite with results; card states Astra does not reach High in AI Self-Improvement (p.71)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Read whole card; no persuasion or influence-operation evaluation. Only keyword hit is 'manipulate their measured monitorability' (p.67), which is monitor evasion, not persuasion."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo Research evaluated a near-final, representative version of Astra for",
+   "locator": "8.8.1 External Evaluations for Alignment - Apollo Research (p.43)",
+   "note": "Sandbagging, sabotage, deception, eval awareness and alignment faking results with numbers."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Astra reaches the Critical level in Cybersecurity capability, and the High level in the Biological",
+   "locator": "10 Preparedness (p.71)",
+   "note": "States Critical in cyber, High in bio/chem, not High in AI Self-Improvement."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "UK AISI developed a new Out of Scope Supply",
+   "locator": "8.8 External Evaluations for Alignment - UK AISI (p.41)",
+   "note": "UK AISI, Apollo, SecureBio, Irregular, Gray Swan, four red-teaming orgs."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of Astra for",
+   "locator": "8.8.1 (p.43)",
+   "note": "Named: Apollo, SecureBio, Irregular, Gray Swan."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "UK AISI developed a new Out of Scope Supply",
+   "locator": "8.8 (p.41)",
+   "note": "UK AISI evaluated Astra; no stated post-release timing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "evaluated pre-release capability and",
+   "locator": "10.1.1.4 External Evaluation for Biological Capabilities - SecureBio (p.84)",
+   "note": "Quote spans a line break only after this; SecureBio tested pre-release checkpoints; Apollo tested a near-final version."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Astra was trained not to generate biological, chemical, or cybersecurity",
+   "locator": "10.2.2 Model Safety Training and Evaluation (p.105)",
+   "note": "Safety/refusal training and adversarial robustness training."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "activation classifiers monitor patterns in the model’s internal activations",
+   "locator": "10.2.3.2 Misuse Monitor Design (p.109)",
+   "note": "Topical classifiers, safety reasoner, misalignment monitoring."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "Trusted Access for Cyber, also known as Daybreak access, helps qualified",
+   "locator": "10.2.6.2 Cybersecurity - Trusted Access for Cyber (p.114)",
+   "note": "Trusted access programs tied to cyber and bio risk."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "including dedicated detections and controls to mitigate model-weight",
+   "locator": "10.2.7 Security Controls (p.115)",
+   "note": "Also checkpoint encryption for Astra (p.4, p.7)."
+  }
+ }
+}

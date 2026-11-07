@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2025-04-05-llama-4-maverick",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "To assess risks related to proliferation of chemical and biological weapons for Llama 4, we applied expert-designed and other targeted evaluations",
+   "locator": "Critical Risks, 1. CBRNE",
+   "note": "CBRNE evaluated; no result or threshold determination reported"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Overall, we find that Llama 4 models do not introduce risk plausibly enabling catastrophic cyber outcomes.",
+   "locator": "Critical Risks, 3. Cyber attack enablement",
+   "note": "stated threshold determination for Llama 4 on cyber"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "Considerations and Limitations",
+   "note": "'autonomy' appears only as user autonomy, not a model risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned in the card"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "Red teaming",
+   "note": "red team composition described without saying it is outside Meta; 'partner early with subject-matter experts' informs adversarial goals, not tied to testing the model; bug bounty is post-release"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "Community",
+   "note": "AI Alliance, PAI, MLCommons named as consortium memberships, not testers"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned in the card"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing reported"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We employ a multi-faceted approach to data collection, combining human-generated data from our vendors with synthetic data to mitigate potential safety risks.",
+   "locator": "Model level fine tuning",
+   "note": "safety fine-tuning data described"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "All of our [reference implementation](https://github.com/meta-llama/llama-agentic-system) demos contain these safeguards by default",
+   "locator": "Llama 4 system protections",
+   "note": "Llama Guard, Prompt Guard, Code Shield shipped as defaults in reference implementation"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open release; licence and AUP only"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "weights openly released; no weight protection"
+  }
+ }
+}

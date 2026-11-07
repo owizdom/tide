@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2026-04-24-deepseek-v4-pro",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read (pp.1-58): no CBRN or dangerous-capability evaluation; only capability benchmarks. Keywords absent from text."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read: no offensive cyber evaluation; Terminal Bench/SWE are general agent benchmarks."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read: no replication, AI R&D risk or autonomy risk evaluation. 'R&D Coding Benchmark' (Sec 5.4.4) is a capability benchmark of internal engineering tasks, and 'long-horizon' appears only as a capability motive."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read: no persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read: no deception, sabotage, sandbagging or eval-awareness evaluation. Reward model use is a training method, not a misalignment evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Full read: no safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Only outside party is 'Dolly Deng and other testers' thanked for feedback on capabilities (A.2); capability feedback, not safety or risk testing per v1.1 clarification 2. Gemini/Opus comparisons are benchmarks, not testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No outside organisation named as testing safety or risk."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No government body testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No outside safety testing, so no timing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "Post-training (SFT, GRPO, OPD, generative reward model) is for capability; no safety, refusal or harmlessness training described. RLHF is mentioned only as the conventional alternative the lab replaced (Sec 5.1.1)."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No classifiers, filters or moderation for deployment. 'cluster monitor (Watcher)' is sandbox infrastructure and 'web-sourced data filtering' is data cleaning; neither is a safety mechanism."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No access restrictions tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole document (pp.1-58)",
+   "note": "No protection of model weights described; weights released openly via Hugging Face link."
+  }
+ }
+}

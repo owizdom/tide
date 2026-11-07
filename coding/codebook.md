@@ -81,4 +81,6 @@ Pass A Opus 5.5, pass B Sonnet 5.5, 10 releases, 130 codes, 7 disagreements: ext
 1. Addendum cards (Wisdom). When the coded document is an addendum, appendix or update to an earlier model's card (for example the Claude 2 card with a Claude 2.1 appendix), an item counts only if the document reports it for this model or states that the result carries over to this model. Evaluations and outside testing reported for the earlier model do not count for this release. Safety training described for the model family counts when the document says this model was built the same way.
 2. Outside testing means safety or risk testing: red teaming, dangerous-capability, alignment, or misuse evaluations. A third party that only ran or reported capability benchmark scores (for example "Results are taken from tests conducted by Mercor") is not outside testing.
 
-Releases coded under v1 that these clarifications can change are recoded on both passes (coding/groups/r02_recode.txt).
+3. Age gates (Wisdom, 2026-11-07). An age requirement for a consumer product (for example "Claude.ai ... is only available to users aged 18 or above") is a general usage term, not safeguards_access, even inside a child-safety section. Applied at adjudication.
+
+Releases coded under v1 that clarifications 1 and 2 can change are recoded on both passes (coding/groups/r02_recode.txt).

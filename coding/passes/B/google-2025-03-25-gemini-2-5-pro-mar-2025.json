@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2025-03-25-gemini-2-5-pro-mar-2025",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN risk named; FSF evaluations mentioned generically without domains."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber capability named or evaluated; cards states FSF evaluations only generically."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy/ML R&D domain mentioned."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion/manipulation mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No scheming/deception domain mentioned."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "Frontier Safety Framework evaluations according to Google DeepMind\u2019s Frontier Safety Framework (FSF)",
+   "locator": "Ethics and Safety, p.5",
+   "note": "Framework named, no threshold placement."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming is by specialist teams and assurance evaluators outside the model development team; internal, not outside the lab."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside org named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming 'prior to release' but all internal; no outside testing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "reinforcement learning from human and critic feedback;",
+   "locator": "Risks and Mitigations, p.7",
+   "note": "SFT and RLHF/critic feedback with safety policies listed as mitigations."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "product-level mitigations such as safety filtering.",
+   "locator": "Risks and Mitigations, p.7",
+   "note": "Safety filtering named as product-level mitigation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2026-08-12-grok-4-6",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.6 scores below the FAIF safety thresholds on dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
+   "locator": "8 Biological and chemical capabilities",
+   "note": "VCT, WMDP, LAB-Bench, ProtocolQA results."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "HackerBench is a SpaceXAI internal CTF-style suite of cybersecurity and red-teaming",
+   "locator": "7.4 HackerBench v0.2",
+   "note": "CyberGym, CVE-Bench (39.8%), HackerBench results reported."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "an earlier Grok 4.6 checkpoint was tasked with speeding up its own chat inference, free to experiment but required to verify end-to-end gains before opening a pull request.",
+   "locator": "5 R&D Enablement",
+   "note": "Self-improvement/AI R&D automation result (7 PRs, 3 in production); framed as capability enablement not as a risk, so borderline."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No persuasion, manipulation or influence-operation evaluation; sycophancy benchmark is not persuasion."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "we test whether Grok 4.6 faithfully reports its beliefs when pressured to lie, as a proxy for the model's tendency to assert misleading information.",
+   "locator": "12.1 MASK-Rectified",
+   "note": "Honesty/deception evaluation with result (3.8% dishonesty); framed as behaviour/reliability, not loss-of-control, so borderline."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Grok 4.6 scores below the FAIF safety thresholds on dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
+   "locator": "8 Biological and chemical capabilities",
+   "note": "Names xAI Frontier AI Framework and places model below threshold."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We additionally supplied the model without restrictions to third-party evaluators to validate the above results.",
+   "locator": "7 Cyber capabilities and safeguards",
+   "note": "Third-party cyber evaluators."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Third-party cyber evaluators are not named; Mercor, Artificial Analysis, Vals only ran capability benchmarks."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body named."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Card does not say the third-party testing happened before release."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests",
+   "locator": "10 General output safety",
+   "note": "Safety training for refusals."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Grok 4.6 is additionally augmented with runtime input and topical filters that add controls for classes of severe harm",
+   "locator": "10 General output safety",
+   "note": "Named runtime filters."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No trusted-access or tiering for safety reasons; 'without restrictions' evaluator access is testing only."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

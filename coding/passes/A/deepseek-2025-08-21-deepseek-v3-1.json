@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2025-08-21-deepseek-v3-1",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no offensive cyber eval; only coding benchmarks"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "agent benchmarks (SWE, Terminal-bench) are capability, not autonomy risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'external' appears only in 'external or up-to-date information' for search tool"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'filter' appears only as 'webpage filter' in the search framework, not a safety mechanism"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card covers architecture, chat template and capability benchmarks only; no safety content"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-05-19-gemini-3-5-flash",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "Frontier Safety Assessment",
+   "note": "CBRN not named; only a general 'unlikely to reach any CCLs' without naming the domain"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "we performed additional testing in this domain and found that Gemini 3.5 Flash remains below the cyber CCL",
+   "locator": "Frontier Safety Assessment, p.7",
+   "note": "cyber CCL threshold determination for this model"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "autonomy not named as an evaluated risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "persuasion/manipulation not named"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no scheming/deception domain named"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we are confident that Gemini 3.5 Flash is also unlikely to reach any CCLs",
+   "locator": "Frontier Safety Assessment, p.7",
+   "note": "places this model below Critical Capability Levels of the Frontier Safety Framework"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "Human Red Teaming Results",
+   "note": "red teaming done by internal specialist teams outside the model team; not outside the lab per codebook"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no outside organisation named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no government testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no outside testing reported"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "Ethics and Content Safety",
+   "note": "safety evaluations reported but no safety training described; deferred to Gemini 3 Flash card"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no runtime mechanism named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "Distribution",
+   "note": "API terms of use only, no safety-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no weight protection stated"
+  }
+ }
+}

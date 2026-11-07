@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2026-08-13-gemini-3-7-flash",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing.",
+   "locator": "Frontier Safety Assessment",
+   "note": "Threshold determination plus red-teaming findings."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Gemini 3.7 Flash reaches the alert threshold for this CCL, but not the CCL itself.",
+   "locator": "Frontier Safety Assessment, Cybersecurity",
+   "note": "Threshold determination."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Gemini 3.7 Flash can complete individual coding tasks but lacks the independence to chain them into an end-to-end research workflow without human intervention.",
+   "locator": "Frontier Safety Assessment, ML R&D",
+   "note": "ML R&D acceleration/automation CCLs not reached."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Gemini 3.7 Flash demonstrates some ability to influence user beliefs and behaviors during one-on-one direct conversations in human behavioural studies.",
+   "locator": "Frontier Safety Assessment, Harmful Manipulation",
+   "note": "Human studies with CCL determination."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Gemini 3.7 Flash is observant enough to correctly assess when it is in a testing environment, but it cannot successfully bypass testing restrictions.",
+   "locator": "Frontier Safety Assessment, ML R&D and Misalignment",
+   "note": "Stealth and situational awareness results, TCL not reached."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "found that it did not reach any tracked or critical capability levels as outlined in the table below",
+   "locator": "Frontier Safety Assessment",
+   "note": "States position against TCL/CCL."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Red teaming is by 'specialist teams who sit outside of the model development team' (internal per codebook); 'expert red teaming' not stated to be external."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing stated."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Safety training not described; training sections defer to the 3.6 Flash card."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'mitigations' and 'updated safeguards' stated generically; no mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restrictions described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

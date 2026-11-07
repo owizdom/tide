@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2023-03-15-gpt-4-mar-2023",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "The model is also able to identify mutations that can alter pathogenicity. Red teamers could not successfully compel the model to engineer new biochemical substances.",
+   "locator": "System Card 2.6 Proliferation of Conventional and Unconventional Weapons",
+   "note": "qualitative red-team findings on bio/chem proliferation"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "However, GPT-4 performed poorly at building exploits for the vulnerabilities that were identified.",
+   "locator": "System Card 2.8 Cybersecurity",
+   "note": "external cyber experts' finding on exploitation"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "ARC found that the versions of GPT-4 it evaluated were ineffective at the autonomous replication task based on preliminary experiments they conducted.",
+   "locator": "System Card 2.9 Potential for Risky Emergent Behaviors",
+   "note": "autonomous replication result"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Our red teaming results suggest that GPT-4 can rival human propagandists in many domains, especially if teamed with a human editor.",
+   "locator": "System Card 2.5 Disinformation and Influence Operations",
+   "note": "influence-operations finding from red teaming"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "The model, when prompted to reason out loud, reasons: I should not reveal that I am a robot.",
+   "locator": "System Card 2.9 Potential for Risky Emergent Behaviors",
+   "note": "ARC power-seeking eval (framed as loss-of-control risk) included hiding traces and avoiding shutdown; described deception finding. Borderline: deception reported as an illustrative example within the replication eval"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "System Card 5",
+   "note": "no named safety/scaling framework; only a generic 'safety critical threshold' recommendation"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We contracted external cybersecurity experts to test GPT-4’s ability to aid in computer vulnerability discovery, assessment, and exploitation.",
+   "locator": "System Card 2.8 Cybersecurity",
+   "note": "outside red teamers and ARC tested the model"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We granted the Alignment Research Center (ARC) early access to the models as a part of our expert red teaming efforts",
+   "locator": "System Card 2.9 Potential for Risky Emergent Behaviors",
+   "note": "ARC named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government testing"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We are grateful to our expert adversarial testers and red teamers who helped test our models at early stages of development",
+   "locator": "System Card 6 Acknowledgements",
+   "note": "outside testing at early development stages, i.e. before release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "fine-tuned the model to refuse certain instructions such as direct requests for illicit advice",
+   "locator": "System Card 1.1 Overview of findings and mitigations",
+   "note": "safety RLHF / RBRM refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Additionally, we trained a range of classifiers on new risk vectors and have incorporated these into our monitoring workflow",
+   "locator": "System Card 1.1 Overview of findings and mitigations",
+   "note": "classifiers and monitoring in production"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "System Card 5",
+   "note": "'ramping up model access' mentioned without a stated safety restriction; usage policies only"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weight protection stated"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2024-09-12-o1-preview",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Our evaluations found that o1-preview and o1-mini can help experts with the\noperational planning of reproducing a known biological threat, which meets our medium risk\nthreshold.",
+   "locator": "4.3 Biological Threat Creation",
+   "note": "Medium threshold determination plus scores."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Given\n12 attempts at each task, o1-preview (post-mitigation) completes 26.7% of high-school level,\n0% of collegiate level, and 2.5% of professional level CTF challenges",
+   "locator": "4.2 Cybersecurity",
+   "note": "CTF scores."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Summary: Neither o1-preview nor o1-mini advance self-exfiltration, self-improvement, or resource\nacquisition capabilities sufficiently to indicate medium risk.",
+   "locator": "4.5 Model Autonomy",
+   "note": "Low determination plus METR and agentic task results."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Both o1-preview and o1-mini demonstrate human-level persuasion capabilities, in\nthat they produce written arguments that are similarly persuasive to human-written text on the\nsame topics.",
+   "locator": "4.4 Persuasion",
+   "note": "Medium determination plus ChangeMyView/MakeMePay scores."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Apollo found that o1-preview sometimes instrumentally faked alignment during testing",
+   "locator": "3.3.1 Apollo Research",
+   "note": "Alignment-faking and scheming findings from named tests."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Overall, o1-preview and o1-mini have been classified as medium risk in the Preparedness Frame-\nwork",
+   "locator": "6 Conclusion",
+   "note": "Placed at Medium under the Preparedness Framework."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "OpenAI worked with multiple organiza-\ntions and individuals1 to assess key risks associated with the o1 model series",
+   "locator": "3.3 External Red Teaming",
+   "note": "External red teamers and evaluators."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research, an evaluation organization focusing on risks from deceptively aligned AI systems,\nevaluated capabilities of ‘scheming’ in o1 models.",
+   "locator": "3.3.1 Apollo Research",
+   "note": "Apollo Research and METR named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body tested; 'UK AISI's Theory of Mind' is a benchmark name (excluded); Los Alamos is a future wet-lab partnership, not testing of this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We are grateful to our expert testers and red teamers who helped test our models at early stages of\ndevelopment",
+   "locator": "7 Acknowledgements",
+   "note": "Outside testing at early development stages, i.e. before release; red teamers accessed snapshots from early August."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "o1 inherits our earlier safety mitigations of training in refusal behavior for harmful\nrequests and using moderation models for the most egregious content",
+   "locator": "3.1 Safety Evaluations",
+   "note": "Refusal training."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "using moderation models for the most egregious content",
+   "locator": "3.1 Safety Evaluations",
+   "note": "Moderation models named as an inherited mitigation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No risk-tied access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'self-exfiltration' appears only as an autonomy eval category; no weight protection stated."
+  }
+ }
+}

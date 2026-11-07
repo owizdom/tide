@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2023-07-18-llama-2-70b",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "quote": "we conducted specific tests to determine the capabilities of our models to facilitate the production of weapons (e.g. nuclear, biological, chemical, and cyber)",
+   "locator": "4.3 Red Teaming",
+   "note": "CBRN weapons capability tested; only 'findings were marginal' from unnamed tests, no score or named test"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "quote": "we conducted specific tests to determine the capabilities of our models to facilitate the production of weapons (e.g. nuclear, biological, chemical, and cyber)",
+   "locator": "4.3 Red Teaming",
+   "note": "cyber named as tested; no result beyond 'marginal' from unnamed tests"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no autonomy/AI R&D risk evaluation; tool use is a capability observation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'manipulation' appears only as jailbreak attack vectors; misinformation experts on red team but no persuasion/influence-ops evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "reward hacking mentioned only as a training problem; no deception/sabotage evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no safety or scaling framework; Responsible Use Guide is deployment guidance"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conducted a series of red teaming with various groups of internal employees, contract workers, and external vendors.",
+   "locator": "4.3 Red Teaming",
+   "note": "external vendors and contract workers red teamed the models"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "red team vendors not named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government testing; 'national security agencies' only in related work"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "red teaming described as during development/internal releases but not stated as before public release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "We have taken measures to increase the safety of these models, using safety-specific data annotation and tuning",
+   "locator": "1 Introduction",
+   "note": "safety SFT, safety RLHF and context distillation"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "only 'code examples ... to apply basic safety techniques at the user input and model output layers', no named mechanism; HateBERT/ToxiGen classifiers used for data analysis and evaluation only"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open release under licence/AUP; withholding of the 34B variant for lack of red-teaming time does not apply to the 70B release"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "weights openly released; no weight protection"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2026-09-03-gpt-6-astra",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Based on the findings described here, we determined that Astra reaches the Critical level in Cybersecurity capability, and the High level in the Biological and Chemical category.",
+   "locator": "10 Preparedness",
+   "note": "High in bio/chem plus scores (e.g. TroubleshootingBench 48.44%)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Astra is our first model to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+   "locator": "1 Safety Overview",
+   "note": "Critical cyber determination plus ExploitBench, Irregular results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "In AI Self-Improvement, Astra does not reach our High threshold.",
+   "locator": "10 Preparedness",
+   "note": "AI self-improvement threshold determination plus Internal Research Debugging 78.05%"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "9.2.2.3.2",
+   "note": "no persuasion/manipulation risk evaluation; 'manipulate' appears only for models manipulating measured monitorability (scheming)"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "When prompted to do so, Astra seems to be able to strategically sandbag in evaluations in ways that evade sandbagging-specific monitors.",
+   "locator": "9 Monitorability",
+   "note": "sandbagging, sabotage, alignment faking, eval awareness results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we determined that Astra reaches the Critical level in Cybersecurity capability, and the High level in the Biological and Chemical category.",
+   "locator": "10 Preparedness",
+   "note": "placed against Preparedness Framework levels"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Apollo Research evaluated a near-final, representative version of Astra for propensities related to strategic deception and sabotage",
+   "locator": "8.8.1 External Evaluations for Alignment - Apollo Research",
+   "note": "outside alignment testing"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Irregular evaluated Astra across three offensive cybersecurity evaluation",
+   "locator": "10.1.2.6 External Evaluations for Cyber Capabilities – Irregular",
+   "note": "named outside orgs: Irregular, SecureBio, Apollo Research, Gray Swan"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "To evaluate Astra’s alignment, UK AISI developed a new Out of Scope Supply Chain Attack evaluation",
+   "locator": "8.8 External Evaluations for Alignment – UK AISI",
+   "note": "UK AISI tested Astra; no statement that it was after release"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "SecureBio, a nonprofit research organization focused on studying and mitigating catastrophic biological risks, evaluated pre-release capability and bio-railfree (helpful-only) checkpoints of Astra",
+   "locator": "10.1.1.4 External Evaluation for Biological Capabilities - SecureBio",
+   "note": "outside testing of pre-release checkpoints"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Astra was trained not to generate biological, chemical, or cybersecurity content that is disallowed by our safety policies.",
+   "locator": "10.2.2 Model Safety Training and Evaluation",
+   "note": "safety training for refusals"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "For all conversations, we use a two-tiered system that scans messages in the conversation.",
+   "locator": "10.2.3.2 Misuse Monitor Design",
+   "note": "topical classifiers, safety reasoner, activation classifiers, misalignment monitoring"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "This section describes our trusted access programs, which reserve the most sensitive cybersecurity and biological capabilities for trusted users.",
+   "locator": "10.2.6 Trust-based Access",
+   "note": "trusted access programmes tied to risk"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "including dedicated detections and controls to mitigate model-weight exfiltration",
+   "locator": "10.2.7 Security Controls",
+   "note": "weight exfiltration controls; also checkpoint encryption for Astra"
+  }
+ }
+}

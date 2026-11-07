@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2026-08-12-grok-4-6",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Grok 4.6 scores below the FAIF safety thresholds on dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
+   "locator": "8 Biological and chemical capabilities and safeguards",
+   "note": "threshold determination plus VCT/WMDP scores"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "CVE-Bench evaluates agents on exploiting real-world web-application CVEs in sandboxed environments that mimic production services.",
+   "locator": "7.2 CVE-Bench",
+   "note": "CyberGym 79.7%, CVE-Bench reward 39.8% for Grok 4.6"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "5 R&D Enablement",
+   "note": "self-acceleration and MTS evals presented as capability (R&D enablement), not as a risk; overview lists safety domains without autonomy"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "12 Behaviors; 5.1",
+   "note": "MASK honesty eval framed as reliability/neutrality/controllability, not misalignment risk; 'reward hacking' appears only as a task in the MTS eval and in benchmark scoring"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Grok 4.6 scores below the FAIF safety thresholds on dual-use knowledge",
+   "locator": "8 Biological and chemical capabilities and safeguards",
+   "note": "placed below FAIF thresholds"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We additionally supplied the model without restrictions to third-party evaluators to validate the above results.",
+   "locator": "7 Cyber capabilities and safeguards",
+   "note": "third-party evaluators tested cyber capability"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "7; benchmark footnotes",
+   "note": "third-party cyber evaluators unnamed; Mercor, Artificial Analysis, Datacurve only ran capability benchmarks (v1.1 clarification 2)"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no government testing mentioned"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "7 Cyber capabilities and safeguards",
+   "note": "third-party testing timing not stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests",
+   "locator": "10 General output safety",
+   "note": "safety fine-tuning for refusals"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Grok 4.6 is additionally augmented with runtime input and topical filters that add controls for classes of severe harm",
+   "locator": "10 General output safety",
+   "note": "runtime filters named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "1.1 Overview",
+   "note": "available on all channels and plan tiers; no risk-tied access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2026-09-02-muse-spark-1-3",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Evaluated without mitigations, we continue to not rule out Muse Spark 1.3 meeting this threshold in the Chemical & Biological domain.",
+   "locator": "Abstract, p.1",
+   "note": "CB threshold determination; scores on MBCT, VCT, ABC Bench etc. (2.1)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Muse Spark 1.3 finishes 3 of the 10 scenarios (30.0% pass@20 and 2.0% pass@1 across 20 attempts per scenario, each with a budget of 1000 shell commands)",
+   "locator": "2.2.1.4 CyScenarioBench",
+   "note": "cyber results; also CyberGym, ExploitGym, 'moderate or lower' determination"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "We assess Muse Spark 1.3 as “moderate or lower” for acceleration of AI development.",
+   "locator": "2.3.1.1 Acceleration of AI Development",
+   "note": "AI R&D acceleration evaluated as a risk with PostTrainBench/ResearchTasteBench/OptimBench results"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "2.2.2 Social Engineering; 4.2",
+   "note": "social-engineering evaluation is part of cyber (Cyber 3) per boundary rule; Petri Bloom 'emotional bond'/'flattery' are sycophancy-type behaviours not framed as persuasion or manipulation risk; 'manipulate' elsewhere refers to prompt injection"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We find suggestive evidence of strategic underperformance on Chemical & Biological evaluations.",
+   "locator": "1.1.1 Risk Assessment Summary",
+   "note": "sandbagging, SHADE-Arena stealth, evaluation awareness, Agentic Misalignment results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Our updated suite of cybersecurity evaluations supports a “moderate or lower” assessment for the unmitigated model in the Cybersecurity domain.",
+   "locator": "Abstract, p.1",
+   "note": "places model against 'high risk' threshold of Meta Superintelligence Scaling Framework"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "The Handshake AI red team conducted red teaming before the public launch of Muse.",
+   "locator": "3.1.4.2 Handshake AI Human Red Teaming",
+   "note": "outside red team tested this model (also Scale AI, Gray Swan, Exponential Security Labs, Irregular)"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have shared pre-release access to Muse with Handshake AI’s red team for conducting human red teaming to find jailbreaks.",
+   "locator": "3.1.4.2",
+   "note": "named outside organisation; jailbreak red teaming is safety testing"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "2.1.1.1; References",
+   "note": "'US AISI and UK AISI, 2024' is cited only as methodology from a test of another model (OpenAI o1); no government testing of this model"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Before the release, we also conducted third-party red teaming on both Muse Spark 1.3 (API) and Muse Spark 1.3 (Muse) to validate these conclusions.",
+   "locator": "1.1.2 Safety & Robustness Summary",
+   "note": "explicit pre-release outside testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "the ASR on JEF-Bench has greatly decreased from Muse Spark 1.1 to Muse Spark 1.3 (API) due to our training on mitigating agentic jailbreaks",
+   "locator": "3.1.2 Jailbreak Embedded In Files",
+   "note": "safety training against jailbreaks"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "In the launch context of Muse, we also integrate with additional layers for automated reviews and integrity monitoring to mitigate the misuse risk",
+   "locator": "3.2.1.1 DTap",
+   "note": "named runtime review and monitoring; also system-level CB/cyber mitigations"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "whole card",
+   "note": "no safety-tied access restriction (trusted access, KYC, tiers) described; account authorization is a product feature"
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "Meta’s model weight security strategy is built on a multi-pronged, lifecycle-driven framework designed to identify, assess, and mitigate systemic risks of tampering and theft. Our approach continues to incorporate the same pillars",
+   "locator": "1.4 Security Practices",
+   "note": "weight security stated as continuing for this model"
+  }
+ }
+}

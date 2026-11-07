@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2026-02-05-claude-opus-4-6",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude Opus 4.6 achieved a mean score of 0.483 on the harder",
+   "locator": "8.2.4.2 Multimodal virology",
+   "note": "VCT score, long-form virology, uplift trials; CBRN-4 rule-out stated"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 4.6 scored 0.93 average pass@1 on the subset of tasks used for RSP",
+   "locator": "8.4.7 Cybench",
+   "note": "Cybench/CTF suite results and CAISI cyber assessment"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Our determination is that Claude Opus 4.6 does not cross either the AI R&D-4 or the",
+   "locator": "1.2.4 Conclusions",
+   "note": "Threshold determination plus AI R&D eval scores (e.g. kernels 427x)"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to manipulate users toward certain views",
+   "locator": "6.1.1 Introduction",
+   "note": "Manipulation of users listed as a behaviour tested for; no persuasion-specific result. Multi-turn influence-operations and platform-manipulation cases (3.3) are refusal evals, so not counted as level 2"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We found no instances of explicit sandbagging by Opus 4.6.",
+   "locator": "6.4.3 Potential sandbagging on dangerous-capability evaluations",
+   "note": "Sandbagging, SHADE-Arena sabotage scores, evaluation awareness, sabotage propensity all reported with results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "we have decided to release Claude Opus 4.6 under the ASL-3",
+   "locator": "1.2.3 AI Safety Level determination process",
+   "note": "Names RSP and places model at ASL-3, below CBRN-4 and AI R&D-4"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "pre-deployment testing of Claude Opus 4.6 was conducted by the US Center for AI Standards and Innovation (CAISI) and the UK AI Security Institute",
+   "locator": "8.5 Third party assessments",
+   "note": "UK AISI, CAISI, Apollo, Andon Labs, Gray Swan, expert red teamers"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "Apollo Research was given access to an early checkpoint of Claude Opus 4.6 on January 24th",
+   "locator": "6.2.7 External testing from Apollo Research",
+   "note": "Also UK AISI, CAISI, Gray Swan, Andon Labs, SecureBio/Deloitte trials"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "pre-deployment testing of Claude Opus 4.6 was conducted by the US Center for AI Standards and Innovation (CAISI) and the UK AI Security Institute",
+   "locator": "8.5 Third party assessments",
+   "note": "US CAISI and UK AISI tested before deployment"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.6 with the UK AI Security Institute",
+   "locator": "6.2.6 External testing from the UK AI Security Institute",
+   "note": "Section 8.5 also says pre-deployment testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "models that underwent broad safety training",
+   "locator": "1.2.2 Iterative model evaluations",
+   "note": "Post-training with RLHF to be helpful, honest and harmless (1.1.1)"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "classifiers designed to detect prompt injection attempts and alert the model accordingly to inform its response",
+   "locator": "5.2 Prompt injection risk within agentic systems",
+   "note": "Classifiers enabled by default in agentic products; cyber probes and traffic blocking (8.4)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "3.4.1 Child safety; 6.1.2",
+   "note": "No trusted-access, KYC or tiered access tied to risk. Claude.ai 18+ rule and removal of partial-turn prefill from the API are not access programmes; judged 0 (borderline)"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "1.2.3; footnote 59 in 8.3",
+   "note": "Card says deployed under ASL-3 Security Standard but describes no weight protection for this model; footnote 59 describes model-weight theft protection only for ASL-4, a stricter standard not applied. exfiltration mentions are evaluation topics"
+  }
+ }
+}

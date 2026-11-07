@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2023-07-11-claude-2",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'national security and safety related risks' stated generically; no CBRN domain named."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber capability named."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Neither ARC nor we believe that our current Claude models possess the dangerous capabilities (\u2018autonomous replication\u2019 abilities) that ARC is",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Threshold-style determination covering current Claude models (Claude 2 is the focus of the report); codebook boundary rule example."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Misinformation listed only as a Trust and Safety red-team topic; no persuasion/manipulation risk evaluated."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Honesty/TruthfulQA evaluations are about accuracy, not deception or misalignment risk."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No scaling or safety framework referenced; AUP is not a framework."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "External red teamers tested Claude 2 before deployment."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We have been working with the Alignment Research Center (ARC) since fall of 2022 to support their safety",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "ARC named, safety audits of Claude models; no stated post-release timing."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only a generic 'working with policymakers'; no government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Before deployment, we also worked with external red teamers, including crowdworker platforms, to test",
+   "locator": "2 Claude 2 Model Card, Evaluations and Red Teaming",
+   "note": "Stated before deployment."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Using this Constitution, models are trained to avoid sexist, racist, and toxic outputs, as well as to avoid",
+   "locator": "2 Claude 2 Model Card, Ethical Considerations",
+   "note": "Constitutional AI and RLHF for harmlessness."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Trust and Safety processes enforce the AUP but no named runtime mechanism (classifier, filter, monitoring)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described."
+  }
+ }
+}

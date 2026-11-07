@@ -1,0 +1,91 @@
+{
+ "release_id": "mistral-2023-10-10-mistral-7b",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only an independent human preference evaluation on llmboxing.com, a capability comparison, not safety testing (v1.1 rule 2); no outside safety testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety tester named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Instruct model fine-tuned on public instruction datasets with no safety training described."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Mistral 7B \u2013 Instruct can be used as a content moderator: the model itself is able to accurately classify a user prompt or its generated answer",
+   "locator": "5.2 Content moderation with self-reflection",
+   "note": "Self-reflection moderation classifier with precision/recall reported, offered for deployers; borderline, optional rather than default."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Apache 2.0 open release; no risk-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None."
+  }
+ }
+}

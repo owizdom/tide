@@ -1,0 +1,91 @@
+{
+ "release_id": "meta-2023-07-18-llama-2-70b",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "we conducted specific tests to determine the capabilities of our models to facilitate the production of weapons (e.g. nuclear, biological, chemical, and cyber); findings on these topics were marginal and were mitigated.",
+   "locator": "4.3 Red Teaming",
+   "note": "Specific weapons-capability tests with a stated finding (marginal, mitigated); test not named, no score."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "we conducted specific tests to determine the capabilities of our models to facilitate the production of weapons (e.g. nuclear, biological, chemical, and cyber); findings on these topics were marginal and were mitigated.",
+   "locator": "4.3 Red Teaming",
+   "note": "Same sentence covers cyber; cybersecurity experts also on red team."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No autonomy, replication, AI R&D or self-improvement evaluation; 'autonom' hits are references (automation, work)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Manipulation appears only as jailbreak attack vectors and misinformation/election-fraud red-team topics, not a persuasion risk evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Reward hacking is a training problem (PPO KL, reward model); 'deceptive' only in related-work/hate context; no misalignment eval."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conducted a series of red teaming with various groups of internal employees, contract workers, and external vendors.",
+   "locator": "4.3 Red Teaming",
+   "note": "External vendors red teamed the model during development."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Vendors unnamed; acknowledgments name only individuals."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "Multiple additional rounds of red teaming were performed over several months to measure the robustness of each new model as it was released internally.",
+   "locator": "4.3 Red Teaming",
+   "note": "Red teaming with external vendors occurred over development, before public release; timing wording is internal-release, so borderline."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Safety RLHF: Subsequently, we integrate safety in the general RLHF pipeline described in Section 3.2.2.",
+   "locator": "4.2 Safety Fine-Tuning",
+   "note": "Safety SFT, safety RLHF, context distillation."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No named runtime mechanism; only 'basic safety techniques at the user input and model output layers' in sample code, unnamed. HateBERT and refusal classifier are analysis tools."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Open release under licence and AUP; 34B delay not applied to this 70B model."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Weights openly released; no protection stated."
+  }
+ }
+}

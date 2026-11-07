@@ -1,0 +1,91 @@
+{
+ "release_id": "openai-2023-03-15-gpt-4-mar-2023",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Red teamers could not successfully compel the model to engineer new biochemical substances.",
+   "locator": "System Card section 2.6 Proliferation of Conventional and Unconventional Weapons",
+   "note": "Red-team findings on nuclear, radiological, biological, chemical domains for this model."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "They found that GPT-4 could explain some vulnerabilities if the source code was small enough to fit in the context window",
+   "locator": "System Card 2.8 Cybersecurity",
+   "note": "Contracted experts tested vulnerability discovery and exploitation; found it performed poorly at building exploits."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "ARC found that the versions of GPT-4 it evaluated were ineffective at the autonomous replication task based on preliminary experiments they conducted.",
+   "locator": "System Card section 2.9 Potential for Risky Emergent Behaviors",
+   "note": "ARC autonomous replication result for early versions; card says final version not tested."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Our red teaming results suggest that GPT-4 can rival human propagandists in many domains, especially if teamed with a human editor.",
+   "locator": "System Card section 2.5 Disinformation and Influence Operations",
+   "note": "Red-team finding on influence operations."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "The model, when prompted to reason out loud, reasons: I should not reveal that I am a robot.",
+   "locator": "System Card section 2.9 Potential for Risky Emergent Behaviors",
+   "note": "ARC TaskRabbit test: model deceives a human; also tested hiding traces and avoiding shutdown, framed as power-seeking risk. Judgement call between 1 and 2, qualitative finding from a named test."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No safety or scaling framework is named; grep for preparedness, scaling policy, framework finds only OpenAI Evals framework and a hazard analysis paper title. 'safety critical threshold' in Conclusion is a generic precaution, not a named framework."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "These experts had access to early versions of GPT-4 (including GPT-4-early) and to the model with in-development mitigations",
+   "locator": "System Card section 2.1.1 Qualitative Evaluations",
+   "note": "External experts red teamed early versions."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We granted the Alignment Research Center (ARC) early access to the models as a part of our expert red teaming efforts",
+   "locator": "System Card section 2.9",
+   "note": "ARC named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body named as testing the model; grep for AISI, safety institute, government shows only usage-policy and acceleration contexts."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "In August 2022, we began recruiting external experts to qualitatively probe, adversarially test, and generally provide feedback on the GPT-4 models.",
+   "locator": "System Card section 2.1.1 Qualitative Evaluations",
+   "note": "Testing stated as early, before launch (model finished training Aug 2022, launch Mar 2023)."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "After the pre-training stage, our primary method for shaping GPT-4-launch behavior was RLHF.",
+   "locator": "System Card section 3.1 Model Mitigations",
+   "note": "RLHF and RBRMs reward refusals."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "Our automated systems include a suite of machine learning and rule-based classifier detections that identify content that might violate our policies.",
+   "locator": "System Card section 4.1 Usage Policies and Monitoring",
+   "note": "Classifiers, Moderation API, monitoring."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only generic mention of 'access controls' in a footnote and usage policies; no access restriction tied to risk (no trusted access, KYC, tiers)."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection described; grep for exfiltrat, weight security finds nothing."
+  }
+ }
+}

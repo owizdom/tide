@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-02-24-claude-3-7-sonnet",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Under the most conservative approach to evaluation scoring, Claude 3.7 Sonnet achieved a score of 69.7% on this evaluation",
+   "locator": "7.1.4 Biological Risk Results / Long-form Virology Tasks",
+   "note": "virology task score for this model"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "The model succeeded in 13/23 (56%) easy tasks and in 4/13 (30%) medium difficulty evaluations",
+   "locator": "7.3 Cyber Evaluations / Results",
+   "note": "CTF results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude 3.7 Sonnet successfully passed an average of 9.65/42 in 20 attempts, remaining well below the threshold.",
+   "locator": "7.2.2 Results / SWE-bench Verified (hard subset)",
+   "note": "autonomy (AI R&D) RSP eval result vs threshold"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "Influence Operations, Suicide and Self Harm, Violent Extremism, and Deadly Weapons",
+   "locator": "3 Evaluations and Safeguards for Child Safety and Bias",
+   "note": "influence operations named as a usage-policy area tested; no domain-specific result (manipulation result is folded into deception category)"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Claude 3.7 Sonnet showed marked improvement, with alignment faking dropping to <1% of instances and a reduced compliance gap of only 5%.",
+   "locator": "5.3 Alignment Faking Reasoning",
+   "note": "alignment faking result; also deceptive reasoning 0.37%"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Claude 3.7 Sonnet is sufficiently far away from the ASL-3 capability thresholds such that ASL-2 safeguards remain appropriate",
+   "locator": "1.4.4 ASL-2 Determination and Conclusions",
+   "note": "ASL determination under RSP"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "Domain experts from Deloitte engaged in extended conversations with Claude, assessing its ability to assist users with complex domain-specific challenges in weapons development.",
+   "locator": "7.1.4 Biological Risk Results / Expert Red Teaming",
+   "note": "outside red teaming of this model"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "We conducted multiple trials with both Anthropic employees and external participants from Sepal.ai, testing various model snapshots.",
+   "locator": "7.1.4 Biological Risk Results / Bioweapons Acquisition Uplift Trial",
+   "note": "Sepal.ai, Deloitte, US/UK AISI named"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "the U.S. AI Safety Institute (U.S. AISI) and U.K. AI Security Institute (U.K. AISI) conducted pre-deployment testing of Claude 3.7 Sonnet",
+   "locator": "7.4 Third Party Assessments",
+   "note": "government institutes tested this model"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "AI Security Institute (U.K. AISI) conducted pre-deployment testing of Claude 3.7 Sonnet across the domains",
+   "locator": "7.4 Third Party Assessments",
+   "note": "pre-deployment stated"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Pre-deployment defenses include harmlessness training and updating the computer use system prompt",
+   "locator": "4.1 Malicious Use",
+   "note": "harmlessness training; also Constitutional AI and preference model training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We implemented and deployed a streaming completion classifier trained to detect and mitigate harmful content within chains of thought.",
+   "locator": "5 Harms and Faithfulness in Extended Thinking Mode",
+   "note": "runtime classifier; also continuous AUP classifiers and prompt-injection classifiers"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no risk-tied access restriction; account enforcement only; 'access' hits refer to computer use or uplift trial access"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "ASL-2 safeguards named but no weight protection described"
+  }
+ }
+}

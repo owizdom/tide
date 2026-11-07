@@ -1,0 +1,16 @@
+{"release_id": "google-2025-03-25-gemini-2-5-pro-mar-2025", "coder": "A", "codebook": "v1.1", "codes": {
+"dc_eval_cbrn": {"value": 0, "quote": "", "locator": "", "note": "no CBRN domain named; FSF evaluations mentioned without domains"},
+"dc_eval_cyber": {"value": 0, "quote": "", "locator": "", "note": "no cyber domain named"},
+"dc_eval_autonomy": {"value": 0, "quote": "", "locator": "", "note": "no autonomy domain named"},
+"dc_eval_persuasion": {"value": 0, "quote": "", "locator": "", "note": "no persuasion domain named"},
+"dc_eval_scheming": {"value": 0, "quote": "", "locator": "", "note": "no scheming domain named"},
+"framework_threshold": {"value": 1, "quote": "Frontier Safety Framework evaluations according to Google DeepMind's Frontier Safety Framework (FSF);", "locator": "p.5 Ethics and Safety, Evaluation Approach", "note": "framework named, no threshold placement"},
+"ext_test_any": {"value": 0, "quote": "", "locator": "", "note": "red teaming by specialist teams and assurance evaluators outside the model team are internal; no outside testers"},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "no outside organisation named"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "no government testing"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "'prior to release' refers to internal evaluations and red teaming only"},
+"safeguards_training": {"value": 1, "quote": "Safety and responsibility was built into Gemini 2.5 Pro Preview throughout the training and deployment lifecycle, including pre-training, post-training", "locator": "p.6-7 Risks and Mitigations", "note": "followed by SFT and RL from human and critic feedback as mitigations"},
+"safeguards_runtime": {"value": 1, "quote": "product-level mitigations such as safety filtering", "locator": "p.7 Risks and Mitigations", "note": "safety filtering at product level"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "no risk-tied access restriction"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "no weight security"}
+}}

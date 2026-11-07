@@ -1,0 +1,16 @@
+{"release_id": "google-2026-08-13-gemini-3-7-flash", "coder": "A", "codebook": "v1.1", "codes": {
+"dc_eval_cbrn": {"value": 2, "quote": "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing.", "locator": "Frontier Safety Assessment, CBRN row", "note": "TCL/CCL determination for this model"},
+"dc_eval_cyber": {"value": 2, "quote": "Cybersecurity Gemini 3.7 Flash reaches the alert threshold for this CCL, but not the CCL itself.", "locator": "Frontier Safety Assessment, Cybersecurity row", "note": "threshold determination"},
+"dc_eval_autonomy": {"value": 2, "quote": "Gemini 3.7 Flash can complete individual coding tasks but lacks the independence to chain them into an end-to-end research workflow without human intervention.", "locator": "Frontier Safety Assessment, ML R&D row", "note": "ML R&D acceleration/automation CCL result"},
+"dc_eval_persuasion": {"value": 2, "quote": "Gemini 3.7 Flash demonstrates some ability to influence user beliefs and behaviors during one-on-one direct conversations in human behavioural studies. However, its overall efficacy falls beneath the CCL alert threshold.", "locator": "Frontier Safety Assessment, Harmful Manipulation row", "note": "manipulation result"},
+"dc_eval_scheming": {"value": 2, "quote": "On stealth evaluations, Gemini 3.7 Flash performs similarly to Gemini 3.1 Pro; on situational awareness, the model is stronger than Gemini 3.1 Pro.", "locator": "Frontier Safety Assessment, Misalignment row", "note": "stealth and situational awareness under misalignment"},
+"framework_threshold": {"value": 2, "quote": "We evaluated Gemini 3.7 Flash as outlined in our latest Frontier Safety Framework (April-2026), and found that it did not reach any tracked or critical capability levels", "locator": "Frontier Safety Assessment", "note": "CCLs not reached"},
+"ext_test_any": {"value": 0, "quote": "", "locator": "", "note": "red teaming by specialist teams outside the model team (internal); 'expert red teaming' for CBRN not stated as outside the lab"},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "no outside organisation named"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "no government testing mentioned"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "no outside testing stated"},
+"safeguards_training": {"value": 0, "quote": "", "locator": "", "note": "only refusal evaluations reported; safety training not described, deferred to 3.6 Flash card"},
+"safeguards_runtime": {"value": 0, "quote": "", "locator": "", "note": "'updated safeguards'/'mitigations' for CBRN and cyber with no mechanism named"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "distribution channels and terms only; no risk-tied access restriction"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "no weight security mentioned"}
+}}

@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2023-05-10-palm-2",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No CBRN evaluation; 'weapons' appears only in the AI Principles list of applications Google will not pursue."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No cyber capability evaluation; 'extraction attacks' relates to memorization/privacy."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Not mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Google AI Principles cited, not a safety/scaling framework with thresholds."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Third-party raters/contractors graded language-exam writing and translation quality: capability evaluation only (v1.1 #2). Responsible-AI evaluations are internal and automated."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Appen/Figure Eight and Venga are annotation platforms for datasets, not testers of this model's safety."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "None."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "For a small fraction of pre-training data, we added special control tokens marking the toxicity of text, using signals from\na fixed version of the Perspective API.",
+   "locator": "3 Training dataset; 5.1 Inference-time control",
+   "note": "Toxicity-conditioned pre-training (control tokens) as a harm mitigation; no RLHF/refusal training stated. Borderline."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "rigorous testing and production monitoring is performed to identify any concerns or emerging trends.",
+   "locator": "5 Responsible usage",
+   "note": "Production monitoring named for Google applications built on PaLM 2."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Application review against AI Principles and a caveat against general-purpose deployment without assessment are not user access restrictions; API 'process and technical safeguards' unspecified."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No weight protection stated."
+  }
+ }
+}

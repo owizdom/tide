@@ -1,0 +1,91 @@
+{
+ "release_id": "deepseek-2026-09-09-deepseek-v4-1-flash",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no CBRN evaluation; 'biolog' hits only in references/benchmarks"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "On cyber-security tasks, DeepSeek-V4.1-Flash establishes a new state of the art among open",
+   "locator": "5.3.2 Evaluation Results, Table 3 (CyberGym 88.1, SEC-Bench Pro 62.8, ExploitGym 15.3)",
+   "note": "cyber-security tasks (CyberGym 88.1, SEC-Bench Pro 62.8, ExploitGym 15.3 in Table 3) reported as new open-source state of the art with a dual-use note; borderline because framed as capability, not risk; the next sentence adds 'Given the dual-use nature of these capabilities'"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "long-horizon agentic benchmarks reported as capability, not evaluated as autonomy risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "reward hacking and exploit-seeking described only as training/evaluation-infrastructure problems, not as misalignment risk evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no safety framework referenced"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "external partners only return usage data for training environments; no outside safety testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing organisation"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "post-training (SFT/RL/OPD) described for capabilities only; no safety/refusal training"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "AppArmor/eBPF policies contain agents during RL training, not deployment safeguards; no classifiers or filters at inference"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "open weights; API effort tiers are not risk-tied"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "weights published openly; no weight security"
+  }
+ }
+}

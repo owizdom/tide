@@ -1,55 +1,49 @@
 {
  "release_id": "xai-2026-09-21-grok-4-7",
  "coder": "A",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
    "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge, indicating limited actionable uplift for an already-trained actor.",
-   "locator": "Section 7, Biological and chemical capabilities and safeguards",
-   "note": "Threshold determination plus VCT/WMDP scores."
+   "locator": "p.19, 7 Biological and chemical capabilities and safeguards",
+   "note": "Threshold determination plus VCT, WMDP results."
   },
   "dc_eval_cyber": {
    "value": 2,
-   "quote": "We observe that Grok 4.7 performs slightly better than Grok 4.6 on this split, consistent with the small increase in cyber performance observed in CyberGym.",
-   "locator": "Section 6.4 CathedralBench",
-   "note": "Offensive cyber results (CyberGym, CVE-Bench, CathedralBench 29%)."
+   "quote": "CyberGym measures offensive cybersecurity capability by tasking an agent with reproducing crashes and assembling working exploits for known vulnerabilities.",
+   "locator": "p.16, 6.1 CyberGym",
+   "note": "Grok 4.7 80.3% on CyberGym; CVE-Bench, CathedralBench results."
   },
   "dc_eval_autonomy": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Autonomy and long-horizon tasks appear only as capabilities (coding, engineering acceleration); no autonomous replication, AI R&D or self-improvement risk evaluation."
+   "note": "'autonomy' appears only as a capability claim on coding tasks; no replication, AI R&D or self-improvement risk evaluation."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Persuasion or manipulation not mentioned."
+   "note": "No persuasion or manipulation evaluation."
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "MASK-Rectified dishonesty and sycophancy are framed as 'reliability, neutrality, and behavior', not misalignment or loss-of-control risk; no deception/sabotage evals."
-  },
-  "framework_threshold": {
-   "value": 2,
-   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge",
-   "locator": "Section 7",
-   "note": "Model placed against FAIF thresholds."
+   "note": "MASK dishonesty and sycophancy are framed as reliability/truth-seeking, not misalignment or loss of control."
   },
   "ext_test_any": {
    "value": 1,
    "quote": "We additionally provided an unrestricted configuration of Grok 4.7 to third-party evaluators, who corroborated the results of our internal evaluations and testing on cyber capabilities.",
-   "locator": "Section 6",
-   "note": "Outside evaluators tested the model; no post-release timing stated."
+   "locator": "p.16, 6 Cyber capabilities and safeguards",
+   "note": "Outside dangerous-capability (cyber) testing; no post-release timing stated."
   },
   "ext_test_named_org": {
    "value": 1,
-   "quote": "Results reported are taken from evaluations conducted by Datacurve.",
-   "locator": "Section 2.2 DeepSWE footnote",
-   "note": "Named outside organisation evaluated this model; also Cathedral, Harbor, Proximal Labs, Vals AI etc."
+   "quote": "CathedralBench is an independent, third party evaluation of cyber performance. It consists of a red-team cyber evaluation",
+   "locator": "p.18, 6.4 CathedralBench",
+   "note": "Cathedral (listed in Acknowledgements as evaluation partner) ran a red-team cyber evaluation of Grok 4.7."
   },
   "ext_test_government": {
    "value": 0,
@@ -61,31 +55,37 @@
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Outside evaluations reported but no statement that they happened before release."
+   "note": "No statement that outside testing happened before release."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Grok 4.7 scores below the FAIF safety thresholds on dual-use knowledge",
+   "locator": "p.19, 7",
+   "note": "Places this model below named FAIF thresholds."
   },
   "safeguards_training": {
    "value": 1,
    "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests",
-   "locator": "Section 9 General output safety",
+   "locator": "p.23, 9 General output safety",
    "note": "Safety training for refusals."
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "Grok 4.7 is additionally augmented with runtime input and topical filters that add controls for classes of severe harm",
-   "locator": "Section 9",
+   "quote": "dedicated input and topical filters target biological and chemical weapons-related abuse.",
+   "locator": "p.24, 9.3 CBRN / weapons refusals",
    "note": "Named runtime filters."
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Available on all Cursor plan tiers, API and gateways; unrestricted configuration given to evaluators is not a deployment access restriction. No risk-tied access control."
+   "note": "No access restriction tied to safety; AUP/ToS only."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No weight security stated."
+   "note": "'egress-controlled'/'egress-secure sandboxes' concern eval environments, not weight protection."
   }
  }
 }

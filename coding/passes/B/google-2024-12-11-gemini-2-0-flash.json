@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2024-12-11-gemini-2-0-flash",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no CBRN risk evaluation; GPQA is a general benchmark"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no cyber evaluation mentioned"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "not mentioned"
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "Frontier Safety Framework evaluations according to Google DeepMind\u2019s Frontier Safety Framework (FSF);",
+   "locator": "Ethics and Safety, Evaluation Approach",
+   "note": "framework named, no threshold result"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "red teaming by specialist teams and assurance evaluators are inside the lab; no outside party named"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside org named"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "none"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no outside testing"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "supervised fine-tuning;\n   \u25cf\u200b   reinforcement learning from human and critic feedback;\n   \u25cf\u200b   safety policies and desiderata;",
+   "locator": "Ethics and Safety, Risks and Mitigations",
+   "note": ""
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "product-level mitigations such as safety filtering.",
+   "locator": "Ethics and Safety, Risks and Mitigations",
+   "note": "safety filtering named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no weights protection"
+  }
+ }
+}

@@ -1,91 +1,91 @@
 {
  "release_id": "openai-2025-12-11-gpt-5-2",
  "coder": "B",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "We are treating this launch as High capability in the Biological and Chemical domain, activating the associated Preparedness safeguards.",
+   "quote": "We do not have definitive evidence that these models could meaningfully help a novice to create severe biological harm, our defined threshold for High capability",
    "locator": "4.1.1 Biological and Chemical",
-   "note": "Treated as High; plus Multimodal Troubleshooting Virology, ProtocolQA, TroubleshootingBench results."
+   "note": "Plus reported results on multimodal virology, ProtocolQA, tacit knowledge, TroubleshootingBench and a High determination."
   },
   "dc_eval_cyber": {
    "value": 2,
    "quote": "The gpt-5.2-thinking model series does not meet the threshold for High cyber capability.",
    "locator": "4.1.2 Cybersecurity",
-   "note": "Threshold determination plus CTF, CVE-Bench, Cyber Range results."
+   "note": "CTF, CVE-Bench, Cyber Range results plus Irregular external results."
   },
   "dc_eval_autonomy": {
    "value": 2,
-   "quote": "gpt-5.2-thinking performed at a similar capability level to gpt-5.1-codex-max and did not meet",
+   "quote": "gpt-5.2-thinking performed at a similar capability level to gpt-5.1-codex-max and did not meet our High thresholds.",
    "locator": "4.1.3 AI Self-Improvement",
-   "note": "AI self-improvement determination plus OpenAI PRs, MLE-Bench, PaperBench, OPQA results."
+   "note": "OpenAI PRs, MLE-Bench, PaperBench, OPQA results."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Keyword 'manipulat' occurs only as 'LDAP manipulation'; 'personas/phishing' appears as a CTF limitation, not a persuasion evaluation."
+   "note": "No persuasion or influence-operation evaluation; 'manipulation' appears only as LDAP manipulation in a cyber range."
   },
   "dc_eval_scheming": {
    "value": 2,
-   "quote": "gpt-5.2-thinking is unlikely to be capable of causing catastrophic harm via scheming.",
+   "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
    "locator": "4.2 Research Category Update: Sandbagging",
-   "note": "Apollo evaluation of deception, scheming, sabotage; also section 3.7 deception rates."
+   "note": "Also internal deception rates in section 3.7."
   },
   "framework_threshold": {
    "value": 2,
-   "quote": "We are treating this launch as High capability in the Biological and Chemical domain, activating the associated Preparedness safeguards.",
-   "locator": "4 Preparedness Framework",
-   "note": "High in Bio/Chem; below High for cyber and self-improvement."
+   "quote": "Under our Preparedness Framework, High cybersecurity capability is defined as a model that removes existing bottlenecks to scaling cyber operations",
+   "locator": "4.1.2 Cybersecurity",
+   "note": "Names framework; High in bio/chem, below High in cyber and self-improvement."
   },
   "ext_test_any": {
    "value": 1,
-   "quote": "Irregular, an AI Security organization that addresses and mitigates frontier cybersecurity risks,",
-   "locator": "4.1.2.4 External Evaluations",
-   "note": "Irregular and Apollo tested this model; no stated post-release timing."
+   "quote": "Irregular, an AI Security organization that addresses and mitigates frontier cybersecurity risks, evaluated the model's ability to solve three types of cyberoffensive challenges",
+   "locator": "4.1.2.4 External Evaluations for Cyber Capabilities",
+   "note": "Irregular and Apollo Research ran risk evaluations of gpt-5.2-thinking."
   },
   "ext_test_named_org": {
    "value": 1,
    "quote": "Apollo Research conducted a full evaluation of gpt-5.2-thinking for strategic deception",
    "locator": "4.2",
-   "note": "Apollo Research and Irregular named."
+   "note": "Irregular and Apollo Research named."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No government body named."
+   "note": "No government body tested the model per the card."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Card says nothing about when Irregular or Apollo tested; 'pre-release' appears only for AB-test traffic."
+   "note": "External evaluations by Irregular and Apollo carry no stated timing relative to release."
   },
   "safeguards_training": {
    "value": 1,
-   "quote": "This means they provide more helpful answers and better resist attempts to bypass safety rules.",
-   "locator": "2 Model Data and Training",
-   "note": "Also cyber safety training with refusal in 3.8."
+   "quote": "We trained gpt-5.2-thinking integrations to provide maximally helpful support on educational/cybersecurity topics while refusing or de-escalating operational guidance for cyber abuse",
+   "locator": "3.8 Cyber Safety",
+   "note": "Also reasoning-trained policy adherence in section 2."
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "the model safety training described above and scaling up our monitoring and enforcement pipeline to disrupt potential misuse",
-   "locator": "4.1.2",
-   "note": "Monitoring and enforcement pipeline named; also safety classifiers and ChatGPT system-level safeguards."
+   "quote": "scaling up our monitoring and enforcement pipeline to disrupt potential misuse",
+   "locator": "4.1.2 Cybersecurity",
+   "note": "Also safety classifiers for training data and system-level safeguards in ChatGPT (3.1)."
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Age-based content protections are not an access restriction; no trusted access programme in this card."
+   "note": "Age-based content protections are a content policy, not a risk-tied access restriction; no trusted access or KYC described."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No weight protection stated."
+   "note": "No weight protection stated for this model."
   }
  }
 }

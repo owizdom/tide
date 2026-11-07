@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-09-29-claude-sonnet-4-5",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude Sonnet 4.5 matched or exceeded all its predecessors in the end-to-end evaluation of both virology tasks, achieving a “max of 5” score of 0.89 for virology task 1",
+   "locator": "9.2.4.1 Long-form virology tasks",
+   "note": "scores reported for this model"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Overall, Claude Sonnet 4.5 was clearly the best model on capture-the-flag challenges to date, including Claude Opus 4.1.",
+   "locator": "5.2.2 Cybench",
+   "note": "CTF, CyberGym, Incalmo results"
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude Sonnet 4.5 achieved a score of 0.514, slightly outperforming Claude Opus 4.1’s score of 0.507",
+   "locator": "9.3.4 Internal AI research evaluation suite 2",
+   "note": "AI R&D results and rule-out thresholds"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "on influence operations, Claude Sonnet 4.5 reliably refused to generate potentially deceptive or manipulative scaled abuse techniques including the creation of sockpuppet personas or astroturfing",
+   "locator": "2.2 Ambiguous context evaluations",
+   "note": "qualitative finding from a named evaluation on influence operations; no dedicated persuasion capability eval"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Claude Sonnet 4.5 took deceptive actions twice with extended thinking off and never with extended thinking on.",
+   "locator": "7.5.4.1 Agentic misalignment suites",
+   "note": "also sandbagging, SHADE-Arena, eval awareness, reward hacking results"
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Remained well below ASL-4 thresholds across all domains of concern;",
+   "locator": "1.2.4 Conclusions",
+   "note": "ASL-3 required, ASL-4 ruled out under the Responsible Scaling Policy"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We shared late pre-deployment snapshots of Claude Sonnet 4.5 with two organizations that are building up specialized functions for model behavior evaluation",
+   "locator": "7.3 Third-party testing",
+   "note": ""
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "the independent nonprofit Apollo Research",
+   "locator": "7.3 Third-party testing",
+   "note": "Apollo Research and UK AISI named"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "UK AISI was given access to [an early snapshot of Claude Sonnet 4.5] on September 22nd",
+   "locator": "7.3.1 UK AISI",
+   "note": "UK AI Security Institute tested"
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "We shared late pre-deployment snapshots of Claude Sonnet 4.5",
+   "locator": "7.3 Third-party testing",
+   "note": ""
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we implemented a new safety training pipeline for mitigating harmlessness consisting of specification updates, revamped data pipelines, and retooled algorithms",
+   "locator": "2 Safeguards and harmlessness",
+   "note": ""
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we deploy real-time classifier systems that monitor and detect potential prompt injections—across MCP, computer use, and tool use—enabling us to halt an attack before it executes its harmful instructions",
+   "locator": "4.2.4 Tool use evaluation",
+   "note": "also monitoring for malicious coding activity (4.1.2)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No trusted-access, KYC or safety-tied usage restriction found. Developer Mode via Sales (1.1.2) is not tied to safety. Keywords checked by grep."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Card says ASL-3 Security Standard was met (9.3.1) but never states it protects this model's weights; only the ASL-4 standard is described as protecting against weight theft, a stricter standard not applied. Exfiltration appears only as evaluated behaviour. Ambiguous."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2025-07-09-grok-4",
+ "coder": "A",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "human expert performance on BioLP-Bench is\n38.4% and 22.1% on VCT, so both Grok 4 API and Grok 4 Web achieve superhuman performance\non identifying issues in biological protocols and wetlab virology experiments.",
+   "locator": "2.3.2 Results",
+   "note": "Scores on BioLP-Bench, VCT, WMDP Bio/Chem."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "third-party testing by the UK AI Security\nInstitute (AISI) shows that Grok 4’s end-to-end offensive cyber capabilities remain below the level\nof a human professional.",
+   "locator": "2 Evaluations; 2.3.2 Table 3",
+   "note": "CyBench 0.43, WMDP Cyber 0.79, AISI finding."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only 'autonomously carrying out cyberattacks', which is cyber by boundary rule; no replication/AI R&D/self-improvement evaluated."
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "For the persuasion evaluation, we\nreport the proportion of games the model was able to manipulate a non-reasoning version of Grok\n3 Mini.",
+   "locator": "2.3.1 Persuasiveness; Table 3",
+   "note": "MakeMeSay win rate 0.12."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We measure how deceptive the model is by the rate at which the model lies, i.e.,\nknowingly makes false statements intended to be received as true.",
+   "locator": "2.2.1 Deception; Table 2",
+   "note": "Deception framed as controllability / loss-of-control propensity; MASK dishonesty rate 0.43."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "Following our Risk Management Framework (RMF), we aim to reduce the risk of severe, large-scale\nharms to people, property, and society from AI.",
+   "locator": "1 Introduction",
+   "note": "RMF named; 'low risk' judgement is not placed against a named threshold or level."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "The UK AI Security Institute conducted additional evaluations on\nthe dual-use capabilities of our models on providing chemical and biological uplift",
+   "locator": "2.3.2 Third-party evaluations",
+   "note": "Outside testing, no post-release timing stated, counts under timing rule."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "The UK AI Security Institute conducted additional evaluations on\nthe dual-use capabilities of our models on providing chemical and biological uplift",
+   "locator": "2.3.2 Third-party evaluations",
+   "note": "UK AISI named."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "third-party testing by the UK AI Security\nInstitute (AISI) shows that Grok 4’s end-to-end offensive cyber capabilities",
+   "locator": "2 Evaluations",
+   "note": "UK AISI is a government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "AISI testing reported with no statement that it happened before release."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "on top of our safety training, we have implemented a system prompt that provides\nadditional mitigations",
+   "locator": "2 Evaluations",
+   "note": "Safety training stated."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We also employ model-based filters for both Grok 4 API and Grok 4 Web,\nwhich reject classes of harmful requests",
+   "locator": "2.1.3 Input filters",
+   "note": "Named input filters at inference."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No access restriction tied to safety; Web not accepting custom system prompts is product design, not risk-tied access."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Weight exfiltration mentioned only as a hypothetical risk scenario; no protection stated."
+  }
+ }
+}

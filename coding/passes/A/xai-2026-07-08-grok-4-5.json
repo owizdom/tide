@@ -1,91 +1,91 @@
 {
  "release_id": "xai-2026-07-08-grok-4-5",
  "coder": "A",
- "codebook": "v1",
+ "codebook": "v1.1",
  "codes": {
   "dc_eval_cbrn": {
    "value": 2,
-   "quote": "It is a dual-use knowledge probe, treated as a\nCBRN safety-threshold evaluation, so a higher score indicates more dual-use capability",
-   "locator": "8.1 Virology Capabilities Test (VCT)",
-   "note": "VCT accuracy 65.5% reported; section 8 says 'sub-threshold dual-use knowledge'"
+   "quote": "These suites probe dual-use biology and chemistry knowledge and lab-protocol understanding, and are treated as safety-threshold evaluations.",
+   "locator": "p.21, 8 Biological and chemical capabilities and safeguards",
+   "note": "VCT 65.5%, WMDP-Bio 90.9% etc. reported; 'sub-threshold' finding."
   },
   "dc_eval_cyber": {
    "value": 2,
-   "quote": "CyberGym measures offensive security capability by tasking an agent with reproducing\ncrashes and assembling working exploits for known vulnerabilities.",
-   "locator": "7.1 CyberGym",
-   "note": "Grok 4.5 scored 80.4% mean reproduced"
+   "quote": "CyberGym measures offensive security capability by tasking an agent with reproducing crashes and assembling working exploits for known vulnerabilities.",
+   "locator": "p.19, 7.1 CyberGym",
+   "note": "Grok 4.5 scores 80.4% on CyberGym; HackerBench results."
   },
   "dc_eval_autonomy": {
    "value": 2,
-   "quote": "We evaluate Grok 4.5 on its ability to automate parts of the engineering and research\nprocess for training and evaluating new versions of itself.",
-   "locator": "5 R&D Enablement",
-   "note": "AI R&D automation eval (SpaceXAI MTS Eval) with a score for this model; framed as capability, not explicitly as risk"
+   "quote": "We evaluate Grok 4.5 on its ability to automate parts of the engineering and research process for training and evaluating new versions of itself.",
+   "locator": "p.16, 5 R&D Enablement",
+   "note": "AI R&D automation / self-improvement eval with a result (SpaceXAI MTS Eval chart). Framed as capability, not explicitly as a risk; see report."
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No persuasion/manipulation evaluation; keywords absent."
+   "note": "No persuasion or manipulation evaluation."
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "FalseClaimBench and MASK dishonesty are framed as reliability/controllability propensities, not misalignment or loss-of-control risk; 'reward hacking' appears only as benchmark controls and an MTS task topic."
+   "note": "FalseClaimBench and MASK dishonesty are framed as reliability/misleading information, not misalignment; reward hacking appears only as benchmark controls."
   },
-  "framework_threshold": {
+  "ext_test_any": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No named safety or scaling framework; only unnamed 'safety-threshold evaluations' and 'sub-threshold'."
-  },
-  "ext_test_any": {
-   "value": 1,
-   "quote": "Results are taken from tests conducted by Mercor.",
-   "locator": "2.3 APEX-SWE footnote",
-   "note": "outside org ran tests on this model; no post-release timing stated (capability benchmark, not safety testing)"
+   "note": "Outside parties (Datacurve, Artificial Analysis, Mercor, Cursor) only ran or reported capability benchmarks, which v1.1 rule 2 excludes. No outside safety testing."
   },
   "ext_test_named_org": {
-   "value": 1,
-   "quote": "Results are taken from tests conducted by Mercor.",
-   "locator": "2.3 APEX-SWE footnote",
-   "note": "Mercor named; also Artificial Analysis and Datacurve run evals"
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Named orgs ran capability benchmarks only (v1.1 rule 2)."
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No government body testing mentioned."
+   "note": "No government body mentioned."
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No statement that outside testing happened before release."
+   "note": "No outside safety testing, so no timing."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "'safety-threshold evaluations' and 'sub-threshold' appear but no framework is named."
   },
   "safeguards_training": {
    "value": 1,
-   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning\nfrom human feedback, verifiable rewards, and model-based grading) train the model to\nrefuse requests",
-   "locator": "10 General output safety",
-   "note": "safety fine-tuning described"
+   "quote": "Safety fine-tuning and post-training (supervised fine-tuning plus reinforcement learning from human feedback, verifiable rewards, and model-based grading) train the model to refuse requests",
+   "locator": "p.23, 10 General output safety",
+   "note": "Safety training for refusals."
   },
   "safeguards_runtime": {
    "value": 1,
-   "quote": "dedicated input and topical filters target biological and chemical\nweapons-related abuse.",
-   "locator": "10.3 CBRN / weapons refusals",
-   "note": "runtime input/topical filters named"
+   "quote": "dedicated input and topical filters target biological and chemical weapons-related abuse.",
+   "locator": "p.24, 10.3 CBRN / weapons refusals",
+   "note": "Named runtime filters."
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "Card states 'We do not restrict use of our model in any legitimate use case'; no risk-tied access restriction."
+   "note": "Card states 'We do not restrict use of our model in any legitimate use case'; AUP/ToS is not an access restriction."
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
    "locator": "",
-   "note": "No weight protection described."
+   "note": "No weight protection mentioned."
   }
  }
 }

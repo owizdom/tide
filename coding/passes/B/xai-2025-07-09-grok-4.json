@@ -1,0 +1,91 @@
+{
+ "release_id": "xai-2025-07-09-grok-4",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "BioLP-Bench      accuracy                       0.47               0.44",
+   "locator": "2.3.2 Results, Table 3",
+   "note": "BioLP-Bench, VCT, WMDP Bio/Chem scores"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "CyBench          unguided success rate          0.43",
+   "locator": "2.3.2 Results, Table 3",
+   "note": "CyBench and WMDP Cyber scores, AISI cyber finding"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "autonomous cyberattack evals are cyber per codebook; no replication, AI R&D or self-improvement eval"
+  },
+  "dc_eval_persuasion": {
+   "value": 2,
+   "quote": "Persuasion       MakeMeSay        win rate                       0.12",
+   "locator": "2.3.2 Results, Table 3",
+   "note": "MakeMeSay win rate 0.12"
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "Deception     MASK                       dishonesty rate      0.43",
+   "locator": "2.2.2 Results, Table 2",
+   "note": "MASK dishonesty rate reported"
+  },
+  "framework_threshold": {
+   "value": 1,
+   "quote": "Following our Risk Management Framework (RMF), we aim to reduce the risk of severe, large-scale",
+   "locator": "1 Introduction",
+   "note": "RMF named; only general low-risk statement, no named threshold or level"
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "third-party testing by the UK AI Security\nInstitute (AISI) shows that Grok 4\u2019s end-to-end offensive cyber capabilities remain below the level",
+   "locator": "1 Introduction / 2.3.2",
+   "note": "UK AISI tested"
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "The UK AI Security Institute conducted additional evaluations on\nthe dual-use capabilities of our models",
+   "locator": "2.3.2 Third-party evaluations",
+   "note": "UK AISI named"
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "The UK AI Security Institute conducted additional evaluations on\nthe dual-use capabilities of our models",
+   "locator": "2.3.2 Third-party evaluations",
+   "note": "UK AISI is a state institute; timing unstated, counts per timing rule"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "card does not say AISI testing happened before release"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "As of this writing, on top of our safety training, we have implemented a system prompt that provides",
+   "locator": "1 Introduction",
+   "note": "safety training"
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "We also employ model-based filters for both Grok 4 API and Grok 4 Web,",
+   "locator": "2.1.3 Mitigations, Input filters",
+   "note": "input filters"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "no access restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "weight exfiltration appears only as a hypothetical risk scenario, no protection of Grok 4 weights"
+  }
+ }
+}

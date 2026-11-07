@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2025-11-24-claude-opus-4-5",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "Claude Opus 4.5 achieved a “max of 5” score of 0.845 for virology task 1, and a “pass@5” score of 0.912 for virology task 2",
+   "locator": "7.2.4.1 Long-form virology tasks",
+   "note": "Scores plus CBRN-4 determination."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "Claude Opus 4.5 scored 0.82 average pass@1 on the subset of tasks used for RSP evaluations, compared to 0.6 for Claude Sonnet 4.5.",
+   "locator": "7.4.7 Cybench",
+   "note": "CTF suite results reported."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Claude Opus 4.5 obtained a 252.42× best speedup. Claude Opus 4.5’s mean score exceeded our threshold of 100×.",
+   "locator": "7.3.2.1 Kernels task",
+   "note": "AI R&D evaluations with results and AI R&D-4 determination."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "quote": "attempts to hide dangerous capabilities, and attempts to manipulate users toward certain views. We conducted testing continuously throughout the fine-tuning process",
+   "locator": "6.1 Introduction and summary of findings",
+   "note": "Manipulation of users listed as a behaviour tested for; no manipulation/persuasion result reported. Political even-handedness (3.5.1) is bias, not persuasion."
+  },
+  "dc_eval_scheming": {
+   "value": 2,
+   "quote": "We saw no signs of sandbagging or strategic attempts to tamper with our safety testing in a way that would affect our RSP determinations",
+   "locator": "6.1.1 Key findings on safety and alignment",
+   "note": "SHADE-Arena 7.7% evasion, sandbagging, evaluation awareness, sabotage results."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Based on these assessments, we have decided to release Claude Opus 4.5 under the ASL-3 Standard.",
+   "locator": "1.2.3 AI Safety Level determination process",
+   "note": "Also states it does not cross AI R&D-4 or CBRN-4 thresholds."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "pre-deployment testing of Claude Opus 4.5 was conducted by the US Center for AI Standards and Innovation (CAISI) and the UK AI Security Institute (UK AISI)",
+   "locator": "7.5 Third party assessments",
+   "note": "Also third-party expert red teaming, Gray Swan, SecureBio."
+  },
+  "ext_test_named_org": {
+   "value": 1,
+   "quote": "we shared a pre-release snapshot of Claude Opus 4.5 with the UK AI Security Institute for open-ended testing",
+   "locator": "6.13 External testing from the UK AI Security Institute",
+   "note": "Named outside orgs also include Deloitte (uplift trial), Gray Swan, Faculty.ai."
+  },
+  "ext_test_government": {
+   "value": 1,
+   "quote": "We worked with the US Center for AI Standards and Innovation to red-team Claude Opus 4.5 over a one-week window",
+   "locator": "7.2.4.10 ASL-4 red teaming with the CAISI",
+   "note": "Also UK AISI pre-release testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "quote": "pre-deployment testing of Claude Opus 4.5 was conducted by the US Center for AI Standards and Innovation (CAISI) and the UK AI Security Institute (UK AISI)",
+   "locator": "7.5 Third party assessments",
+   "note": "Explicit pre-deployment."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Claude Opus 4.5 underwent substantial post-training and fine-tuning, with the intention of making it a helpful, honest, and harmless assistant1. This involved a variety of techniques including reinforcement learning from human feedback (RLHF)",
+   "locator": "1.1.1 Training data and process",
+   "note": "Safety training also referenced (broad safety training snapshots, 1.2.2)."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we have also deployed safeguards tailored to specific uses, such as classifiers and system prompts for browser use, to further harden agents built with Claude.",
+   "locator": "5.2 Prompt injection risk within agentic systems",
+   "note": "Also monitoring for malicious coding activity (5.1.2) and chemical-risk monitoring (7.2.1)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Searched whole card: no trusted-access, KYC, tiers or safety-motivated limited availability. Only the Claude.ai 18+ age line in 3.4 child safety, treated as not an access restriction tied to this model's risk (borderline)."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only mention: AI R&D-4 mitigation 'ASL-3 security, under which Claude Opus 4.5 is deployed' (1.2.4.1); the card never states it protects weights. Footnote 37 describes ASL-4 weight-theft protection, not applied. Borderline."
+  }
+ }
+}

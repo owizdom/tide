@@ -1,0 +1,91 @@
+{
+ "release_id": "anthropic-2024-03-04-claude-3-opus",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "quote": "In summary, the model did not meet our most conservative biological risk thresholds, and our expert consultants agreed.",
+   "locator": "6.2.2 Biological Evaluations",
+   "note": "Human uplift trial and bio question sets with results."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "quote": "We judged that the model did not pass the ASL-3 threshold on any of the early indicator tests.",
+   "locator": "6.2.3 Cyber Evaluations",
+   "note": "CTF and vulnerability discovery/exploit evals; 30% on one task."
+  },
+  "dc_eval_autonomy": {
+   "value": 2,
+   "quote": "Across all the rounds, the model was clearly below our ARA ASL-3 risk threshold, having failed at least 3 out of 5 tasks",
+   "locator": "6.2.1 ARA evaluations",
+   "note": "Autonomous replication and adaption task results."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Election misinformation testing (7.2) and multimodal red-teaming for misinformation are policy/misuse tests with no manipulation or influence-operation capability evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No misalignment evaluation. 'Deceiving humans' is only an ARA task component; the needle-in-haystack remark about identifying the task as synthetic is a benchmark-validity note, not framed as risk."
+  },
+  "framework_threshold": {
+   "value": 2,
+   "quote": "Our results show no indicators of catastrophic risk, and therefore we classify all of our Claude 3 models as ASL-2.",
+   "locator": "6.2 Evaluation Results",
+   "note": "Places model at ASL-2 under RSP."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "quote": "We conduct vulnerability testing using internal and external human testers to explore over a dozen policy categories",
+   "locator": "7 Trust & Safety and Societal Impact Evaluations",
+   "note": "External human testers in safety testing; also external experts consulted on bio."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside organisation named as testing this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government testing stated."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Section 7 says testing ensures safety 'before deployment' but does not tie the external testers to pre-release timing; judged not stated (borderline)."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "Anthropic used a technique called Constitutional AI [16] to align Claude with human values during reinforcement learning",
+   "locator": "2.6 Training Process",
+   "note": "Constitutional AI and RLHF for harmlessness."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "we run classifiers on user prompts that are trained to identify violations of our AUP as they occur.",
+   "locator": "7 Trust & Safety",
+   "note": "Classifiers, prompt modification, blocking."
+  },
+  "safeguards_access": {
+   "value": 1,
+   "quote": "we incrementally roll out access to our products to ensure their safety and reliability",
+   "locator": "2.7 Release Decisions and Maintenance",
+   "note": "Staged rollout with stated safety reason; borderline, also AUP-violator access removal."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "quote": "We harden security against opportunistic attackers for all copies of Claude 3 model weights.",
+   "locator": "6.3 Security and Deployment Mitigations",
+   "note": "Stated weight protection."
+  }
+ }
+}
