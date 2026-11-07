@@ -29,7 +29,7 @@ def cell(p, x, y, w, h, k, n):
     if s > 0:
         p.ax.add_patch(__import__("matplotlib").pyplot.Rectangle(
             (x + 2, p._y(y + 2)), w - 4, h - 4, color=RED, alpha=0.12 + 0.88 * s, lw=0, zorder=3.5))
-    p.text(x + w / 2, y + h / 2 - 11, f"{k}/{n}", 18, PAPER if s >= 0.5 else INK, MONO, anchor="middle")
+    p.text(x + w / 2, y + h / 2 - 11, f"{round(100 * s)}%", 19, PAPER if s >= 0.5 else INK, MONO, anchor="middle")
 
 
 def items_by_half(recs):
@@ -38,12 +38,13 @@ def items_by_half(recs):
     any_dc = [sum(1 for r in recs if r["half"] == h and r["any_dc"]) for h in halves]
     n = [sum(1 for r in recs if r["half"] == h) for h in halves]
     title = (f"Frontier releases with dangerous-capability results at launch\n"
-             f"rose from {any_dc[0]} in {n[0]} in early 2023 to {any_dc[-1]} in {n[-1]} in late 2026")
-    p = Page(title, "Releases disclosing each item in the model or system card public by launch day + 2, by half-year",
-             height=1270)
-    x0, y0, lw, cw, rh = 64, 250, 400, 134, 50
+             f"rose from {round(100 * any_dc[0] / n[0])}% in early 2023 to {round(100 * any_dc[-1] / n[-1])}% in late 2026")
+    p = Page(title, "Percent of frontier AI releases whose model or system card, public at launch, discloses each item",
+             height=1290)
+    x0, y0, lw, cw, rh = 64, 270, 400, 134, 50
     for j, h in enumerate(halves):
-        p.text(x0 + lw + j * cw + cw / 2, y0 - 46, HALF_LABEL[h], 18, INK, MONO, anchor="middle")
+        p.text(x0 + lw + j * cw + cw / 2, y0 - 66, HALF_LABEL[h], 18, INK, MONO, anchor="middle")
+        p.text(x0 + lw + j * cw + cw / 2, y0 - 40, f"{n[j]} releases", 15, GRAY, MONO, anchor="middle")
     for i, (var, label) in enumerate(shares.ITEMS):
         y = y0 + i * rh + (18 if i >= 1 else 0) + (18 if i >= 7 else 0) + (18 if i >= 11 else 0)
         p.text(x0 + lw - 18, y + rh / 2 - 13, label, 21, INK, anchor="end")
@@ -51,7 +52,7 @@ def items_by_half(recs):
             row = next(r for r in t if r["item"] == var and r["half"] == h)
             cell(p, x0 + lw + j * cw, y, cw, rh, row["k"], row["n"])
     p.notes([
-        "Each cell is releases disclosing the item over frontier releases in the half-year. A late card or no card counts as not disclosed. *H2 26 runs to 31 October.",
+        "Each cell is the percent of that half-year's frontier releases whose card at launch discloses the item. A late card or no card counts as not disclosed. *H2 26 runs to 31 October.",
         "Frontier release: each lab's top-tier general model per new version (rule frozen before collection), 87 releases from 7 labs, from Epoch AI's database.",
         "Cards coded by two independent passes (agreement kappa 0.83 to 1.00), disagreements adjudicated. UNAUDITED DRAFT pending human verification.",
         "Source: lab model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
@@ -81,7 +82,7 @@ def lab_by_half(recs):
         n = sum(1 for r in recs if r["lab"] == lab)
         p.text(x0 + lw + len(halves) * cw + 70, y + rh / 2 - 11, f"{tot[lab]}/{n}", 18, INK, MONO, anchor="middle")
     p.notes([
-        "Each cell is releases with a dangerous-capability result in the card public by launch day + 2, over that lab's frontier releases in the half-year. – means no release. *H2 26 runs to 31 October.",
+        "Each cell is the percent of that lab's frontier releases in the half-year whose card at launch reports a dangerous-capability result. – means no release. *H2 26 runs to 31 October.",
         "UNAUDITED DRAFT pending human verification of a sample of codes.",
         "Source: lab model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
     ])
