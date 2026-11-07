@@ -1,0 +1,88 @@
+release_id,lab,model,date,half,has_card,card_at_launch,card_words,dc_eval_cbrn,dc_eval_cyber,dc_eval_autonomy,dc_eval_persuasion,dc_eval_scheming,framework_threshold,ext_test_any,ext_test_named_org,ext_test_government,ext_test_timing_stated,safeguards_training,safeguards_runtime,safeguards_access,safeguards_weights,any_dc
+anthropic-2023-03-14-claude,anthropic,Claude,2023-03-14,2023H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+anthropic-2023-04-18-claude-1-3,anthropic,Claude 1.3,2023-04-18,2023H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+anthropic-2023-07-11-claude-2,anthropic,Claude 2,2023-07-11,2023H2,True,True,5721,False,False,True,False,False,False,True,True,False,True,True,False,False,False,True
+anthropic-2023-11-21-claude-2-1,anthropic,Claude 2.1,2023-11-21,2023H2,True,True,6138,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+anthropic-2024-03-04-claude-3-opus,anthropic,Claude 3 Opus,2024-03-04,2024H1,True,True,14087,True,True,True,False,False,True,True,False,False,False,True,True,True,True,True
+anthropic-2024-06-20-claude-3-5-sonnet,anthropic,Claude 3.5 Sonnet,2024-06-20,2024H1,True,True,2943,True,True,True,False,False,True,True,True,True,True,True,False,False,False,True
+anthropic-2025-02-24-claude-3-7-sonnet,anthropic,Claude 3.7 Sonnet,2025-02-24,2025H1,True,True,17559,True,True,True,False,True,True,True,True,True,True,True,True,False,False,True
+anthropic-2025-05-22-claude-opus-4,anthropic,Claude Opus 4,2025-05-22,2025H1,True,True,33159,True,True,True,False,True,True,True,True,True,True,True,True,False,True,True
+anthropic-2025-08-05-claude-opus-4-1,anthropic,Claude Opus 4.1,2025-08-05,2025H2,True,True,5187,True,True,True,False,True,True,False,False,False,False,True,True,False,False,True
+anthropic-2025-09-29-claude-sonnet-4-5,anthropic,Claude Sonnet 4.5,2025-09-29,2025H2,True,True,37234,True,True,True,False,True,True,True,True,True,True,True,True,False,False,True
+anthropic-2025-11-24-claude-opus-4-5,anthropic,Claude Opus 4.5,2025-11-24,2025H2,True,True,37444,True,True,True,False,True,True,True,True,True,True,True,True,False,False,True
+anthropic-2026-02-05-claude-opus-4-6,anthropic,Claude Opus 4.6,2026-02-05,2026H1,True,True,53394,True,True,True,True,True,True,True,True,True,True,True,True,False,False,True
+anthropic-2026-04-16-claude-opus-4-7,anthropic,Claude Opus 4.7,2026-04-16,2026H1,True,True,61713,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+anthropic-2026-05-28-claude-opus-4-8,anthropic,Claude Opus 4.8,2026-05-28,2026H1,True,True,61758,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+anthropic-2026-06-09-claude-fable-5,anthropic,Claude Fable 5,2026-06-09,2026H1,True,True,81701,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+anthropic-2026-09-01-claude-fable-5-1,anthropic,Claude Fable 5.1,2026-09-01,2026H2,True,True,55771,True,True,True,True,True,True,True,True,False,True,True,True,True,True,True
+anthropic-2026-09-22-claude-opus-5-5,anthropic,Claude Opus 5.5,2026-09-22,2026H2,True,True,62490,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True
+deepseek-2024-01-05-deepseek-llm-67b,deepseek,DeepSeek LLM 67B,2024-01-05,2024H1,True,True,18280,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+deepseek-2024-05-07-deepseek-v2-moe-236b,deepseek,DeepSeek-V2 (MoE-236B),2024-05-07,2024H1,True,True,17480,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+deepseek-2024-09-06-deepseek-v2-5,deepseek,DeepSeek-V2.5,2024-09-06,2024H2,True,True,935,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deepseek-2024-12-24-deepseek-v3,deepseek,DeepSeek-V3,2024-12-24,2024H2,True,True,2456,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deepseek-2025-01-20-deepseek-r1,deepseek,DeepSeek-R1,2025-01-20,2025H1,True,True,8495,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+deepseek-2025-08-21-deepseek-v3-1,deepseek,DeepSeek-V3.1,2025-08-21,2025H2,True,True,1007,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deepseek-2025-09-29-deepseek-v3-2-exp,deepseek,DeepSeek-V3.2-Exp,2025-09-29,2025H2,True,True,2118,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deepseek-2026-04-24-deepseek-v4-pro,deepseek,DeepSeek-V4-Pro,2026-04-24,2026H1,True,True,27241,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deepseek-2026-09-09-deepseek-v4-1-flash,deepseek,DeepSeek V4.1 Flash,2026-09-09,2026H2,True,True,25255,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+google-2023-05-10-palm-2,google,PaLM 2,2023-05-10,2023H1,True,False,40096,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+google-2023-12-06-gemini-1-0-pro,google,Gemini 1.0 Pro,2023-12-06,2023H2,True,True,20983,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False
+google-2024-02-08-gemini-1-0-ultra,google,Gemini 1.0 Ultra,2024-02-08,2024H1,True,True,20983,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False
+google-2024-02-15-gemini-1-5-pro,google,Gemini 1.5 Pro,2024-02-15,2024H1,True,True,25099,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False
+google-2024-12-11-gemini-2-0-flash,google,Gemini 2.0 Flash,2024-12-11,2024H2,True,False,1522,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+google-2025-02-05-gemini-2-0-pro,google,Gemini 2.0 Pro,2025-02-05,2025H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+google-2025-03-25-gemini-2-5-pro-mar-2025,google,Gemini 2.5 Pro (Mar 2025),2025-03-25,2025H1,True,False,1679,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+google-2025-11-18-gemini-3-pro,google,Gemini 3 Pro,2025-11-18,2025H2,True,True,2107,True,True,True,True,True,True,False,False,False,False,True,True,False,False,True
+google-2026-02-19-gemini-3-1-pro,google,Gemini 3.1 Pro,2026-02-19,2026H1,True,True,1745,True,True,True,True,True,True,False,False,False,False,False,False,False,False,True
+google-2026-05-19-gemini-3-5-flash,google,Gemini 3.5 Flash,2026-05-19,2026H1,True,True,1162,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True
+google-2026-07-21-gemini-3-6-flash,google,Gemini 3.6 Flash,2026-07-21,2026H2,True,True,2164,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True
+google-2026-08-13-gemini-3-7-flash,google,Gemini 3.7 Flash,2026-08-13,2026H2,True,True,2559,True,True,True,True,True,True,False,False,False,False,False,False,False,False,True
+google-2026-09-02-gemini-3-8-flash,google,Gemini 3.8 Flash,2026-09-02,2026H2,True,True,1945,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+meta-2023-02-24-llama-65b,meta,LLaMA-65B,2023-02-24,2023H1,True,True,995,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+meta-2023-07-18-llama-2-70b,meta,Llama 2-70B,2023-07-18,2023H2,True,True,42386,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False
+meta-2024-04-18-llama-3-70b,meta,Llama 3-70B,2024-04-18,2024H1,True,True,2897,False,True,False,False,False,False,True,False,False,False,True,True,False,False,True
+meta-2024-07-23-llama-3-1-405b,meta,Llama 3.1-405B,2024-07-23,2024H2,True,True,3311,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False
+meta-2024-12-06-llama-3-3-70b,meta,Llama 3.3 70B,2024-12-06,2024H2,True,True,2573,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False
+meta-2025-04-05-llama-4-maverick,meta,Llama 4 Maverick,2025-04-05,2025H1,True,True,3165,False,True,False,False,False,False,False,False,False,False,True,True,False,False,True
+meta-2026-04-08-muse-spark,meta,Muse Spark,2026-04-08,2026H1,True,False,61590,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+meta-2026-07-09-muse-spark-1-1,meta,Muse Spark 1.1,2026-07-09,2026H2,True,True,41164,True,True,True,True,True,True,True,True,False,True,True,True,True,True,True
+meta-2026-08-05-muse-spark-1-2,meta,Muse Spark 1.2,2026-08-05,2026H2,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+meta-2026-09-02-muse-spark-1-3,meta,Muse Spark 1.3,2026-09-02,2026H2,True,False,53036,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+meta-2026-10-12-muse-wonder-full,meta,Muse Wonder Full,2026-10-12,2026H2,True,True,2782,True,True,False,False,True,True,False,False,False,False,True,True,False,True,True
+mistral-2023-10-10-mistral-7b,mistral,Mistral 7B,2023-10-10,2023H2,True,True,3845,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2023-12-11-mistral-medium,mistral,Mistral Medium,2023-12-11,2023H2,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2024-02-26-mistral-large,mistral,Mistral Large,2024-02-26,2024H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2024-07-24-mistral-large-2,mistral,Mistral Large 2,2024-07-24,2024H2,True,True,1358,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2025-05-07-mistral-medium-3,mistral,Mistral Medium 3,2025-05-07,2025H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2025-06-10-magistral-medium-1-1,mistral,Magistral Medium 1.1,2025-06-10,2025H1,True,True,10542,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2025-08-12-mistral-medium-3-1,mistral,Mistral Medium 3.1,2025-08-12,2025H2,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2025-09-18-magistral-medium-1-2,mistral,Magistral Medium 1.2,2025-09-18,2025H2,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2025-12-02-mistral-large-3,mistral,Mistral Large 3,2025-12-02,2025H2,True,True,4996,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2026-04-29-mistral-medium-3-5,mistral,Mistral Medium 3.5,2026-04-29,2026H1,True,True,8692,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mistral-2026-10-06-mistral-large-4,mistral,Mistral Large 4,2026-10-06,2026H2,True,False,2146,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+openai-2023-03-15-gpt-4-mar-2023,openai,GPT-4 (Mar 2023),2023-03-15,2023H1,True,True,44392,True,True,True,True,True,False,True,True,False,True,True,True,False,False,True
+openai-2023-11-06-gpt-4-turbo-nov-2023,openai,GPT-4 Turbo (Nov 2023),2023-11-06,2023H2,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+openai-2024-05-13-gpt-4o,openai,GPT-4o,2024-05-13,2024H1,True,False,9970,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+openai-2024-09-12-o1-preview,openai,o1-preview,2024-09-12,2024H2,True,True,15195,True,True,True,True,True,True,True,True,False,True,True,True,False,False,True
+openai-2025-02-27-gpt-4-5,openai,GPT-4.5,2025-02-27,2025H1,True,True,9874,True,True,True,True,True,True,True,True,False,False,True,True,False,False,True
+openai-2025-04-14-gpt-4-1,openai,GPT-4.1,2025-04-14,2025H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+openai-2025-04-16-o3,openai,o3,2025-04-16,2025H1,True,True,9782,True,True,True,False,True,True,True,True,False,True,True,True,False,False,True
+openai-2025-08-07-gpt-5,openai,GPT-5,2025-08-07,2025H2,True,True,19980,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True
+openai-2025-11-13-gpt-5-1,openai,GPT-5.1,2025-11-13,2025H2,True,True,1345,True,True,True,False,False,True,False,False,False,False,False,False,False,False,True
+openai-2025-12-11-gpt-5-2,openai,GPT-5.2,2025-12-11,2025H2,True,True,7252,True,True,True,False,True,True,True,True,False,False,True,True,False,False,True
+openai-2026-03-05-gpt-5-4,openai,GPT-5.4,2026-03-05,2026H1,True,True,10073,True,True,True,False,True,True,True,True,False,True,True,True,True,True,True
+openai-2026-04-23-gpt-5-5,openai,GPT-5.5,2026-04-23,2026H1,True,True,14305,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True
+openai-2026-07-09-gpt-5-6-sol,openai,GPT-5.6 Sol,2026-07-09,2026H2,True,True,21174,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True
+openai-2026-09-03-gpt-6-astra,openai,GPT-6 Astra,2026-09-03,2026H2,True,True,29501,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True
+openai-2026-09-29-gpt-6-1-sol,openai,GPT-6.1 Sol,2026-09-29,2026H2,True,True,7429,True,True,True,False,True,True,False,False,False,False,True,True,True,False,True
+xai-2023-11-04-grok-1,xai,Grok-1,2023-11-04,2023H2,True,True,262,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+xai-2024-03-28-grok-1-5,xai,Grok-1.5,2024-03-28,2024H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2024-08-13-grok-2,xai,Grok-2,2024-08-13,2024H2,True,False,274,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2025-02-17-grok-3,xai,Grok 3,2025-02-17,2025H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2025-07-09-grok-4,xai,Grok 4,2025-07-09,2025H2,True,False,3628,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2025-11-17-grok-4-1,xai,Grok 4.1,2025-11-17,2025H2,True,True,2336,True,True,False,True,True,False,False,False,False,False,True,True,False,False,True
+xai-2026-02-17-grok-4-20,xai,Grok 4.20,2026-02-17,2026H1,True,False,3352,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2026-04-17-grok-4-3-beta,xai,Grok 4.3 Beta,2026-04-17,2026H1,False,False,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2026-07-08-grok-4-5,xai,Grok 4.5,2026-07-08,2026H2,True,False,5974,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+xai-2026-08-12-grok-4-6,xai,Grok 4.6,2026-08-12,2026H2,True,True,6345,True,True,False,False,False,True,True,False,False,False,True,True,False,False,True
+xai-2026-09-21-grok-4-7,xai,Grok 4.7,2026-09-21,2026H2,True,True,6294,True,True,False,False,False,True,True,True,False,False,True,True,False,False,True

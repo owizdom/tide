@@ -1,0 +1,26 @@
+lab,from,from_date,to,to_date,n_lost,lost
+meta,Muse Spark 1.1,2026-07-09,Muse Spark 1.2,2026-08-05,14,card_at_launch dc_eval_cbrn dc_eval_cyber dc_eval_autonomy dc_eval_persuasion dc_eval_scheming framework_threshold ext_test_any ext_test_named_org ext_test_timing_stated safeguards_training safeguards_runtime safeguards_access safeguards_weights
+openai,GPT-4.5,2025-02-27,GPT-4.1,2025-04-14,11,card_at_launch dc_eval_cbrn dc_eval_cyber dc_eval_autonomy dc_eval_persuasion dc_eval_scheming framework_threshold ext_test_any ext_test_named_org safeguards_training safeguards_runtime
+openai,GPT-4 (Mar 2023),2023-03-15,GPT-4 Turbo (Nov 2023),2023-11-06,11,card_at_launch dc_eval_cbrn dc_eval_cyber dc_eval_autonomy dc_eval_persuasion dc_eval_scheming ext_test_any ext_test_named_org ext_test_timing_stated safeguards_training safeguards_runtime
+openai,GPT-5,2025-08-07,GPT-5.1,2025-11-13,9,dc_eval_scheming ext_test_any ext_test_named_org ext_test_government ext_test_timing_stated safeguards_training safeguards_runtime safeguards_access safeguards_weights
+xai,Grok 4.1,2025-11-17,Grok 4.20,2026-02-17,7,card_at_launch dc_eval_cbrn dc_eval_cyber dc_eval_persuasion dc_eval_scheming safeguards_training safeguards_runtime
+openai,GPT-6 Astra,2026-09-03,GPT-6.1 Sol,2026-09-29,5,ext_test_any ext_test_named_org ext_test_government ext_test_timing_stated safeguards_weights
+google,Gemini 3.7 Flash,2026-08-13,Gemini 3.8 Flash,2026-09-02,5,dc_eval_cbrn dc_eval_cyber dc_eval_autonomy dc_eval_persuasion dc_eval_scheming
+anthropic,Claude Opus 4,2025-05-22,Claude Opus 4.1,2025-08-05,5,ext_test_any ext_test_named_org ext_test_government ext_test_timing_stated safeguards_weights
+google,Gemini 3.1 Pro,2026-02-19,Gemini 3.5 Flash,2026-05-19,4,dc_eval_cbrn dc_eval_autonomy dc_eval_persuasion dc_eval_scheming
+meta,Llama 4 Maverick,2025-04-05,Muse Spark,2026-04-08,4,card_at_launch dc_eval_cyber safeguards_training safeguards_runtime
+anthropic,Claude 2,2023-07-11,Claude 2.1,2023-11-21,4,dc_eval_autonomy ext_test_any ext_test_named_org ext_test_timing_stated
+google,Gemini 1.5 Pro,2024-02-15,Gemini 2.0 Flash,2024-12-11,3,card_at_launch ext_test_any safeguards_training
+anthropic,Claude 3 Opus,2024-03-04,Claude 3.5 Sonnet,2024-06-20,3,safeguards_runtime safeguards_access safeguards_weights
+google,Gemini 3 Pro,2025-11-18,Gemini 3.1 Pro,2026-02-19,2,safeguards_training safeguards_runtime
+meta,Llama 3-70B,2024-04-18,Llama 3.1-405B,2024-07-23,2,dc_eval_cyber ext_test_any
+xai,Grok-1,2023-11-04,Grok-1.5,2024-03-28,2,card_at_launch ext_test_any
+mistral,Mistral Medium 3.5,2026-04-29,Mistral Large 4,2026-10-06,1,card_at_launch
+anthropic,Claude Fable 5.1,2026-09-01,Claude Opus 5.5,2026-09-22,1,safeguards_weights
+anthropic,Claude Fable 5,2026-06-09,Claude Fable 5.1,2026-09-01,1,ext_test_government
+deepseek,DeepSeek-R1,2025-01-20,DeepSeek-V3.1,2025-08-21,1,safeguards_training
+mistral,Magistral Medium 1.1,2025-06-10,Mistral Medium 3.1,2025-08-12,1,card_at_launch
+mistral,Mistral Large 2,2024-07-24,Mistral Medium 3,2025-05-07,1,card_at_launch
+openai,o1-preview,2024-09-12,GPT-4.5,2025-02-27,1,ext_test_timing_stated
+deepseek,DeepSeek-V2 (MoE-236B),2024-05-07,DeepSeek-V2.5,2024-09-06,1,safeguards_training
+mistral,Mistral 7B,2023-10-10,Mistral Medium,2023-12-11,1,card_at_launch
