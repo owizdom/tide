@@ -8,7 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "analysis" / "fs_kit" / "scripts"))
-from fs_charts import GRAY, INK, MONO, PAPER, RED, RULE, Page  # noqa: E402
+from fs_charts import GRAY, INK, MONO, PAPER, RED, RULE, Page, mono_ticks  # noqa: E402
+from fs_extras import bars, pct  # noqa: E402
 
 from analysis import shares  # noqa: E402
 
@@ -87,11 +88,63 @@ def lab_by_half(recs):
     p.save(str(OUT / "lab_by_half_any_dc"))
 
 
+def trend(recs):
+    halves = sorted({r["half"] for r in recs})
+    n = [sum(1 for r in recs if r["half"] == h) for h in halves]
+    dc = [100 * sum(1 for r in recs if r["half"] == h and r["any_dc"]) / k for h, k in zip(halves, n)]
+    ext = [100 * sum(1 for r in recs if r["half"] == h and r["ext_test_any"]) / k for h, k in zip(halves, n)]
+    title = (f"Model cards now report dangerous-capability tests at launch\n"
+             f"for {dc[-1]:.0f}% of frontier releases, up from {dc[0]:.0f}% in early 2023")
+    p = Page(title, "Share of frontier AI model releases whose card, public at launch, discloses each item", height=960)
+    p.legend(64, 177, "Any dangerous-capability test result", RED)
+    p.legend(700, 177, "Any outside safety testing", INK)
+    ax = p.axes(150, 270, 1300, 470)
+    xs = list(range(len(halves)))
+    ax.plot(xs, dc, color=RED, lw=3, marker="o", ms=7, zorder=4)
+    ax.plot(xs, ext, color=INK, lw=3, marker="o", ms=7, zorder=4)
+    for x, a, b in zip(xs, dc, ext):
+        ax.annotate(f"{a:.0f}%", (x, a), textcoords="offset points", xytext=(0, 11 if a >= b else -22),
+                    ha="center", color=RED, fontsize=13, family=MONO)
+        ax.annotate(f"{b:.0f}%", (x, b), textcoords="offset points", xytext=(0, -22 if a >= b else 11),
+                    ha="center", color=INK, fontsize=13, family=MONO)
+    ax.set_ylim(0, 100); ax.set_yticks([0, 25, 50, 75, 100]); ax.set_yticklabels(["0%", "25%", "50%", "75%", "100%"])
+    ax.set_xticks(xs); ax.set_xticklabels([HALF_LABEL[h] for h in halves])
+    ax.set_xlim(-0.3, len(halves) - 0.7)
+    mono_ticks(ax); p.baseline(ax)
+    p.notes([
+        "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. Releases per half-year: " + ", ".join(str(k) for k in n) + ". *H2 26 runs to 31 October.",
+        "87 frontier releases from Anthropic, OpenAI, Google, Meta, xAI, Mistral and DeepSeek. A card published after launch, or no card, counts as no disclosure. UNAUDITED DRAFT.",
+        "Source: model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
+    ])
+    p.save(str(OUT / "01_trend"))
+
+
+def by_lab(recs):
+    rows = []
+    for lab in shares.LABS:
+        g = [r for r in recs if r["lab"] == lab]
+        rows.append((LAB_LABEL[lab], f"{sum(r['any_dc'] for r in g)} of {len(g)} releases", 100 * sum(r["any_dc"] for r in g) / len(g), RED))
+    rows.sort(key=lambda r: -r[2])
+    allv = 100 * sum(r["any_dc"] for r in recs) / len(recs)
+    rows.append(("All labs", f"{sum(r['any_dc'] for r in recs)} of {len(recs)} releases", allv, INK))
+    top = rows[:2]
+    title = f"{top[0][0]} and {top[1][0]} report dangerous-capability tests at launch\nfor about 80% of their releases, Mistral for none"
+    p = Page(title, "Share of each lab's frontier releases, 2023 to October 2026, whose card at launch reports a dangerous-capability test result", height=1080)
+    bars(p, 64, 230, rows, 100, [0, 25, 50, 75, 100], pct, label_w=400, w=990)
+    p.notes([
+        "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. A late card or no card counts as none. UNAUDITED DRAFT.",
+        "Source: model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
+    ])
+    p.save(str(OUT / "02_by_lab"))
+
+
 def main() -> int:
     recs = shares.load()
+    trend(recs)
+    by_lab(recs)
     items_by_half(recs)
     lab_by_half(recs)
-    print("wrote", OUT / "share_by_half.png", OUT / "lab_by_half_any_dc.png")
+    print("wrote", OUT / "01_trend.png", OUT / "02_by_lab.png", "and the appendix tables")
     return 0
 
 
