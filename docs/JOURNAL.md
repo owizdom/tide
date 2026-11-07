@@ -70,3 +70,6 @@
 - v1.1 clarifications (addenda: Wisdom; outside testing = safety testing). Pass B shortcut long cards three times (Sonnet with ~100k-word groups); remaining B work split so any card over 25k words gets its own agent (coding/groups_B/). Recodes: r02 (both passes: gpt-5-1, gpt-5-2, grok-4-5, grok-4-7; B also claude-2-1, gemini-1-0-pro, opus-4-7). norm() now strips zero-width characters.
 - B g10S filtered Claude 3.7 Sonnet lines 960+ to prose >=60 chars; added to B recode r02.
 - Wisdom 2026-11-07: age gates are not safeguards_access (codebook clarification 3, applied at adjudication).
+
+### 2026-11-07 coding complete
+- Both passes cover 73 cards. tests/test_coding.py 9 passed (AT6 quotes, independence). Agreement over 1,022 codes: 18 disagreements; kappa cbrn 0.976, cyber 0.973, autonomy 0.973, persuasion 0.944, scheming 0.972, framework 1.000, ext_any 0.945, ext_named 1.000, ext_gov 1.000, ext_timing 0.940, sg_training 0.966, sg_runtime 0.972, sg_access 0.833, sg_weights 0.920. Session usage 30%, week 19% at this point (premium plan).
