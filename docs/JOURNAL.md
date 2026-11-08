@@ -83,3 +83,9 @@
 - Fixed in scope: (1) Llama 3.1 arXiv v1 stand-in (+8 days) now stated as a method choice with its sensitivity (Meta 4 of 11, all 39 of 87, H2 2024 25% to 12% on both lines); (2) candidate documents 177 with a URL, not 208 rows; (3) supplement files committed, the four no-card launch documents recorded in cards/no_card_launch_docs.csv, methods states documents are pinned by URL, capture and sha256 with bytes re-fetchable; (4) Llama 3 70B timing described as an adjudicated card sentence, with the release-decision tie that separates it and Gemini 3 Pro from GPT-4.5; (5) chart footers scope the 80-code check to text-pass codes. Also GPT-4 case study: ARC is the one named organisation.
 - AT8 hand audit: replaced by the independent 80-code Claude check at Wisdom's instruction on 2026-11-07 ("those 80 questions please answer them yourselves and finish this task up fast").
 - Out of scope, not changed: Opus 4 persuasion 2 rests on a behavioural-audit manipulation score; DeepSeek V4.1 Flash cyber 2 rests on CyberGym/ExploitGym results without risk framing.
+
+### 2026-11-08 review round 2 (Opus 5.5, claude-opus-5-5)
+
+- Independent recompute matched every number, including the Llama 3.1 sensitivity. 69 passed; 30 of 30.
+- Fixed: methods no longer states a timing rule absent from the codebook; it reports what each pass coded under codebook line 35. The Grok 4.5 training-data summary's "filtered for quality and safety" and its post-window first capture are now stated in methods and cards/no_card_launch_docs.csv (no figure changes: no card at launch).
+- Out of scope: stand-in capture_ts in secondary.csv shows launch day; round-half-even shows 1/8 as 12%; verify_claims does not assert the sensitivity numbers; two secondary docs first captured after launch + 2 add no positive code.
