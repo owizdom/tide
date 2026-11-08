@@ -1,0 +1,91 @@
+{
+ "release_id": "google-2023-05-10-palm-2",
+ "coder": "B",
+ "codebook": "v1.1",
+ "codes": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No CBRN keywords occur."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. Keyword hits 'exploit' (side-channel context in memorization discussion) and 'vulnerabilities' (ethics review mitigations) are not cyber capability evaluation."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No autonomy keywords occur."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No persuasion or manipulation keywords occur."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No deception, sabotage or exfiltration keywords occur."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only Google AI Principles and prohibited-use policy are cited (Section 5); not a safety or scaling framework and no threshold or level is placed on this model."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Third-party raters and contractors only scored language exams, translation quality and gender agreement (Section 4.1, App. C, D.9.2); capability or annotation work, not outside safety or risk testing (v1.1 rule 2). 'Trained ethics experts' reviewing Google applications are internal to Google."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "Only annotation vendor Venga (D.9.2, gender agreement ratings) and Appen/Figure Eight for the Civil Comments dataset are named; annotation vendors, not outside safety testers of this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No government body mentioned as testing the model."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No outside safety testing stated, so no pre-release timing."
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "For a small fraction of pre-training data, we added special control tokens marking the toxicity of text, using signals from a fixed version of the Perspective API.",
+   "locator": "Section 3 Training dataset",
+   "note": "Training-time toxicity control tokens, a safety-motivated training intervention; borderline since it is not refusal/RLHF training. Coded 1 as a training mechanism for harm reduction."
+  },
+  "safeguards_runtime": {
+   "value": 1,
+   "quote": "rigorous testing and production monitoring is performed to identify any concerns or emerging trends.",
+   "locator": "Section 5 Responsible usage",
+   "note": "Production monitoring is stated for Google applications built using PaLM 2; control tokens at inference (5.1) also support this."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "APIs and MakerSuite offered with 'process and technical safeguards' (Table 31) but no access restriction tied to risk, no KYC or tiers."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "quote": "",
+   "locator": "",
+   "note": "No mention of weight protection or exfiltration."
+  }
+ }
+}

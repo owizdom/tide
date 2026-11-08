@@ -85,6 +85,8 @@ def pin(r: dict) -> tuple[str, str]:
     m = re.search(r"HF commit ([0-9a-f]{40}).*?(20\d\d-\d\d-\d\d)", src)
     if hf and m:
         return f"https://huggingface.co/{hf.group(1)}/raw/{m.group(1)}/README.md", m.group(2)
+    if re.search(r"/(?:raw|resolve|blob)/[0-9a-f]{40}/|githubusercontent\.com/[^/]+/[^/]+/[0-9a-f]{40}/", url):
+        return url, norm_date(r.get("card_date", ""))
     return "", ""
 
 

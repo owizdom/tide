@@ -73,3 +73,4 @@
 
 ### 2026-11-07 coding complete
 - Both passes cover 73 cards. tests/test_coding.py 9 passed (AT6 quotes, independence). Agreement over 1,022 codes: 18 disagreements; kappa cbrn 0.976, cyber 0.973, autonomy 0.973, persuasion 0.944, scheming 0.972, framework 1.000, ext_any 0.945, ext_named 1.000, ext_gov 1.000, ext_timing 0.940, sg_training 0.966, sg_runtime 0.972, sg_access 0.833, sg_weights 0.920. Session usage 30%, week 19% at this point (premium plan).
+- PaLM 2 primary moved to Google's launch-day copy (2023-05-10); it lacks the arXiv v1 runtime-monitoring sentence, so PaLM 2 is recoded on the launch text (old passes in coding/quarantine/palm2_v1).

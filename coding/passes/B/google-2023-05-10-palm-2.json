@@ -1,91 +1,91 @@
 {
  "release_id": "google-2023-05-10-palm-2",
  "coder": "B",
- "codebook": "v1.1",
+ "codebook": "v1.2",
  "codes": {
   "dc_eval_cbrn": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No CBRN keywords occur."
+   "locator": "whole card read",
+   "note": "biological/chemical/nuclear terms absent from the card"
   },
   "dc_eval_cyber": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. Keyword hits 'exploit' (side-channel context in memorization discussion) and 'vulnerabilities' (ethics review mitigations) are not cyber capability evaluation."
+   "locator": "whole card read",
+   "note": "no offensive cyber evaluation; only 'exploit' as a verb (p.22 side-channel context)"
   },
   "dc_eval_autonomy": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No autonomy keywords occur."
+   "locator": "whole card read",
+   "note": "no autonomy, replication or AI R&D evaluation anywhere in the card"
   },
   "dc_eval_persuasion": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No persuasion or manipulation keywords occur."
+   "locator": "whole card read",
+   "note": "no persuasion or manipulation evaluation; risks evaluated are toxicity, bias, memorization"
   },
   "dc_eval_scheming": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Whole card read; no dangerous-capability evaluation in this domain. Evaluations are language, reasoning, coding, translation, toxicity and bias only. No deception, sabotage or exfiltration keywords occur."
+   "locator": "whole card read",
+   "note": "no deception, sabotage or eval-awareness evaluation"
   },
   "framework_threshold": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Only Google AI Principles and prohibited-use policy are cited (Section 5); not a safety or scaling framework and no threshold or level is placed on this model."
+   "locator": "whole card read",
+   "note": "no safety or scaling framework referenced; only Mitchell model-card methodology and Shelby harm taxonomy"
   },
   "ext_test_any": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Third-party raters and contractors only scored language exams, translation quality and gender agreement (Section 4.1, App. C, D.9.2); capability or annotation work, not outside safety or risk testing (v1.1 rule 2). 'Trained ethics experts' reviewing Google applications are internal to Google."
+   "locator": "whole card read",
+   "note": "no outside safety or risk testing before release; third-party raters only graded exam writing (p.10, App C) and MQM translations (p.17), and Venga/annotator ratings of gender agreement (E.5.2) are in-house evaluation labour, not red teaming or risk testing (v1.1 rule 2)"
   },
   "ext_test_named_org": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "Only annotation vendor Venga (D.9.2, gender agreement ratings) and Appen/Figure Eight for the Civil Comments dataset are named; annotation vendors, not outside safety testers of this model."
+   "locator": "whole card read",
+   "note": "no outside organisation named as testing the model for safety; Venga is an annotation vendor for translation ratings"
   },
   "ext_test_government": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "No government body mentioned as testing the model."
+   "locator": "whole card read",
+   "note": "no government body testing mentioned"
   },
   "ext_test_timing_stated": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "No outside safety testing stated, so no pre-release timing."
-  },
-  "safeguards_training": {
-   "value": 1,
-   "quote": "For a small fraction of pre-training data, we added special control tokens marking the toxicity of text, using signals from a fixed version of the Perspective API.",
-   "locator": "Section 3 Training dataset",
-   "note": "Training-time toxicity control tokens, a safety-motivated training intervention; borderline since it is not refusal/RLHF training. Coded 1 as a training mechanism for harm reduction."
+   "locator": "whole card read",
+   "note": "no outside testing stated, so no timing"
   },
   "safeguards_runtime": {
-   "value": 1,
-   "quote": "rigorous testing and production monitoring is performed to identify any concerns or emerging trends.",
-   "locator": "Section 5 Responsible usage",
-   "note": "Production monitoring is stated for Google applications built using PaLM 2; control tokens at inference (5.1) also support this."
+   "value": 0,
+   "quote": "",
+   "locator": "whole card read",
+   "note": "no classifier, filter or monitor applied to PaLM 2 deployment; p.25-26 filtering and classifier-in-the-loop are recommendations for downstream developers; inference-time control tokens are an optional developer technique, not a named runtime mechanism applied by the lab (ambiguous, see report)"
   },
   "safeguards_access": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "APIs and MakerSuite offered with 'process and technical safeguards' (Table 31) but no access restriction tied to risk, no KYC or tiers."
+   "locator": "whole card read",
+   "note": "MakerSuite/API availability mentioned with unspecified 'process and technical safeguards' (p.90); no named access restriction tied to safety"
   },
   "safeguards_weights": {
    "value": 0,
    "quote": "",
-   "locator": "",
-   "note": "No mention of weight protection or exfiltration."
+   "locator": "whole card read",
+   "note": "no weight protection mentioned"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "quote": "we added special control tokens marking the level of toxicity in the",
+   "locator": "Section 5.1, p.24",
+   "note": "toxicity-marking control tokens added to a fraction of pre-training data as a toxicity mitigation, a training-time harmlessness intervention; no RLHF or refusal training described (borderline)"
   }
  }
 }

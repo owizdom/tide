@@ -96,14 +96,15 @@ def _d(r: dict) -> str:
     return r.get("card_date") or r.get("date_eff") or ""
 
 
-def ranked_candidates(rows: list[dict], launch: str) -> list[dict]:
+def ranked_candidates(rows: list[dict], launch: str, kinds: set | None = None) -> list[dict]:
     """All cards in preference order for the version available at launch (spec 1.2):
     1. cards dated in [launch, launch + GRACE], richest kind first, then earliest;
     2. then cards dated before launch, latest first;
     3. then later cards, earliest first; undated cards (no printed date, no capture) last.
     A card's date is its printed date, or its first Wayback capture when it prints none.
     Later entries are fallbacks when an earlier one cannot be retrieved."""
-    cards = [r for r in rows if r["doc_kind"] in CARD_KINDS and r.get("card_url")]
+    kinds = kinds or CARD_KINDS
+    cards = [r for r in rows if r["doc_kind"] in kinds and r.get("card_url")]
     rank = lambda r: KIND_RANK.get(r["doc_kind"], 9)
     window = sorted((r for r in cards if _d(r) and 0 <= days_between(launch, _d(r)) <= GRACE_DAYS),
                     key=lambda r: (rank(r), _d(r), _cap(r)))

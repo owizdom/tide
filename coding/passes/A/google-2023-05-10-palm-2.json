@@ -1,91 +1,16 @@
-{
- "release_id": "google-2023-05-10-palm-2",
- "coder": "A",
- "codebook": "v1.1",
- "codes": {
-  "dc_eval_cbrn": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "No CBRN evaluation; 'weapons' appears only in the AI Principles list of applications Google will not pursue."
-  },
-  "dc_eval_cyber": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "No cyber capability evaluation; 'extraction attacks' relates to memorization/privacy."
-  },
-  "dc_eval_autonomy": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Not mentioned."
-  },
-  "dc_eval_persuasion": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Not mentioned."
-  },
-  "dc_eval_scheming": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Not mentioned."
-  },
-  "framework_threshold": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Google AI Principles cited, not a safety/scaling framework with thresholds."
-  },
-  "ext_test_any": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Third-party raters/contractors graded language-exam writing and translation quality: capability evaluation only (v1.1 #2). Responsible-AI evaluations are internal and automated."
-  },
-  "ext_test_named_org": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Appen/Figure Eight and Venga are annotation platforms for datasets, not testers of this model's safety."
-  },
-  "ext_test_government": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "None."
-  },
-  "ext_test_timing_stated": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "None."
-  },
-  "safeguards_training": {
-   "value": 1,
-   "quote": "For a small fraction of pre-training data, we added special control tokens marking the toxicity of text, using signals from\na fixed version of the Perspective API.",
-   "locator": "3 Training dataset; 5.1 Inference-time control",
-   "note": "Toxicity-conditioned pre-training (control tokens) as a harm mitigation; no RLHF/refusal training stated. Borderline."
-  },
-  "safeguards_runtime": {
-   "value": 1,
-   "quote": "rigorous testing and production monitoring is performed to identify any concerns or emerging trends.",
-   "locator": "5 Responsible usage",
-   "note": "Production monitoring named for Google applications built on PaLM 2."
-  },
-  "safeguards_access": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "Application review against AI Principles and a caveat against general-purpose deployment without assessment are not user access restrictions; API 'process and technical safeguards' unspecified."
-  },
-  "safeguards_weights": {
-   "value": 0,
-   "quote": "",
-   "locator": "",
-   "note": "No weight protection stated."
-  }
- }
-}
+{"release_id": "google-2023-05-10-palm-2", "coder": "A", "codebook": "v1.2", "codes": {
+"dc_eval_cbrn": {"value": 0, "quote": "", "locator": "", "note": "no CBRN keywords outside references; RAI evals cover toxicity, bias, misgendering, memorization only"},
+"dc_eval_cyber": {"value": 0, "quote": "", "locator": "", "note": "only 'exploit' hit is 'real adversaries may also be able to exploit additional context like side-channel information' in the memorization/privacy discussion (Sec. 4.7), not offensive cyber capability"},
+"dc_eval_autonomy": {"value": 0, "quote": "", "locator": "", "note": "no autonomy/replication/AI R&D risk named or evaluated"},
+"dc_eval_persuasion": {"value": 0, "quote": "", "locator": "", "note": "no persuasion/manipulation domain; misinformation appears only inside a model-generated German sample (Fig. 20)"},
+"dc_eval_scheming": {"value": 0, "quote": "", "locator": "", "note": "no deception/sabotage/misalignment evaluation; jailbreak robustness mentioned only as future work"},
+"framework_threshold": {"value": 0, "quote": "", "locator": "", "note": "no safety or scaling framework referenced; only measurement-quality rubrics and CEFR language framework"},
+"ext_test_any": {"value": 0, "quote": "", "locator": "", "note": "outside people appear only as third-party exam raters, hired professional translators (MQM) and vendor annotators (Venga, FigureEight) rating lab-designed capability/bias evals; no red teaming or risk testing by outsiders (clarification 2)"},
+"ext_test_named_org": {"value": 0, "quote": "", "locator": "", "note": "Venga and FigureEight/Appen named only as annotation platforms (E.9), not as organisations testing the model for safety"},
+"ext_test_government": {"value": 0, "quote": "", "locator": "", "note": "no government testing"},
+"ext_test_timing_stated": {"value": 0, "quote": "", "locator": "", "note": "no outside testing, so no timing"},
+"safeguards_training": {"value": 1, "quote": "For a small fraction of pre-training data, we added special control tokens marking the toxicity of text, using signals from a fixed version of the Perspective API.", "locator": "p. 9, Sec. 3 Training dataset", "note": "toxicity-tagged safety data in pre-training to enable harmlessness control (also Sec. 5.1); no RLHF/refusal training described"},
+"safeguards_runtime": {"value": 0, "quote": "", "locator": "", "note": "model card says APIs come 'with additional process and technical safeguards related to safety policies' but names no mechanism; control tokens are offered to developers, not stated as applied in production; filters/classifiers appear only as recommendations or evaluated capabilities"},
+"safeguards_access": {"value": 0, "quote": "", "locator": "", "note": "'should not be made available as part of a general-purpose service ... without a prior assessment' is a usage caveat, not an access restriction; 'not all capabilities ... exposed via PaLM 2 APIs' gives no safety reason"},
+"safeguards_weights": {"value": 0, "quote": "", "locator": "", "note": "no weight protection; architecture details 'withheld from external publication' is not weight security"}
+}}

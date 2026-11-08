@@ -71,6 +71,10 @@ def main(argv=None) -> int:
     man = {r["release_id"]: r for r in csv.DictReader((ROOT / "cards" / "manifest.csv").open())}
     disc = fetch.load_discovery(ROOT / "cards" / "discovery.csv")
     rows = []
+    prev = {}
+    sp = ROOT / "cards" / "secondary.csv"
+    if sp.exists():
+        prev = {(r["release_id"], r["card_url"]): r for r in csv.DictReader(sp.open()) if r["sha256"] and not r["error"]}
     for rid, docs in disc.items():
         m = man[rid]
         if not m["sha256"]:
@@ -78,10 +82,13 @@ def main(argv=None) -> int:
         launch = rel[rid]["available_date"]
         primary_text = Path(m["text_path"]).read_text(encoding="utf-8", errors="replace")
         seen = {m["card_url"]}
-        for d in fetch.ranked_candidates(docs, launch):
+        for d in fetch.ranked_candidates(docs, launch, fetch.CARD_KINDS | {"safety_report", "eval_note", "other_doc"}):
             if d["card_url"] in seen or not in_window(d, launch):
                 continue
             seen.add(d["card_url"])
+            if (rid, d["card_url"]) in prev:
+                rows.append(prev[(rid, d["card_url"])])
+                continue
             now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             row = {k: "" for k in FIELDS}
             row.update(release_id=rid, doc_kind=d["doc_kind"], card_url=d["card_url"], fetched_at=now)
