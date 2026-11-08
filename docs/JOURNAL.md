@@ -89,3 +89,7 @@
 - Independent recompute matched every number, including the Llama 3.1 sensitivity. 69 passed; 30 of 30.
 - Fixed: methods no longer states a timing rule absent from the codebook; it reports what each pass coded under codebook line 35. The Grok 4.5 training-data summary's "filtered for quality and safety" and its post-window first capture are now stated in methods and cards/no_card_launch_docs.csv (no figure changes: no card at launch).
 - Out of scope: stand-in capture_ts in secondary.csv shows launch day; round-half-even shows 1/8 as 12%; verify_claims does not assert the sensitivity numbers; two secondary docs first captured after launch + 2 add no positive code.
+
+### 2026-11-08 review round 3 (Opus 5.5, claude-opus-5-5)
+
+- Fixed: GPT-4.5 timing sentence now quotes the card's "prior to deployment" sentence and states the text-pass split and adjudication; Gemini 3 Pro's 1 is attributed to the figure and extra-document pass. Methods now gives the Grok 4.5 summary's first capture (11 July 2026), which the round 2 entry claimed it did.
