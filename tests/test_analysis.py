@@ -38,3 +38,10 @@ def test_drops_follow_lab_sequence():
     d = shares.drops(shares.load())
     assert d and all(x["n_lost"] >= 1 for x in d)
     assert d == sorted(d, key=lambda x: (x["n_lost"], x["to_date"]), reverse=True)  # spec 1.3: ties to the later date
+
+
+def test_at11_methods_claims_match_data():
+    from analysis import verify_claims
+    from pathlib import Path
+    text = (Path(__file__).resolve().parents[1] / "docs" / "methods.md").read_text()
+    assert [c for c in verify_claims.claims() if c not in text] == []
