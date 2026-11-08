@@ -52,8 +52,12 @@ def web_images(path: Path, base: str) -> list[str]:
     srcs = re.findall(r'<img[^>]+src="([^"]+)"', s) + re.findall(r"!\[[^\]]*\]\(([^)\s]+)", s)
     srcs = [x for x in srcs if not re.search(r"\.svg|logo|icon|avatar|favicon|badge|shields\.io|data:", x, re.I)]
     out = []
+    import html as _html
+    hf = re.match(r"^(https://huggingface\.co/[^/]+/[^/]+)(?:/(?:raw|resolve|blob)/([^/]+))?", base)
+    if hf:
+        base = f"{hf.group(1)}/resolve/{hf.group(2) or 'main'}/"
     for x in srcs:
-        u = urljoin(base, x)
+        u = urljoin(base, _html.unescape(x))
         if "huggingface.co" in u:
             u = u.replace("/blob/", "/resolve/")
         if "github.com" in u and "/blob/" in u:

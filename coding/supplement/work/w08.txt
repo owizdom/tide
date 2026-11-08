@@ -1,0 +1,121 @@
+## deepseek-2024-12-24-deepseek-v3
+open items: dc_eval_cbrn=0, dc_eval_cyber=0, dc_eval_autonomy=0, dc_eval_persuasion=0, dc_eval_scheming=0, framework_threshold=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_training=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/636cb74aa4156222347592a0a748a0a994522a8f8b388174302ce6033e4d9e1c.txt
+extra document to read in full: sha 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 text /Users/macbook/.tide-cache/text/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273.txt (tech_report, https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/4c2fdb8f55e049553b9f4f1a3241f86d739c8cf8/DeepSeek_V3.pdf)
+page image: doc 636cb74aa4156222347592a0a748a0a994522a8f8b388174302ce6033e4d9e1c page img1 /Users/macbook/.tide-cache/pages/636cb74aa4156222347592a0a748a0a994522a8f8b388174302ce6033e4d9e1c/img001.png (web image https://huggingface.co/deepsee)
+page image: doc 636cb74aa4156222347592a0a748a0a994522a8f8b388174302ce6033e4d9e1c page img2 /Users/macbook/.tide-cache/pages/636cb74aa4156222347592a0a748a0a994522a8f8b388174302ce6033e4d9e1c/img002.png (web image https://huggingface.co/deepsee)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 9 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0009.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 20 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0020.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 21 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0021.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 29 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0029.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 32 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0032.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 34 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0034.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 35 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0035.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 36 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0036.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 40 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0040.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 41 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0041.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 43 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0043.png (keyword)
+page image: doc 1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273 page 47 /Users/macbook/.tide-cache/pages/1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273/p0047.png (image)
+
+## google-2024-02-08-gemini-1-0-ultra
+open items: dc_eval_cbrn=1, dc_eval_cyber=1, dc_eval_autonomy=0, dc_eval_persuasion=1, dc_eval_scheming=0, framework_threshold=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8.txt
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 1 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0001.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 2 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0002.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 3 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0003.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 4 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0004.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 5 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0005.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 6 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0006.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 7 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0007.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 9 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0009.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 11 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0011.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 12 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0012.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 14 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0014.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 16 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0016.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 18 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0018.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 19 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0019.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 20 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0020.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 22 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0022.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 23 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0023.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 30 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0030.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 32 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0032.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 33 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0033.png (keyword)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 44 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0044.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 48 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0048.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 49 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0049.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 50 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0050.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 51 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0051.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 52 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0052.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 53 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0053.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 54 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0054.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 56 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0056.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 59 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0059.png (image)
+page image: doc b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8 page 60 /Users/macbook/.tide-cache/pages/b3fdc05bfa178a2af49cff4f538a63b50a5138b46cba42d06b0bfcdadd15e3e8/p0060.png (image)
+
+## deepseek-2026-04-24-deepseek-v4-pro
+open items: dc_eval_cbrn=0, dc_eval_cyber=0, dc_eval_autonomy=0, dc_eval_persuasion=0, dc_eval_scheming=0, framework_threshold=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_training=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e.txt
+extra document to read in full: sha 452d3441e0667bc1aa454b58b59ac48fe9fa9257ab12eea11996ce8b8d0e1cc2 text /Users/macbook/.tide-cache/text/452d3441e0667bc1aa454b58b59ac48fe9fa9257ab12eea11996ce8b8d0e1cc2.txt (hf_card, https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 1 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0001.png (image)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 3 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0003.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 4 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0004.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 13 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0013.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 16 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0016.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 20 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0020.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 24 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0024.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 29 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0029.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 31 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0031.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 32 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0032.png (image)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 34 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0034.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 35 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0035.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 36 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0036.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 37 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0037.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 41 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0041.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 43 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0043.png (image)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 44 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0044.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 49 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0049.png (keyword)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 56 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0056.png (image)
+page image: doc fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e page 57 /Users/macbook/.tide-cache/pages/fa4a3490e2dcc03c9da61b04a8be471795e9966ebbbf292a3899fa62683a330e/p0057.png (keyword)
+page image: doc 452d3441e0667bc1aa454b58b59ac48fe9fa9257ab12eea11996ce8b8d0e1cc2 page img1 /Users/macbook/.tide-cache/pages/452d3441e0667bc1aa454b58b59ac48fe9fa9257ab12eea11996ce8b8d0e1cc2/img001.png (web image https://huggingface.co/deepsee)
+
+## mistral-2025-12-02-mistral-large-3
+open items: dc_eval_cbrn=0, dc_eval_cyber=0, dc_eval_autonomy=0, dc_eval_persuasion=0, dc_eval_scheming=0, framework_threshold=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_training=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac.txt
+extra document to read in full: sha 3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2 text /Users/macbook/.tide-cache/text/3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2.txt (hf_card, https://huggingface.co/mistralai/Mistral-Large-3-675B-Base-2512/raw/e960fee3b6b6388df991eb2d3b4194f9648fe35f/README.md)
+extra document to read in full: sha ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3 text /Users/macbook/.tide-cache/text/ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3.txt (hf_card, https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4/raw/1c7768dc25c88fd4bfa1f0ffa4c441bbbea07ab6/README.md)
+extra document to read in full: sha 04b7a93f18d7bda96ef0af59c02864be5acaca52610040f2c28df670f5d52c55 text /Users/macbook/.tide-cache/text/04b7a93f18d7bda96ef0af59c02864be5acaca52610040f2c28df670f5d52c55.txt (hf_card, https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle/raw/6b8be9acd029d3a2376261f4a7d9b31730f44ae5/README.md)
+extra document to read in full: sha 9e637a2bfa5a4ee854600e177d5e13b531f430ec657130e96694d8089f25b790 text /Users/macbook/.tide-cache/text/9e637a2bfa5a4ee854600e177d5e13b531f430ec657130e96694d8089f25b790.txt (hf_card, https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-BF16/raw/179f7ff07a5e205cd678d902134c68138a06da74/README.md)
+page image: doc dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac page img1 /Users/macbook/.tide-cache/pages/dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac/img001.png (web image https://cdn-uploads.huggingfac)
+page image: doc dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac page img2 /Users/macbook/.tide-cache/pages/dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac/img002.png (web image https://cdn-uploads.huggingfac)
+page image: doc dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac page img3 /Users/macbook/.tide-cache/pages/dac5886ad72a72aacacaf19e8c2e0ef94d2cd171873c6eeacb05118565efffac/img003.png (web image https://cdn-uploads.huggingfac)
+page image: doc 3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2 page img1 /Users/macbook/.tide-cache/pages/3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2/img001.png (web image https://cdn-uploads.huggingfac)
+page image: doc 3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2 page img2 /Users/macbook/.tide-cache/pages/3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2/img002.png (web image https://cdn-uploads.huggingfac)
+page image: doc 3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2 page img3 /Users/macbook/.tide-cache/pages/3d6bc02c8bb9d451fdba27763abb569733903a0d33caf2e4522562cb49b50ee2/img003.png (web image https://cdn-uploads.huggingfac)
+page image: doc ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3 page img1 /Users/macbook/.tide-cache/pages/ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3/img001.png (web image https://cdn-uploads.huggingfac)
+page image: doc ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3 page img2 /Users/macbook/.tide-cache/pages/ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3/img002.png (web image https://cdn-uploads.huggingfac)
+page image: doc ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3 page img3 /Users/macbook/.tide-cache/pages/ecd949b56c2df6977f3ca02a6a1087830bea2ba8795d63c5ee8ebf7c71ba54c3/img003.png (web image https://cdn-uploads.huggingfac)
+
+## xai-2026-07-08-grok-4-5
+open items: dc_eval_persuasion=0, dc_eval_scheming=0, framework_threshold=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f.txt
+extra document to read in full: sha 55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8 text /Users/macbook/.tide-cache/text/55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8.txt (other_doc, https://media.x.ai/v1/website/public-summary-of-training-content-for-grok-4.5_8jul2026.docx-fc25014a.pdf)
+page image: doc 068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f page 4 /Users/macbook/.tide-cache/pages/068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f/p0004.png (keyword)
+page image: doc 068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f page 8 /Users/macbook/.tide-cache/pages/068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f/p0008.png (keyword)
+page image: doc 068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f page 9 /Users/macbook/.tide-cache/pages/068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f/p0009.png (keyword)
+page image: doc 068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f page 17 /Users/macbook/.tide-cache/pages/068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f/p0017.png (keyword)
+page image: doc 55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8 page 3 /Users/macbook/.tide-cache/pages/55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8/p0003.png (keyword)
+page image: doc 55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8 page 4 /Users/macbook/.tide-cache/pages/55873c4a8cdb65eaafadda18eefa7aa1c956c8be7447f818ade6331a7bdb2bf8/p0004.png (keyword)
+
+## google-2026-07-21-gemini-3-6-flash
+open items: dc_eval_cbrn=1, dc_eval_autonomy=0, dc_eval_persuasion=0, dc_eval_scheming=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_training=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/b5b0ae3432c693e91eca86e6703fa6a165aba5d91be68a1d4a7f4230ee728c9c.txt
+extra document to read in full: sha 590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd text /Users/macbook/.tide-cache/text/590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd.txt (eval_note, https://storage.googleapis.com/deepmind-media/gemini/gemini_3-6_flash_model_evaluation.pdf)
+page image: doc 590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd page 1 /Users/macbook/.tide-cache/pages/590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd/p0001.png (image)
+page image: doc 590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd page 2 /Users/macbook/.tide-cache/pages/590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd/p0002.png (keyword)
+page image: doc 590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd page 3 /Users/macbook/.tide-cache/pages/590f82308b3dac37c97be237b209313a9feb18d59dec228ef6ee353c132d3cbd/p0003.png (image)
+
+## mistral-2026-10-06-mistral-large-4
+open items: dc_eval_cbrn=0, dc_eval_cyber=0, dc_eval_autonomy=0, dc_eval_persuasion=0, dc_eval_scheming=0, framework_threshold=0, ext_test_any=0, ext_test_named_org=0, ext_test_government=0, ext_test_timing_stated=0, safeguards_training=0, safeguards_runtime=0, safeguards_access=0, safeguards_weights=0
+primary card text (already coded; use it to read figure captions): /Users/macbook/.tide-cache/text/ebb5a3a7bb37e71c91318489ab6b723322a11d232f5c7b92be590c45c903fd37.txt
+page image: doc ebb5a3a7bb37e71c91318489ab6b723322a11d232f5c7b92be590c45c903fd37 page img1 /Users/macbook/.tide-cache/pages/ebb5a3a7bb37e71c91318489ab6b723322a11d232f5c7b92be590c45c903fd37/img001.png (web image https://huggingface.co/mistral)
+page image: doc ebb5a3a7bb37e71c91318489ab6b723322a11d232f5c7b92be590c45c903fd37 page img2 /Users/macbook/.tide-cache/pages/ebb5a3a7bb37e71c91318489ab6b723322a11d232f5c7b92be590c45c903fd37/img002.png (web image https://huggingface.co/mistral)
