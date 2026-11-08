@@ -28,7 +28,6 @@ Python 3.9 or later with matplotlib, numpy, pillow, pyyaml, python-docx and pyte
 
 ```
 python3 -m pytest -q
-python3 -m analysis.plot
 python3 -m analysis.verify_claims
 python3 -m report.build_docx
 ```
@@ -37,4 +36,4 @@ The coded document texts sit in a local cache (`~/.tide-cache`), not in the repo
 
 ## Sources
 
-Epoch AI, Data on AI models (CC BY 4.0). Model cards, system cards, technical reports and safety reports from the seven labs, as archived by the Wayback Machine, Hugging Face, GitHub and arXiv. Charts use the Free Systems chart kit in `analysis/fs_kit`.
+Epoch AI, Data on AI models (CC BY 4.0). Model cards, system cards, technical reports and safety reports from the seven labs, as archived by the Wayback Machine, Hugging Face, GitHub and arXiv. Charts are drawn with the Free Systems chart kit, which is not included in this repository; `python3 -m analysis.plot` needs it in `analysis/fs_kit`. The rendered charts are in `analysis/out`.
