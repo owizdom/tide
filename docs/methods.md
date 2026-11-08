@@ -17,7 +17,7 @@ Cards are often late or missing. Of 87 frontier releases, 63 had a card public w
 The case rule was fixed before coding: an item counts as dropped when one release discloses it at launch and the same lab's next frontier release does not. The three largest drops, counted over the 14 items, ties going to the later release:
 
 1. Meta, Muse Spark 1.1 to Muse Spark 1.2 (August 2026). Muse Spark 1.1 shipped with a 112-page evaluation report disclosing 13 of the 14 items, all but government testing. Muse Spark 1.2 shipped with an announcement and a note on how its capability benchmarks were run, and no card, so all 13 dropped. Meta's next release, Muse Spark 1.3, got its evaluation report 51 days after launch.
-2. OpenAI, GPT-4.5 to GPT-4.1 (April 2025). GPT-4.5 launched with a system card reporting results in all five dangerous-capability domains and a Preparedness Framework determination. GPT-4.1 launched with an announcement only, and no card has appeared since. 10 of the 14 items dropped.
+2. OpenAI, GPT-4.5 to GPT-4.1 (April 2025). GPT-4.5 launched with a system card reporting results in all five dangerous-capability domains and a Preparedness Framework determination. GPT-4.1 launched with an announcement only, and no card has appeared since. 10 of the 14 items dropped. OpenAI said at the time that "GPT-4.1 is not a frontier model, so there won't be a separate system card released for it" (TechCrunch, 15 April 2025). The frontier rule here, fixed in advance, counts it as OpenAI's flagship of a new version; a reader who accepts OpenAI's view would not count this drop. OpenAI's next frontier release, o3, came two days later with a system card.
 3. OpenAI, GPT-4 to GPT-4 Turbo (November 2023). GPT-4 launched with a technical report and system card covering all five domains and outside red teaming by experts and by a named organisation, the Alignment Research Center. GPT-4 Turbo launched with an announcement and no card. 10 of the 14 items dropped.
 
 ## What was measured
@@ -51,6 +51,12 @@ These are gaps in the public record that further work cannot close.
 - Two images in web cards could not be retrieved: a Hugging Face avatar on a dead image host and one Meta image behind an expired signed link.
 - Half-years hold 5 to 17 releases, the number of frontier releases the labs made, so a single release moves a share by 6 to 20 points.
 - The latest half-year runs only to 31 October 2026.
+
+Choices in this study, which more work could revisit:
+
+- All coding, adjudication and verification was done by Claude models, with no human audit. Two coders from one model family can share blind spots, so their agreement may overstate reliability.
+- The frontier rule decides which releases count, and a lab may disagree with it, as OpenAI did for GPT-4.1.
+- A release with no card at launch scores zero even when it had another launch document. Four such documents were found and read; scoring them could add at most one code (Grok 4.5 safety training), which changes no figure in the findings.
 
 ## Sources
 
