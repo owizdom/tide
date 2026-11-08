@@ -47,9 +47,16 @@ def capture_one(d: dict) -> dict:
     else:
         target, caps = fetch.resolve_captures(url)
         if caps:
-            cap, _ = fetch.earliest(caps)
-            arch = fetch.raw_url(cap, target)
-            data, src, final = fetch._get(arch), "wayback", target
+            data = None
+            for cap, _ in sorted(caps)[:6]:  # earliest capture that is really the document
+                arch = fetch.raw_url(cap, target)
+                body = fetch.decompress(fetch._get(arch))
+                if not target.lower().split("?")[0].endswith(".pdf") or body[:5] == b"%PDF-":
+                    data = body
+                    break
+            if data is None:
+                raise RuntimeError("no capture holds the PDF")
+            src, final = "wayback", target
         else:
             data, src, cap, arch, final = fetch._get(url), "live", "", url, url
     data = fetch.decompress(data)

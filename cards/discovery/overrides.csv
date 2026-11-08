@@ -8,3 +8,7 @@ deepseek-2026-04-24-deepseek-v4-pro,DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf,do
 mistral-2026-10-06-mistral-large-4,HF initial release commit 9bc53578,doc_kind,superseded,Wayback captures before 2026-10-29 are an Upcoming release placeholder; replaced by the commit-pinned README (Track B re-review N5),card_date_src
 deepseek-2025-09-29-deepseek-v3-2-exp,DeepSeek-V3.2-Exp/raw/main/DeepSeek_V3_2.pdf,doc_kind,superseded,live raw/main replaced by the launch-commit pin,card_url
 deepseek-2026-09-09-deepseek-v4-1-flash,DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf,doc_kind,superseded,live resolve/main replaced by the upload-commit pin,card_url
+meta-2023-02-24-llama-65b,llama-open-and-efficient-foundation-language-models,doc_kind,landing_page,publication page links the PDF (now captured separately),card_url
+meta-2023-07-18-llama-2-70b,llama-2-open-foundation-and-fine-tuned-chat-models,doc_kind,landing_page,publication page links the PDF; arXiv v1 of the same paper (launch day) is the primary,card_url
+meta-2024-07-23-llama-3-1-405b,the-llama-3-herd-of-models,doc_kind,landing_page,publication page links the PDF; PDF not archived (see stand-in row),card_url
+meta-2023-02-24-llama-65b,LLaMA--Open-and-Efficient-Foundation-Language-Models.pdf,doc_kind,unarchived,every early capture is a Facebook error page; see stand-in row,card_url
