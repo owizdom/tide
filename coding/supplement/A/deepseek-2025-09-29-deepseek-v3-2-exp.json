@@ -1,0 +1,133 @@
+{
+ "release_id": "deepseek-2025-09-29-deepseek-v3-2-exp",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Only capability benchmarks (MMLU-Pro, GPQA, SWE, Terminal-bench etc.) and inference cost; no dangerous-capability evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Only capability benchmarks (MMLU-Pro, GPQA, SWE, Terminal-bench etc.) and inference cost; no dangerous-capability evaluation."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Only capability benchmarks (MMLU-Pro, GPQA, SWE, Terminal-bench etc.) and inference cost; no dangerous-capability evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Only capability benchmarks (MMLU-Pro, GPQA, SWE, Terminal-bench etc.) and inference cost; no dangerous-capability evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Only capability benchmarks (MMLU-Pro, GPQA, SWE, Terminal-bench etc.) and inference cost; no dangerous-capability evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No safety framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No outside testing mentioned."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No outside testing mentioned."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No outside testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No outside testing mentioned."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Training described only as aligned with V3.1-Terminus configuration for efficiency comparison; no safety training stated."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). No classifier, filter or moderation mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Open weights under MIT licence, repo not gated; no access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README read in full (intro, benchmark table, run instructions, kernels, MIT licence, citation, contact; rest is page chrome/chat template); both web images viewed (identical cost-per-million-tokens prefilling/decoding charts vs V3.1-Terminus). Weights openly released; no weight-security statement."
+  }
+ }
+}

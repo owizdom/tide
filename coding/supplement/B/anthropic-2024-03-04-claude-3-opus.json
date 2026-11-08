@@ -1,0 +1,32 @@
+{
+ "release_id": "anthropic-2024-03-04-claude-3-opus",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed pages. Fig 29/30 (political misinformation red-team, model refuses) and section 7.2 elections are misuse policy refusal tests, not a persuasion or influence-operation evaluation; stays 0 (borderline, flagged)."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all pages. ARA tasks (copycat API) are autonomy; needle-in-haystack remark that Opus noticed the synthetic needle is a capability note, not a misalignment evaluation; Fig 8 honesty is crowdworker preference. No scheming/deception risk evaluation."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Only 'internal and external human testers', 'expert advisors' and 'expert consultants', none named. No outside organisation named in text or figures."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No government body tested the model; US Executive Order and UK DSIT refs are guidance citations only (ref page 42)."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "'external human testers' sentence (p26) gives no timing for the outside testing; figures show no outside-testing timing."
+  }
+ }
+}

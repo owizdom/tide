@@ -1,0 +1,57 @@
+{
+ "release_id": "meta-2024-04-18-llama-3-70b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. HF card repeats 'Involving external CBRNE experts to conduct an uplift test' with no result for this model; stays 1."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. No autonomy, replication or AI R&D evaluation in any document."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. Persuasion or manipulation is not evaluated; the AUP prohibition on deception is a use term, not an evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. No deception, sabotage or misalignment evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. No safety or scaling framework named."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. External CBRNE experts and content specialists are unnamed; AI Alliance, Partnership on AI and MLCommons are consortium memberships, not testers of this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. No government body tested the model."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. 'before we make our release decision' is the same primary-card sentence already coded; no new timing statement for outside testing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. HF gate 'You need to agree to share your contact information to access this model' is a contact-details gate, which the codebook excludes."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: llama.meta.com model-card page (692ea465) holds only site navigation; eval_details.md (a8eae7e6) covers capability-benchmark settings and the human-eval prompt mix; HF card (f5a0cda7) repeats the primary card's Responsibility & Safety text plus the licence, AUP and contributor list. No page images listed for this release. No statement about protecting the weights."
+  }
+ }
+}

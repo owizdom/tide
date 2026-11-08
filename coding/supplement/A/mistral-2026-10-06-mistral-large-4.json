@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2026-10-06-mistral-large-4",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0 on this pass: neither figure shows a cybersecurity result; the cybersecurity benchmarks the card points to are in a blog post not listed as a launch document here. No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (2): HF card img1 (Artificial Analysis Coding Agent Index bar chart, Mistral Large 4 48%) and img2 (Artificial Analysis Intelligence Index v5, Mistral Large 4 26); both are general capability indices and show no evidence for this item."
+  }
+ }
+}

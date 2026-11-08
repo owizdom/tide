@@ -1,0 +1,12 @@
+{
+ "release_id": "anthropic-2026-09-01-claude-fable-5-1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "all 85 listed pages viewed; UK AISI and US CAISI appear only as partners in creating Gray Swan's IPI benchmark (run by Gray Swan, p83 figure) and as authors of a CoT-controllability prompt (p138 'UK AISI prompt' panel, run internally by Anthropic); neither is a government body testing this model, and a benchmark tied to a government body does not count"
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "release_id": "deepseek-2026-04-24-deepseek-v4-pro",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: Codeforces and coding benchmarks are general capability, not offensive cyber. Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: agentic and long-horizon benchmarks (Terminal Bench, SWE, R&D coding table p44) are capability results, not autonomy evaluated as a risk. Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: the <|authority|> Quick Instruction token (Table 5) classifies demand for source authoritativeness, not a safety classifier; 'cluster monitor (Watcher)' is sandbox infrastructure. Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V4-Pro HF card (452d3441), covering introduction, model downloads, base and instruct benchmark tables, reasoning modes, chat template, local run, MIT licence and contact; it has no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images viewed (20): report p1, 3, 4, 13, 16, 20, 24, 29, 31, 32, 34-37, 41, 43, 44, 49, 56, 57 (benchmark and efficiency charts, contents, architecture, kernels, training framework, data, post-training, tool schema, thinking-management figure, RL infra, DSec sandbox, eval setup, HLE/Terminal-Bench curves, writing/white-collar charts, code-agent table, references, example outputs, Chinese-writing table) and HF card img1 (benchmark bar chart plus FLOPs/KV-cache curves); none shows evidence for this item."
+  }
+ }
+}

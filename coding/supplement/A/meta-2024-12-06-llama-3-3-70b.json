@@ -1,0 +1,115 @@
+{
+ "release_id": "meta-2024-12-06-llama-3-3-70b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The only extra document (llama.com Llama 3.3 docs page) covers introduction, model card link, download and prompt format; no safety content. No page images listed for this release."
+  }
+ }
+}

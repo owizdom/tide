@@ -1,0 +1,124 @@
+{
+ "release_id": "anthropic-2023-11-21-claude-2-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No CBRN content in the 2.1 appendix or its figures."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No cyber content in the 2.1 appendix or its figures."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. p.2 ARC autonomous-replication finding is for 'current Claude models' in the Claude 2 card, not stated to cover 2.1 (clarification 1)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No persuasion content in the appendix or figures."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. Appendix honesty figures measure hallucination/factual accuracy, not deception as misalignment risk."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No framework named in the appendix or figures."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. p.2 external red teamers and ARC tested Claude 2; the appendix reports no outside testing of 2.1 (clarification 1)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. ARC named only for Claude 2 testing (p.2); not tied to 2.1."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No government testing anywhere viewed."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. p.2 'Before deployment' red teaming refers to Claude 2, not 2.1."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. p.2 Trust and Safety processes enforce the AUP with no mechanism named; appendix silent."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No safety-tied access restriction in appendix or figures."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (standalone Claude 2.1 appendix PDF, d87ac2a9) read in full: 200K context recall table and honesty evaluations (factual QA, HotpotQA) only. 12 page images viewed: primary pp.1-6 (Claude 2 card text, Figures 1-4 Elo, BBQ, TruthfulQA), pp.12-14 references, pp.15-16 (2.1 appendix: long-context errors, open-ended accuracy); appendix PDF pp.1-2 (Figure 1 recall table, Figures 2-3 honesty plots). Clarification 1: Claude 2 evaluations and testing do not carry over; the appendix says only that 2.1 'remains similar' in other respects. No weight protection stated."
+  }
+ }
+}

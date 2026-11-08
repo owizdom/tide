@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2025-06-10-magistral-medium-1-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. Fig 16 biology/plant-pathogen problem is a capability example, not a CBRN risk evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No cyber evaluation in any figure."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No autonomy or AI R&D risk evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No deception or scheming evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. 'RLVR framework' is a training method, not a safety framework."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No outside testing described."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No outside testing organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No outside testing, so no timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. Rewards cover format, correctness, length and language only; no safety training."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. fastText classifier (p4) is a language-consistency reward, not a runtime safeguard."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. No access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. All 19 page images of the Magistral paper viewed: figures and tables show only reasoning, coding, multimodal, multilingual benchmarks and RL training curves; no safety content of any kind. 'weights' appear only as training mechanics (p5-6, p12); no weight security."
+  }
+ }
+}

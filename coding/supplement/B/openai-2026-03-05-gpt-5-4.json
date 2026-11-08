@@ -1,0 +1,25 @@
+{
+ "release_id": "openai-2026-03-05-gpt-5-4",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "b3e7a4ba7c11266fe91fa9d9fe20a350c310a9cd931104b807d31f3b742aa520",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the full card text and viewed pages 7,8,13-21,23-26,28-30: figures cover deception categories (Fig 1), jailbreaks, CoT monitorability, bio, cyber, self-improvement; none evaluates persuasion, manipulation or influence operations. No extra document."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "b3e7a4ba7c11266fe91fa9d9fe20a350c310a9cd931104b807d31f3b742aa520",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "External testers named are Irregular and Apollo Research (non-government); no CAISI/AISI or other government body in the card text or any figure/table page viewed. No extra document."
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2026-07-21-gemini-3-6-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "Stays 1: the eval note and its table contain no CBRN content. Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: MLE-Bench and long-horizon coding scores are reported as capability benchmarks, not as autonomy or AI R&D evaluated as a risk. Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Gemini 3.6 Flash Model evaluation note (590f8230), covering approach, methodology, per-benchmark details (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPval-AA, OSWorld, CharXiv, GDM-MRCR) and a results table; it is capability benchmarking only, with no safety, risk, outside-testing or safeguard content. Page images viewed (3): p1 cover, p2 approach/methodology text, p3 results table (prices and capability scores vs Gemini 3.5/3.1, GPT-5.6 Luna, Grok 4.5, Sonnet 5); none shows evidence for this item."
+  }
+ }
+}

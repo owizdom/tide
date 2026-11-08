@@ -1,0 +1,4 @@
+{"release_id": "openai-2026-03-05-gpt-5-4", "coder": "A", "codebook": "v1.2", "items": {
+ "dc_eval_persuasion": {"value": 0, "source": "none", "note": "No extra document. All 18 page images viewed: disallowed-content table and deception-category chart (p7), jailbreak (p8), CoT monitorability/controllability (p13-17), bio (p18-21), cyber (p23-26), AI self-improvement (p28-29), Apollo sandbagging (p30). None reports persuasion, manipulation or influence operations; p25 'LDAP manipulation' is a cyber-range task."},
+ "ext_test_government": {"value": 0, "source": "none", "note": "All 18 page images viewed; the only outside testers shown are Irregular (p26) and Apollo Research (p30). No government body or AI safety institute appears in any figure or table."}
+}}

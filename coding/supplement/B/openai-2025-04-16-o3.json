@@ -1,0 +1,43 @@
+{
+ "release_id": "openai-2025-04-16-o3",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. All 31 listed page images viewed (pages 1,5,7-11,13-27,29-31): refusal/jailbreak tables, red-team ELO chart (Figure 1, categories Extremism, Geo-location, Illegal Content, Regulated Advice, Sensitive Trait Attribution, Stereotyping, Visual Jailbreaks), METR chart (Figure 2), bio, CTF, cyber range, self-improvement charts, Apollo tables. No persuasion, manipulation or influence-operations evaluation or mention anywhere in the card text or figures; the Preparedness v2 tracked categories listed are Biological and Chemical, Cybersecurity, AI Self-improvement."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Third parties named are METR, Apollo Research, Pattern Labs, Gryphon Scientific and SecureBio; no government body (AISI or CAISI) appears."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No trusted-access, KYC or tiered restriction tied to safety. Account-level enforcement of Usage Policies is not an access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Page 28 lists 'further investment in enhanced security, including both information security and technical security' with no mention of weights or exfiltration protection for this model. Apollo self-exfiltration eval (Figure 24) tests model behaviour, not weight protection."
+  }
+ }
+}

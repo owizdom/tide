@@ -1,0 +1,22 @@
+{
+ "release_id": "anthropic-2025-02-24-claude-3-7-sonnet",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "note": "p11 lists Influence Operations among Safeguards policy areas tested, with only a general finding for all areas; p19 Table 4 reports 'Deception' monitor rates (scheming-type, labelled deception not manipulation); no persuasion-specific result in pages 3,4,8,9,11,13,14,17,19,23-41 figures/tables, so stays 1"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no access restriction tied to safety on any listed page; p41 only states third-party testing and post-deployment monitoring; ASL-2 safeguards"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no weight protection or exfiltration safeguard on any listed page; cyber transcripts p39 discuss exfiltrating target data in a range, not weights"
+  }
+ }
+}

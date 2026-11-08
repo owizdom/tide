@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2026-04-29-mistral-medium-3-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "EAGLE HF card is usage docs only; the four web images are agentic, coding, math and instruction-following benchmark charts with no safety content"
+  }
+ }
+}

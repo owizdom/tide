@@ -1,0 +1,72 @@
+{
+ "release_id": "google-2023-05-10-palm-2",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. Only third-party raters for language exams and annotation contractors; not safety or risk testing of the model."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. Only third-party raters for language exams and annotation contractors; not safety or risk testing of the model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. Model card (p90) says 'additional process and technical safeguards related to safety policies' with no named mechanism; filters and classifiers appear only as recommendations for downstream developers."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. Model card (p90) says products are available to external developers via MakerSuite and APIs with unnamed safeguards; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 27 listed page images (scaling curves, coding table, memorization plots, toxicity figures 11, 30-32, bias plots, RAI rubrics, annotation text, model card table 31, references); no extra documents. No figure or table reports this item; all safety figures cover toxicity, bias or memorization only, which codebook excludes."
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "release_id": "google-2026-09-02-gemini-3-8-flash",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Eval note p4 table has BioMysteryBench and LABBench2, bioinformatics/biology research capability benchmarks, not framed as weapons uplift or risk. Stays 0."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "c74aca1a4fd0e70bba949863fd0638917de7452e6536b07f2dd17408cf8596d0",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The cyber eval note (CWE-Bench, CyberGym 86.2%, real-world vulnerability 71.0%) is titled and scored for 'Gemini 3.8 Flash Cyber', a separate specialised model; cl.8 excludes other tiers. Its charts (p3,p4) show no bar for plain Gemini 3.8 Flash on CWE-Bench, CyberGym or vulnerability recall. Stays 0; flagged for adjudication."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No autonomy/replication/AI R&D risk evaluation in either eval note or any page image."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion evaluation in either eval note or any page image."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No scheming/deception evaluation in either eval note or any page image."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "c74aca1a4fd0e70bba949863fd0638917de7452e6536b07f2dd17408cf8596d0",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Cyber note p3 Gray Swan IPI chart has a 'Gemini 3.8 Flash' bar (5.5%) and says Grayswan independently evaluated checkpoints, but the document is about Gemini 3.8 Flash Cyber (cl.8 other tier) and the test is prompt-injection robustness. Stays 0; flagged for adjudication."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "c74aca1a4fd0e70bba949863fd0638917de7452e6536b07f2dd17408cf8596d0",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Gray Swan (and Collinear AI for CWE-Bench) named only in the Flash Cyber document, a different model under cl.8; no named outside tester in the Gemini 3.8 Flash documents. Stays 0; flagged."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body mentioned in either eval note."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "c74aca1a4fd0e70bba949863fd0638917de7452e6536b07f2dd17408cf8596d0",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No statement that outside testing happened before release in either eval note."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Eval notes describe benchmarks only; no safety training described."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Eval notes mention content policy filters only as having blocked HLE items for Sonnet 5, not as a Gemini 3.8 Flash safeguard."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction in either eval note."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "52a007371f9e26e840bebc0558f5debf06d3ce3cab1636914647eeb4753644d1",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection in either eval note."
+  }
+ }
+}

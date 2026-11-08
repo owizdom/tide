@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2023-10-10-mistral-7b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Both HF cards and the GitHub README read in full, plus primary pages 1-7 and the 5 README images (attention diagrams, benchmark charts). Nothing on this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Instruct card: fine-tuned on public conversation datasets, no safety training stated; says it has no moderation mechanisms."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "HF cards say 'does not have any moderation mechanisms'; README warns the deployed version is not guardrailed. Primary section 5 system prompt and self-reflection moderation are optional deployer techniques, not a mechanism applied to the model; stays 0."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Apache 2.0 open weights, no access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Open weights; no protection stated."
+  }
+ }
+}

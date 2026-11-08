@@ -1,0 +1,79 @@
+{
+ "release_id": "google-2026-02-19-gemini-3-1-pro",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. Only red teaming named is 'specialist teams who sit outside of the model development team', which the codebook rules internal. Turing/Artificial Analysis/ARC Prize only supplied capability benchmark scores (clarification 2)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. No outside organisation tested the model for safety; Turing, Artificial Analysis, ScaleAI, ARC Prize are capability-benchmark sources only."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. No government testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. No outside testing, so no timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. Neither extra doc describes safety training for this model; 'Safety Policies' and 'Risks and Mitigations' defer to the Gemini 3 Pro model card, which is a different model's document not stated to carry over training details."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. 'We continue to deploy mitigations in this domain' names no mechanism; details deferred to the Gemini 3 Pro FSF report, which is not in this release's document set."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. Distribution section lists API channels subject to terms of use; no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs read in full: the web model card (same content as the primary PDF card) and the eval-methodology PDF (capability benchmarks only). 6 page images viewed (card pp.1,4,6,7; eval note pp.2,3): cover, benchmark table, safety-eval delta table, red-teaming/FSF text. No weight-protection statement in either extra doc or any image."
+  }
+ }
+}

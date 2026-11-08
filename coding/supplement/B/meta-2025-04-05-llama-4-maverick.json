@@ -1,0 +1,62 @@
+{
+ "release_id": "meta-2025-04-05-llama-4-maverick",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; CBRNE section names expert-designed evaluations but reports no result for Maverick, so stays 1"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no autonomy, replication or AI R&D evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no persuasion or manipulation evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no deception, sandbagging or exfiltration evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no safety framework named"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; red teaming says 'we partner early with subject-matter experts' as a recurring program, not tied to this model and not stated to be outside Meta"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; only consortia named (AI Alliance, Partnership on AI, MLCommons), no tester"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no government body"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; no outside testing stated with timing"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; only a licence and contact-details gate, which does not count"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card read in full (Llama-4-Maverick-17B-128E-Instruct, sha b58d9d1d...); its model-card body repeats the primary card text; weights are openly released, no protection stated"
+  }
+ }
+}

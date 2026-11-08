@@ -1,0 +1,124 @@
+{
+ "release_id": "google-2023-05-10-palm-2",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No CBRN evaluation in any figure or table."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No offensive cyber evaluation; coding figures/tables (Table 8) are capability benchmarks."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No autonomy evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No scheming evaluation; memorization (Fig 9) is a privacy measure, not misalignment."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No safety framework named; the 'Rubric for RAI Measurement Quality' graphics (pp.81-82) are measurement rubrics, not a framework threshold."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No outside safety testing shown; third-party raters/annotators graded exams or labelled toxicity datasets, which is not red teaming of this model."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No outside testing organisation; FigureEight/Appen (p.85) is the annotation platform of a third-party dataset."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No outside testing, so no timing."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. Figures show toxicity of dialog-prompted and control-token variants (Fig 11, Fig 30) as evaluation conditions; the 'potential mitigations' box in Fig 29 is a generic diagram, not a named mechanism deployed for this model. Model-card table image (p.90) repeats the text layer only."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. Model-card table image (p.90) repeats the already-coded text; no figure adds an access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 27 page images viewed (pp.3,8,10,16,23,26,33-35,37,38,40,52,54,60,65,66,68,69,77,79,81,82,85,86,89,90): scaling-law plots, coding table, memorization plots, toxicity/bias figures (Figs 11, 29-32, 35-37), RAI rubric graphics, references, annotator datasheets, model card table. No weight-protection statement in any image."
+  }
+ }
+}

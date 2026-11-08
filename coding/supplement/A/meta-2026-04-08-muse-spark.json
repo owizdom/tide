@@ -1,0 +1,25 @@
+{
+ "release_id": "meta-2026-04-08-muse-spark",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Eval methodology note (06c8...) covers capability benchmarks only; its two page images are benchmark tables. Card pages show WMDP, LAB-Bench, refusal, Cybench, prompt injection, reward hacking and welfare text; 'persuasiveness' appears only as the model's self-description in a welfare interview, not a persuasion evaluation."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Card pages 20 and 40 cite US/UK AISI and CAISI only as prior pre-deployment tests of other models and as users of the Cybench benchmark; no page or extra document says a government body tested Muse Spark."
+  }
+ }
+}

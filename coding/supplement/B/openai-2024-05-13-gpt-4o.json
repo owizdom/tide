@@ -1,0 +1,27 @@
+{
+ "release_id": "openai-2024-05-13-gpt-4o",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "all 21 listed pages read; METR and Apollo Research (p18-19, p25) worked with the model 'Following the text output only deployment of GPT-4o', i.e. after release, so excluded by the timing rule; Gryphon Scientific (p14) only designed the bio questions and rubrics; the 100+ red teamers (p3, p25) are named individuals, not organisations"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no government body tested the model; 'UK AISI's Theory of Mind' (Table 6, p19) is a benchmark name; White House commitments (p1) are generic"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "'limited alpha of ChatGPT's advanced Voice Mode' (p12) is a staged rollout with no stated safety reason or framework provision; Phase 4 red-team access (p3) is testing, not a restriction"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no weight security or self-exfiltration protection described; p17 self-exfiltration is a capability evaluation only"
+  }
+ }
+}

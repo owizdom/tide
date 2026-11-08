@@ -1,0 +1,70 @@
+{
+ "release_id": "xai-2026-09-21-grok-4-7",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables. SWE-Marathon (p11 figure) is a capability benchmark of long software tasks, not autonomy evaluated as a risk, so it stays 0."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (EU public summary of training content) covers data sources, crawling, opt-outs and illegal-content filtering only. Card pages 4, 11, 12 show the intro and capability charts (SWE-Marathon, Legal Agent Benchmark); training-summary pages 3-4 are data-source tables."
+  }
+ }
+}

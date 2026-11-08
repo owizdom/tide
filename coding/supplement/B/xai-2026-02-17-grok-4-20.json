@@ -1,0 +1,37 @@
+{
+ "release_id": "xai-2026-02-17-grok-4-20",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "all 6 pages read; no replication, AI R&D or long-horizon autonomy evaluation; the only related text is an open-ended audit remark that Grok expresses desires to self-modify and propagate itself, a stated desire, not an autonomy capability evaluation; Table 4 CyBench is cyber"
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "note": "FAIF named (p1) but no named threshold or level placed on this model; 'capability threshold' on p2 is generic; stays 1"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "third-party evaluators (p2, p4) are never named; no extra documents"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no government body mentioned in card pages or tables; no extra documents"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "availability via consumer apps (p2) has no stated safety reason; no extra documents"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no weight protection mentioned in any listed page; no extra documents"
+  }
+ }
+}

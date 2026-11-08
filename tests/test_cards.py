@@ -190,6 +190,13 @@ def test_search_tokens_from_free_text():
     assert got == {"lab", "announcement", "hf", "github", "arxiv", "wayback"}
 
 
+def test_pinned_any_url_with_commit_sha():
+    from cards import merge
+    r = merge.pin({"card_url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat/raw/896a24c2ddb90143bc8eeba56eb55bc4334d234f/README.md",
+                   "card_date_src": "HF commits API: commit 896a24c2 dated 2024-05-06T09:00:00Z", "card_date": "2024-05-06"})
+    assert r[0].endswith("/README.md") and r[1] == "2024-05-06"
+
+
 def test_pinned_hf_resolve_at_commit():
     from cards import merge
     r = merge.pin({"card_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/5c449c2f36b66f448ebf8e68add19d8b555d5c9b/DeepSeek_V4.pdf",

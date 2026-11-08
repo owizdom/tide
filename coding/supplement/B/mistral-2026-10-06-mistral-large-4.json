@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2026-10-06-mistral-large-4",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "cybersecurity is claimed as a capability ('state of the art ... for security work') and charts are capability benchmarks, not a dangerous-capability evaluation; stays 0"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "only 'refusing malicious requests' as a feature claim, no safety training described; stays 0"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "card text read in full and img1/img2 viewed (Artificial Analysis Coding Agent Index and Intelligence Index bar charts, capability only); no evidence for this item; no extra documents"
+  }
+ }
+}

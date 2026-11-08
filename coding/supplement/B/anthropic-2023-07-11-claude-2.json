@@ -1,0 +1,52 @@
+{
+ "release_id": "anthropic-2023-07-11-claude-2",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Only ARC, crowdworker red teamers and policymakers in general are mentioned; no government body tested; figures irrelevant."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Figures 1-8 (Elo, BBQ, TruthfulQA, red-team fraction, HHH, translation, long-context loss) and reference pages show nothing on this item; no extra documents."
+  }
+ }
+}

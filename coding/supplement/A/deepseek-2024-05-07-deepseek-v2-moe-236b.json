@@ -1,0 +1,124 @@
+{
+ "release_id": "deepseek-2024-05-07-deepseek-v2-moe-236b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and GitHub README cover benchmarks, architecture, pricing and usage only; the 18 page images (paper pp.11,17,24,30 and 14 README figures) show capability benchmarks, costs, NIAH and architecture, nothing on this item."
+  }
+ }
+}

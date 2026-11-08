@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2025-12-02-mistral-large-3",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: img2 footnote 'Evaluations judged by humans conducted by a third party' is a capability preference comparison, not safety testing (clarification 2). Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: the third party in img2 is unnamed and ran capability preference evaluations only. Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: no outside safety testing is reported. Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs read in full: HF Base card (3d6bc02c), Instruct NVFP4 card (ecd949b5), Instruct Eagle card (04b7a93f), Instruct BF16 card (9e637a2b); all cover model description, key features, use cases, recommended settings, known limitations, benchmark images, vLLM usage code and Apache 2.0 licence, with no safety, risk-evaluation, outside-testing, framework or safeguard content. Page images: 9 listed (primary img1-3, base img1-3, NVFP4 img1-3); the three per document are byte-identical across documents (same MD5), and the three distinct images were viewed: base-model benchmark bar chart, human-preference win rates vs DeepSeek V3.1 and Kimi K2, LMArena Elo chart; none shows evidence for this item."
+  }
+ }
+}

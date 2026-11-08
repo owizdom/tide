@@ -1,0 +1,70 @@
+{
+ "release_id": "meta-2026-10-12-muse-wonder-full",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Loss of Control section reports MASK and Agentic Misalignment (scheming); capability tables are coding/agent benchmarks, not autonomy risk evals. Viewed pp2,3,4,6,11,13."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in any viewed page or figure."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Third parties developed and licensed benchmarks and outside experts did threat modeling; no outside party is said to have tested this model. p11."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "SecureBio, Faculty.AI named as benchmark developers, not as testers of this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Only 'engaged with government entities ... whose input informed our evaluations'; not testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing stated, so no timing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction tied to safety; age 18 note is a general usage term (clar. 3)."
+  }
+ }
+}

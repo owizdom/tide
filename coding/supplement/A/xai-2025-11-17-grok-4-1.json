@@ -1,0 +1,47 @@
+{
+ "release_id": "xai-2025-11-17-grok-4-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. No autonomy, replication or AI R&D evaluation on either page; dual-use section covers bio, chem and cyber."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. p1 names the Risk Management Framework but places Grok 4.1 against no threshold; p6 is the reference list."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. p1 'pre-deployment safety testing largely similar to that described in the Grok 4 model card' describes xAI's own testing; no outside tester for Grok 4.1 (clarification 7: Grok 4's AISI testing does not carry over)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. No outside organisation named as testing Grok 4.1."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. No government body tested Grok 4.1 on these pages."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. 'pre-deployment safety testing' is internal; no outside testing, so no outside timing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. Public availability through consumer apps; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6 references); the card has no figures. No statement on weight protection on either page."
+  }
+ }
+}

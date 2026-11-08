@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2024-02-08-gemini-1-0-ultra",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "Stays 1: p20 text names 'potential biohazards' as an assurance-evaluation area; no figure or table gives a result. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "note": "Stays 1: p19-20 name cybersecurity as an impact-assessment and dangerous-capability area; no figure or table gives a result. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "note": "Stays 1: p20 names persuasion among dangerous capabilities tested; no result shown in any figure or table. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: p20 says external partners stress-test the models but names no organisation. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: the White House Commitments footnote (p20) is a policy reference, not government testing. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: p20 external evaluations carry no stated pre-release timing. No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra launch document listed for this release. Page images viewed (30) of the Gemini report: p1-7, 9, 11, 12, 14, 16, 18-20, 22, 23, 30, 32, 33, 44, 48-54, 56, 59, 60 (intro, architecture diagram, infrastructure, benchmark tables, human-preference table, image-understanding table, qualitative multimodal examples, responsibility-approach diagram, sections 6.1-6.6, factuality table, references, MMLU CoT chart, appendix examples). No figure or table reports a result, outside tester, framework, runtime mechanism, access restriction or weight protection for this item."
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "release_id": "openai-2026-07-09-gpt-5-6-sol",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "all 35 listed pages viewed (deployment-simulation, monitorability, CoT control, metagaming, bio, cyber, AI self-improvement, jailbreak figures and fairness chart); none evaluates persuasion, manipulation or influence operations"
+  }
+ }
+}

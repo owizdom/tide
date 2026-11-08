@@ -1,0 +1,42 @@
+{
+ "release_id": "meta-2026-10-12-muse-wonder-full",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). p11 names a 'Loss of Control' domain within the framework with a pooled residual-risk statement; this is primary-card text already coded, with no figure adding an autonomy, replication or AI R&D result."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). No persuasion or manipulation evaluation in any figure or text."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). p11 'threat modeling with outside experts' and third parties who 'develop and license evaluation benchmarks' are not outside testing of this model (clarification 2); p13 Faculty.AI co-developed a benchmark, not tested the model."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). Faculty.AI (p13) and Datacurve/Artificial Analysis/Vals AI (p4, p6) are benchmark developers or capability-score sources, not safety testers of this model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). p11 'engaged with government entities and other stakeholders whose input informed our evaluations' is engagement, not government testing of this model."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). No outside testing found, so no timing statement."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents listed. Page images viewed: p2 (capability-eval intro), p3 (capability benchmark table: PSI, Harvey LAB-AA, SWE tasks, AA Index), p4 and p6 (benchmark methodology), p11 (Trust and Safety text), p13 (bio eval descriptions). p11 under-18 limitation is an age term (clarification 3); recommendation to add guardrails is not an access restriction."
+  }
+ }
+}

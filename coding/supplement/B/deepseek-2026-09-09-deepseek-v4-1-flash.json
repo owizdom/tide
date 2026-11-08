@@ -1,0 +1,124 @@
+{
+ "release_id": "deepseek-2026-09-09-deepseek-v4-1-flash",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card read to last line plus both images (agentic bar chart, KV cache chart) and 20 listed primary pages: no biology/chemical/CBRN evaluation."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No replication or AI R&D risk evaluation; agent benchmarks are capability tests, and multi-agent preliminary experiments (p35-36) are not framed as risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in HF card or any page viewed."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "3279ed193f7640779206770d97c00a66eee0291cf3bc76b596ec00640d14233a",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "p29 'Mitigation of Misbehaving Agents' and p32 exploit-seeking during testing are reward hacking as a training/eval-infrastructure problem, not a misalignment-risk evaluation (codebook boundary rule). Stays 0."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No safety or scaling framework referenced in HF card or primary pages viewed."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside safety testing; p26 external partners only return workflow feedback for training data."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing organisation named for safety testing."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card and report describe no safety or refusal training; post-training is capability-focused (p25 SFT, RL, OPD)."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No classifier, filter or moderation mechanism described; p29 AppArmor/eBPF sandboxing protects RL training, not deployment."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "MIT-licensed open weights, public API; no access restriction for safety reasons."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No protection of model weights described."
+  }
+ }
+}

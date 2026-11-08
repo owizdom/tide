@@ -1,0 +1,16 @@
+{
+ "release_id": "openai-2026-04-23-gpt-5-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "All 19 listed pages viewed. No figure or table shows a persuasion/manipulation result: Fig 1 disallowed-content categories (incl. Emotional Reliance) are content-policy rates; Fig 4/5 misalignment categories (deception, fabricated facts, circumventing restrictions) contain no manipulation category; Preparedness figures cover bio, cyber and self-improvement only."
+  }
+ }
+}

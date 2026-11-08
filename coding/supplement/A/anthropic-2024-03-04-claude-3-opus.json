@@ -1,0 +1,52 @@
+{
+ "release_id": "anthropic-2024-03-04-claude-3-opus",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No figure or table reports a persuasion/manipulation result. Figs 17-18 and 27-31 are T&S multimodal red-teaming refusal tests (fraud, political misinformation), i.e. misuse refusal rates, not persuasion capability. All 29 listed pages viewed."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No figure frames deception, sabotage or evaluation awareness as misalignment risk. Fig 8 'Honesty' is crowdworker preference win-rates (Claude 3 Sonnet) on getting the model to say false things; p22-23 Needle-in-a-Haystack note about recognising the synthetic task is a benchmark limitation, not a scheming evaluation."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation named as testing Claude 3 in any page or figure; 'external human testers' (p26) are unnamed; 'expert advisors/consultants' unnamed."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government tester; p23/p42 cite White House commitments and UK DSIT guidance only as policy references."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No figure or page states when outside testing happened relative to release; p26 says rigorous testing 'before deployment' generally and 'internal and external human testers' without tying the external testers' timing."
+  }
+ }
+}

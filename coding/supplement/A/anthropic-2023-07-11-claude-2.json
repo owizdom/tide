@@ -1,0 +1,88 @@
+{
+ "release_id": "anthropic-2023-07-11-claude-2",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No figure or table reports a CBRN evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No figure or table reports an offensive cyber evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No persuasion or manipulation figure; Figure 1 harmlessness Elo is crowdworker red teaming for harmful content, not persuasion."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. Figure 4 TruthfulQA and Figure 1 honesty Elo measure truthfulness/hallucination, not deception framed as misalignment risk."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No framework or threshold shown in any figure."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No government testing in any image."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No runtime classifier or filter shown; figures cover training-time honesty/harmlessness interventions only."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No access restriction tied to safety in any image."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 7 page images viewed (pp.3-6 figures, pp.12-14 references): Figure 1 human-feedback Elo (helpful/harmless/honest), Figures 2-3 BBQ bias and accuracy, Figure 4 TruthfulQA; references list. No weight-protection statement in any image."
+  }
+ }
+}

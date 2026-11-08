@@ -1,0 +1,77 @@
+{
+ "release_id": "deepseek-2024-09-06-deepseek-v2-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra launch documents or page images listed for this release; value stays at current"
+  }
+ }
+}

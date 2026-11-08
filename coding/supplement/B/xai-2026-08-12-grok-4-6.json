@@ -1,0 +1,79 @@
+{
+ "release_id": "xai-2026-08-12-grok-4-6",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Sec 5 R&D Enablement (p20 text and MTS Eval bar chart) reports results on speeding up its own inference, but the card frames it as capability enablement, not a risk evaluation; no extra document. Stays 0 (borderline, flagged)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in any text or figure page viewed (p4,11,18,21,25)."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "MASK-Rectified dishonesty table (p32 text) is framed as reliability/propensity, not misalignment risk; figure pages viewed show only coding/office/R&D/cyber charts. Stays 0."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "p24 says third-party evaluators tested unrestricted model but names none; Mercor, Datacurve, Artificial Analysis only run benchmarks."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body tested the model in any page viewed."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "p24 third-party testing has no stated timing before release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Consumer surfaces added 'at a later date' with no safety reason (p4); not access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4644ad7bf7b8ed169cef4908fb818f8c31a7988a9614917abae7350e52176f7b",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection statement on any page viewed."
+  }
+ }
+}

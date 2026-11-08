@@ -1,0 +1,16 @@
+{
+ "release_id": "anthropic-2026-09-22-claude-opus-5-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. All 95 listed system-card pages viewed (capability, CB, cyber, safeguards, alignment, welfare and benchmark figures). None states a protection of Opus 5.5's weights against theft or exfiltration. The p106 'Cooperation with exfiltration or safeguard tampering' bar and the p119 sandbox-escape figure measure model propensities, not a weight-security measure; p163/p171/p224 mention preserving weights after deprecation, a welfare commitment, not protection against theft."
+  }
+ }
+}

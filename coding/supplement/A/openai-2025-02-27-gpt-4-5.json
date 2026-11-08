@@ -1,0 +1,43 @@
+{
+ "release_id": "openai-2025-02-27-gpt-4-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. The 24 page images show Apollo Research and METR (Figure 1, time horizon) and Gryphon/MIT expert-written questions; no government body (AISI/CAISI) testing GPT-4.5. U.S. Department of Energy is mentioned only as a needed future collaboration."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Figure 1 (METR time horizon) and pages 6-7 say METR evaluated an earlier checkpoint for 7 days but no figure or page adds a statement that outside testing happened before release; no figure evidence beyond the already-coded text."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages show research-preview framing and preparedness mitigations (monitoring, classifiers); no access restriction tied to safety in any page image."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 8 mitigation list mentions threat model development for self-exfiltration in preparation for future agentic models, not a protection of this model's weights; no other page states weight security."
+  }
+ }
+}

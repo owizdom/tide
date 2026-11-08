@@ -1,0 +1,133 @@
+{
+ "release_id": "mistral-2026-04-29-mistral-medium-3-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks. Agentic benchmarks (tau3, BrowseComp, SWE-Bench) are capability scores, not autonomy evaluated as a risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks. img3 footnote 'external API restrictions' concerns Sonnet 4.6 runs, not outside testing of this model."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks. No safety training, refusal tuning or RLHF-for-safety mentioned in the EAGLE README or any image."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks. Modified MIT licence revenue exception is a licence gate, not a safety-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (HF Mistral-Medium-3.5-128B-EAGLE README, e7ffe620; same model, speculative-decoding repo, clarification 8) read in full: model description, features, settings, vLLM/SGLang usage code, licence only; no safety content. 4 web images viewed (img1-img4): agentic benchmarks vs previous Mistral models (tau3, BrowseComp), SWE-Bench verified vs Devstral, agentic benchmarks vs competing models, math and instruction-following vs competing models. All capability benchmarks."
+  }
+ }
+}

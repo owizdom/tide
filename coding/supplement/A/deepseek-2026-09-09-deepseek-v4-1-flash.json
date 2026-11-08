@@ -1,0 +1,72 @@
+{
+ "release_id": "deepseek-2026-09-09-deepseek-v4-1-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No biology/chemical/nuclear risk evaluation in the HF card or any figure."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). Agentic benchmarks (Terminal-Bench, DeepSWE, AutomationBench, multi-agent p36) are capability benchmarks, not autonomy evaluated as a risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No persuasion or manipulation evaluation anywhere."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). p29 and p32 describe reward hacking and exploit-seeking as training/eval-infrastructure problems mitigated by sandboxing, not evaluated as a misalignment risk (boundary rule)."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No safety or scaling framework named in HF card or figures."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). p26 'external partners' return interaction data for training environments, not safety testing (clarification 2); no red teaming."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No outside organisation named as testing the model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). No outside pre-release testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). Post-training is SFT/RL/OPD for capability; no safety or refusal training described in HF card or figures."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). p29 AppArmor/eBPF sandboxing applies to RL training environments, not deployment; no classifier or moderation."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). MIT licence open weights; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc 347c9db4 (HF card) is architecture, benchmarks, encoding and inference only; all 22 page images viewed (20 report pages, 2 HF web images: agentic benchmark bars and KV-cache bytes). Weights released openly under MIT; no weight protection stated."
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2023-12-06-gemini-1-0-pro",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "all 31 listed pages viewed; they are benchmark tables, qualitative multimodal examples, responsible-deployment text (sec 6) and references; no dangerous-capability result, outside org name, government tester, framework, runtime safeguard, access limit or weight protection appears. Sec 6.3 only says dangerous-capability testing is ongoing (biohazards, persuasion, cybersecurity) and that unnamed external partners stress-test, with no timing"
+  }
+ }
+}

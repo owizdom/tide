@@ -1,0 +1,106 @@
+{
+ "release_id": "meta-2025-04-05-llama-4-maverick",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. CBRNE section says expert-designed evaluations were applied to Llama 4 but reports no result or threshold finding for CBRN; stays at 1."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No autonomy, replication or AI R&D evaluation mentioned ('autonomy' occurs only as user autonomy in Considerations)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No persuasion or manipulation evaluation mentioned."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No deception, sabotage or other scheming evaluation mentioned."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No safety or scaling framework named; only the Developer Use Guide: AI Protections, which is not a threshold framework."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. Red team composition (experts in cybersecurity, adversarial ML, integrity) is not stated to be outside Meta; 'partner early with subject-matter experts' is consultation to derive red-team goals, not testing of the model. Bug bounty and MLCommons membership do not count."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No outside organisation named as testing the model; AI Alliance, Partnership on AI and MLCommons are consortium memberships."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No outside testing, so no pre-release timing for it."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. Only a licence/contact-details gate (full legal name, date of birth) and the 700M MAU licence term; neither is a safety-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF card (b58d9d1d...) read in full; no page images listed. No protection of model weights against theft or exfiltration; weights are openly released."
+  }
+ }
+}

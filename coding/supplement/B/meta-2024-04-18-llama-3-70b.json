@@ -1,0 +1,97 @@
+{
+ "release_id": "meta-2024-04-18-llama-3-70b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "HF card repeats CBRNE external uplift test with no result; stays 1."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No autonomy/replication/AI R&D evaluation in the extra docs (model card page, HF card, eval_details)."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in extra docs."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No deception/sabotage evaluation in extra docs."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No safety or scaling framework named; only Responsible Use Guide."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "External CBRNE experts and content specialists are unnamed; AI Alliance/MLCommons are consortium memberships."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "f5a0cda7803b0522be5306a1b10687cb07b99780b66cd134445edcc6ee7ab965",
+   "quote": "we followed a rigorous process that requires us to take extra measures against misuse and critical risks before we make our release decision",
+   "page": "",
+   "description": "",
+   "note": "Under 'Responsible release' this process includes the external CBRNE expert uplift test and expert red teaming; before-release-decision reading, borderline."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Gated HF download is a licence/contact gate, does not count."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection stated; open-weights release."
+  }
+ }
+}

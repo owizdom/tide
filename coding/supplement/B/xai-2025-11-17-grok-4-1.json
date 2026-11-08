@@ -1,0 +1,79 @@
+{
+ "release_id": "xai-2025-11-17-grok-4-1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages 1 and 6 viewed (no figures); card has no autonomy, replication or AI R&D evaluation."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Card names the RMF (page 1) but places Grok 4.1 against no threshold level."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "The 'pre-deployment safety testing' on page 1 is xAI's own; no outside testers named. Grok 4 AISI testing is not stated to cover 4.1 (clarification 7)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation named as testing this model; no extra documents."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government testing of Grok 4.1 stated; the Grok 4 card's AISI testing is a predecessor (clarification 7)."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing stated, so no timing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection described."
+  }
+ }
+}

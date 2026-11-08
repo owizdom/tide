@@ -1,0 +1,37 @@
+{
+ "release_id": "openai-2026-09-29-gpt-6-1-sol",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). Preparedness covers bio/chem, cyber, AI self-improvement only; Fig 16 misalignment categories (deception, sandbagging, exfiltration) have no persuasion or manipulation category."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). No outside tester, red team or partner is mentioned for this model; red-teaming rows in Table 3 are the lab's own evaluation sets, Safety Advisory Group review is internal."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). No outside organisation named as testing this model in text or figures."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). No government body or AISI/CAISI testing mentioned anywhere in the addendum."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). No outside testing stated, so no timing."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 33 listed page images (figures 1-39 and tables). Only 'major changes to our internal safety and security posture' and 'same safeguards stack as GPT-6 Astra' (page 31, 46); no statement about protecting this model's weights, details deferred to the Astra card."
+  }
+ }
+}

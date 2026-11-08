@@ -1,0 +1,115 @@
+{
+ "release_id": "meta-2024-07-23-llama-3-1-405b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "quote": "Quantitative analysis of these results of this study show no significant uplift in performance related to usage",
+   "page": "47",
+   "description": "",
+   "note": "CBRNE uplift study with result for Llama 3 incl. 405B: no significant uplift (pp47-48)"
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "quote": "novices and experts using the 405B model demonstrated insignificant uplift over having open access to the",
+   "page": "47",
+   "description": "",
+   "note": "Cyber uplift study with Llama 3 405B, CyberSecEval and attack automation results (pp46-47)"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Ransomware attack automation is cyber per codebook; no replication/AI R&D evaluation anywhere. No relevant disclosure in extra documents or page images."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Spear-phishing persuasiveness (Fig 23) is cyber per boundary rule; stays 0."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No relevant disclosure in extra documents or page images."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No safety or scaling framework named in tech report, HF card, llama.com page or eval note."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "quote": "We also partner with internal and external subject-matter experts in critical risk areas to help build",
+   "page": "48",
+   "description": "",
+   "note": "External SMEs partner in red teaming critical risk areas for Llama 3 (incl 405B); also CBRNE experts collaborated on uplift study"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation named as tester."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No relevant disclosure in extra documents or page images."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "External expert involvement has no stated pre-release timing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Open weights release; no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No relevant disclosure in extra documents or page images."
+  }
+ }
+}

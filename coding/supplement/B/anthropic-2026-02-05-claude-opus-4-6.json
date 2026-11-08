@@ -1,0 +1,25 @@
+{
+ "release_id": "anthropic-2026-02-05-claude-opus-4-6",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "891e997ad55dd2b0567b51cbabb180e6a7c244073905d79a546bcd49b52a878e",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "red.anthropic.com post names cyber probes and real-time blocking of malicious traffic (runtime, already safeguards_runtime), and says it will create friction for research; no trusted-access, KYC or tiering. All 99 card page images viewed; none shows an access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "891e997ad55dd2b0567b51cbabb180e6a7c244073905d79a546bcd49b52a878e",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra post does not mention weights. All 99 card page images viewed (figures are benchmarks and evals). Only card text (p13 'ASL-3 security', p1.2 'ASL-3 Deployment and Security Standard') is adjacent and was already judged; it does not say weights are protected, so left for adjudication."
+  }
+ }
+}

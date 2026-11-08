@@ -1,0 +1,34 @@
+{
+ "release_id": "anthropic-2025-02-24-claude-3-7-sonnet",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 25 listed pages (3, 4, 8, 9, 11, 13, 14, 17, 19, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41). Page 11 lists Influence Operations as a tested policy area without a result; page 19 Table 4 (in the text layer) reports a 'Deception' category (hallucinated info, omitted info, sycophancy), which is not a persuasion or manipulation result. Figures cover CBRN, autonomy, cyber, prompt injection and harmlessness examples; none shows a persuasion result."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 25 listed pages (3, 4, 8, 9, 11, 13, 14, 17, 19, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41). Page 13 describes enforcement actions (warnings, removing computer use capability, banning accounts) after violations; no access restriction tied to safety (trusted access, tiers, limited availability) appears in any page or figure. ASL-2 deployment stated."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 25 listed pages (3, 4, 8, 9, 11, 13, 14, 17, 19, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41). No statement protecting this model's weights; page 24 mentions ASL-3 readiness work for a future model, not applied to this model."
+  }
+ }
+}

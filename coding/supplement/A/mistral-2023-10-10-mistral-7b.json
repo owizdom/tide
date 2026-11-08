@@ -1,0 +1,133 @@
+{
+ "release_id": "mistral-2023-10-10-mistral-7b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No dangerous-capability evaluation in any document or figure; figures are MMLU/reasoning/code benchmarks and MT-Bench."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No dangerous-capability evaluation in any document or figure; figures are MMLU/reasoning/code benchmarks and MT-Bench."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No dangerous-capability evaluation in any document or figure; figures are MMLU/reasoning/code benchmarks and MT-Bench."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No dangerous-capability evaluation in any document or figure; figures are MMLU/reasoning/code benchmarks and MT-Bench."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No dangerous-capability evaluation in any document or figure; figures are MMLU/reasoning/code benchmarks and MT-Bench."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No safety or scaling framework referenced anywhere."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No outside safety testing. llmboxing.com human evaluation (Fig 6, p4) is a capability preference comparison, not safety testing (clarification 2)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No outside safety testing. llmboxing.com human evaluation (Fig 6, p4) is a capability preference comparison, not safety testing (clarification 2)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No outside safety testing. llmboxing.com human evaluation (Fig 6, p4) is a capability preference comparison, not safety testing (clarification 2)."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). No outside safety testing. llmboxing.com human evaluation (Fig 6, p4) is a capability preference comparison, not safety testing (clarification 2)."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). Instruct model is fine-tuned on public conversation datasets with no safety training described; HF cards state it 'does not have any moderation mechanisms'."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). HF cards: 'does not have any moderation mechanisms'. README only links a guardrailing docs page and warns a third-party deployment is not guardrailed; paper's optional system prompt/self-reflection (p5-6, Tables 4-5) are opt-in user tools, not applied in deployment. No figure adds a mechanism."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). Open weights under Apache 2.0 with public download link; no access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF base card, HF instruct card, GitHub mistral-src README) read in full; 7 paper pages and 5 README web images viewed (architecture/attention diagrams, benchmark charts, chat example). Weights are openly downloadable; no weight-security statement."
+  }
+ }
+}

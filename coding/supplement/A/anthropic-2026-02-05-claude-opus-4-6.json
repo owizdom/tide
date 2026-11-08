@@ -1,0 +1,4 @@
+{"release_id": "anthropic-2026-02-05-claude-opus-4-6", "coder": "A", "codebook": "v1.2", "items": {
+ "safeguards_access": {"value": 0, "source": "none", "note": "Zero-days safety report (891e997a) describes cyber probes and possible real-time traffic blocking: runtime enforcement, not an access restriction. All 99 listed page images viewed: benchmark, eval and audit charts; p93 removal of partial-turn prefill is a feature change, not access tied to user identity or tier. No trusted-access or KYC programme."},
+ "safeguards_weights": {"value": 0, "source": "none", "note": "Zero-days report says nothing about weights. Page images p13 ('ASL-3 security, under which Claude Opus 4.6 is deployed') repeat primary-card text already coded; no figure or extra document states a protection of this model's weights against theft or exfiltration."}
+}}

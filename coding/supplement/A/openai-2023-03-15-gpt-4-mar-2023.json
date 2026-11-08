@@ -1,0 +1,43 @@
+{
+ "release_id": "openai-2023-03-15-gpt-4-mar-2023",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. The 33 page images (exam tables, visual-input examples, system-card text, red-team examples, IF heatmap, references) name no safety or scaling framework and no threshold."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images show expert red teamers and ARC early access, but no government body testing GPT-4; 'government' appears only in exam names, usage policy and prompt examples."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images mention 'access controls' generically and usage policies/Terms of Use; no access restriction for this model tied to safety (no trusted access, tiers, or limited availability for safety)."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. No page image states any protection of the model weights against theft or exfiltration."
+  }
+ }
+}

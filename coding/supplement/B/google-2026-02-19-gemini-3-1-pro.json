@@ -1,0 +1,47 @@
+{
+ "release_id": "google-2026-02-19-gemini-3-1-pro",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). The only red teaming is by 'specialist teams who sit outside of the model development team', which codebook counts as inside the lab; no outside testers named."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). No outside organisation named as testing this model; the eval note only credits Artificial Analysis, ARC Prize, Turing for capability scores, which is not safety testing."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). No outside testing stated, so no timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). Safety evaluation table is automated scoring only; no safety training or fine-tuning described, details deferred to the Gemini 3 Pro card."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). 'We continue to deploy mitigations' names no mechanism (no classifier/filter/monitor)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). Distribution lists channels only; no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the web model card, evaluation methodology note and all listed page images (benchmark tables, safety table, FSF table). No weight protection stated."
+  }
+ }
+}

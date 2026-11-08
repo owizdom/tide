@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2026-05-19-gemini-3-5-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No CBRN domain is named; the frontier safety paragraph refers to CCLs generally via Gemini 3.1 Pro and names only cyber."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No autonomy, AI R&D or self-improvement evaluation shown or named."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No persuasion or manipulation evaluation shown or named."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No deception, sabotage or scheming evaluation shown or named."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). Red teaming is by internal 'specialist teams who sit outside of the model development team', which the codebook treats as inside the lab; no outside testers."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No outside organisation named as testing this model; HKUST, ScaleAI, vals.ai, Artificial Analysis and ARC Prize only supplied capability benchmark scores (clarification 2)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No government body testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No outside testing, so no pre-release timing statement."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). Safety deltas vs Gemini 3 Flash are evaluation results; no safety training described for this model (details deferred to the Gemini 3 Flash card, a different model)."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No classifier, filter or monitoring mechanism named; risks and mitigations deferred to the Gemini 3.1 Pro card."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). Distribution channels listed with terms of use; no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Web model card (68c8...) repeats the PDF card text; eval note (4c6d...) lists capability benchmarks only. Page images: cover (p1), capability results table (p4, eval note p3), automated safety deltas and internal red teaming text (p6). No statement on protecting model weights."
+  }
+ }
+}

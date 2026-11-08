@@ -1,0 +1,6 @@
+{"release_id":"xai-2025-07-09-grok-4","coder":"B","codebook":"v1.2","items":{
+"dc_eval_autonomy":{"value":0,"source":"none","doc_sha":"","quote":"","page":"","description":"","note":"No extra documents. Card has no replication, AI R&D or long-horizon autonomy evaluation; rogue-AI exfiltration sentence is an illustration of risk, and CyBench is cyber. Pages 1 and 6 viewed, no figures."},
+"framework_threshold":{"value":1,"source":"none","doc_sha":"","quote":"","page":"","description":"","note":"Card names the RMF (page 1, 'Following our Risk Management Framework') and cites its Section 2 critical steps for filters, but never places Grok 4 against a threshold level."},
+"ext_test_timing_stated":{"value":0,"source":"none","doc_sha":"","quote":"","page":"","description":"","note":"UK AISI evaluations are reported on page 6 text with no statement they happened before release. No extra documents."},
+"safeguards_access":{"value":0,"source":"none","doc_sha":"","quote":"","page":"","description":"","note":"No access restriction described; no extra documents."},
+"safeguards_weights":{"value":0,"source":"none","doc_sha":"","quote":"","page":"","description":"","note":"No weight protection described; weights exfiltration appears only as a hypothetical risk scenario."}}}

@@ -1,0 +1,42 @@
+{
+ "release_id": "anthropic-2025-08-05-claude-opus-4-1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "pages 10-12,14 (alignment attributes, blackmail, welfare, reward hacking figures) show no persuasion/manipulation evaluation; manipulation appears only as prompt-injection wording"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "section 6.6 (p22) ties third-party assessments to Opus 4 and says none new were run for 4.1; external partners only set eval thresholds (p18); clarification 7 excludes predecessor testing"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "no outside organisation named on pages 1,2,7,10-12,14,18-20,22"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "p22: no new pre-deployment evaluations with government partners for this release"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "p22 generic commitment to pre- and post-deployment testing is not tied to this model's testing"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "ASL-3 deployment mentioned (p3) but no access restriction described on listed pages"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no weight-protection statement on listed pages"
+  }
+ }
+}

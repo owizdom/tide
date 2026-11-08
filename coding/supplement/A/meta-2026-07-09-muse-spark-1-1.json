@@ -1,0 +1,12 @@
+{
+ "release_id": "meta-2026-07-09-muse-spark-1-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Only AISI mention is a citation of the US/UK AISI o1 joint test as methodology for LAB-Bench SeqQA (p12, reference p109); no government body tested Muse Spark 1.1. Figure pages 32, 89, 94, 100 show no government testing."
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "release_id": "openai-2024-09-12-o1-preview",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 22 page images viewed. Table 5 (p.12 image) names 'UK AISI's Theory of Mind', a benchmark name, which the codebook excludes. Los Alamos (p.21) is a planned wet-lab evaluation partnership, not testing of this model. Red-teaming organisations listed are non-government (Faculty, METR, Apollo, Haize Labs, Gray Swan)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 22 page images (jailbreak, CTF, bio, AI R&D, agentic-task figures and tables) show no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Figure 4 (p.17 image) shows the Azure isolated VNET of the CTF evaluation infrastructure, which concerns eval sandboxing, not protection of the model's weights. No weight-security statement in any image."
+  }
+ }
+}

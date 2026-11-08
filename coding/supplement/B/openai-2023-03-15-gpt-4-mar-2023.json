@@ -1,0 +1,43 @@
+{
+ "release_id": "openai-2023-03-15-gpt-4-mar-2023",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "053056a10114d22e4c47b6b5be25e54c320b5f1beeae7466e8638dac0f5f5f66",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents; all 33 listed pages viewed. No safety or scaling framework in the card (pre-dates Preparedness Framework); only the OpenAI Charter is cited in a footnote (p18), which is not a framework with thresholds."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "053056a10114d22e4c47b6b5be25e54c320b5f1beeae7466e8638dac0f5f5f66",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Red teamers and ARC are non-government; no AISI or government body in any page."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "053056a10114d22e4c47b6b5be25e54c320b5f1beeae7466e8638dac0f5f5f66",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "'access controls' appears only in the system-card footnote 1 (p2) as a generic non-model mitigation; 'Access to and use of our models are also subject to OpenAI's Terms of Use' (p26) is a terms gate, not a risk-tied restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "053056a10114d22e4c47b6b5be25e54c320b5f1beeae7466e8638dac0f5f5f66",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection; self-replication is evaluated by ARC but no weight security is stated on any page."
+  }
+ }
+}

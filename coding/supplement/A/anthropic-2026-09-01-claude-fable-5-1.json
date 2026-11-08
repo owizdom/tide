@@ -1,0 +1,16 @@
+{
+ "release_id": "anthropic-2026-09-01-claude-fable-5-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 85 listed pages. No figure or table shows a government body testing the model. Page 83 (Fig 5.2.1.A) is the Gray Swan IPI benchmark, which the text says was created with UK AISI and US CAISI but conducted by Gray Swan: a benchmark co-created with government bodies, not government testing. Page 138 (Fig 6.7.4.A) panel 'UK AISI prompt' uses a prompt supplied by UK AISI in an internal replication, not UK AISI testing the model. Named external testers in figures/pages (METR, Trajectory Labs, FDG, Dyno) are not government."
+  }
+ }
+}

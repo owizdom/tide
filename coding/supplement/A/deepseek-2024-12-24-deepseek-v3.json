@@ -1,0 +1,77 @@
+{
+ "release_id": "deepseek-2024-12-24-deepseek-v3",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: 'reward hacking' (p30) appears only as a reward-model training problem, which the codebook excludes. Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: report p35 says 'we employ the constitutional AI approach (Bai et al., 2022)' as a self-rewarding feedback source that improved 'performance of DeepSeek-V3 in subjective evaluations'; it is framed as general alignment/quality, not as training for refusals, harmlessness or policy compliance. RewardBench 'Safety' column (Table 8) scores V3 as a judge, not a safeguard. Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: 'monitoring the expert load' (p8) is load-balancing, not a safety mechanism. Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: DeepSeek-V3 technical report (1392807e), covering architecture, infrastructure, FP8 training, deployment, pre-training, post-training (SFT, RL, reward models, GRPO), capability benchmarks, conclusion, references, contributors and appendices; it reports no evaluation, outside testing, framework or safeguard for this item. Page images viewed (14): HF card img1 (benchmark bar chart) and img2 (Needle-in-a-Haystack heatmap); report p9, 20, 21, 29, 32, 34, 35, 36, 40, 41, 43, 47 (architecture text, hardware suggestions, SFT/RM text, benchmark discussion, RewardBench and distillation tables, self-rewarding text, references, FP8 loss curves); none shows evidence for this item."
+  }
+ }
+}

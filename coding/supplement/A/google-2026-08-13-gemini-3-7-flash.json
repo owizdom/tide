@@ -1,0 +1,47 @@
+{
+ "release_id": "google-2026-08-13-gemini-3-7-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). Red teaming is by 'specialist teams who sit outside of the model development team' (internal); CBRN 'Expert red teaming' is not tied to outside parties. Eval note cites third-party leaderboards for capability benchmarks only (clarification 2)."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). No outside testing organisation named; Datacurve, Artificial Analysis and benchmark authors appear only as capability-leaderboard sources."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). No government body appears in either document or any page image."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). No outside testing is reported, so no pre-release timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). 'continually working to improve jailbreak resistance' and 'strengthened the mitigations' name no safety training or fine-tuning for this model; training details are deferred to the Gemini 3.6 Flash card."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). 'shipping with updated safeguards to prevent misuse in the domains of ... CBRN and cyber offense' names no mechanism (classifier, filter, monitor). 'content policy filters' in the eval note refers to Sonnet 5."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). Distribution channels and API terms only; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs 97721ff5 (PDF model card, same text as the primary web card) and 7971771c (eval methodology note) read in full; all 8 page images viewed (97721ff5 p1,5,6,7,8; 7971771c p1,3,4). No statement on protection of model weights in either document or any page image."
+  }
+ }
+}

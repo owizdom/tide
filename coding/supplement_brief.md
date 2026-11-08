@@ -2,14 +2,14 @@
 
 You are one of two independent coders (A or B). Never open coding/passes/, coding/supplement/<other letter>/, coding/quarantine/, coding/pilot/ or another coder's scratch folder.
 
-1. Read /Users/macbook/Desktop/code/tide/coding/codebook.md in full, including clarifications 1-7 at the end. Clarifications 4 and 5 are why this pass exists.
+1. Read /Users/macbook/Desktop/code/tide/coding/codebook.md in full, including every clarification at the end (1 to 9). Clarifications 4 and 5 are why this pass exists.
 2. Your work file lists releases. For each release it gives:
    - the open items: items whose current code is below the top level, with the current value;
    - extra launch documents (text files) that nobody has coded yet;
    - page images (PNG) from every launch document: every page that holds a figure, and every page whose text mentions an open item.
 3. For each release:
    - Read every extra document's text in full, to the last line.
-   - Look at every listed page image with the Read tool. Do not skip any.
+   - Look at every listed page image with the Read tool. Do not skip any. If any text in a figure is too small to read, re-render that page at 300 dpi from the document PDF into your scratch folder (pdftoppm -r 300 -png -singlefile -f N -l N <pdf> <out>) and read that instead. The PDF for a doc sha is ~/.tide-cache/<sha>.pdf or ~/.tide-cache/<sha>.html (check the first bytes).
    - For each open item, decide the highest level the codebook supports from the extra documents and the page images. Values never go below the current value.
 4. Write coding/supplement/<letter>/<release_id>.json:
    {"release_id": "...", "coder": "<A|B>", "codebook": "v1.2", "items": {"<open item>": {"value": <int>, "source": "none|text|figure", "doc_sha": "<sha256 of the document the evidence is in>", "quote": "<verbatim span from that document's text layer>", "page": "<page number or imgN>", "description": "<what the figure shows, for figure evidence>", "note": "<short reason>"}}}

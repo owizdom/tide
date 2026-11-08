@@ -1,0 +1,77 @@
+{
+ "release_id": "mistral-2025-12-02-mistral-large-3",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item; the instruct chart footer 'Evaluations judged by humans conducted by a third party' is a preference comparison, not safety or risk testing (clarification 2)"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item; the instruct chart footer 'Evaluations judged by humans conducted by a third party' is a preference comparison, not safety or risk testing (clarification 2)"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item; the instruct chart footer 'Evaluations judged by humans conducted by a third party' is a preference comparison, not safety or risk testing (clarification 2)"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "primary card text and the 4 extra HF cards (base, NVFP4, Eagle, BF16) read in full; all 9 chart images viewed (Base Model Benchmark Comparison, Model Performance Comparison (Instruct), LMArena ELO Score: capability and preference only); no evidence for this item"
+  }
+ }
+}

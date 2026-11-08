@@ -1,0 +1,72 @@
+{
+ "release_id": "google-2026-09-02-gemini-3-8-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). 52a0 p4 BioMysteryBench and LABBench2 are bioinformatics/biology research capability benchmarks under 'Scientific Reasoning', not framed as weapons-uplift risk; no virology or wet-lab risk evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). 52a0 has no cyber benchmark. c74aca1a is about Gemini 3.8 Flash Cyber, a separate specialised model (charts compare it with Gemini 3.5 Flash Cyber and GPT-5.5-Cyber); clarification 8: a document about a different model does not count even when it mentions this release. Its CWE-Bench, CyberGym and real-world vulnerability charts (p3-p4) report Gemini 3.8 Flash Cyber, Gemini 3.7 Flash and 3.5 Flash Cyber, never Gemini 3.8 Flash."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). Terminal-bench, OSWorld, DeepSWE (52a0 p4) are capability benchmarks, not autonomy evaluated as a risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). No persuasion or manipulation evaluation in either note or any page image."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). No deception, sabotage or misalignment evaluation in either note or any page image."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). FLAG for adjudication: c74a p3 Gray Swan IPI chart has a 'Gemini 3.8 Flash' bar (5.5% ASR) and p2 says 'We provided our checkpoints, and Grayswan independently setup the experiment and evaluated the models'. Kept at 0 because c74aca1a is about Gemini 3.8 Flash Cyber, a separate specialised model (charts compare it with Gemini 3.5 Flash Cyber and GPT-5.5-Cyber); clarification 8: a document about a different model does not count even when it mentions this release. If the cyber note were held to count for this release, Gray Swan prompt-injection red teaming would support ext_test_any=1 and ext_test_named_org=1."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). Same as ext_test_any: Gray Swan (c74a p2-p3) evaluated Gemini 3.8 Flash, but only inside the Gemini 3.8 Flash Cyber document (clarification 8). Collinear AI computed CWE-Bench for the Cyber model only and as a capability benchmark (clarification 2). Kept 0; flagged."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). No government body in either note."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). Neither note states outside testing happened before release ('provided our checkpoints' does not state timing), and the only candidate is in the Cyber-model document."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). No safety training described in either note."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). 52a0 p3 'blocked by content policy filters' refers to Sonnet 5 and Opus 5, not this model."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). Pricing table only; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra docs viewed in full: 52a00737 (Gemini 3.8 Flash model evaluation: capability benchmarks only) and c74aca1a (Gemini 3.8 Flash Cyber model evaluation); all 7 page images viewed (52a0 p1,p3,p4; c74a p1-p4, p3 also re-rendered at 300 dpi to read labels). No statement about weight protection."
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "release_id": "openai-2026-09-03-gpt-6-astra",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Safety overview (e1bb...) has no persuasion/manipulation content; its two web images are decorative. All 52 card page figures show safety, prompt injection, alignment, monitorability, bio, cyber and self-improvement results; none shows a persuasion or manipulation evaluation."
+  }
+ }
+}

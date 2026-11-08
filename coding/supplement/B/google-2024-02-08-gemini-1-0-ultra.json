@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2024-02-08-gemini-1-0-ultra",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; section 6.3 says assurance evaluations include 'ongoing testing for dangerous capabilities such as potential biohazards' but reports no result for Ultra, so stays 1"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; section 6.3 names cybersecurity in ongoing dangerous-capability testing with no result, stays 1"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item"
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; section 6.3 names persuasion in ongoing dangerous-capability testing with no result, stays 1"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; no safety or scaling framework with thresholds referenced (Responsibility and Safety Council and model policies are not threshold frameworks)"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; section 6.3 says 'partners outside of Google' stress-test the models but names none (White House Commitments is a document, not a tester)"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; no government body tested the model per the text"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; external evaluations are described without any statement that they preceded release"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item; only training-data safety filtering and instruction tuning, no inference-time classifier or filter named"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no extra documents; all 33 listed pages viewed (figures and tables are capability benchmarks, qualitative examples, Table 6 Pro safety win-rate, Table 14 factuality) and section 6 read in full; nothing here raises this item"
+  }
+ }
+}

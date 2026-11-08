@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2025-03-25-gemini-2-5-pro-mar-2025",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Card's only dangerous-capability mention is FSF evaluations and a future report 'coming soon'; no domain named. Pages 1, 6, 7 viewed: no figure with such results (safety table is content/tone safety only)."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No cyber domain named or result on pages 1, 6, 7."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No autonomy domain named."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion domain named."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No scheming domain named."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Stays 1: FSF named, no threshold or CCL determination for this model on any page."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Human red teaming is by 'specialist teams'; assurance evaluators 'sit outside of the model development team' are internal per codebook; no outside organisation."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No named outside organisation."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Red teaming 'prior to release' is not tied to outside testers."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction stated."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "db680c50b76dd435a846e1b28e4420065ac1cbd3c3ad8ed22baa097c17ed2729",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection stated."
+  }
+ }
+}

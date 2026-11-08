@@ -1,0 +1,32 @@
+{
+ "release_id": "openai-2025-12-11-gpt-5-2",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "all 19 page images reviewed (tables, hallucination, bio, cyber, self-improvement bar charts); no persuasion or manipulation evaluation anywhere"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "only outside testers named are Irregular and Apollo Research; no government body in text or figures"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Irregular and Apollo evaluations are described with no statement of when relative to release"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no access restriction, trusted access or tiering described; figures are benchmark charts"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "card defers to GPT-5 system card for safeguards; no weight protection stated here"
+  }
+ }
+}

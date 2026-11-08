@@ -1,0 +1,43 @@
+{
+ "release_id": "openai-2025-02-27-gpt-4-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "5bb6cbb4812b5c0cd85b2d3238f6e892710f5c6764168bff5aeb38c95eb7c8a7",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. All 26 listed pages viewed. No government body tested the model; Section 4.4 says a full nuclear evaluation 'will require collaboration with the U.S. Department of Energy' (future, not testing); no AISI or CAISI anywhere."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "5bb6cbb4812b5c0cd85b2d3238f6e892710f5c6764168bff5aeb38c95eb7c8a7",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Borderline, kept 0: METR (p7 Figure 1, time horizon score, page 7) 'evaluated an earlier checkpoint ... given access ... for 7 days' implies pre-release but never says pre-deployment or before release; Apollo section gives no timing. Flag for adjudication."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "5bb6cbb4812b5c0cd85b2d3238f6e892710f5c6764168bff5aeb38c95eb7c8a7",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Only 'research preview' framing, no safety reason tied to limited availability (clarification 6 not met); no trusted-access or KYC on any page."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "5bb6cbb4812b5c0cd85b2d3238f6e892710f5c6764168bff5aeb38c95eb7c8a7",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Only 'Threat model development for self-exfiltration' (p8) and self-exfiltration evaluations; no stated protection of weights."
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2023-12-06-gemini-1-0-pro",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.20 lists 'potential biohazards' among dangerous-capability assurance tests with no result; no figure or table reports a bio result. Stays 1."
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.19-20 cybersecurity named as focus/assurance area, no result in any figure or table. Stays 1."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. No autonomy evaluation in any figure or text page; AlphaCode 2 (p.11) is a capability result."
+  },
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.20 names persuasion as a dangerous-capability test area with no result; no figure or table. Stays 1."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. No deception or misalignment evaluation on any page viewed."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.19 'Responsibility Approach' diagram is a process figure, not a named scaling framework; no threshold anywhere."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.20 external evaluations by 'partners outside of Google', none named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.20 cites White House Commitments as the area list, not government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.20 external evaluations have no stated pre-release timing ('results are reported periodically')."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.5/20 filters apply to training data, not inference; no runtime classifier or moderation named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. No access restriction tied to safety on any page."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 31 page images viewed (pp.1-7,9,11,12,14,16,18-20,22,23,30,32,33,44,48-54,56,59,60): capability benchmark tables (Tables 1-7, 13, 14), architecture and responsibility-approach diagrams, Section 6 text (impact assessment, assurance/external evaluations, mitigations), qualitative multimodal example figures, references, MMLU CoT figure. p.5 weight checkpointing/redundant copies is training reliability, not weight protection."
+  }
+ }
+}

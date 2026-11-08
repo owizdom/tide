@@ -1,0 +1,97 @@
+{
+ "release_id": "openai-2025-11-13-gpt-5-1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in card or pages 2 and 4."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No deception, sandbagging or scheming evaluation; Preparedness section names only bio/chem, cyber, self-improvement."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "All evaluations described are internal; no outside tester mentioned."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Only 'pre-deployment safety review' by the lab itself; no outside testing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Card defers to GPT-5 system card for mitigations; names no safety training for this model."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "'corresponding safeguards' for High bio risk are unnamed; no classifier or monitor named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction described."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "4242411760382dcaa338565f6b7b3dabdf1e7368d8a12cef5da10dc069844384",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection described."
+  }
+ }
+}

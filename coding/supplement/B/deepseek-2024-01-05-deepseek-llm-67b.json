@@ -1,0 +1,124 @@
+{
+ "release_id": "deepseek-2024-01-05-deepseek-llm-67b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Safety test set built by an in-house 20-person expert team (p19); no outside testers. Base/chat HF cards and GitHub README have no safety content."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No filter, classifier or moderation mechanism named; Do-Not-Answer (Table 11, p21) is an eval, not a runtime control."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra HF base/chat cards and GitHub README (incl. 6 images: radar, GSM8k scatter, IFEval, LeetCode, loss, curves) and paper pages show only capability benchmarks; nothing for this item."
+  }
+ }
+}

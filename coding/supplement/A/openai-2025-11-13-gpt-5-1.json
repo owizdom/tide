@@ -1,0 +1,97 @@
+{
+ "release_id": "openai-2025-11-13-gpt-5-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No persuasion evaluation shown."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No scheming evaluation shown."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No outside testing mentioned on either page."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No outside organisation named."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No government testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. 'pre-deployment safety review' on p2 refers to internal baseline evaluations, not outside testing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. P2 says mitigations are 'largely the same as we described in the GPT-5 System Card' without naming safety training; this is primary-card text already coded, and no figure or extra document adds a mechanism."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No runtime classifier or monitor named on the listed pages."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No access restriction tied to safety on the listed pages."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no figures. Page images p2 (introduction, disallowed content intro) and p4 (mental health, StrongReject table, vision intro) are text and one jailbreak table. No weight protection statement on the listed pages."
+  }
+ }
+}

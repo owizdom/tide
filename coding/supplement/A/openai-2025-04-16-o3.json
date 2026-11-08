@@ -1,0 +1,6 @@
+{"release_id": "openai-2025-04-16-o3", "coder": "A", "codebook": "v1.2", "items": {
+ "dc_eval_persuasion": {"value": 0, "source": "none", "note": "No extra documents. All 25 page images viewed. No figure or table reports a persuasion, manipulation or influence result; Fig 24 'Covertly produced false ranking' (Apollo, against user) is scheming/deception, and the Preparedness section lists only bio/chem, cyber and self-improvement."},
+ "ext_test_government": {"value": 0, "source": "none", "note": "All 25 page images viewed. Named outside testers are METR, Apollo Research and Pattern Labs (p8-10); no government body or AISI appears in any figure, table or page."},
+ "safeguards_access": {"value": 0, "source": "none", "note": "No page image shows a trusted-access programme, KYC, tiering or safety-based limited availability. p27 safeguards are monitors and training-data filtering (runtime/training)."},
+ "safeguards_weights": {"value": 0, "source": "none", "note": "No page image states protection of o3's weights. Fig 24 'Self-Exfiltration' row is an Apollo behavioural eval of the model, not weight security."}
+}}

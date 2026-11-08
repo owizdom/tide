@@ -1,0 +1,12 @@
+{
+ "release_id": "anthropic-2026-09-22-claude-opus-5-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "safeguards_weights": {
+   "source": "none",
+   "note": "all 96 pages viewed; figures cover evals, no weight-theft protection shown. Exfiltration appears only as a misalignment audit metric and weights preservation only as a welfare intervention, neither is a stated protection of weights",
+   "value": 0
+  }
+ }
+}

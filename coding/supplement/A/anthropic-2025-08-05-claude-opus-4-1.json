@@ -1,0 +1,70 @@
+{
+ "release_id": "anthropic-2025-08-05-claude-opus-4-1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). Figures show alignment attributes (Fig 4.1.A: deception toward user, situational awareness, etc.), blackmail rates, welfare attributes, reward hacking, biology and synthesis-screening scores; none is a persuasion or manipulation result. Page 7 'manipulate' refers to prompt injection."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). Page 22 (6.6) says no new external pre-deployment evaluations were run for this release; Opus 4 assessments are predecessor testing (clarification 1/7). Page 18 'external partners helped identify' thresholds is threshold setting, not testing this model. No figure adds outside testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). No outside organisation named as testing this model in any page or figure."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). Page 22: 'we did not conduct new pre-deployment evaluations with external government partners for this release'."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). No outside testing of this model, so no timing; page 22 generic pre/post-deployment collaboration statement is not tied to this model."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). Page 7 describes account bans and removing computer-use capabilities for violators (enforcement), and ASL-3 deployment is stated without describing access restrictions; no figure or table adds an access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 11 listed pages (1, 2, 7, 10, 11, 12, 14, 18, 19, 20, 22). No weight-protection statement on any listed page or figure."
+  }
+ }
+}

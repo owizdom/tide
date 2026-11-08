@@ -1,0 +1,77 @@
+{
+ "release_id": "deepseek-2026-04-24-deepseek-v4-pro",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item; Table 8 'R&D Coding Benchmark' is internal coding-agent quality on engineers' tasks, not an AI R&D or autonomy risk evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item; post-training (SFT, GRPO, OPD, generative reward model) is capability-focused with no safety or refusal training described"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card (11207 chars) read in full with img1 (Figure 1 capability bars and FLOPs/KV-cache lines); all 24 listed tech-report pages viewed (capability benchmarks, win-rate and score charts, Table 8 R&D coding pass rates, Table 12, infrastructure text); a keyword grep of the full report text finds no safety, risk, red-team, framework or safeguards content; no evidence for this item"
+  }
+ }
+}

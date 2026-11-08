@@ -1,0 +1,61 @@
+{
+ "release_id": "xai-2026-02-17-grok-4-20",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. 'autonomous' on p1 and p6 refers to high-risk application use and autonomous cyberattacks (cyber, not autonomy). No figure or table reports autonomy, replication or AI R&D results."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. FAIF is named (p1) and the model is released 'with safeguards appropriate for its capability threshold' (p2) without naming a threshold or level the model sits at; no table places it against a named threshold."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. Third-party evaluators (p2, p4) are unnamed."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. No government body named as tester."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. Public availability via apps and API under the Acceptable Use Policy; no safety-tied access restriction in any page or table."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Looked at all 6 listed pages (1,2,3,4,6,8): intro, release process, malicious-use Table 1 (refusals, AgentHarm, AgentDojo), loss-of-control Table 2 (MASK, sycophancy, HLE calibration), CBRN/cyber evaluation text, references. No weight-protection statement."
+  }
+ }
+}

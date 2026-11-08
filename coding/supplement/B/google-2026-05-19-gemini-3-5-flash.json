@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2026-05-19-gemini-3-5-flash",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: Frontier Safety Assessment says no CCL reached but names only cyber; no CBRN domain named. Figures are capability benchmarks only."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No autonomy/ML R&D domain named; benchmarks (Terminal-bench, SWE-Bench Pro, OSWorld) are general agentic capability."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No persuasion or manipulation anywhere in the three documents."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No deception or scheming evaluation in the documents."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: Red teaming is by 'specialist teams who sit outside of the model development team': internal per codebook; no outside tester."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: Eval note names HKUST, ScaleAI, vals.ai, Artificial Analysis, Andon Labs, ARC Prize only as benchmark result sources (capability scores), not safety testing (clarification 2)."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No government body."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No outside testing stated."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: Risks and Mitigations deferred to Gemini 3.1 Pro card; no safety training described for this model."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No runtime mechanism named; mitigations deferred."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: Distribution channels listed with no safety reason."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "68c8162745c777df57984321f162e7b26153479a2619c7af40208d56e66054a3",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read web model card in full and eval note (benchmark methodology) in full plus pages 1,4,6 of primary and p3 of eval note: No weight protection stated."
+  }
+ }
+}

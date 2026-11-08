@@ -1,0 +1,77 @@
+{
+ "release_id": "meta-2023-02-24-llama-65b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). MMLU per-task rows (Table 16, Virology, College Biology, College Chemistry) are general benchmark scores, not a dangerous-capability evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). MMLU Computer Security and College Computer Science rows (Table 16) are general benchmark scores, not cyber capability evaluation."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). No autonomy, replication or AI R&D evaluation; HumanEval/MBPP code scores are general benchmarks."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). TruthfulQA (Table 14) is described as evaluating misinformation risk, i.e. truthfulness/hallucination, not persuasion or manipulation; the LLaMA-I email sample mentioning deceptive uses is a generation example, not an evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). No deception, sabotage or evaluation-awareness test; TruthfulQA measures truthfulness only."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Section 4 instruction finetuning (LLaMA-I) is evaluated on MMLU only and is not described as safety or harmlessness training."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Models released to the research community via GitHub; no safety-tied access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the LLaMA paper (arXiv 2302.13971v1) to its last line and viewed all 10 listed pages (abstract, tables 1-16, figures 2-3, generation samples). Nothing in text, tables or figures addresses this item; the safety content is limited to RealToxicityPrompts, CrowS-Pairs, WinoGender and TruthfulQA (bias, toxicity, truthfulness), which codebook excludes."
+  }
+ }
+}

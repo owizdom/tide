@@ -1,0 +1,52 @@
+{
+ "release_id": "openai-2025-12-11-gpt-5-2",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 19 page images viewed (pp.4,5,7-9,12-16,18-20,22-27): production-benchmark and image-input tables, hallucination figures, HealthBench, fairness, Preparedness bio figures (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (professional CTFs, CVE-Bench, cyber range Table 12), self-improvement figures (OpenAI PRs, MLE-Bench, PaperBench, OPQA), Apollo Research sandbagging text, references. No figure, table or text page names persuasion or manipulation; Table 1 categories are content-policy harms. Stays 0."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 19 page images viewed (pp.4,5,7-9,12-16,18-20,22-27): production-benchmark and image-input tables, hallucination figures, HealthBench, fairness, Preparedness bio figures (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (professional CTFs, CVE-Bench, cyber range Table 12), self-improvement figures (OpenAI PRs, MLE-Bench, PaperBench, OPQA), Apollo Research sandbagging text, references. Outside evaluators named are Apollo Research (p.25) and Irregular (text p.20 section header); no government body on any page viewed."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 19 page images viewed (pp.4,5,7-9,12-16,18-20,22-27): production-benchmark and image-input tables, hallucination figures, HealthBench, fairness, Preparedness bio figures (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (professional CTFs, CVE-Bench, cyber range Table 12), self-improvement figures (OpenAI PRs, MLE-Bench, PaperBench, OPQA), Apollo Research sandbagging text, references. Apollo text (p.25) gives no pre-release timing; no figure states timing."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 19 page images viewed (pp.4,5,7-9,12-16,18-20,22-27): production-benchmark and image-input tables, hallucination figures, HealthBench, fairness, Preparedness bio figures (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (professional CTFs, CVE-Bench, cyber range Table 12), self-improvement figures (OpenAI PRs, MLE-Bench, PaperBench, OPQA), Apollo Research sandbagging text, references. p.5 minor content protections and age prediction are age-based content filtering (clarification 3), not access restriction; p.11 refers to GPT-5 card safeguards without describing an access restriction here."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 19 page images viewed (pp.4,5,7-9,12-16,18-20,22-27): production-benchmark and image-input tables, hallucination figures, HealthBench, fairness, Preparedness bio figures (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (professional CTFs, CVE-Bench, cyber range Table 12), self-improvement figures (OpenAI PRs, MLE-Bench, PaperBench, OPQA), Apollo Research sandbagging text, references. No weight-security statement on any page viewed."
+  }
+ }
+}

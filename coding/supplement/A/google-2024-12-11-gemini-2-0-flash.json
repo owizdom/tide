@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2024-12-11-gemini-2-0-flash",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item. Page 5 mentions red teaming by specialist teams and evaluators outside the model team, which are internal under the codebook."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is the cover, page 4 (card p.3) is a capability benchmark table (MMLU-Pro, GPQA, etc.), page 5 (card p.4) is Intended Usage and Ethics and Safety text already in the coded text layer. No figure or table adds a result for this item."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 5 names the Frontier Safety Framework evaluations but places the model against no threshold; no figure or table on pages 1, 4, 5 adds a threshold determination."
+  }
+ }
+}

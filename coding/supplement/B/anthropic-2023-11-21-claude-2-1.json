@@ -1,0 +1,72 @@
+{
+ "release_id": "anthropic-2023-11-21-claude-2-1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Appendix covers only long-context recall and honesty/hallucination evals (figures are accuracy, not misalignment risk); Claude 2 card evals and ARC/red-team testing are tied to Claude 2, and the appendix only says 'In most other respects, Claude 2.1 remains similar to Claude 2', not that results carry over (clarification 1)"
+  }
+ }
+}

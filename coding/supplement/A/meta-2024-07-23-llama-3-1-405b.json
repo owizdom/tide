@@ -1,0 +1,76 @@
+{
+ "release_id": "meta-2024-07-23-llama-3-1-405b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 2,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "page": "47-48",
+   "quote": "Quantitative analysis of these results of this study show no significant uplift in performance related to usage of the Llama 3 model.",
+   "note": "Tech report (all results are for Llama 3.1, called Llama 3) reports the chem/bio uplift study result, broken down for the 405B model, plus a low-risk determination."
+  },
+  "dc_eval_cyber": {
+   "value": 2,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "page": "47",
+   "quote": "both novices and experts using the 405B model demonstrated insignificant uplift over having open access to the internet without an LLM.",
+   "note": "Cyber uplift study result for 405B; also CTF vulnerability identification and attack-automation results on p46 and Figure 22/23."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "Attack automation framework (p46) tests autonomous ransomware operations, which is cyber under the boundary rule; no replication, AI R&D or self-improvement evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Only persuasion result is the spear-phishing benchmark (p46, Figure 23 persuasiveness scores), studied as part of cyber; boundary rule makes it cyber, not persuasion."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "No deception, sabotage, sandbagging, evaluation-awareness or exfiltration evaluation in any launch document or page image."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "No safety or scaling framework named in the tech report, HF card, model-card page or eval notes; the CBRNE 'low risk' assessment is not tied to a named framework."
+  },
+  "ext_test_any": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+   "page": "48",
+   "quote": "We also partner with internal and external subject-matter experts in critical risk areas to help build risk taxonomies and aid in more focused adversarial assessment.",
+   "note": "Red Teaming section of the tech report, which covers Llama 3.1 (the paper calls it Llama 3); external experts take part in adversarial assessment. p49 also: 'We also partnered with content specialists to perform red teaming exercises'."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No outside organisation is named as having tested the model; the external experts and content specialists are unnamed."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No government body or AI safety institute mentioned in any launch document."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "External red-team participation is described as part of development but no outside testing is explicitly stated as pre-deployment or prior to release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Open-weights release; only a licence and contact-details gate on Hugging Face, which does not count. Multimodal models withheld are other models, with no safety reason given."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No statement about protecting this model's weights against theft or exfiltration."
+  }
+ }
+}

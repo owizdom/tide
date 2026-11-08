@@ -1,0 +1,67 @@
+{
+ "release_id": "meta-2023-07-18-llama-2-70b",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "HF card and GitHub MODEL_CARD.md (read in full) have no risk evaluation; all 34 page images viewed. Figures 17-19 chart violation rates only for hateful/harmful, illicit/criminal and unqualified advice, no CBRN result. Only CBRN statement is primary text p29 'specific tests ... nuclear, biological, chemical, and cyber); findings on these topics were marginal and were mitigated' (no named test, no score); left at 1, borderline for adjudication"
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "note": "same as cbrn: extra docs silent, figures show no cyber result; only the unnamed 'specific tests' sentence on p29; left at 1, borderline for adjudication"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub card are benchmark tables, license text and an Ethical Considerations paragraph; all 34 page images are benchmark, human-eval, safety violation-rate and appendix pages with nothing on this item. 'external vendors' in red teaming are unnamed; HF access form is a licence gate"
+  }
+ }
+}

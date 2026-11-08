@@ -1,0 +1,52 @@
+{
+ "release_id": "xai-2026-07-08-grok-4-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item; Epistemic Bias (12.1) measures one-sided framing of factual answers, a neutrality metric, not persuasion or influence-operation capability"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item; MASK-Rectified dishonesty 0.67% (12.2) is framed as a reliability/behaviour propensity and 'release indicator', not as misalignment or loss-of-control risk; the R&D page mentions reward hacking only as an example task. Borderline, left at 0"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "EU training-content summary (16995 chars) read in full and pages 3-4 viewed (data sources and processing only); primary card pages 4, 8, 9, 17 viewed (intro text, SWE benchmark bar charts, R&D scatter); no evidence for this item"
+  }
+ }
+}

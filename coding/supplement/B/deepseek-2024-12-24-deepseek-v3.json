@@ -1,0 +1,80 @@
+{
+ "release_id": "deepseek-2024-12-24-deepseek-v3",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item; 'self-improvement of LLMs' is a research aspiration in 5.4.2, not an evaluated risk"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item; reward hacking appears only as a reward-model training concern ('mitigate the risk of reward hacking'), not a misalignment evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "safeguards_training": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "1392807ef6297deefc421cea6633af0b819e15a0b7a4a6b0adba4bccdf0ab273",
+   "quote": "we employ the constitutional AI approach (Bai et al., 2022), leveraging",
+   "page": "35",
+   "note": "section 5.4.2 says constitutional AI feedback was used in development with 'notable alignment effects'; the codebook lists constitutional training under safeguards_training. Borderline: the report frames it as improving subjective-evaluation performance, not stating refusals or harmlessness explicitly. Raised 0 -> 1."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item; the RewardBench 'Safety' column in Table 8 scores DeepSeek-V3 as a judge, not a deployed filter"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "V3 technical report (195k chars) read through its prose, sections 1-6, appendices and references, and all 14 listed images/pages viewed (Figure 1 benchmark bars, needle-in-a-haystack heatmap, infrastructure and reference pages, Table 8 RewardBench); no evidence for this item"
+  }
+ }
+}

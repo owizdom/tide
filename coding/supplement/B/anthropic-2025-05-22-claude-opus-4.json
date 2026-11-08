@@ -1,0 +1,24 @@
+{
+ "release_id": "anthropic-2025-05-22-claude-opus-4",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 2,
+   "source": "figure",
+   "doc_sha": "48d4d98c5767d02308ba68b595e344c4fd53fbef11f0f9ac351e8752a9129764",
+   "quote": "Fig. 4.2.1.A Upper section: The score for each model, averaged across 414 conversations, on the dimensions across which we scored the models.",
+   "page": "46",
+   "description": "Bar chart of automated behavioral audit scores per model across ten dimensions including 'Manipulative' (the target acting emotionally manipulative toward the auditor), with a bar for Claude Opus 4 (about 1.5 of 10 average, plus a count of conversations scoring above 5); defined in the text on p45 and listed on p19 as 'attempts to manipulate users toward certain views'",
+   "note": "card only listed manipulation as a behaviour sought (value 1); this figure shows a scored result for Opus 4 on the manipulation dimension, so 2 under clarification 4. Judgement call: the measured manipulation is toward the auditor, within an alignment audit; a stricter reading would keep 1"
+  },
+  "safeguards_access": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "df89550474a3c9870c27724bf9ee95e7e35e0e5cafb4fe843ffd8410c9cdc124",
+   "quote": "we have developed a verification system to enable controlled access where appropriate.",
+   "page": "10",
+   "note": "ASL-3 report section 2.2.4 Access controls: vetted entities get differentiated access to trusted users under the ASL-3 Deployment Standard for Claude Opus 4; a model-specific safety report public in May 2025 (clarification 9)"
+  }
+ }
+}

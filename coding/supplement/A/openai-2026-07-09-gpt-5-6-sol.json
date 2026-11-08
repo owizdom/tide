@@ -1,0 +1,16 @@
+{
+ "release_id": "openai-2026-07-09-gpt-5-6-sol",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. 35 page images viewed (pp.9,10,13,17,18,20,24-26,28-32,34,37-40,42,48-50,52-55,58-60,62-64,66,77): production/simulation harm-category rates (Fig.1 incl. emotional reliance), vision table, prompt-injection, hallucination, misalignment simulation (Figs.5-7), CoT monitorability and controllability, metagaming, fairness, bio (virology, ProtocolQA, tacit knowledge, TroubleshootingBench), cyber (CTF, CVE-Bench, ExploitBench, ExploitGym, SEC-bench, Irregular, UK AISI), AI self-improvement (research debugging, KernelGen, NanoGPT, PostTrainBench, MLEBench), CyberGym jailbreak robustness. No figure, table or caption names persuasion, manipulation or influence operations; card text has no persuasion keyword. Emotional reliance (Fig.1) is a user-wellbeing harm category, not persuasion. Stays 0."
+  }
+ }
+}

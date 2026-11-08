@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2026-07-21-gemini-3-6-flash",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "MLE-Bench appears as a coding capability benchmark, not framed as an AI R&D or autonomy risk evaluation; stays 0"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "eval note (4512 chars) read in full, pages 1-3 viewed; it covers only capability benchmarks (SWE-Bench Pro, DeepSWE, Terminal-Bench, MLE-Bench, GDPVal, OSWorld, CharXiv, MRCR) with prices; no safety content"
+  }
+ }
+}

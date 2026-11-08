@@ -1,0 +1,115 @@
+{
+ "release_id": "meta-2023-07-18-llama-2-70b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.29 says weapons tests (nuclear, biological, chemical) found 'marginal' findings with no score or named test; no figure or table gives a CBRN result. Stays 1."
+  },
+  "dc_eval_cyber": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.29 lists cyber among weapons tests with 'marginal' findings, no named test or score; no cyber figure or table. Stays 1."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. No autonomy evaluation in any figure or extra doc; tool-use (Fig.23, Table 15) is a capability demo, not a risk evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.24 'psychological manipulation' is a red-team attack vector against the model, not persuasion capability; Fig.19 risk categories are hateful, illicit, unqualified advice."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.12/15 reward hacking mentioned only as a training problem; no deception or misalignment figure."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. No framework named in figures or extra docs; Responsible Use Guide is a deployer guide, not a scaling framework."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.28 red teamers are 'external vendors' and domain experts, none named; extra docs name no outside org."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. No government body named as tester anywhere viewed."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.29 red teaming 'performed over several months' on internal models but no outside-testing-before-release wording; extra docs silent."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. p.35 code examples to 'apply basic safety techniques at the user input and model output layers' name no mechanism; extra docs name none. Stays 0."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. HF access form and licence gate are licence/contact gates, not safety-tied restrictions; p.4 34B delay is about withholding a different size, not this model's access."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra docs (HF Llama-2-70b-hf card, GitHub MODEL_CARD.md) read in full: model details, carbon, academic benchmarks, TruthfulQA/ToxiGen tables, ethics paragraph only. 33 page images of the paper viewed (pp.3-5,9,11,12,15,16,19-22,24,26,28-36,42,47,49,54-57,68,69,74,76): helpfulness/safety human-eval win-rate and violation figures, reward-model tables, safety-data scaling, context distillation, red-teaming text, benchmark tables, model card table. Open weights release; no weight protection stated."
+  }
+ }
+}

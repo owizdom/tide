@@ -72,3 +72,16 @@ def test_passes_are_independent():
         if same >= 4:
             bad.append((rid, same))
     assert bad == [], bad
+
+
+def test_supplement_passes_validate_and_cover_every_open_item():
+    """Codebook v1.2 supplement: schema, quotes in their documents, every open item coded, both passes."""
+    from coding import supplement
+    for letter in ("A", "B"):
+        assert supplement.check_coder(letter) == [], letter
+
+
+def test_supplement_disagreements_all_adjudicated():
+    import csv
+    rows = list(csv.DictReader((ROOT / "coding" / "supplement" / "disagreements.csv").open()))
+    assert rows == [], [(r["release_id"], r["variable"]) for r in rows]

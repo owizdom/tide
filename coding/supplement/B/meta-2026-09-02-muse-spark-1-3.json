@@ -1,0 +1,22 @@
+{
+ "release_id": "meta-2026-09-02-muse-spark-1-3",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the extra evaluation-methodology document to its last line and viewed all 40 listed card pages plus the extra doc page. No persuasion or influence-operation evaluation anywhere; the Cyber 3 social-engineering benchmark (p24, Charlemagne Labs) is cyber per codebook, sycophancy (Figure 40) and Dark Triad/personality probes are not persuasion, and the extra doc covers only capability benchmarks."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the extra evaluation-methodology document to its last line and viewed all 40 listed card pages plus the extra doc page. The only AISI mention (p16 and reference list p137) cites the US/UK AISI joint pre-deployment test of OpenAI o1 as a method precedent for LAB-Bench SeqQA, not a test of this model; outside testers named are Handshake AI, Gray Swan, Exponential Security Labs, Charlemagne Labs, SecureBio."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Read the extra evaluation-methodology document to its last line and viewed all 40 listed card pages plus the extra doc page. No trusted-access, KYC, tiering or limited availability tied to safety; the card only says to pair API deployments with system-level controls and tool allowlists."
+  }
+ }
+}

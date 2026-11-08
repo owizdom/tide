@@ -1,0 +1,124 @@
+{
+ "release_id": "deepseek-2025-01-20-deepseek-r1",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No CBRN evaluation."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). Codeforces/SWE-bench are general coding benchmarks, not offensive cyber."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). 'autonomously' on p7-8 describes reasoning self-evolution in RL, not autonomy evaluated as a risk."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No persuasion content."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). Reward hacking (p6) is mentioned only as a training problem, which the codebook excludes."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No framework named."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No outside testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No outside testing org."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No outside testing, so no timing."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). No runtime mechanism named."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). MIT licence, open weights; no access restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the HF card (a9f6e7cd) and GitHub README (0cb45132) in full; they are near-identical model cards covering training pipeline, benchmark tables, downloads, run instructions and MIT licence, with no safety evaluation, external testing, framework, runtime safeguard, access restriction or weight-security content. Looked at all 8 listed images: paper pages 6,7,8,9,10,12 (R1-Zero template, AIME training curve, response length, aha moment, cold start and RL pipeline, evaluation setup) and the benchmark bar chart in both cards (AIME, Codeforces, GPQA, MATH-500, MMLU, SWE-bench). Weights are released openly; no weight protection."
+  }
+ }
+}

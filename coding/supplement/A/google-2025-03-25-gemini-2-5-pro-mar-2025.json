@@ -1,0 +1,115 @@
+{
+ "release_id": "google-2025-03-25-gemini-2-5-pro-mar-2025",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No CBRN evaluation or result shown on any listed page."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No cyber evaluation or result shown on any listed page."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No autonomy evaluation or result shown on any listed page."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No persuasion evaluation or result shown on any listed page."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No scheming evaluation or result shown on any listed page."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). Page 5 names Google DeepMind's Frontier Safety Framework evaluations but no page places this model against a CCL; stays at 1."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). Red teaming and assurance evaluations are by internal specialist teams and evaluators 'who sit outside of the model development team' (inside the lab); no outside testers."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No outside organisation named as tester."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No government body testing mentioned."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). Evaluations 'prior to release' are internal; no outside testing to time."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). Preview availability stated with no safety reason; no access restriction tied to safety on listed pages."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page images: cover (p1), usage/ethics evaluation-approach list (p5 of card, image p6), automated safety deltas and assurance text (image p7). No statement on protecting model weights on listed pages."
+  }
+ }
+}

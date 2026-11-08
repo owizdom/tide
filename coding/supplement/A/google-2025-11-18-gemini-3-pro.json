@@ -1,0 +1,61 @@
+{
+ "release_id": "google-2025-11-18-gemini-3-pro",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_any": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "0b093ee5fc80e30fa5b46e6aa9a853c6dd3f308656e9c9a346724e108e620e46",
+   "quote": "Third party evaluator(s) tested Gemini 3 Pro for autonomous systems risks,",
+   "page": "16",
+   "description": "",
+   "note": "Gemini 3 Pro FSF Report is a model-specific safety report (clarification 9). External Safety Testing sections on pp5, 8, 10, 12, 14, 16-17 report third-party red teaming and evaluations of Gemini 3 Pro in CBRN, cyber, manipulation, ML R&D sabotage and deception."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Third-party evaluators are never named. The only named outside organisation, Panoplia Laboratories (wet-lab uplift trial, p8), tested earlier models including Gemini 2.5 Pro: 'While these results were on a previous version of Gemini' (clarification 7). Eval note and card pages name no testing organisation."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body or AI safety institute is named as a tester in the FSF report, the eval note, or any viewed page or figure. HuBREC (p11) is an internal ethics committee."
+  },
+  "ext_test_timing_stated": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "0b093ee5fc80e30fa5b46e6aa9a853c6dd3f308656e9c9a346724e108e620e46",
+   "quote": "For Gemini 3 Pro, external safety testing was performed on a similar earlier version to the final version of Gemini 3 Pro.",
+   "page": "5",
+   "description": "",
+   "note": "Outside testing ran on a pre-final checkpoint and informed the CCL determination; p22 adds the deployment decision 'was based on internal and external testing results', so the testing is stated to precede release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Safety mitigations section (pp21-22) describes guardrails, filters, classifiers and red teaming but no access restriction, tiering or trusted-access programme. No figure or card page adds one."
+  },
+  "safeguards_weights": {
+   "value": 1,
+   "source": "text",
+   "doc_sha": "0b093ee5fc80e30fa5b46e6aa9a853c6dd3f308656e9c9a346724e108e620e46",
+   "quote": "robust cybersecurity measures and mitigations to protect Gemini 3 Pro and its associated model parameters from unauthorized access, releases and theft",
+   "page": "22",
+   "description": "",
+   "note": "Security mitigations section of the model-specific FSF report states protection of this model's parameters against theft."
+  }
+ }
+}

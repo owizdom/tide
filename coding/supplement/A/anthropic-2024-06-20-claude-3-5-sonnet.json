@@ -1,0 +1,52 @@
+{
+ "release_id": "anthropic-2024-06-20-claude-3-5-sonnet",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Page 1 is introduction/evaluations text; page 4 shows only Needle-in-a-Haystack recall figures. No persuasion content in either page."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages 1 and 4 show capability text and Needle-in-a-Haystack recall figures; no scheming evaluation shown."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages 1 and 4 contain no runtime safeguard mechanism; figures are long-context recall plots."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages 1 and 4 contain no access restriction tied to safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents. Pages 1 and 4 contain no weight-protection statement."
+  }
+ }
+}

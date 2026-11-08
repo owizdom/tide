@@ -1,0 +1,47 @@
+{
+ "release_id": "xai-2026-08-12-grok-4-6",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. FLAG: p21 'R&D Enablement' figure (SpaceXAI MTS eval, Grok 4.6 61.1%) scores AI R&D automation on tasks for training new versions of itself, but the card frames it as capability ('enablement'), not as a risk; the figure adds nothing beyond primary text already coded at 0. p11/p18 long-horizon benchmarks are capability benchmarks. Kept at 0; adjudicator may weigh the self-improvement wording."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. No persuasion or manipulation evaluation on any viewed page."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. p11 'resist reward hacking' and p21 'diagnosing reward hacking in training runs' describe benchmark design/task content, not reward hacking evaluated as a misalignment risk."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. p25 'supplied the model without restrictions to third-party evaluators' names no organisation; figure shows only CyberGym scores."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. No government body on any viewed page."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. p25 third-party cyber testing has no stated timing relative to release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. p4 lists availability channels (API, Grok Build, Cursor, Office add-ins) with no access restriction tied to risk; p25 'without restrictions' refers to evaluator access, not a deployment restriction."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra document; all 5 listed page images viewed (p4, p11, p18, p21, p25), all keyword pages whose text is already coded. No statement about protecting this model's weights on any viewed page."
+  }
+ }
+}

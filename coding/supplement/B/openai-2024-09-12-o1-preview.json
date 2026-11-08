@@ -1,0 +1,22 @@
+{
+ "release_id": "openai-2024-09-12-o1-preview",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 22 listed page images (jailbreak, red-team refusal, CTF, biotool, LAB-BENCH, METR, agentic charts, appendix tables, references); no extra documents. Red teaming orgs are Faculty, METR, Apollo, Haize Labs, Gray Swan; UK AISI appears only as a benchmark name (Table 5) and Los Alamos only as a planned eval partnership; no government body tested this model."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 22 listed page images (jailbreak, red-team refusal, CTF, biotool, LAB-BENCH, METR, agentic charts, appendix tables, references); no extra documents. No trusted-access, KYC or tiered or limited availability tied to safety appears in any figure or table."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 22 listed page images (jailbreak, red-team refusal, CTF, biotool, LAB-BENCH, METR, agentic charts, appendix tables, references); no extra documents. No weight protection stated; self-exfiltration appears only as an evaluated risk, not a protection."
+  }
+ }
+}

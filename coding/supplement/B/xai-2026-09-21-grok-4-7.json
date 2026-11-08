@@ -1,0 +1,42 @@
+{
+ "release_id": "xai-2026-09-21-grok-4-7",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  }
+ }
+}

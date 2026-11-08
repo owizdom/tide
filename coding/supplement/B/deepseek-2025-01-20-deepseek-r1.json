@@ -1,0 +1,72 @@
+{
+ "release_id": "deepseek-2025-01-20-deepseek-r1",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "HF card and GitHub README read to last line (benchmarks, downloads, license only); their benchmark bar-chart image and primary pages 6-10,12 (tables and figures: AIME training curves, response length) show only capability benchmarks and training dynamics; no risk or safety content; reward hacking on p6 is a training-design remark, not a misalignment evaluation"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "release_id": "anthropic-2025-11-24-claude-opus-4-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra document (prompt-injection defenses page, read in full) and its chart img1 (Claude for Chrome ASR) are prompt-injection robustness, not persuasion. All 81 listed card pages and img1 viewed. Persuasion/manipulation appears only as a behaviour listed with no result (page 61: 'attempts to manipulate users toward certain views'). Figures 6.2.1.A (pages 67-69) score user deception, delusion, sycophancy, self-serving bias, none labelled persuasion or manipulation; political even-handedness (pages 41-42) is bias, not influence testing. Stays 1."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra document says Claude for Chrome expanded from research preview to beta for Max plan users, informed by prompt-injection improvements, but states no access restriction tied to risk for this model (plan tier only; borderline, kept 0). Card pages show no trusted-access, KYC or tier restriction for safety."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Card page 12 says Opus 4.5 is deployed under 'ASL-3 security' but never says this protects the model's weights; the weight-theft sentence (primary text footnote, page 130 area) describes ASL-4 security, a stricter standard not applied. No figure addresses weights. Flag for adjudication: ASL-3 Security Standard implicitly covers weights but the card does not state it."
+  }
+ }
+}

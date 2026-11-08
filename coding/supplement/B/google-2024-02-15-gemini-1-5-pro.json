@@ -1,0 +1,67 @@
+{
+ "release_id": "google-2024-02-15-gemini-1-5-pro",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no further evidence in extra documents or pages"
+  }
+ }
+}

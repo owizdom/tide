@@ -1,0 +1,12 @@
+{
+ "release_id": "openai-2026-04-23-gpt-5-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Viewed all 21 listed pages (figures 1-22, tables): disallowed content, jailbreaks, hallucination, misalignment, CoT monitorability, bio, cyber, AI self-improvement results. No persuasion, manipulation or influence-operation evaluation; text has no persuas/manipulat/influence-operation mention."
+  }
+ }
+}

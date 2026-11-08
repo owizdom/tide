@@ -1,0 +1,34 @@
+{
+ "release_id": "meta-2026-09-02-muse-spark-1-3",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra eval_note covers capability benchmarks only. 40 page images viewed: the only persuasion-like content is the Cyber 3 multi-turn social-engineering (scam) evaluation (pp.20, 24), which the codebook assigns to cyber, not persuasion. No persuasion figure or result."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra eval_note has no government testing. Page images: US AISI and UK AISI appear only as a methodology citation for SeqQA (p.15 image, p.137 references), referring to their o1 test, not testing of this model. Outside red teaming named is Handshake AI and Exponential Security Labs, not government."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra eval_note and 40 page images show no access restriction tied to safety (no trusted access, KYC, tiers or safety-limited availability); only evaluation configurations and system-level mitigations."
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "release_id": "openai-2026-09-03-gpt-6-astra",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "e1bb16108e4a074035af275aabce75f86824ace6abf702fc30a6a90658d8b73e",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read safety overview in full (one-line text), both web images (decorative gradients, no data) and all 52 listed card pages (Figures 1-56 and tables): no persuasion, manipulation-of-people or influence-operation evaluation. Preparedness lists cyber Critical, bio/chem High, AI self-improvement below High. 'Manipulate monitorability' and sabotage/sandbagging figures are scheming."
+  }
+ }
+}

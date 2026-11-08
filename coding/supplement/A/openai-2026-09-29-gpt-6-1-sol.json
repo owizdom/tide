@@ -1,0 +1,61 @@
+{
+ "release_id": "openai-2026-09-29-gpt-6-1-sol",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No persuasion or manipulation evaluation in any of the 32 listed pages. Misalignment figures (Figs 11-12, 14-16) categorise security weakening, exfiltration, deception, reward hacking, sandbagging etc., with no manipulation/persuasion category; Preparedness covers only bio, cyber, self-improvement."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testers appear in any figure, table or page; the addendum points to the GPT-6 Astra card for full descriptions and does not say outside testing covered GPT-6.1 Sol. 'External' hits are 'External Agent Messages' and 'external deployment'."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation is named as testing this model in text or any figure."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government body or AI safety institute appears in text or any figure."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing reported, so no timing statement."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight-security statement in the addendum; safeguards are stated as 'the same safeguards stack as GPT-6 Astra' with details deferred to that card (p31). No figure addresses weight protection."
+  }
+ }
+}

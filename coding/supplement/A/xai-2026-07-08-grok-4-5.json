@@ -1,0 +1,52 @@
+{
+ "release_id": "xai-2026-07-08-grok-4-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: 'reward hacking' appears only as a benchmark control (p8 footnote, p9) and as a task in the AI R&D eval (p17), not as a misalignment risk evaluated for this model. Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: Cursor-reported SWE-Bench Multilingual runs and public leaderboard results (p8, p9) are capability benchmarks, not safety testing (clarification 2). Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "note": "Stays 0: Cursor is named only for capability benchmark runs and co-development (p4, p8), not safety testing. Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "Extra doc read in full: Public Summary of Training Content for Grok 4.5 (55873c4a), an EU template covering provider and model identification, modalities and data size, data sources (public, licensed, third-party, crawled, user, synthetic, other), TDM opt-out and illegal-content removal; it describes training-data filtering only and has nothing on this item. Page images viewed (6): card p4, 8, 9, 17 (introduction, SWE-Bench Pro/Multilingual, SWE-Marathon/FrontierSWE, SpaceXAI MTS AI R&D chart) and summary p3, 4 (data-source tables); none shows evidence for this item."
+  }
+ }
+}

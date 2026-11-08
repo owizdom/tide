@@ -1,0 +1,12 @@
+{
+ "release_id": "openai-2025-08-07-gpt-5",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "note": "safe-completions page read in full (no persuasion content); all 22 listed card pages and the 3 web images viewed (the 3 images are decorative gradients). Persuasion appears only in the Microsoft AI Red Team frontier-harms list (p20: 'persuasion, autonomy, and deception') with a blanket safety conclusion, no persuasion-specific result, and no persuasion label in any figure or table; stays 1"
+  }
+ }
+}

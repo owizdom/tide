@@ -1,0 +1,32 @@
+{
+ "release_id": "xai-2025-07-09-grok-4",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6); p6 holds Table 3 (dual-use evals), which shows no autonomy result. Table 3 covers persuasion, biology, chemistry and cybersecurity only; AISI autonomous offensive cyber work is cyber, not autonomy (boundary rule). p1 'rogue AI exfiltrating its weights' is a risk example with no evaluation."
+  },
+  "framework_threshold": {
+   "value": 1,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6); p6 holds Table 3 (dual-use evals), which shows no autonomy result. p1 names the Risk Management Framework; no figure or table places Grok 4 against a named threshold."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6); p6 holds Table 3 (dual-use evals), which shows no autonomy result. p6 'The UK AI Security Institute conducted additional evaluations' gives no timing relative to release."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6); p6 holds Table 3 (dual-use evals), which shows no autonomy result. API and web availability, including the EU; no access restriction tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "No extra documents. Both page images viewed (p1, p6); p6 holds Table 3 (dual-use evals), which shows no autonomy result. p1 'a hypothetical rogue AI exfiltrating its weights' is a threat scenario, not a stated protection of Grok 4's weights."
+  }
+ }
+}

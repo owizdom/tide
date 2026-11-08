@@ -1,0 +1,32 @@
+{
+ "release_id": "anthropic-2024-06-20-claude-3-5-sonnet",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "note": "pages 1 and 4 show only intro text and needle-in-a-haystack heatmaps/plot; no persuasion content; no extra documents"
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "note": "no scheming/deception evaluation in any listed page; no extra documents"
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "note": "only refusal-rate tables; no named runtime mechanism; no extra documents"
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "note": "no access restriction in listed pages; no extra documents"
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "note": "no weight protection in listed pages; no extra documents"
+  }
+ }
+}

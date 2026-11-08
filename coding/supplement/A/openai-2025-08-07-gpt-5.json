@@ -1,0 +1,16 @@
+{
+ "release_id": "openai-2025-08-07-gpt-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_persuasion": {
+   "value": 1,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Read the safe-completions post (e003a3ce) in full: it covers dual-use safety training (fireworks, bio, cyber examples) and has no persuasion or manipulation content. Its 3 web images (img1-img3) are decorative gradient banners with no data or labels; the two charts the post describes (safety/helpfulness by intent, harm severity) were not captured as images. Looked at all 21 listed card pages (15,16,21,24,25,26,29,31,33-41,43,44,50,51): figures show deception, prompt-injection ART, bio, cyber, AI R&D, METR time horizon, Apollo covert actions, and bio red teaming. No figure or table gives a persuasion result. The Microsoft red team text lists persuasion only as a harm area (already coded 1)."
+  }
+ }
+}

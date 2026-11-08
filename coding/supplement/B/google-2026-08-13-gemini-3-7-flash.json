@@ -1,0 +1,79 @@
+{
+ "release_id": "google-2026-08-13-gemini-3-7-flash",
+ "coder": "B",
+ "codebook": "v1.2",
+ "items": {
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Both extra documents read in full, all page images viewed. Red teaming is by 'specialist teams who sit outside of the model development team', which is internal per codebook. 'Expert red teaming' in the CBRN row does not say the experts are outside Google."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside organisation named in either extra document."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No government testing mentioned in the model card PDF or the evaluation note."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No outside testing stated, so no timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Only automated safety evaluations and refusal-tone measures are reported; no safety training described for this model (everything defers to the 3.6 Flash card)."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Page 9 says 'shipping with updated safeguards to prevent misuse in the domains of CBRN and cyber offense' and 'mitigations', but names no mechanism (no classifier, filter or monitor)."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No access restriction tied to safety; distribution list only (page 3)."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No weight protection described."
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "release_id": "meta-2023-02-24-llama-65b",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No CBRN risk evaluation; MMLU Virology/College Biology rows (Table 16, p.18) are general knowledge benchmarks, not dangerous-capability evaluations."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No offensive cyber evaluation; MMLU Computer Security row and HumanEval/MBPP are general benchmarks."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No autonomy evaluation."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No persuasion or manipulation evaluation."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No scheming/deception evaluation; TruthfulQA is hallucination/misinformation, not a misalignment evaluation."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No safety or scaling framework referenced."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No outside testers; PerspectiveAPI is a third-party toxicity scorer, not outside testing."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No outside organisation tested the model."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No government testing."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No outside testing, so no timing."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No safety training: LLaMA is a base model; LLaMA-I instruction finetuning (Sec.4) targets MMLU and instruction following, not refusals or harmlessness."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No runtime classifier/filter/moderation for the model; filtering described is pretraining data quality filtering."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. 'We release all our models to the research community' gives no safety reason for the restriction; no trusted access or KYC tied to risk."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "Extra doc (LLaMA arXiv paper v1) read in full and 10 page images viewed (pp.1,2,5,8,9,15,17,18,24,25): content is pretraining data, architecture, capability benchmarks, toxicity/bias/TruthfulQA, carbon, examples. No weight-protection statement."
+  }
+ }
+}

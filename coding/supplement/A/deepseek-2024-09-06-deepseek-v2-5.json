@@ -1,0 +1,133 @@
+{
+ "release_id": "deepseek-2024-09-06-deepseek-v2-5",
+ "coder": "A",
+ "codebook": "v1.2",
+ "items": {
+  "dc_eval_cbrn": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "dc_eval_cyber": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "dc_eval_autonomy": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "dc_eval_persuasion": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "dc_eval_scheming": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "framework_threshold": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "ext_test_any": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "ext_test_named_org": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "ext_test_government": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "ext_test_timing_stated": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "safeguards_training": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "safeguards_runtime": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "safeguards_access": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  },
+  "safeguards_weights": {
+   "value": 0,
+   "source": "none",
+   "doc_sha": "",
+   "quote": "",
+   "page": "",
+   "description": "",
+   "note": "No extra documents and no page images listed for this release in the work file, so there is no new evidence to look at; the value stays at the current code."
+  }
+ }
+}
