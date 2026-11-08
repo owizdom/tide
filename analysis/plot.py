@@ -44,7 +44,7 @@ def items_by_half(recs):
     n = [sum(1 for r in recs if r["half"] == h) for h in halves]
     title = (f"Frontier releases with dangerous-capability results at launch\n"
              f"rose from {round(100 * any_dc[0] / n[0])}% in early 2023 to {round(100 * any_dc[-1] / n[-1])}% in late 2026")
-    p = Page(title, "Percent of frontier AI releases whose model or system card, public at launch, discloses each item",
+    p = Page(title, "Percent of frontier AI releases whose launch documents (cards, reports, figures) disclose each item",
              height=1290)
     x0, y0, lw, cw, rh = 64, 270, 400, 134, 50
     for j, h in enumerate(halves):
@@ -57,10 +57,10 @@ def items_by_half(recs):
             row = next(r for r in t if r["item"] == var and r["half"] == h)
             cell(p, x0 + lw + j * cw, y, cw, rh, row["k"], row["n"])
     p.notes([
-        "Each cell is the percent of that half-year's frontier releases whose card at launch discloses the item. A late card or no card counts as not disclosed. *H2 26 runs to 31 October.",
+        "Each cell is the percent of that half-year's frontier releases whose documents public at launch disclose the item. A late card or no card counts as not disclosed. *H2 26 runs to 31 October.",
         "Frontier release: each lab's top-tier general model per new version (rule frozen before collection), 87 releases from 7 labs, from Epoch AI's database.",
-        "Cards coded by two independent passes (agreement kappa 0.83 to 1.00), disagreements adjudicated. Independent Claude check of 80 codes: 78 correct, 0 wrong.",
-        "Source: lab model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
+        "Text, figures and tables coded by two independent passes (kappa 0.83 to 1.00), disagreements adjudicated. Independent Claude check of 80 text-pass codes: 78 correct, 0 wrong.",
+        "Source: lab model cards, system cards and safety reports as archived at launch (Wayback Machine, Hugging Face, GitHub, arXiv); Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "share_by_half"))
 
@@ -87,9 +87,9 @@ def lab_by_half(recs):
         n = sum(1 for r in recs if r["lab"] == lab)
         p.text(x0 + lw + len(halves) * cw + 70, y + rh / 2 - 11, f"{tot[lab]}/{n}", 18, INK, MONO, anchor="middle")
     p.notes([
-        "Each cell is the percent of that lab's frontier releases in the half-year whose card at launch reports a dangerous-capability result. – means no release. *H2 26 runs to 31 October.",
-        "Independent Claude check of 80 sampled codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
-        "Source: lab model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
+        "Each cell is the percent of that lab's frontier releases in the half-year whose launch documents report a dangerous-capability result. – means no release. *H2 26 runs to 31 October.",
+        "Independent Claude check of 80 sampled text-pass codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
+        "Source: lab model cards, system cards and safety reports as archived at launch; Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "lab_by_half_any_dc"))
 
@@ -99,9 +99,9 @@ def trend(recs):
     n = [sum(1 for r in recs if r["half"] == h) for h in halves]
     dc = [100 * sum(1 for r in recs if r["half"] == h and r["any_dc"]) / k for h, k in zip(halves, n)]
     ext = [100 * sum(1 for r in recs if r["half"] == h and r["ext_test_any"]) / k for h, k in zip(halves, n)]
-    title = (f"Model cards now report dangerous-capability tests at launch\n"
+    title = (f"Labs now report dangerous-capability tests at launch\n"
              f"for {dc[-1]:.0f}% of frontier releases, up from {dc[0]:.0f}% in early 2023")
-    p = Page(title, "Share of frontier AI model releases whose card, public at launch, discloses each item", height=960)
+    p = Page(title, "Share of frontier AI model releases whose documents public at launch disclose each item", height=960)
     p.legend(64, 177, "Any dangerous-capability test result", RED)
     p.legend(700, 177, "Any outside safety testing", INK)
     ax = p.axes(150, 270, 1300, 470)
@@ -119,8 +119,8 @@ def trend(recs):
     mono_ticks(ax); p.baseline(ax)
     p.notes([
         "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. Releases per half-year: " + ", ".join(str(k) for k in n) + ". *H2 26 runs to 31 October.",
-        "87 frontier releases from Anthropic, OpenAI, Google, Meta, xAI, Mistral and DeepSeek. A card published after launch, or no card, counts as no disclosure. 80-code Claude check: 78 correct, 0 wrong.",
-        "Source: model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
+        "87 frontier releases from Anthropic, OpenAI, Google, Meta, xAI, Mistral and DeepSeek. A late card or no card counts as no disclosure. Check of 80 text-pass codes: 78 correct, 0 wrong.",
+        "Source: model cards, system cards and safety reports as archived at launch (Wayback Machine, Hugging Face, GitHub, arXiv); Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "01_trend"))
 
@@ -135,12 +135,12 @@ def by_lab(recs):
     rows.append(("All labs", f"{sum(r['any_dc'] for r in recs)} of {len(recs)} releases", allv, INK))
     top = rows[:2]
     title = f"{top[0][0]} and {top[1][0]} report dangerous-capability tests at launch\nfor about 80% of their releases, Mistral for none"
-    p = Page(title, "Share of each lab's frontier releases, 2023 to October 2026, whose card at launch reports a dangerous-capability test result", height=1080)
+    p = Page(title, "Share of each lab's frontier releases, 2023 to October 2026, whose launch documents report a dangerous-capability test result", height=1080)
     bars(p, 64, 230, rows, 100, [0, 25, 50, 75, 100], pct, label_w=400, w=990)
     p.notes([
         "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. A late card or no card counts as none.",
-        "Independent Claude check of 80 sampled codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
-        "Source: model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
+        "Independent Claude check of 80 sampled text-pass codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
+        "Source: model cards, system cards and safety reports as archived at launch; Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "02_by_lab"))
 

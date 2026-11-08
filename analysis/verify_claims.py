@@ -62,6 +62,26 @@ def claims():
         (f"got its evaluation report {[x for x in man if x['release_id'] == 'meta-2026-09-02-muse-spark-1-3'][0]['card_days_after_launch']} days after launch", True),
         (f"every one of the {len(a)} cards", True),
     ]
+    import json, glob
+    sec = [r for r in csv.DictReader((ROOT / "cards" / "secondary.csv").open()) if r["sha256"] and not r["dup_of"]]
+    pm = list(csv.DictReader((ROOT / "coding" / "pages_manifest.csv").open()))
+    SA = {Path(f).stem: json.load(open(f)) for f in glob.glob(str(ROOT / "coding" / "supplement" / "A" / "*.json"))}
+    SB = {Path(f).stem: json.load(open(f)) for f in glob.glob(str(ROOT / "coding" / "supplement" / "B" / "*.json"))}
+    xa = [SA[k]["items"][v]["value"] for k in SA for v in SA[k]["items"]]
+    xb = [SB[k]["items"][v]["value"] for k in SA for v in SA[k]["items"]]
+    base = {r["release_id"]: r for r in csv.DictReader((ROOT / "coding" / "codes_v11.csv").open())}
+    final = {r["release_id"]: r for r in csv.DictReader((ROOT / "coding" / "codes.csv").open())}
+    raised = sum(1 for rid in final for v in check.VARIABLES if final[rid][v] != base[rid][v])
+    disc = sum(1 for r in csv.DictReader((ROOT / "cards" / "discovery.csv").open()) if r["card_url"])
+    unv = [r for r in man if r["sha256"] and r["launch_version_unverified"] == "1"]
+    out += [
+        (f"read {len(sec)} extra launch documents across {len({r['release_id'] for r in sec})} releases", True),
+        (f"looked at {len(pm):,} rendered pages", True),
+        (f"Across {len(xa)} item codes the two passes disagreed twice (kappa {check.kappa(xa, xb):.3f})", sum(x != y for x, y in zip(xa, xb)) == 2),
+        (f"{['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten'][raised]} codes rose", True),
+        (f"found {disc} candidate documents", True),
+        (f"{['zero','one','two','three','four'][len(unv)].capitalize()} late cards were first archived after the date printed on them", all(r["card_at_launch"] == "0" for r in unv)),
+    ]
     bad = [c for c, must in out if not must]
     assert not bad, f"case ranking changed: {bad}"
     return [c for c, _ in out]
