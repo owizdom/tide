@@ -1,4 +1,4 @@
-# Codebook v1.1 (v1 frozen 2026-11-05 after the pilot; v1.1 adds two clarifications the same day, listed at the end)
+# Codebook v1.2 (v1 frozen 2026-11-05 after the pilot; v1.1 and v1.2 clarifications listed at the end)
 
 Unit: one release, coded from the text of its primary card as captured in `cards/manifest.csv`. Later addenda in `other_docs` are not read for at-launch codes. Every value above 0 needs a verbatim quote from the card text and a locator (page or section heading). A quote must be copied exactly; the test in AT6 searches for it.
 
@@ -84,3 +84,10 @@ Pass A Opus 5.5, pass B Sonnet 5.5, 10 releases, 130 codes, 7 disagreements: ext
 3. Age gates (Wisdom, 2026-11-07). An age requirement for a consumer product (for example "Claude.ai ... is only available to users aged 18 or above") is a general usage term, not safeguards_access, even inside a child-safety section. Applied at adjudication.
 
 Releases coded under v1 that clarifications 1 and 2 can change are recoded on both passes (coding/groups/r02_recode.txt).
+
+## v1.2 clarifications (2026-11-08, Wisdom: no limit may come from work we did not do)
+
+4. Figures and tables count. A result shown only in a figure or table image is a result. Evidence for such a value is the page number, a verbatim span from the text layer that labels the figure (caption, title or axis text, found by the quote check), and a one-sentence description of what the figure shows for this model.
+5. Every launch document counts. A release discloses an item if any developer document about this model that was public by launch + 2 days discloses it: the primary card, a second card or report, a Hugging Face or GitHub card, or a model-specific safety report. Company-wide documents (frameworks, policies, risk reports covering many models) still count only when the model's own documents reference them for this model.
+6. Controlled deployment. Limited or staged availability that the card says follows a safety framework's provisions is an access restriction (`safeguards_access` = 1). A rollout with no stated safety reason is not.
+7. Predecessor testing. Outside testing that the card ties to an earlier model (for example "For Llama 3, we partnered ...") does not count for this release unless the card says it covered this model.

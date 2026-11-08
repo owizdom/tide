@@ -6,3 +6,5 @@ mistral-2026-04-29-mistral-medium-3-5,docs.mistral.ai,doc_kind,docs_page,docs sp
 mistral-2026-10-06-mistral-large-4,docs.mistral.ai,doc_kind,docs_page,docs spec pages are not cards (Wisdom 2026-11-05),
 deepseek-2026-04-24-deepseek-v4-pro,DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf,doc_kind,superseded,dead resolve/main link replaced by the commit-pinned PDF (Track B re-review N4),
 mistral-2026-10-06-mistral-large-4,HF initial release commit 9bc53578,doc_kind,superseded,Wayback captures before 2026-10-29 are an Upcoming release placeholder; replaced by the commit-pinned README (Track B re-review N5),card_date_src
+deepseek-2025-09-29-deepseek-v3-2-exp,DeepSeek-V3.2-Exp/raw/main/DeepSeek_V3_2.pdf,doc_kind,superseded,live raw/main replaced by the launch-commit pin,card_url
+deepseek-2026-09-09-deepseek-v4-1-flash,DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf,doc_kind,superseded,live resolve/main replaced by the upload-commit pin,card_url

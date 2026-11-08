@@ -39,7 +39,7 @@ Wisdom approves the generated list, release by release, before any card is fetch
 
 ### 1.2 Variables per release
 
-Each is coded from the card as available at launch. "Card" means a document from the developer about this model or its family: a system card, model card, technical report, or Hugging Face or GitHub model card. An announcement blog post alone is coded as `announcement_only`, not as a card. A product documentation page (for example a docs.mistral.ai model spec page) is not a card either (Wisdom, 2026-11-05).
+Each is coded from every developer document about the model that was public by launch + 2 days (text, tables and figures), taking the highest level any of them supports (Wisdom, 2026-11-08). "Card" means a document from the developer about this model or its family: a system card, model card, technical report, or Hugging Face or GitHub model card. An announcement blog post alone is coded as `announcement_only`, not as a card. A product documentation page (for example a docs.mistral.ai model spec page) is not a card either (Wisdom, 2026-11-05).
 
 | Variable | Coding | Aligned with |
 |---|---|---|
