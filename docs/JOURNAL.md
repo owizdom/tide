@@ -2,14 +2,10 @@
 
 ## Snapshot (rewritten each wave)
 
-- Stage: PAUSED 2026-11-06 00:25 by Wisdom until he moves to the premium team plan. Track A frozen (87 events); Track B done (manifest 87 rows); Track C main coding pass part-done under codebook v1.1.
-- Coded on disk: pass A 35 of 73 cards, pass B 33 of 73 (coding/passes/). All validate; quotes verified; independence test in tests/test_coding.py.
-- Resume steps:
-  1. Inventory: list cards missing per pass against coding/groups/g*.txt (pass A) and coding/groups_B/*.txt (pass B split, one agent per card over 25k words).
-  2. Pass A (Opus): groups g05 (part-done), g07-g12, plus recode list coding/groups/r02_recode.txt (gpt-5-1, gpt-5-2, grok-4-5, grok-4-7 under v1.1).
-  3. Pass B (Sonnet): groups_B g06S (part-done), g07L1..g12S, plus groups_B/r02_recode_B.txt and r02_opus47_B.txt.
-  4. Coding budget: about 10 coding agents per 5-hour window on the old plan; run 4 at a time. Open question for Wisdom: full two passes vs pass A on all plus pass B on the audit sample and a random subset.
-  5. Then: agreement and adjudication, audit sheet for the 15 releases in coding/audit_ids.txt, Track D (chart in Free Systems house style, lab heatmap, case studies, methods note, verify_claims).
+- Stage: DONE 2026-11-08; final review findings fixed. All four tracks complete; methods, charts, codes final.
+- Final codes: coding/codes.csv = max(text pass codes_v11.csv, agreed supplement). Supplement: 54 extra launch docs over 33 releases, 1,402 rendered pages, 592 codes, 2 disagreements adjudicated, kappa 0.966, 9 codes raised.
+- Headline: any dangerous-capability result at launch 20% (H1 23) to 71% (H2 26); outside testing 20-50%, 41% latest; 63 of 87 cards at launch, 10 late, 14 never; labs any-DC Anthropic 14/17, OpenAI 12/15, Google 5/13, Meta 5/11, xAI 3/11, DeepSeek 1/9, Mistral 0/11.
+- Tests: 69 passed; analysis.verify_claims 30 of 30; prose-check PASS on docs/methods.md.
 - Repo: local only, branch owizdom/tide-tracks-a-b, no remote.
 
 ## Evidence (append only)
@@ -74,3 +70,16 @@
 ### 2026-11-07 coding complete
 - Both passes cover 73 cards. tests/test_coding.py 9 passed (AT6 quotes, independence). Agreement over 1,022 codes: 18 disagreements; kappa cbrn 0.976, cyber 0.973, autonomy 0.973, persuasion 0.944, scheming 0.972, framework 1.000, ext_any 0.945, ext_named 1.000, ext_gov 1.000, ext_timing 0.940, sg_training 0.966, sg_runtime 0.972, sg_access 0.833, sg_weights 0.920. Session usage 30%, week 19% at this point (premium plan).
 - PaLM 2 primary moved to Google's launch-day copy (2023-05-10); it lacks the arXiv v1 runtime-monitoring sentence, so PaLM 2 is recoded on the launch text (old passes in coding/quarantine/palm2_v1).
+
+### 2026-11-08 final merge and write-up
+
+- Supplement merge: raised 9 (Opus 4 persuasion 1->2, access 0->1; Gemini 3 Pro ext_any, timing, weights 0->1; Llama 3.1 cbrn 1->2, cyber 1->2, ext_any 0->1; Llama 3 70B timing 0->1 adjudicated); DeepSeek V3 safeguards_training adjudicated 0.
+- Four launch documents of no-card releases were never coded (secondary.py skips releases without a primary card): Muse Spark, 1.2 and 1.3 eval-method notes and the Grok 4.5 training-data summary. Captured and read 2026-11-08: none reports any item (capability benchmark method and data provenance only). Recorded in methods.
+- Methods rewritten to the final numbers; charts reworded from "card" to "launch documents"; verify_claims extended to supplement statistics (30 of 30).
+
+### 2026-11-08 final review (Opus 5.5, claude-opus-5-5)
+
+- Recompute matched every headline number; 69 passed; verify_claims 30 of 30.
+- Fixed in scope: (1) Llama 3.1 arXiv v1 stand-in (+8 days) now stated as a method choice with its sensitivity (Meta 4 of 11, all 39 of 87, H2 2024 25% to 12% on both lines); (2) candidate documents 177 with a URL, not 208 rows; (3) supplement files committed, the four no-card launch documents recorded in cards/no_card_launch_docs.csv, methods states documents are pinned by URL, capture and sha256 with bytes re-fetchable; (4) Llama 3 70B timing described as an adjudicated card sentence, with the release-decision tie that separates it and Gemini 3 Pro from GPT-4.5; (5) chart footers scope the 80-code check to text-pass codes. Also GPT-4 case study: ARC is the one named organisation.
+- AT8 hand audit: replaced by the independent 80-code Claude check at Wisdom's instruction on 2026-11-07 ("those 80 questions please answer them yourselves and finish this task up fast").
+- Out of scope, not changed: Opus 4 persuasion 2 rests on a behavioural-audit manipulation score; DeepSeek V4.1 Flash cyber 2 rests on CyberGym/ExploitGym results without risk framing.
