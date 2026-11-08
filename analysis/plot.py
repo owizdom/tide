@@ -20,7 +20,7 @@ LAB_LABEL = {"anthropic": "Anthropic", "openai": "OpenAI", "google": "Google", "
              "xai": "xAI", "mistral": "Mistral", "deepseek": "DeepSeek"}
 
 
-def cell(p, x, y, w, h, k, n):
+def cell(p, x, y, w, h, k, n, show_n=False):
     if n == 0:
         p.text(x + w / 2, y + h / 2 - 11, "–", 18, GRAY, MONO, anchor="middle")
         return
@@ -29,7 +29,12 @@ def cell(p, x, y, w, h, k, n):
     if s > 0:
         p.ax.add_patch(__import__("matplotlib").pyplot.Rectangle(
             (x + 2, p._y(y + 2)), w - 4, h - 4, color=RED, alpha=0.12 + 0.88 * s, lw=0, zorder=3.5))
-    p.text(x + w / 2, y + h / 2 - 11, f"{round(100 * s)}%", 19, PAPER if s >= 0.5 else INK, MONO, anchor="middle")
+    col = PAPER if s >= 0.5 else INK
+    if show_n:
+        p.text(x + w / 2, y + h / 2 - 19, f"{round(100 * s)}%", 19, col, MONO, anchor="middle")
+        p.text(x + w / 2, y + h / 2 + 3, f"{n} release{'s' if n != 1 else ''}", 13, col, MONO, anchor="middle")
+    else:
+        p.text(x + w / 2, y + h / 2 - 11, f"{round(100 * s)}%", 19, col, MONO, anchor="middle")
 
 
 def items_by_half(recs):
@@ -54,7 +59,7 @@ def items_by_half(recs):
     p.notes([
         "Each cell is the percent of that half-year's frontier releases whose card at launch discloses the item. A late card or no card counts as not disclosed. *H2 26 runs to 31 October.",
         "Frontier release: each lab's top-tier general model per new version (rule frozen before collection), 87 releases from 7 labs, from Epoch AI's database.",
-        "Cards coded by two independent passes (agreement kappa 0.83 to 1.00), disagreements adjudicated. UNAUDITED DRAFT pending human verification.",
+        "Cards coded by two independent passes (agreement kappa 0.83 to 1.00), disagreements adjudicated. Independent Claude check of 80 codes: 78 correct, 0 wrong.",
         "Source: lab model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "share_by_half"))
@@ -69,7 +74,7 @@ def lab_by_half(recs):
              f" releases\nthat reported dangerous-capability results at launch")
     p = Page(title, "Releases with at least one bio, chem, nuclear, cyber, autonomy, persuasion or deception result at launch",
              height=820)
-    x0, y0, lw, cw, rh = 64, 250, 250, 136, 56
+    x0, y0, lw, cw, rh = 64, 250, 250, 136, 62
     for j, h in enumerate(halves):
         p.text(x0 + lw + j * cw + cw / 2, y0 - 46, HALF_LABEL[h], 18, INK, MONO, anchor="middle")
     p.text(x0 + lw + len(halves) * cw + 70, y0 - 46, "ALL", 18, INK, MONO, anchor="middle")
@@ -78,12 +83,12 @@ def lab_by_half(recs):
         p.text(x0 + lw - 18, y + rh / 2 - 13, LAB_LABEL[lab], 22, INK, anchor="end")
         for j, h in enumerate(halves):
             g = [r for r in recs if r["lab"] == lab and r["half"] == h]
-            cell(p, x0 + lw + j * cw, y, cw, rh, sum(1 for r in g if r["any_dc"]), len(g))
+            cell(p, x0 + lw + j * cw, y, cw, rh, sum(1 for r in g if r["any_dc"]), len(g), show_n=True)
         n = sum(1 for r in recs if r["lab"] == lab)
         p.text(x0 + lw + len(halves) * cw + 70, y + rh / 2 - 11, f"{tot[lab]}/{n}", 18, INK, MONO, anchor="middle")
     p.notes([
         "Each cell is the percent of that lab's frontier releases in the half-year whose card at launch reports a dangerous-capability result. – means no release. *H2 26 runs to 31 October.",
-        "UNAUDITED DRAFT pending human verification of a sample of codes.",
+        "Independent Claude check of 80 sampled codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
         "Source: lab model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "lab_by_half_any_dc"))
@@ -114,7 +119,7 @@ def trend(recs):
     mono_ticks(ax); p.baseline(ax)
     p.notes([
         "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. Releases per half-year: " + ", ".join(str(k) for k in n) + ". *H2 26 runs to 31 October.",
-        "87 frontier releases from Anthropic, OpenAI, Google, Meta, xAI, Mistral and DeepSeek. A card published after launch, or no card, counts as no disclosure. UNAUDITED DRAFT.",
+        "87 frontier releases from Anthropic, OpenAI, Google, Meta, xAI, Mistral and DeepSeek. A card published after launch, or no card, counts as no disclosure. 80-code Claude check: 78 correct, 0 wrong.",
         "Source: model and system cards as archived at launch (Wayback Machine, Hugging Face, GitHub); Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "01_trend"))
@@ -133,7 +138,8 @@ def by_lab(recs):
     p = Page(title, "Share of each lab's frontier releases, 2023 to October 2026, whose card at launch reports a dangerous-capability test result", height=1080)
     bars(p, 64, 230, rows, 100, [0, 25, 50, 75, 100], pct, label_w=400, w=990)
     p.notes([
-        "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. A late card or no card counts as none. UNAUDITED DRAFT.",
+        "Dangerous-capability test: a reported result on bio, chem or nuclear, cyber, autonomy, persuasion, or deception risk. A late card or no card counts as none.",
+        "Independent Claude check of 80 sampled codes: 78 correct, 0 wrong, 2 unsure. No human audit.",
         "Source: model and system cards as archived at launch; Epoch AI, Data on AI models (CC BY).",
     ])
     p.save(str(OUT / "02_by_lab"))

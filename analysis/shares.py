@@ -107,7 +107,7 @@ def drops(recs: list[dict]) -> list[dict]:
     for lab in LABS:
         seq = sorted((r for r in recs if r["lab"] == lab), key=lambda r: r["date"])
         for prev, nxt in zip(seq, seq[1:]):
-            lost = [v for v, _ in ITEMS if prev[v] and not nxt[v]]
+            lost = [v for v, _ in ITEMS if v != "card_at_launch" and prev[v] and not nxt[v]]
             if lost:
                 out.append({"lab": lab, "from": prev["model"], "from_date": prev["date"], "to": nxt["model"],
                             "to_date": nxt["date"], "n_lost": len(lost), "lost": " ".join(lost)})

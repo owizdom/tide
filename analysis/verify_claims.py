@@ -40,17 +40,31 @@ def claims():
         (f"{len(late)} got one later ({min(late)} to {max(late)} days after launch)", True),
         (f"and {sum(1 for r in recs if not r['has_card'])} never got one", True),
         (f"Across all labs the figure is {sum(r['any_dc'] for r in recs)} of {len(recs)}", True),
-        (f"Every one of the {len(a)} cards", False),
         (f"Agreement across {len(a) * len(check.VARIABLES):,} codes", True),
         (f"between {min(kap):.2f} and {max(kap):.2f} for every item", True),
         (f"The {adj} disagreements", True),
         (f"Half-years hold {min(len(v) for v in by.values())} to {max(len(v) for v in by.values())} releases", True),
     ]
-    names = {"anthropic": "Anthropic", "openai": "OpenAI", "google": "Google", "meta": "Meta",
-             "xai": "xAI", "deepseek": "DeepSeek", "mistral": "Mistral"}
+    lead = {"anthropic": "Anthropic reported dangerous-capability results at launch for {} of {}",
+            "openai": "OpenAI for {} of {}", "google": "Google did so for {} of {}", "meta": "Meta for {} of {}",
+            "xai": "xAI for {} of {}", "deepseek": "DeepSeek for {} of {}", "mistral": "Mistral for {} of {}"}
     for l, g in lab.items():
-        out.append((f"{sum(r['any_dc'] for r in g)} of {len(g)}", True))
-    return [c for c, must in out if must] + [f"{len(a)} cards"]
+        out.append((lead[l].format(sum(r["any_dc"] for r in g), len(g)), True))
+    d = {(x["from"], x["to"]): x for x in shares.drops(recs)}
+    mus = d[("Muse Spark 1.1", "Muse Spark 1.2")]
+    gpt41 = d[("GPT-4.5", "GPT-4.1")]
+    turbo = d[("GPT-4 (Mar 2023)", "GPT-4 Turbo (Nov 2023)")]
+    top3 = [(x["from"], x["to"]) for x in shares.drops(recs)[:3]]
+    out += [
+        (f"so all {mus['n_lost']} dropped", top3[0] == ("Muse Spark 1.1", "Muse Spark 1.2")),
+        (f"no card has appeared since. {gpt41['n_lost']} of the 14 items dropped", top3[1] == ("GPT-4.5", "GPT-4.1")),
+        (f"announcement and no card. {turbo['n_lost']} of the 14 items dropped", top3[2] == ("GPT-4 (Mar 2023)", "GPT-4 Turbo (Nov 2023)")),
+        (f"got its evaluation report {[x for x in man if x['release_id'] == 'meta-2026-09-02-muse-spark-1-3'][0]['card_days_after_launch']} days after launch", True),
+        (f"every one of the {len(a)} cards", True),
+    ]
+    bad = [c for c, must in out if not must]
+    assert not bad, f"case ranking changed: {bad}"
+    return [c for c, _ in out]
 
 
 def main() -> int:

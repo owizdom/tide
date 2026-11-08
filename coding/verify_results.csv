@@ -1,0 +1,81 @@
+n,release_id,item,value,kind,verdict,correct_value,comment
+1,openai-2026-03-05-gpt-5-4,dc_eval_cbrn,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+2,openai-2026-09-29-gpt-6-1-sol,dc_eval_cyber,2,positive,correct,,"Quote present but text has a line-break hyphen: ""cyberse- curity""; exact-string search (AT6) fails unless hyphenation is normalised. Substance: GPT-6.1 Sol reaches Critical cyber threshold = 2."
+3,openai-2025-04-16-o3,dc_eval_autonomy,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+4,google-2026-08-13-gemini-3-7-flash,dc_eval_persuasion,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+5,anthropic-2025-08-05-claude-opus-4-1,dc_eval_scheming,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+6,anthropic-2026-05-28-claude-opus-4-8,framework_threshold,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+7,meta-2026-07-09-muse-spark-1-1,ext_test_any,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+8,anthropic-2026-04-16-claude-opus-4-7,ext_test_named_org,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+9,anthropic-2025-09-29-claude-sonnet-4-5,ext_test_government,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+10,openai-2026-07-09-gpt-5-6-sol,ext_test_timing_stated,1,positive,correct,,"Quote present but text reads ""inde- pendent""; exact-string search fails without de-hyphenation. Substance: UK AISI pre-deployment evaluation of GPT-5.6 Sol."
+11,anthropic-2025-02-24-claude-3-7-sonnet,safeguards_training,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+12,openai-2026-09-29-gpt-6-1-sol,safeguards_runtime,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+13,anthropic-2026-09-01-claude-fable-5-1,safeguards_access,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+14,anthropic-2025-05-22-claude-opus-4,safeguards_weights,1,positive,correct,,"Quote present but card uses curly apostrophe ""Opus 4’s""; exact-string search fails without quote normalisation. Substance supports weights=1."
+15,anthropic-2026-05-28-claude-opus-4-8,dc_eval_cbrn,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+16,deepseek-2026-09-09-deepseek-v4-1-flash,dc_eval_cyber,2,positive,correct,,"Borderline: card reports CyberGym/ExploitGym/SEC-Bench Pro pass@1 for this model and frames them as dual-use (""Given the dual-use nature of these capabilities""); exploitation tasks fit the cyber domain definition, so 2 holds."
+17,openai-2025-11-13-gpt-5-1,dc_eval_autonomy,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+18,anthropic-2025-09-29-claude-sonnet-4-5,dc_eval_persuasion,1,positive,correct,,"Only manipulation-as-looked-for-behaviour; influence-operations content is refusal (safeguards) testing, not a persuasion capability result. 1 per boundary rule."
+19,openai-2024-05-13-gpt-4o,dc_eval_scheming,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+20,anthropic-2026-09-22-claude-opus-5-5,framework_threshold,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+21,openai-2024-05-13-gpt-4o,ext_test_any,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+22,anthropic-2025-11-24-claude-opus-4-5,ext_test_named_org,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+23,anthropic-2026-09-22-claude-opus-5-5,ext_test_government,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+24,anthropic-2026-04-16-claude-opus-4-7,ext_test_timing_stated,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+25,google-2023-12-06-gemini-1-0-pro,safeguards_training,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+26,anthropic-2026-09-22-claude-opus-5-5,safeguards_runtime,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+27,meta-2026-07-09-muse-spark-1-1,safeguards_access,1,positive,unsure,0 or 1,"""made available as a controlled deployment to a small set of external users prior to external launch, consistent with the provisions of Meta's Advanced AI Scaling Framework."" Safety reason is implied by citing the framework, not stated; codebook excludes staged rollout with no stated safety reason. Needs adjudicator ruling."
+28,openai-2026-09-03-gpt-6-astra,safeguards_weights,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+29,xai-2025-11-17-grok-4-1,dc_eval_cbrn,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+30,xai-2025-07-09-grok-4,dc_eval_cyber,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+31,anthropic-2024-03-04-claude-3-opus,dc_eval_autonomy,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+32,anthropic-2025-11-24-claude-opus-4-5,dc_eval_persuasion,1,positive,correct,,Same as row 18; no persuasion result for Opus 4.5 found.
+33,openai-2026-09-03-gpt-6-astra,dc_eval_scheming,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+34,openai-2026-07-09-gpt-5-6-sol,framework_threshold,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+35,xai-2026-08-12-grok-4-6,ext_test_any,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+36,anthropic-2026-06-09-claude-fable-5,ext_test_named_org,1,positive,correct,,"Card describes Fable 5 and Mythos 5 as ""two configurations of a new large language model""; METR tested pre-release snapshot of Mythos 5 = this model."
+37,anthropic-2025-11-24-claude-opus-4-5,ext_test_government,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+38,anthropic-2024-06-20-claude-3-5-sonnet,ext_test_timing_stated,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+39,openai-2026-03-05-gpt-5-4,safeguards_training,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+40,openai-2025-04-16-o3,safeguards_runtime,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+41,openai-2026-04-23-gpt-5-5,safeguards_access,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+42,anthropic-2024-03-04-claude-3-opus,safeguards_weights,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+43,openai-2024-05-13-gpt-4o,dc_eval_cbrn,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+44,openai-2025-04-16-o3,dc_eval_cyber,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+45,anthropic-2025-08-05-claude-opus-4-1,dc_eval_autonomy,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+46,xai-2025-11-17-grok-4-1,dc_eval_persuasion,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+47,openai-2026-03-05-gpt-5-4,dc_eval_scheming,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+48,anthropic-2026-04-16-claude-opus-4-7,framework_threshold,2,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+49,anthropic-2026-04-16-claude-opus-4-7,ext_test_any,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+50,openai-2025-08-07-gpt-5,ext_test_named_org,1,positive,correct,,Quote found verbatim (whitespace-normalised) in card; supports this level for this model.
+51,deepseek-2024-01-05-deepseek-llm-67b,dc_eval_cbrn,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+52,google-2026-09-02-gemini-3-8-flash,dc_eval_cyber,0,zero,correct,,"Card gives a blanket FSF determination (""unlikely to reach any T/CCLs"") but never names cyber; domain not mentioned."
+53,mistral-2023-10-10-mistral-7b,dc_eval_autonomy,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+54,xai-2026-07-08-grok-4-5,dc_eval_persuasion,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+55,xai-2026-09-21-grok-4-7,dc_eval_scheming,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+56,meta-2023-07-18-llama-2-70b,framework_threshold,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+57,deepseek-2025-01-20-deepseek-r1,ext_test_any,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+58,meta-2025-04-05-llama-4-maverick,ext_test_named_org,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+59,mistral-2025-12-02-mistral-large-3,ext_test_government,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+60,meta-2024-07-23-llama-3-1-405b,ext_test_timing_stated,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+61,google-2026-02-19-gemini-3-1-pro,safeguards_training,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+62,deepseek-2024-05-07-deepseek-v2-moe-236b,safeguards_runtime,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+63,anthropic-2025-05-22-claude-opus-4,safeguards_access,0,zero,correct,,"Account banning/enforcement and ASL-3 reference found, but no trusted-access, KYC, tiering or limited availability tied to safety for this model. Ban enforcement is post-hoc, not an access restriction."
+64,mistral-2025-12-02-mistral-large-3,safeguards_weights,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+65,google-2026-09-02-gemini-3-8-flash,dc_eval_cbrn,0,zero,correct,,Same as row 52; CBRN never named.
+66,deepseek-2025-08-21-deepseek-v3-1,dc_eval_cyber,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+67,deepseek-2025-08-21-deepseek-v3-1,dc_eval_autonomy,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+68,anthropic-2023-07-11-claude-2,dc_eval_persuasion,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+69,google-2024-02-15-gemini-1-5-pro,dc_eval_scheming,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+70,google-2023-05-10-palm-2,framework_threshold,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+71,meta-2024-07-23-llama-3-1-405b,ext_test_any,0,zero,unsure,1?,"""We also partnered with content specialists to perform red teaming exercises assessing potentially violating content"" plus ""We partnered early with subject-matter experts in critical risk areas"". ""Partnered"" suggests outside people doing red teaming, but the paragraph is framed ""For Llama 3"", so tie to 3.1 405B is ambiguous. Codebook: partners not tied to this model's testing do not count."
+72,google-2026-09-02-gemini-3-8-flash,ext_test_named_org,0,zero,correct,,"Red teaming by ""specialist teams who sit outside of the model development team"" = internal per codebook."
+73,openai-2025-04-16-o3,ext_test_government,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+74,openai-2025-02-27-gpt-4-5,ext_test_timing_stated,0,zero,correct,,"""METR evaluated an earlier checkpoint of GPT-4.5"" is the closest; no explicit pre-deployment/prior-to-release wording for outside testing. ""extensive safety evaluations prior to deployment"" is OpenAI's own."
+75,mistral-2025-12-02-mistral-large-3,safeguards_training,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+76,xai-2024-08-13-grok-2,safeguards_runtime,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+77,openai-2024-09-12-o1-preview,safeguards_access,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+78,anthropic-2023-11-21-claude-2-1,safeguards_weights,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+79,deepseek-2026-09-09-deepseek-v4-1-flash,dc_eval_cbrn,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.
+80,google-2024-12-11-gemini-2-0-flash,dc_eval_cyber,0,zero,correct,,Searched card beyond keyword list; no disclosure at a nonzero level.

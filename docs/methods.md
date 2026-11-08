@@ -4,7 +4,7 @@ Free Systems Challenge 4. Data, code and every coded card: this repository (`tid
 
 ## Findings
 
-Frontier model cards report far more safety testing at launch than they did in 2023. Releases whose card, public at launch, reports at least one dangerous-capability test result rose from 20% in the first half of 2023 to 71% in July to October 2026.
+Far more frontier releases now launch with a card that reports safety test results than in 2023. Releases whose card, public at launch, reports at least one dangerous-capability test result rose from 20% in the first half of 2023 to 71% in July to October 2026.
 
 Outside testing has not kept pace. The share of releases whose card reports any outside safety testing moved between 12% and 50% across the eight half-years and stood at 41% in the latest one.
 
@@ -14,11 +14,11 @@ Cards are often late or missing. Of 87 frontier releases, 62 had a card public w
 
 ## Three drops between successive releases
 
-The case rule was fixed before coding: an item counts as dropped when one release discloses it at launch and the same lab's next frontier release does not. The three largest drops, ties going to the later release:
+The case rule was fixed before coding: an item counts as dropped when one release discloses it at launch and the same lab's next frontier release does not. The three largest drops, counted over the 14 items, ties going to the later release:
 
-1. Meta, Muse Spark 1.1 to Muse Spark 1.2 (August 2026). Muse Spark 1.1 shipped with a 112-page evaluation report covering every item except government testing. Muse Spark 1.2 shipped with an announcement and no card, so all 14 items disclosed for 1.1 dropped. Meta's next release, Muse Spark 1.3, got its evaluation report 51 days after launch.
-2. OpenAI, GPT-4.5 to GPT-4.1 (April 2025). GPT-4.5 launched with a system card reporting results in all five dangerous-capability domains and a Preparedness Framework determination. GPT-4.1 launched with an announcement only, and no card has appeared since. 11 items dropped.
-3. OpenAI, GPT-4 to GPT-4 Turbo (November 2023). GPT-4 launched with a technical report and system card covering all five domains and outside red teaming by named organisations. GPT-4 Turbo launched at a developer event with no card. 11 items dropped.
+1. Meta, Muse Spark 1.1 to Muse Spark 1.2 (August 2026). Muse Spark 1.1 shipped with a 112-page evaluation report disclosing 13 of the 14 items, all but government testing. Muse Spark 1.2 shipped with an announcement and no card, so all 13 dropped. Meta's next release, Muse Spark 1.3, got its evaluation report 51 days after launch.
+2. OpenAI, GPT-4.5 to GPT-4.1 (April 2025). GPT-4.5 launched with a system card reporting results in all five dangerous-capability domains and a Preparedness Framework determination. GPT-4.1 launched with an announcement only, and no card has appeared since. 10 of the 14 items dropped.
+3. OpenAI, GPT-4 to GPT-4 Turbo (November 2023). GPT-4 launched with a technical report and system card covering all five domains and outside red teaming by named organisations. GPT-4 Turbo launched with an announcement and no card. 10 of the 14 items dropped.
 
 ## What was measured
 
@@ -36,7 +36,7 @@ Two coders coded every one of the 73 cards independently: pass A on Claude Opus 
 
 The coding was not clean the first time, and the record says so. Pass B copied pass A's files for two releases through a shared scratch folder. Both copies were quarantined and recoded by isolated coders, and a test now fails if any release pair shares four or more identical notes. Pass B skimmed some long cards, and those were recoded with one coder per card. Three rules were added during coding at Wisdom Okechukwu's direction: addendum cards count only what they report for the new model; capability-benchmark vendors are not outside safety testing; consumer age gates are not access restrictions.
 
-All coding was done by Claude models. VERIFICATION_SENTENCE
+All coding was done by Claude models. A fourth Claude instance, which coded and adjudicated nothing, checked a seeded sample of 80 final codes against the cards (50 positives, 30 zeros, all 14 items): 78 correct, 0 wrong, 2 unsure. There was no human audit: the spec's 15-release hand audit was replaced, at Wisdom Okechukwu's direction, by this check.
 
 ## Limits
 
@@ -47,6 +47,8 @@ Labs publish safety material outside model cards (framework reports, blog posts,
 Half-years hold 5 to 17 releases, so a single release moves a share by 6 to 20 points.
 
 The latest half-year runs only to 31 October 2026.
+
+Two verification codes stayed unsure. Muse Spark 1.1 counts as restricting access because its card ties a controlled deployment to Meta's Advanced AI Scaling Framework. Llama 3.1 405B gets no outside testing because the card ties its partnered red teaming to Llama 3. Either could reasonably go the other way, and neither changes a headline figure by more than one release.
 
 ## Sources
 
