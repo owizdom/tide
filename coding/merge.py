@@ -57,7 +57,7 @@ def main() -> int:
         w.writerows(recs)
         path.write_text(buf.getvalue(), encoding="utf-8")
 
-    write(ROOT / "coding" / "codes.csv", rows, ["release_id", "lab", "available_date", "no_card"] + check.VARIABLES)
+    write(ROOT / "coding" / "codes_v11.csv", rows, ["release_id", "lab", "available_date", "no_card"] + check.VARIABLES)
     write(ROOT / "coding" / "disagreements.csv", dis,
           ["release_id", "variable", "A", "B", "quote_A", "note_A", "quote_B", "note_B"])
     print(f"releases {len(rows)}  disagreements {len(dis)}  missing passes {len(set(missing))}")
