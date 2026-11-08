@@ -119,7 +119,7 @@ def heading(doc, text):
 def picture(doc, path, alt):
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(10)
-    p.add_run().add_picture(str(path), width=Inches(6.0))
+    p.add_run().add_picture(str(path), width=Inches(5.5))
     docpr = p._p.xpath(".//wp:docPr")[0]
     docpr.set("descr", alt)
     docpr.set("title", Path(path).stem)
@@ -191,6 +191,8 @@ def facts():
              never=sum(1 for r in recs if not r["has_card"]), drops=drops,
              sizes=(min(len(v) for v in by.values()), max(len(v) for v in by.values())))
     f["top2"] = lab["anthropic"][0] + lab["openai"][0]
+    f["top2_last"] = sum(1 for r in by[halves[-1]] if r["any_dc"] and r["lab"] in ("anthropic", "openai"))
+    f["n_drops"] = sum(1 for _ in csv.DictReader((ROOT / "analysis" / "out" / "drops.csv").open()))
     # Llama 3.1 stand-in sensitivity: text-pass codes only (no arXiv paper)
     v11 = {r["release_id"]: r for r in csv.DictReader((ROOT / "coding" / "codes_v11.csv").open())}
     rid = "meta-2024-07-23-llama-3-1-405b"
@@ -238,12 +240,13 @@ def build(out: Path) -> None:
     para(doc, f"More, but most of it comes from two labs. In the first half of 2023, {F['first'][0]} of {F['first'][1]} frontier releases "
               f"launched with a document reporting a dangerous-capability test. From July to October 2026 it was {F['last'][0]} of "
               f"{F['last'][1]} ({pct(F['last'])}). Anthropic and OpenAI account for {F['top2']} of the {F['all']} releases that did this; "
-              f"Mistral, across {L['mistral'][1]} releases, never did. Outside safety testing did not rise the same way.", lead="Short answer.")
+              f"Mistral, across {L['mistral'][1]} releases, never did. Other labs are catching up: in July to October 2026 the two "
+              f"accounted for {F['top2_last']} of {F['last'][0]}. Outside safety testing did not rise the same way.", lead="Short answer.")
 
     heading(doc, "Three terms")
     para(doc, f"Each lab's top general-purpose model at each new version: {F['n']} releases from Anthropic, OpenAI, Google, Meta, xAI, "
-              "Mistral and DeepSeek, January 2023 to October 2026, taken from Epoch AI's model database. The rule and the list were fixed before any document was read.", lead="Frontier release.", after=6)
-    para(doc, "A document counts only if it was public within two days of release, in the version that existed then. A card that appeared later counts as no disclosure.", lead="At launch.", after=6)
+              "Mistral and DeepSeek, January 2023 to October 2026. The rule is ours, applied to Epoch AI's model database, and the rule and the list were fixed before any document was read.", lead="Frontier release.", after=6)
+    para(doc, "A document counts only if it was public within two days of release, in the version that existed then. A card that appeared later counts as no disclosure. One exception, two Meta papers, is explained under Limits.", lead="At launch.", after=6)
     para(doc, "A reported result for one of five risks: bio, chemical or nuclear weapons; cyberattacks; autonomy or AI research; persuasion; deception or scheming. Saying a risk was considered, with no result, does not count.", lead="Dangerous-capability test.")
     picture(doc, ROOT / "analysis" / "out" / "01_trend.png",
             "Line chart by half-year, H1 2023 to H2 2026, of the share of frontier releases whose launch documents report any dangerous-capability test result (20, 12, 30, 25, 42, 57, 62, 71 percent) and any outside safety testing (20, 50, 50, 25, 33, 36, 46, 41 percent).")
@@ -254,7 +257,7 @@ def build(out: Path) -> None:
               f"{F['sizes'][1]} releases, so one release moves a point on the chart by 6 to 20 percentage points. The direction is clear; the exact numbers are rough.", lead="1. Test results at launch became normal.")
     para(doc, f"The share of releases whose launch documents mention any outside testers moved between {F['ext_lo']}% and {F['ext_hi']}% and was "
               f"{pct(F['ext_last'])} ({F['ext_last'][0]} of {F['ext_last'][1]}) in the latest half-year. It never passed half. "
-              f"(The low end is {F['alt_ext_lo']}% if one disputed Meta paper is left out; see Limits.)", lead="2. Outside testing did not keep up.")
+              f"(The low end is {F['alt_ext_lo']}% without Meta's Llama 3.1 paper, whose launch copy was never archived; see Limits.)", lead="2. Outside testing did not keep up.")
     para(doc, f"Anthropic reported dangerous-capability results at launch for {L['anthropic'][0]} of {L['anthropic'][1]} releases and OpenAI for "
               f"{L['openai'][0]} of {L['openai'][1]}. Meta did so for {L['meta'][0]} of {L['meta'][1]}, Google for {L['google'][0]} of {L['google'][1]}, "
               f"xAI for {L['xai'][0]} of {L['xai'][1]}, DeepSeek for {L['deepseek'][0]} of {L['deepseek'][1]} and Mistral for {L['mistral'][0]} of {L['mistral'][1]}.",
@@ -265,7 +268,7 @@ def build(out: Path) -> None:
               f"and {F['never']} never got one.", lead="4. Many cards are late or missing.")
 
     heading(doc, "Three times disclosure dropped")
-    para(doc, "A drop is an item one release disclosed at launch that the same lab's next frontier release did not. These are the three largest, out of 14 items.").paragraph_format.keep_with_next = True
+    para(doc, f"A drop is when a release stops disclosing at launch items that the same lab's previous frontier release disclosed. Of {F['n_drops']} such drops, these three lost the most of the 14 items.").paragraph_format.keep_with_next = True
     d = F["drops"]
     para(doc, f"Muse Spark 1.1 came with a 112-page evaluation report covering {d[0]['n_lost']} of the 14 items. Muse Spark 1.2 came with an announcement "
               "and a note on how its benchmarks were run, but no card. Meta's next release, Muse Spark 1.3, got its report 51 days after launch.",
@@ -280,10 +283,10 @@ def build(out: Path) -> None:
 
     heading(doc, "How it was done")
     for lead, txt in [
-        ("Documents.", "For each release, every document the developer published about that model within two days of release: system and model cards, technical reports, Hugging Face and GitHub model cards, and safety reports about the model. Each was taken as it stood at launch, from the Wayback Machine or the launch-day commit. Announcements and company-wide policies do not count."),
-        ("Items.", "Fourteen yes-or-no items: results in the five risk areas, a framework threshold, four kinds of outside testing and four kinds of safeguard. Appendix B defines each one. Text, tables and figures all count; 1,402 pages holding figures or relevant text were checked by eye."),
-        ("Coding.", "Two AI coders, Claude Opus 5.5 and Claude Sonnet 5.5, read every document separately. Every \"yes\" had to quote the document or cite a figure. They agreed closely (Cohen's kappa 0.83 to 1.00 per item), and separate Claude instances that coded nothing settled the 20 disagreements."),
-        ("Checks.", "A further Claude instance re-checked 80 randomly chosen codes against the documents: 78 correct, 0 wrong, 2 unsure. A script checks every number in this write-up against the data."),
+        ("Documents.", "For each release with a card at launch, every document the developer published about that model within two days of release: system and model cards, technical reports, Hugging Face and GitHub model cards, and safety reports about the model. Each was taken as it stood at launch, from the Wayback Machine or the launch-day commit. Announcements and company-wide policies do not count."),
+        ("Items.", "Fourteen yes-or-no items: results in the five risk areas, a framework threshold, four kinds of outside testing and four kinds of safeguard. Appendix B defines each one. Text, tables and figures all count; the two AI coders read 1,402 rendered pages that hold a figure or relevant text."),
+        ("Coding.", "Two AI coders, Claude Opus 5.5 and Claude Sonnet 5.5, read every document separately. Every \"yes\" had to quote the document or cite a figure. They agreed closely (Cohen's kappa 0.83 to 1.00 per item, where 1 means perfect agreement), and separate Claude instances that coded nothing settled the 20 disagreements."),
+        ("Checks.", "A further Claude instance re-checked 80 randomly chosen codes against the documents: 78 correct, 0 wrong, 2 unsure. Every number in this write-up is computed from the data by the script that builds it."),
         ("Not scored.", "Card length. It is recorded for every card but never counts toward any share."),
     ]:
         para(doc, txt, lead=lead, style="List Bullet", after=6)
