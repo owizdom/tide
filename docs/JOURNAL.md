@@ -93,3 +93,4 @@
 ### 2026-11-08 review round 3 (Opus 5.5, claude-opus-5-5)
 
 - Fixed: GPT-4.5 timing sentence now quotes the card's "prior to deployment" sentence and states the text-pass split and adjudication; Gemini 3 Pro's 1 is attributed to the figure and extra-document pass. Methods now gives the Grok 4.5 summary's first capture (11 July 2026), which the round 2 entry claimed it did.
+- Round 4 (Opus 5.5): no in-scope findings; loop closed. Fixed the Grok 4.5 URL in cards/no_card_launch_docs.csv to the archived PDF URL.
